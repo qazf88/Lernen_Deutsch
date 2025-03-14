@@ -1,0 +1,74 @@
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 0;
+    background: #064172;
+    color: #fff;
+    padding: 0.5em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-tooltip]:hover::after {
+    opacity: 1;
+    top: -2em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    margin: 20px;
+}
+
+.task {
+    margin: 20px;
+    font-size: 18px;
+
+}
+
+H2 {
+    text-align: center;
+}
+
+input,
+button {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.hint {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.button_time {
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+}
+.keller{
+    text-align: center;
+}

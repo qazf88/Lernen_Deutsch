@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="present.js"></script>
+    <script type="text/javascript" src="partizip.js"></script>
+    <script type="text/javascript" src="preteritum.js"></script>
+    <script type="text/javascript" src="plusquamperfekt.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Vergangenheitsform Übung</title>
+
+</head>
+
+<body>
+    <h2>Übung</h2>
+    <p id="deskription" style="text-align: center;"></p>
+
+    <div class="button_time" id="buttonLevelContainer"></div>
+
+    <div class="button_time" id="buttonTestContainer"></div>
+
+    <div class="task" id="taskContainer"></div>
+    <div class="keller">
+        <button onclick="generateTasks()">Neue Sätze</button>
+        <button onclick="checkAnswers()">Überprüfen</button>
+    </div>
+    <p class="result" id="result"></p>
+
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>

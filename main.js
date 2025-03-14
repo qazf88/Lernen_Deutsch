@@ -1,0 +1,325 @@
+{
+    let current_arr = eval(Liste_tests[0].name);
+    let current_level = "All";
+
+    function setCurrentButton(index, parentElementId) {
+        let btns = document.getElementById(parentElementId).children;
+        for (i = 0; i < btns.length; i++) {
+            if (index === i) {
+                btns[i].style.color = "black";
+                btns[i].style.fontSize = "26px";
+            } else {
+                btns[i].style.color = "gray"
+                btns[i].style.fontSize = "20px";
+            }
+        }
+    }
+
+    function changeTest(val) {
+        if (Number(val) >= Liste_tests.length) {
+            current_arr = eval(Liste_tests[0].name);
+        } else {
+            Liste_tests.forEach((item, index) => {
+                if (Number(val) === Number(index)) {
+                    if (current_arr === eval(item.name)) {
+                        return;
+                    } else {
+                        current_arr = eval(item.name)
+                        setCurrentButton(val, "buttonTestContainer");
+                        generateTasks();
+                    }
+                }
+            });
+        }
+    }
+
+    function changeLevel(val) {
+
+        if (current_level === Levels[val].name) {
+            return;
+        }
+        current_level = Levels[val].name || undefined;
+        if (Levels[val].name === undefined) {
+            alert("Error: Level not found")
+            current_level = Levels[0].name;
+        }
+        setCurrentButton(val, "buttonLevelContainer");
+        generateTasks();
+    }
+
+    function generateTasks() {
+        let resElement = document.getElementById("result");
+        resElement.innerHTML = "";
+        let desk = document.getElementById("deskription");
+        desk.innerHTML = current_arr.desc;
+        let taskContainer = document.getElementById("taskContainer");
+        taskContainer.innerHTML = "";
+        let levelOneArray;
+        if (current_level === "All") {
+            levelOneArray = current_arr.data;
+        } else {
+            levelOneArray = current_arr.data.filter(item => item.level === current_level);
+        }
+        let selectedSentences = levelOneArray.toSorted(() => 0.5 - Math.random()).slice(0, 10);
+        selectedSentences.forEach((item, index) => {
+            let sentenceId = `sentens_${levelOneArray.findIndex(e => e.sentence === item.sentence) + 1}`;
+
+            // Перевірка на кількість пропусків і заміна їх на інпут-поля
+            let sentenceWithInputs = item.sentence.replace("___", `<input type='text' id='q${index}_0'>`);
+            if (sentenceWithInputs.includes("___")) {
+                // Якщо є ще один пропуск, додаємо ще один input
+                sentenceWithInputs = sentenceWithInputs.replace("___", `<input type='text' id='q${index + 1}_1'>`);
+            }
+
+            let taskHTML = `
+            <p id='${sentenceId}'>
+                ${index + 1}. ${sentenceWithInputs} 
+                <span data-tooltip="${item.ua_infinitiv}"> &#9755; &#9432;</span>  
+                <span data-tooltip="${item.ua_sentence}"> &#9755; &#9432;</span> 
+                <span data-tooltip="${item.level}"> &#9755; &#9432;</span> 
+                <span class='hint' id='hint${index}'></span> 
+                <a href="${item.dict}" target="_blank">dict.com</a> 
+                <a href="${item.duden}" target="_blank">duden</a>
+            </p>
+        `;
+            taskContainer.innerHTML += taskHTML;
+
+        });
+    }
+
+    function checkAnswers() {
+        let res = 0;
+        let sentenceElements = document.getElementById("taskContainer").children;
+
+        for (let i = 0; i < sentenceElements.length; i++) {
+            let userAnswer = sentenceElements[i].querySelectorAll("input");
+            let hint = document.getElementById(`hint${i}`);
+
+            let ans = [];
+            userAnswer.forEach((input, index) => {
+                ans.push(input.value.trim());
+            });
+
+            let richtig = current_arr.data[Number(sentenceElements[i].id.replace("sentens_", ""))].answer.split(" ");
+
+            if (ans.length === 2) {
+                if (ans[0].toLowerCase() === richtig[0].toLowerCase() && ans[1].toLowerCase() === richtig[1].toLowerCase()) {
+                    userAnswer[0].style.color = "green";
+                    userAnswer[1].style.color = "green";
+                    hint.style.display = "none";
+                    res++;
+                } else {
+                    userAnswer[0].style.color = "red";
+                    userAnswer[1].style.color = "red";
+                    hint.style.display = "inline";
+                    hint.textContent = `→ Richtige Antwort: ${richtig.join(' ')}`;
+                }
+            }
+            else {
+                if (ans[0].toLowerCase() === richtig[0].toLowerCase()) {
+                    userAnswer[0].style.color = "green";
+                    hint.style.display = "none";
+                    res++;
+                } else {
+                    userAnswer[0].style.color = "red";
+                    hint.style.display = "inline";
+                    hint.textContent = `→ Richtige Antwort: ${richtig.join(' ')}`;
+                }
+            }
+        }
+        let resElement = document.getElementById("result");
+        resElement.innerHTML = `Ergebnis: ${res} von ${sentenceElements.length}`;
+        if (res === sentenceElements.length) {
+            resElement.style.color = "green";
+        }
+        else if (res >= sentenceElements.length / 2 && res < sentenceElements.length) {
+            resElement.style.color = "yellow";
+        }
+        else {
+            resElement.style.color = "red";
+        }
+    };
+
+
+
+    // function checkAnswers__() {
+    //     let res = 0;
+    //     let inputs = document.querySelectorAll("input");
+    //     inputs.forEach((input, index) => {
+    //         let userAnswer = input.value.trim(); // Отримуємо введене значення
+    //         let sentenceElement = input.closest("p");
+    //         let sentenceText = sentenceElement.innerHTML.replace(/<[^>]*>/g, "").trim(); // Видаляємо HTML теги
+
+    //         // Знаходимо правильну відповідь для цього речення
+    //         let correctAnswerObj = current_arr.data.find(s => {
+    //             let cleanedSentence = s.sentence.replace(/___/g, "").trim(); // Видаляємо всі пропуски
+    //             return sentenceText.includes(cleanedSentence); // Порівнюємо після очищення від пропусків
+    //         });
+
+    //         if (correctAnswerObj) {
+    //             let correctAnswer = correctAnswerObj.answer.split(' '); // Розділяємо правильну відповідь на частини (якщо це два слова)
+    //             let hint = document.getElementById(`hint${index}`);
+
+    //             // Якщо правильна відповідь складається з двох частин
+    //             if (correctAnswer.length > 1) {
+    //                 let inputId = `q${index}_0`; // Отримуємо id для поточного інпуту
+    //                 let nextInputId = `q${index + 1}_1`; // Отримуємо id для наступного інпуту
+
+    //                 console.log(inputId, nextInputId);
+
+    //                 let userAnswers = [
+    //                     document.getElementById(inputId).value.trim(),
+    //                     document.getElementById(nextInputId) ? document.getElementById(nextInputId).value.trim() : ''
+    //                 ];
+
+    //                 // Перевірка кожної частини відповіді
+    //                 if (userAnswers[0].toLowerCase() === correctAnswer[0].toLowerCase() && userAnswers[1].toLowerCase() === correctAnswer[1].toLowerCase()) {
+    //                     document.getElementById(inputId).style.color = "green";
+    //                     if (document.getElementById(nextInputId)) {
+    //                         document.getElementById(nextInputId).style.color = "green";
+    //                     }
+    //                     hint.style.display = "none";
+    //                     res++;
+    //                 } else {
+    //                     document.getElementById(inputId).style.color = "red";
+    //                     if (document.getElementById(nextInputId)) {
+    //                         document.getElementById(nextInputId).style.color = "red";
+    //                     }
+    //                     hint.style.display = "inline";
+    //                     hint.textContent = `→ Richtige Antwort: ${correctAnswer.join(' ')}`;
+    //                 }
+    //             } else {
+    //                 // Якщо правильна відповідь складається з одного слова
+    //                 if (userAnswer.toLowerCase() === correctAnswer[0].toLowerCase()) {
+    //                     input.style.color = "green";
+    //                     hint.style.display = "none";
+    //                     res++;
+    //                 } else {
+    //                     input.style.color = "red";
+    //                     hint.style.display = "inline";
+    //                     hint.textContent = `→ Richtige Antwort: ${correctAnswer[0]}`;
+    //                 }
+    //             }
+    //         }
+    //     });
+
+    //     // Оновлюємо результат
+    //     let resElement = document.getElementById("result");
+    //     resElement.innerHTML = `Ergebnis: ${res} von ${inputs.length}`;
+
+    //     // Колір результату
+    //     if (res === inputs.length) {
+    //         resElement.style.color = "green";
+    //     } else if (res >= inputs.length / 2 && res < inputs.length) {
+    //         resElement.style.color = "yellow";
+    //     } else {
+    //         resElement.style.color = "red";
+    //     }
+    // }
+
+
+    // function checkAnswers() {
+    //     let res = 0;
+    //     let inputs = document.querySelectorAll("input");
+    //     inputs.forEach((input, index) => {
+    //         let userAnswer = input.value.trim();
+    //         let sentenceElement = input.closest("p");
+    //         let sentenceText = sentenceElement.innerHTML.replace(/<[^>]*>/g, "").trim(); // Видаляємо теги HTML
+    //         let correctAnswerObj = current_arr.data.find(s => sentenceText.includes(s.sentence.replace("___", "").trim()));
+
+    //         if (correctAnswerObj) {
+    //             let correctAnswer = correctAnswerObj.answer;
+    //             let hint = document.getElementById(`hint${index}`);
+
+    //             // Перевірка відповіді
+    //             if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+    //                 input.style.color = "green";
+    //                 hint.style.display = "none";
+    //                 res++;
+    //             } else {
+    //                 input.style.color = "red";
+    //                 hint.style.display = "inline";
+    //                 hint.textContent = `→ Richtige Antwort: ${correctAnswer}`;
+    //             }
+    //         }
+    //     });
+
+    //     // Оновлюємо результат
+    //     let resElement = document.getElementById("result");
+    //     resElement.innerHTML = `Ergebnis: ${res} von ${inputs.length}`;
+
+    //     // Колір результату
+    //     if (res === inputs.length) {
+    //         resElement.style.color = "green";
+    //     } else if (res >= inputs.length / 2 && res < inputs.length) {
+    //         resElement.style.color = "yellow";
+    //     } else {
+    //         resElement.style.color = "red";
+    //     }
+    // }
+
+
+    // function checkAnswers() {
+    //     let res = 0;
+    //     let inputs = document.querySelectorAll("input");
+    //     inputs.forEach((input, index) => {
+    //         let userAnswer = input.value.trim();
+    //         let sentenceElement = input.closest("p");
+    //         let sentenceText = sentenceElement.innerHTML.replace(/<[^>]*>/g, "").trim();
+    //         let correctAnswerObj = current_arr.data.find(s => sentenceText.includes(s.sentence.replace("___", "").trim()));
+    //         if (correctAnswerObj) {
+    //             let correctAnswer = correctAnswerObj.answer;
+    //             let hint = document.getElementById(`hint${index}`);
+
+    //             if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+    //                 input.style.color = "green";
+    //                 hint.style.display = "none";
+    //                 res++;
+    //             } else {
+    //                 input.style.color = "red";
+    //                 hint.style.display = "inline";
+    //                 hint.textContent = `→ Richtige Antwort: ${correctAnswer}`;
+    //             }
+    //         }
+    //         let resElement = document.getElementById("result");
+    //         resElement.innerHTML = `Ergebnis: ${res} von ${inputs.length}`;
+    //         if (res === inputs.length) {
+    //             resElement.style.color = "green";
+    //         } else if (res >= inputs.length / 2 && res < inputs.length) {
+    //             resElement.style.color = "yellow";
+    //         } else {
+    //             resElement.style.color = "red";
+    //         }
+
+    //     });
+    // }
+
+    function create_button(name, index, oncFunc) {
+        var el = document.createElement("button");
+        el.id = "btn_" + index;
+        el.innerHTML = name
+        el.setAttribute("onClick", oncFunc + "(" + Number(index) + ")")
+        return el;
+    }
+
+
+    function init() {
+        let buttonTestContainer = document.getElementById("buttonTestContainer");
+        Liste_tests.forEach((item, index) => {
+            buttonTestContainer.appendChild(create_button(eval(item.name).name, index, "changeTest"));
+        });
+        let buttonLevelContainer = document.getElementById("buttonLevelContainer");
+        Levels.forEach((item, index) => {
+            buttonLevelContainer.appendChild(create_button(item.name, index, "changeLevel"));
+        });
+        current_arr = eval(Liste_tests[0].name);
+        current_level = "All";
+        setCurrentButton(Levels.length - 1, "buttonLevelContainer");
+        setCurrentButton(0, "buttonTestContainer");
+
+    }
+
+    init();
+    generateTasks();
+
+}
