@@ -62,7 +62,7 @@
         }
         let selectedSentences = levelOneArray.toSorted(() => 0.5 - Math.random()).slice(0, 10);
         selectedSentences.forEach((item, index) => {
-            let sentenceId = `sentens_${current_arr.data.findIndex(e => e.sentence === item.sentence) + 1}`;
+            let sentenceId = `sentens_${current_arr.data.findIndex(e => e.sentence === item.sentence)}`;
 
             let sentenceWithInputs = item.sentence.replace("___", `<input type='text' id='q${index}_0'>`);
             if (sentenceWithInputs.includes("___")) {
@@ -110,7 +110,7 @@
                     userAnswer[0].style.color = "red";
                     userAnswer[1].style.color = "red";
                     hint.style.display = "inline";
-                    hint.textContent = `→ Richtige Antwort: ${richtig.join(' ')}`;
+                    hint.textContent = `(${richtig.join(' ')})`;
                 }
             }
             else {
@@ -121,7 +121,7 @@
                 } else {
                     userAnswer[0].style.color = "red";
                     hint.style.display = "inline";
-                    hint.textContent = `→ Richtige Antwort: ${richtig.join(' ')}`;
+                    hint.textContent = `(${richtig.join(' ')})`;
                 }
             }
         }
