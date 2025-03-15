@@ -4243,88 +4243,88 @@ const present_sentenses = {
             "infinitive": "korrigieren"
         },
         {
-            "sentence": "Ich ___ mich vom Arzt ___.",
-            "answer": "lasse krankschreiben",
+            "sentence": "Ich lasse mich vom Arzt ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Я виписую лікарняний у лікаря.",
             "level": "A1",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Du ___ dich wegen einer Erkältung ___.",
-            "answer": "lässt krankschreiben",
+            "sentence": "Du lässt dich wegen einer Erkältung ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Ти виписуєш лікарняний через застуду.",
             "level": "A1",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Er ___ sich für eine Woche ___.",
-            "answer": "lässt krankschreiben",
+            "sentence": "Er lässt sich für eine Woche ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Він виписує лікарняний на тиждень.",
             "level": "A1",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Wir ___ uns nach einer Grippe ___.",
-            "answer": "lassen krankschreiben",
+            "sentence": "Wir lassen uns nach einer Grippe ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Ми виписуємо лікарняний після грипу.",
             "level": "A2",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Ihr ___ euch wegen Kopfschmerzen ___.",
-            "answer": "lasst krankschreiben",
+            "sentence": "Ihr lasst euch wegen Kopfschmerzen ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Ви виписуєте лікарняний через головний біль.",
             "level": "A2",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Die Mitarbeiter ___ sich nach einer Operation ___.",
-            "answer": "lassen krankschreiben",
+            "sentence": "Die Mitarbeiter lassen sich nach einer Operation ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Співробітники виписують лікарняний після операції.",
             "level": "A2",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Der Manager ___ sich für einige Tage ___.",
-            "answer": "lässt krankschreiben",
+            "sentence": "Der Manager lässt sich für einige Tage ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Менеджер виписує лікарняний на кілька днів.",
             "level": "B1",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Die Firma ___ erkrankte Mitarbeiter ___.",
-            "answer": "lässt krankschreiben",
+            "sentence": "Die Firma lässt erkrankte Mitarbeiter ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Компанія виписує лікарняний для хворих співробітників.",
             "level": "B1",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Wir ___ uns bei längeren Erkrankungen ___.",
-            "answer": "lassen krankschreiben",
+            "sentence": "Wir lassen uns bei längeren Erkrankungen ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Ми виписуємо лікарняний при тривалих хворобах.",
             "level": "B1",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Die Regierung ___ Beamte mit schweren Krankheiten ___.",
-            "answer": "lässt krankschreiben",
+            "sentence": "Die Regierung lässt Beamte mit schweren Krankheiten ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Уряд виписує лікарняний для державних службовців із серйозними захворюваннями.",
             "level": "B2",
             "infinitive": "krankschreiben"
         },
         {
-            "sentence": "Die Universität ___ Professoren mit gesundheitlichen Problemen ___.",
-            "answer": "lässt krankschreiben",
+            "sentence": "Die Universität lässt Professoren mit gesundheitlichen Problemen ___.",
+            "answer": "krankschreiben",
             "ua_infinitiv": "виписати лікарняний",
             "ua_sentence": "Університет виписує лікарняний для професорів із проблемами здоров'я.",
             "level": "B2",

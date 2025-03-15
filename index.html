@@ -17,6 +17,11 @@
 </head>
 
 <body>
+    <div class="score">
+        <h2 id="score"></h2>
+        <button onclick="showbox()">klar</button>
+    </div>
+
     <h2>Übung</h2>
     <p id="deskription" style="text-align: center;"></p>
 
@@ -26,11 +31,23 @@
 
     <div class="task" id="taskContainer"></div>
     <div class="keller">
+        <p class="result" id="result"></p>
         <button onclick="generateTasks()">Neue Sätze</button>
         <button onclick="checkAnswers()">Überprüfen</button>
     </div>
-    <p class="result" id="result"></p>
+
+
 
 </body>
+
+<div id="modalHolder">
+    <div id="confirmModal">
+        <div class="m1">Ergebnis zurücksetzen?</div>
+        <button id="btnYes">Yes</button>
+        <button id="btnNo">No</button>
+    </div>
+</div>
+
 <script type="text/javascript" src="main.js"></script>
+
 </html>

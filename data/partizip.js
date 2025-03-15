@@ -10153,6 +10153,9702 @@ const partizip_sentenses = {
       "ua_sentence": "Художники привезли свіжі ідеї зі своїх подорожей.",
       "level": "B2",
       "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Ich habe meinem Bruder ein Buch ___.",
+      "answer": "mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Я дав своєму братові книгу із собою.",
+      "level": "A1",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Der Lehrer ___ den Schülern wichtige Unterlagen ___.",
+      "answer": "hat mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Учитель дав учням важливі документи із собою.",
+      "level": "A2",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Die Eltern ___ ihren Kindern Proviant für die Reise ___.",
+      "answer": "haben mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Батьки дали своїм дітям провізію для подорожі.",
+      "level": "B1",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Die Mentoren ___ den jungen Forschern wertvolle Ratschläge ___.",
+      "answer": "haben mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Наставники дали молодим дослідникам цінні поради.",
+      "level": "B2",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Ich habe meiner Schwester eine warme Jacke ___.",
+      "answer": "mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Я дав своїй сестрі теплу куртку із собою.",
+      "level": "A1",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Lisa ___ ihrem Freund ein Buch für die Reise ___.",
+      "answer": "hat mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Ліза дала своєму другові книгу для подорожі.",
+      "level": "A2",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Die Großmutter ___ ihrem Enkel hausgemachte Kekse ___.",
+      "answer": "hat mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Бабуся дала своєму онукові домашнє печиво із собою.",
+      "level": "B1",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Die Ärzte ___ den Patienten Medikamente zur weiteren Behandlung ___.",
+      "answer": "haben mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Лікарі дали пацієнтам ліки для подальшого лікування.",
+      "level": "B2",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Ich habe meinem Freund einen kleinen Glücksbringer ___.",
+      "answer": "mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Я дав своєму другові маленький талісман із собою.",
+      "level": "A1",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Tom ___ seiner Schwester ein Sandwich für die Schule ___.",
+      "answer": "hat mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Том дав своїй сестрі сендвіч до школи.",
+      "level": "A2",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Die Chefin ___ dem Team einige Dokumente zur Durchsicht ___.",
+      "answer": "hat mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Начальниця дала команді кілька документів для перегляду.",
+      "level": "B1",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ ihren Kollegen Forschungsergebnisse für die Analyse ___.",
+      "answer": "haben mitgegeben",
+      "ua_infinitiv": "дати з собою",
+      "ua_sentence": "Вчені передали своїм колегам результати досліджень для аналізу.",
+      "level": "B2",
+      "infinitive": "mitgeben"
+    },
+    {
+      "sentence": "Ich habe meiner Mutter eine schöne Blume ___.",
+      "answer": "geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Я подарував своїй мамі гарну квітку.",
+      "level": "A1",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Er ___ seiner Freundin ein Armband ___.",
+      "answer": "hat geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Він подарував своїй дівчині браслет.",
+      "level": "A2",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Die Großeltern ___ ihren Enkeln Bücher zu Weihnachten ___.",
+      "answer": "haben geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Дідусь і бабуся подарували своїм онукам книги на Різдво.",
+      "level": "B1",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Die Firma ___ ihren Mitarbeitern kleine Überraschungen zu Neujahr ___.",
+      "answer": "hat geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Компанія подарувала своїм співробітникам невеликі подарунки на Новий рік.",
+      "level": "B2",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Ich habe meinem besten Freund ein tolles Buch ___.",
+      "answer": "geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Я подарував своєму найкращому другові чудову книгу.",
+      "level": "A1",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Lisa ___ ihrer Schwester ein selbstgemachtes Bild ___.",
+      "answer": "hat geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Ліза подарувала своїй сестрі власноруч зроблену картину.",
+      "level": "A2",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Die Eltern ___ ihrem Kind ein Fahrrad zum Geburtstag ___.",
+      "answer": "haben geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Батьки подарували своїй дитині велосипед на день народження.",
+      "level": "B1",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Der Chef ___ seinem Team eine besondere Anerkennung für ihre Arbeit ___.",
+      "answer": "hat geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Керівник подарував своїй команді особливу подяку за їхню роботу.",
+      "level": "B2",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Ich habe meiner Lehrerin eine Schachtel Pralinen ___.",
+      "answer": "geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Я подарував своїй вчительці коробку цукерок.",
+      "level": "A1",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Max ___ seinen Eltern Konzertkarten zum Jubiläum ___.",
+      "answer": "hat geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Макс подарував своїм батькам квитки на концерт на річницю.",
+      "level": "A2",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Die Kollegen ___ dem Rentner eine Reisegutschein zum Abschied ___.",
+      "answer": "haben geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Колеги подарували пенсіонеру подарунковий сертифікат на подорож на прощання.",
+      "level": "B1",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Die Universität ___ ihren besten Absolventen eine besondere Ehrung ___.",
+      "answer": "hat geschenkt",
+      "ua_infinitiv": "дарувати",
+      "ua_sentence": "Університет подарував своїм найкращим випускникам особливу нагороду.",
+      "level": "B2",
+      "infinitive": "schenken"
+    },
+    {
+      "sentence": "Ich habe meiner Freundin eine Postkarte aus dem Urlaub ___.",
+      "answer": "geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Я надіслав своїй подрузі листівку з відпустки.",
+      "level": "A1",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Tom ___ seiner Mutter eine Nachricht ___.",
+      "answer": "hat geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Том надіслав своїй матері повідомлення.",
+      "level": "A2",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Die Firma ___ dem Kunden die Rechnung per E-Mail ___.",
+      "answer": "hat geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Компанія надіслала клієнту рахунок електронною поштою.",
+      "level": "B1",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Die Universität ___ den Bewerbern eine Bestätigung über die Einschreibung ___.",
+      "answer": "hat geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Університет надіслав абітурієнтам підтвердження про зарахування.",
+      "level": "B2",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Ich habe meinem Freund ein Paket mit Geschenken ___.",
+      "answer": "geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Я надіслав своєму другові посилку з подарунками.",
+      "level": "A1",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Lisa ___ ihrem Bruder eine E-Mail mit wichtigen Informationen ___.",
+      "answer": "hat geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Ліза надіслала своєму братові електронного листа з важливою інформацією.",
+      "level": "A2",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Der Arbeitgeber ___ dem neuen Mitarbeiter den Arbeitsvertrag ___.",
+      "answer": "hat geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Роботодавець надіслав новому співробітнику трудовий договір.",
+      "level": "B1",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Die Behörde ___ den Bürgern neue Dokumente per Post ___.",
+      "answer": "hat geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Установа надіслала громадянам нові документи поштою.",
+      "level": "B2",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Ich habe meiner Tante ein handgeschriebenes Gedicht ___.",
+      "answer": "geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Я надіслав своїй тітці рукописний вірш.",
+      "level": "A1",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Max ___ seinem Lehrer eine SMS mit einer Frage ___.",
+      "answer": "hat geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Макс надіслав своєму вчителю SMS із запитанням.",
+      "level": "A2",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Die Firma ___ den Kunden eine Umfrage zur Zufriedenheit ___.",
+      "answer": "hat geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Компанія надіслала клієнтам опитування щодо задоволеності.",
+      "level": "B1",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Das Ministerium ___ der Presse eine offizielle Mitteilung ___.",
+      "answer": "hat geschickt",
+      "ua_infinitiv": "відправляти",
+      "ua_sentence": "Міністерство надіслало пресі офіційне повідомлення.",
+      "level": "B2",
+      "infinitive": "schicken"
+    },
+    {
+      "sentence": "Ich habe meiner Mutter alles Gute zum Geburtstag ___.",
+      "answer": "gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Я побажав своїй мамі всього найкращого на день народження.",
+      "level": "A1",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Tom ___ seiner Freundin viel Erfolg bei der Prüfung ___.",
+      "answer": "hat gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Том побажав своїй дівчині успіху на іспиті.",
+      "level": "A2",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Die Kollegen ___ ihrem Chef eine gute Reise ___.",
+      "answer": "haben gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Колеги побажали своєму начальнику гарної подорожі.",
+      "level": "B1",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Die Lehrer ___ den Schülern viel Erfolg im neuen Schuljahr ___.",
+      "answer": "haben gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Вчителі побажали учням успіху в новому навчальному році.",
+      "level": "B2",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Ich habe meiner Schwester Glück für die Zukunft ___.",
+      "answer": "gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Я побажав своїй сестрі удачі в майбутньому.",
+      "level": "A1",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Lisa ___ ihrem Bruder eine schöne Reise ___.",
+      "answer": "hat gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Ліза побажала своєму братові гарної подорожі.",
+      "level": "A2",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Die Eltern ___ ihren Kindern ein glückliches Leben ___.",
+      "answer": "haben gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Батьки побажали своїм дітям щасливого життя.",
+      "level": "B1",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Der Präsident ___ dem Volk Frieden und Wohlstand ___.",
+      "answer": "hat gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Президент побажав народу миру і добробуту.",
+      "level": "B2",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Ich habe meinem Freund viel Erfolg im neuen Job ___.",
+      "answer": "gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Я побажав своєму другові успіху на новій роботі.",
+      "level": "A1",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Max ___ seiner Lehrerin einen schönen Feiertag ___.",
+      "answer": "hat gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Макс побажав своїй вчительці гарного свята.",
+      "level": "A2",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ dem neuen Kollegen einen guten Start ___.",
+      "answer": "haben gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Співробітники побажали новому колезі хорошого початку.",
+      "level": "B1",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Die internationale Gemeinschaft ___ den Opfern der Katastrophe Kraft und Hoffnung ___.",
+      "answer": "hat gewünscht",
+      "ua_infinitiv": "бажати",
+      "ua_sentence": "Міжнародна спільнота побажала жертвам катастрофи сили і надії.",
+      "level": "B2",
+      "infinitive": "wünschen"
+    },
+    {
+      "sentence": "Ich bin heute Morgen pünktlich ___.",
+      "answer": "abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Я сьогодні вранці вчасно від'їхав.",
+      "level": "A1",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Der Zug ___ um 8 Uhr vom Hauptbahnhof ___.",
+      "answer": "ist abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Поїзд від'їхав о 8 ранку з головного вокзалу.",
+      "level": "A2",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Die Busse ___ wegen des schlechten Wetters später ___.",
+      "answer": "sind abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Автобуси від'їхали пізніше через погану погоду.",
+      "level": "B1",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Die Delegation ___ am frühen Morgen Richtung Brüssel ___.",
+      "answer": "ist abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Делегація вирушила рано вранці в напрямку Брюсселя.",
+      "level": "B2",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Ich habe gestern Abend mit dem Fahrrad ___.",
+      "answer": "abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Я вчора ввечері поїхав на велосипеді.",
+      "level": "A1",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Lisa ___ mit dem letzten Bus nach Hause ___.",
+      "answer": "ist abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Ліза від'їхала додому останнім автобусом.",
+      "level": "A2",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Die Gäste ___ nach dem Fest spät in der Nacht ___.",
+      "answer": "sind abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Гості від'їхали після свята пізно вночі.",
+      "level": "B1",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Die Diplomaten ___ nach der Konferenz direkt zum Flughafen ___.",
+      "answer": "sind abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Дипломати від'їхали після конференції прямо в аеропорт.",
+      "level": "B2",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Ich habe mit dem Auto von der Schule ___.",
+      "answer": "abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Я від'їхав на машині зі школи.",
+      "level": "A1",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Max ___ mit der Bahn nach München ___.",
+      "answer": "ist abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Макс від'їхав потягом до Мюнхена.",
+      "level": "A2",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Die Touristen ___ früh morgens zu ihrer Rundreise ___.",
+      "answer": "sind abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Туристи вирушили рано вранці у свою подорож.",
+      "level": "B1",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Die Regierungsvertreter ___ sofort nach der Sitzung ___.",
+      "answer": "sind abgefahren",
+      "ua_infinitiv": "від'їжджати",
+      "ua_sentence": "Представники уряду негайно від'їхали після засідання.",
+      "level": "B2",
+      "infinitive": "abfahren"
+    },
+    {
+      "sentence": "Ich habe ein paar Kilos ___.",
+      "answer": "abgenommen",
+      "ua_infinitiv": "схуднути",
+      "ua_sentence": "Я скинув кілька кілограмів.",
+      "level": "A1",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Er ___ nach seiner Diät viel Gewicht ___.",
+      "answer": "hat abgenommen",
+      "ua_infinitiv": "схуднути",
+      "ua_sentence": "Він схуд після своєї дієти.",
+      "level": "A2",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Die Sportler ___ durch das Training einige Kilos ___.",
+      "answer": "haben abgenommen",
+      "ua_infinitiv": "схуднути",
+      "ua_sentence": "Спортсмени скинули кілька кілограмів завдяки тренуванням.",
+      "level": "B1",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Die Bevölkerung in dieser Region ___ aufgrund der Krise ___.",
+      "answer": "hat abgenommen",
+      "ua_infinitiv": "зменшуватися",
+      "ua_sentence": "Населення в цьому регіоні зменшилося через кризу.",
+      "level": "B2",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Ich habe meine tägliche Zuckerzufuhr ___.",
+      "answer": "abgenommen",
+      "ua_infinitiv": "зменшувати",
+      "ua_sentence": "Я зменшив своє щоденне споживання цукру.",
+      "level": "A1",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Lisa ___ durch gesunde Ernährung ein paar Kilos ___.",
+      "answer": "hat abgenommen",
+      "ua_infinitiv": "схуднути",
+      "ua_sentence": "Ліза схудла завдяки здоровому харчуванню.",
+      "level": "A2",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Die Firma ___ ihre Ausgaben im letzten Jahr ___.",
+      "answer": "hat abgenommen",
+      "ua_infinitiv": "зменшувати",
+      "ua_sentence": "Компанія зменшила свої витрати минулого року.",
+      "level": "B1",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Die Nachfrage nach diesem Produkt ___ in den letzten Monaten stark ___.",
+      "answer": "hat abgenommen",
+      "ua_infinitiv": "зменшувати",
+      "ua_sentence": "Попит на цей продукт значно зменшився за останні місяці.",
+      "level": "B2",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Ich habe meine Portionen beim Essen ___.",
+      "answer": "abgenommen",
+      "ua_infinitiv": "зменшувати",
+      "ua_sentence": "Я зменшив свої порції їжі.",
+      "level": "A1",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Tom ___ durch regelmäßigen Sport sichtbar ___.",
+      "answer": "hat abgenommen",
+      "ua_infinitiv": "схуднути",
+      "ua_sentence": "Том помітно схуд завдяки регулярному спорту.",
+      "level": "A2",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Die Produktionszahlen ___ in diesem Quartal ___.",
+      "answer": "haben abgenommen",
+      "ua_infinitiv": "зменшувати",
+      "ua_sentence": "Обсяги виробництва зменшилися у цьому кварталі.",
+      "level": "B1",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Die wirtschaftliche Leistung des Landes ___ seit der Pandemie ___.",
+      "answer": "hat abgenommen",
+      "ua_infinitiv": "зменшувати",
+      "ua_sentence": "Економічна продуктивність країни знизилася після пандемії.",
+      "level": "B2",
+      "infinitive": "abnehmen"
+    },
+    {
+      "sentence": "Ich habe meine Ausbildung erfolgreich ___.",
+      "answer": "abgeschlossen",
+      "ua_infinitiv": "завершувати",
+      "ua_sentence": "Я успішно завершив свою освіту.",
+      "level": "A1",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Tom ___ seinen Vertrag mit der Firma ___.",
+      "answer": "hat abgeschlossen",
+      "ua_infinitiv": "завершувати",
+      "ua_sentence": "Том уклав свій контракт із компанією.",
+      "level": "A2",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Die Studenten ___ ihr Studium im Sommer ___.",
+      "answer": "haben abgeschlossen",
+      "ua_infinitiv": "завершувати",
+      "ua_sentence": "Студенти завершили навчання влітку.",
+      "level": "B1",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Das Unternehmen ___ das Projekt innerhalb der Frist ___.",
+      "answer": "hat abgeschlossen",
+      "ua_infinitiv": "завершувати",
+      "ua_sentence": "Компанія завершила проект у встановлений термін.",
+      "level": "B2",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Ich habe die Tür vor dem Schlafengehen ___.",
+      "answer": "abgeschlossen",
+      "ua_infinitiv": "зачиняти",
+      "ua_sentence": "Я замкнув двері перед сном.",
+      "level": "A1",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Lisa ___ ihre Wohnung am Morgen ___.",
+      "answer": "hat abgeschlossen",
+      "ua_infinitiv": "зачиняти",
+      "ua_sentence": "Ліза замкнула свою квартиру вранці.",
+      "level": "A2",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ die Büroräume nach Feierabend ___.",
+      "answer": "haben abgeschlossen",
+      "ua_infinitiv": "зачиняти",
+      "ua_sentence": "Співробітники замкнули офіси після робочого дня.",
+      "level": "B1",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Die Sicherheitskräfte ___ das Gebäude nach der Veranstaltung ___.",
+      "answer": "haben abgeschlossen",
+      "ua_infinitiv": "зачиняти",
+      "ua_sentence": "Служба безпеки замкнула будівлю після заходу.",
+      "level": "B2",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Ich habe den Vertrag mit der Versicherung ___.",
+      "answer": "abgeschlossen",
+      "ua_infinitiv": "укладати",
+      "ua_sentence": "Я уклав договір зі страховою компанією.",
+      "level": "A1",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Max ___ eine Vereinbarung mit dem Vermieter ___.",
+      "answer": "hat abgeschlossen",
+      "ua_infinitiv": "укладати",
+      "ua_sentence": "Макс уклав угоду з орендодавцем.",
+      "level": "A2",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Die Parteien ___ die Verhandlungen erfolgreich ___.",
+      "answer": "haben abgeschlossen",
+      "ua_infinitiv": "укладати",
+      "ua_sentence": "Сторони успішно завершили переговори.",
+      "level": "B1",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Die Länder ___ einen neuen Handelsvertrag ___.",
+      "answer": "haben abgeschlossen",
+      "ua_infinitiv": "укладати",
+      "ua_sentence": "Країни уклали нову торговельну угоду.",
+      "level": "B2",
+      "infinitive": "abschließen"
+    },
+    {
+      "sentence": "Ich habe das Geschirr nach dem Essen ___.",
+      "answer": "abgewaschen",
+      "ua_infinitiv": "мити посуд",
+      "ua_sentence": "Я помив посуд після їжі.",
+      "level": "A1",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Tom ___ die Gläser in der Küche ___.",
+      "answer": "hat abgewaschen",
+      "ua_infinitiv": "мити посуд",
+      "ua_sentence": "Том помив склянки на кухні.",
+      "level": "A2",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Die Kellner ___ nach der Veranstaltung das Geschirr ___.",
+      "answer": "haben abgewaschen",
+      "ua_infinitiv": "мити посуд",
+      "ua_sentence": "Офіціанти помили посуд після заходу.",
+      "level": "B1",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Die Mitarbeiter in der Kantine ___ die Tabletts und das Besteck ___.",
+      "answer": "haben abgewaschen",
+      "ua_infinitiv": "мити посуд",
+      "ua_sentence": "Працівники їдальні помили таці та столові прибори.",
+      "level": "B2",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Ich habe meine Hände nach dem Kochen ___.",
+      "answer": "abgewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Я помив руки після готування.",
+      "level": "A1",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Lisa ___ das Obst vor dem Essen ___.",
+      "answer": "hat abgewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Ліза помила фрукти перед їжею.",
+      "level": "A2",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Die Köche ___ alle Gemüse gründlich ___.",
+      "answer": "haben abgewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Кухарі ретельно помили всі овочі.",
+      "level": "B1",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Die Reinigungskräfte ___ die Tische nach dem Abendessen ___.",
+      "answer": "haben abgewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Прибиральники помили столи після вечері.",
+      "level": "B2",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Ich habe die Kaffeetassen in der Spüle ___.",
+      "answer": "abgewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Я помив кавові чашки в раковині.",
+      "level": "A1",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Max ___ das schmutzige Besteck ___.",
+      "answer": "hat abgewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Макс помив брудні столові прибори.",
+      "level": "A2",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Die Haushälter ___ das gesamte Geschirr nach dem Fest ___.",
+      "answer": "haben abgewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Домогосподарки помили весь посуд після свята.",
+      "level": "B1",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Die Mitarbeiter im Hotel ___ die Gläser in der Bar ___.",
+      "answer": "haben abgewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Працівники готелю помили склянки у барі.",
+      "level": "B2",
+      "infinitive": "abwaschen"
+    },
+    {
+      "sentence": "Ich habe meinem Gast eine Tasse Tee ___.",
+      "answer": "angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Я запропонував своєму гостю чашку чаю.",
+      "level": "A1",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Der Kellner ___ uns ein Dessert nach dem Essen ___.",
+      "answer": "hat angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Офіціант запропонував нам десерт після їжі.",
+      "level": "A2",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Die Firma ___ den Kunden einen Rabatt auf ihre Produkte ___.",
+      "answer": "hat angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Компанія запропонувала клієнтам знижку на свою продукцію.",
+      "level": "B1",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Das Hotel ___ seinen Gästen zusätzliche Dienstleistungen ___.",
+      "answer": "hat angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Готель запропонував своїм гостям додаткові послуги.",
+      "level": "B2",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Ich habe meiner Nachbarin Hilfe beim Tragen der Einkäufe ___.",
+      "answer": "angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Я запропонував своїй сусідці допомогу у перенесенні покупок.",
+      "level": "A1",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Tom ___ seinem Freund ein Stück Kuchen ___.",
+      "answer": "hat angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Том запропонував своєму другові шматок торта.",
+      "level": "A2",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Die Firma ___ ihren Mitarbeitern flexible Arbeitszeiten ___.",
+      "answer": "hat angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Компанія запропонувала своїм співробітникам гнучкий графік роботи.",
+      "level": "B1",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Die Universität ___ ihren Studierenden neue Forschungsmöglichkeiten ___.",
+      "answer": "hat angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Університет запропонував своїм студентам нові можливості для досліджень.",
+      "level": "B2",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Ich habe meinem Kollegen meine Unterstützung bei dem Projekt ___.",
+      "answer": "angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Я запропонував своєму колезі свою підтримку у проєкті.",
+      "level": "A1",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Lisa ___ ihren Eltern Hilfe bei der Gartenarbeit ___.",
+      "answer": "hat angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Ліза запропонувала своїм батькам допомогу в садівництві.",
+      "level": "A2",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Die Bank ___ ihren Kunden spezielle Kreditkonditionen ___.",
+      "answer": "hat angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Банк запропонував своїм клієнтам спеціальні умови кредитування.",
+      "level": "B1",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Das Unternehmen ___ seinen Partnern eine langfristige Zusammenarbeit ___.",
+      "answer": "hat angeboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Компанія запропонувала своїм партнерам довгострокову співпрацю.",
+      "level": "B2",
+      "infinitive": "anbieten"
+    },
+    {
+      "sentence": "Ich habe mit dem neuen Buch ___.",
+      "answer": "angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Я почав з нової книги.",
+      "level": "A1",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Tom ___ mit der Arbeit an einem wichtigen Projekt ___.",
+      "answer": "hat angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Том почав роботу над важливим проєктом.",
+      "level": "A2",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Die Studenten ___ mit der Prüfung um 9 Uhr ___.",
+      "answer": "haben angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Студенти почали іспит о 9 годині.",
+      "level": "B1",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Das Unternehmen ___ mit der Entwicklung neuer Technologien ___.",
+      "answer": "hat angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Компанія почала розробку нових технологій.",
+      "level": "B2",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Ich habe mit dem Deutschkurs ___.",
+      "answer": "angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Я почав курс німецької мови.",
+      "level": "A1",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Lisa ___ mit dem Schreiben ihres ersten Romans ___.",
+      "answer": "hat angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Ліза почала писати свій перший роман.",
+      "level": "A2",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Die Sportler ___ mit dem Training für die Meisterschaft ___.",
+      "answer": "haben angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Спортсмени почали тренування для чемпіонату.",
+      "level": "B1",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Die Regierung ___ mit der Umsetzung neuer Gesetze ___.",
+      "answer": "hat angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Уряд почав впроваджувати нові закони.",
+      "level": "B2",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Ich habe mit einem neuen Hobby ___.",
+      "answer": "angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Я почав нове хобі.",
+      "level": "A1",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Max ___ mit dem Lernen für die Prüfung ___.",
+      "answer": "hat angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Макс почав готуватися до іспиту.",
+      "level": "A2",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ mit einem neuen Forschungsprojekt ___.",
+      "answer": "haben angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Вчені почали новий дослідницький проєкт.",
+      "level": "B1",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Die internationale Konferenz ___ mit einer Eröffnungsrede ___.",
+      "answer": "hat angefangen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Міжнародна конференція розпочалася з вступної промови.",
+      "level": "B2",
+      "infinitive": "anfangen"
+    },
+    {
+      "sentence": "Ich bin gestern Abend pünktlich am Bahnhof ___.",
+      "answer": "angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Я вчора ввечері вчасно прибув на вокзал.",
+      "level": "A1",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Der Zug ___ um 10 Uhr in Berlin ___.",
+      "answer": "ist angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Поїзд прибув о 10 годині в Берлін.",
+      "level": "A2",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Die Gäste ___ pünktlich zur Hochzeit ___.",
+      "answer": "sind angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Гості вчасно прибули на весілля.",
+      "level": "B1",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Die Delegation ___ rechtzeitig zur internationalen Konferenz ___.",
+      "answer": "ist angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Делегація вчасно прибула на міжнародну конференцію.",
+      "level": "B2",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Ich habe mit dem Bus in der Stadt ___.",
+      "answer": "angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Я прибув у місто автобусом.",
+      "level": "A1",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Lisa ___ nach einem langen Flug sicher in Paris ___.",
+      "answer": "ist angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Ліза благополучно прибула до Парижа після довгого польоту.",
+      "level": "A2",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Die Teilnehmer der Konferenz ___ gestern im Hotel ___.",
+      "answer": "sind angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Учасники конференції вчора прибули до готелю.",
+      "level": "B1",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Die Investoren ___ früh am Morgen in der Firma ___.",
+      "answer": "sind angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Інвестори прибули в компанію рано вранці.",
+      "level": "B2",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Ich habe in meiner neuen Wohnung gut ___.",
+      "answer": "angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Я добре освоївся у своїй новій квартирі.",
+      "level": "A1",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Max ___ nach der langen Autofahrt müde zu Hause ___.",
+      "answer": "ist angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Макс прибув додому втомленим після довгої поїздки на автомобілі.",
+      "level": "A2",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ pünktlich zum Forschungstreffen ___.",
+      "answer": "sind angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Вчені прибули вчасно на дослідницьку зустріч.",
+      "level": "B1",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Die internationalen Gäste ___ rechtzeitig zur Eröffnungszeremonie ___.",
+      "answer": "sind angekommen",
+      "ua_infinitiv": "прибувати",
+      "ua_sentence": "Міжнародні гості вчасно прибули на церемонію відкриття.",
+      "level": "B2",
+      "infinitive": "ankommen"
+    },
+    {
+      "sentence": "Ich habe meinen Freund gestern Abend ___.",
+      "answer": "angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Я подзвонив своєму другові вчора ввечері.",
+      "level": "A1",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Tom ___ seine Eltern am Wochenende ___.",
+      "answer": "hat angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Том подзвонив своїм батькам на вихідних.",
+      "level": "A2",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Die Kunden ___ den Support wegen eines Problems ___.",
+      "answer": "haben angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Клієнти подзвонили в службу підтримки через проблему.",
+      "level": "B1",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Die Journalisten ___ den Minister für eine Stellungnahme ___.",
+      "answer": "haben angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Журналісти подзвонили міністру для отримання коментаря.",
+      "level": "B2",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Ich habe meinen Bruder nach der Schule ___.",
+      "answer": "angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Я подзвонив своєму братові після школи.",
+      "level": "A1",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Lisa ___ ihre Freundin am Nachmittag ___.",
+      "answer": "hat angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Ліза подзвонила своїй подрузі після обіду.",
+      "level": "A2",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ den Chef wegen einer dringenden Angelegenheit ___.",
+      "answer": "haben angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Співробітники подзвонили начальнику через термінову справу.",
+      "level": "B1",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ das Forschungslabor für Ergebnisse ___.",
+      "answer": "haben angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Вчені подзвонили до лабораторії для отримання результатів.",
+      "level": "B2",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Ich habe meine Eltern am Morgen ___.",
+      "answer": "angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Я подзвонив своїм батькам вранці.",
+      "level": "A1",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Max ___ seinen Kollegen wegen eines Meetings ___.",
+      "answer": "hat angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Макс подзвонив своєму колезі через зустріч.",
+      "level": "A2",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Die Firma ___ den Lieferanten für eine dringende Bestellung ___.",
+      "answer": "hat angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Компанія подзвонила постачальнику через термінове замовлення.",
+      "level": "B1",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Die Behörde ___ den Bürgermeister für eine offizielle Rücksprache ___.",
+      "answer": "hat angerufen",
+      "ua_infinitiv": "дзвонити",
+      "ua_sentence": "Установа подзвонила меру для офіційної консультації.",
+      "level": "B2",
+      "infinitive": "anrufen"
+    },
+    {
+      "sentence": "Ich habe mir gestern einen Film ___.",
+      "answer": "angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Я вчора подивився фільм.",
+      "level": "A1",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Tom ___ sich die neuen Wohnungen in der Stadt ___.",
+      "answer": "hat angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Том подивився нові квартири в місті.",
+      "level": "A2",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Die Studenten ___ sich die Präsentation des Professors genau ___.",
+      "answer": "haben angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Студенти уважно подивилися презентацію професора.",
+      "level": "B1",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Die Experten ___ sich die neuesten Forschungsergebnisse ___.",
+      "answer": "haben angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Експерти переглянули найновіші результати досліджень.",
+      "level": "B2",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Ich habe mir eine Serie im Fernsehen ___.",
+      "answer": "angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Я подивився серіал по телевізору.",
+      "level": "A1",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Lisa ___ sich die Sehenswürdigkeiten der Stadt ___.",
+      "answer": "hat angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Ліза подивилася пам'ятки міста.",
+      "level": "A2",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Die Besucher ___ sich die Ausstellung im Museum ___.",
+      "answer": "haben angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Відвідувачі подивилися виставку в музеї.",
+      "level": "B1",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Die Investoren ___ sich den Geschäftsbericht der Firma ___.",
+      "answer": "haben angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Інвестори переглянули фінансовий звіт компанії.",
+      "level": "B2",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Ich habe mir die Bilder in der Galerie ___.",
+      "answer": "angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Я подивився картини в галереї.",
+      "level": "A1",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Max ___ sich das Video zur Erklärung ___.",
+      "answer": "hat angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Макс подивився відео з поясненням.",
+      "level": "A2",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Die Gäste ___ sich die Speisekarte im Restaurant ___.",
+      "answer": "haben angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Гості подивилися меню в ресторані.",
+      "level": "B1",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Die Journalisten ___ sich die Unterlagen für den Bericht ___.",
+      "answer": "haben angesehen",
+      "ua_infinitiv": "дивитися",
+      "ua_sentence": "Журналісти переглянули документи для звіту.",
+      "level": "B2",
+      "infinitive": "ansehen"
+    },
+    {
+      "sentence": "Ich habe mir eine warme Jacke ___.",
+      "answer": "angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Я одягнув теплу куртку.",
+      "level": "A1",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Tom ___ sich einen schicken Anzug für das Meeting ___.",
+      "answer": "hat angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Том одягнув стильний костюм на зустріч.",
+      "level": "A2",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Die Kinder ___ sich schnell ihre Jacken und Schuhe ___.",
+      "answer": "haben angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Діти швидко одягнули свої куртки і взуття.",
+      "level": "B1",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Die Schauspieler ___ sich ihre Kostüme für die Aufführung ___.",
+      "answer": "haben angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Актори одягнули свої костюми для вистави.",
+      "level": "B2",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Ich habe mir am Morgen meine Lieblingshose ___.",
+      "answer": "angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Я вранці одягнув свої улюблені штани.",
+      "level": "A1",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Lisa ___ sich eine warme Mütze für den Winter ___.",
+      "answer": "hat angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Ліза одягнула теплу шапку на зиму.",
+      "level": "A2",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Die Sportler ___ sich ihre Trikots vor dem Spiel ___.",
+      "answer": "haben angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Спортсмени одягнули свої футболки перед грою.",
+      "level": "B1",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Die Modells ___ sich für die Modenschau elegante Outfits ___.",
+      "answer": "haben angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Моделі одягнули елегантні вбрання для показу мод.",
+      "level": "B2",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Ich habe mir neue Schuhe für die Feier ___.",
+      "answer": "angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Я одягнув нове взуття на свято.",
+      "level": "A1",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Max ___ sich eine Jeans und ein Hemd für das Date ___.",
+      "answer": "hat angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Макс одягнув джинси і сорочку на побачення.",
+      "level": "A2",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ sich formelle Kleidung für die Konferenz ___.",
+      "answer": "haben angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Співробітники одягнули офіційний одяг на конференцію.",
+      "level": "B1",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Die Gäste ___ sich stilvolle Anzüge für den Empfang ___.",
+      "answer": "haben angezogen",
+      "ua_infinitiv": "одягати",
+      "ua_sentence": "Гості одягнули стильні костюми для прийому.",
+      "level": "B2",
+      "infinitive": "anziehen"
+    },
+    {
+      "sentence": "Ich habe ein neues Lied ins Mikrofon ___.",
+      "answer": "aufgenommen",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Я записав нову пісню в мікрофон.",
+      "level": "A1",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Tom ___ das Gespräch mit seinem Chef ___.",
+      "answer": "hat aufgenommen",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Том записав розмову зі своїм начальником.",
+      "level": "A2",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Die Reporter ___ die Aussagen der Zeugen ___.",
+      "answer": "haben aufgenommen",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Репортери записали свідчення свідків.",
+      "level": "B1",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Die Forscher ___ die Daten für die Analyse ___.",
+      "answer": "haben aufgenommen",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Дослідники записали дані для аналізу.",
+      "level": "B2",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Ich habe ein Video von meiner Katze ___.",
+      "answer": "aufgenommen",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Я записав відео своєї кішки.",
+      "level": "A1",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Lisa ___ ein Telefoninterview mit einem Künstler ___.",
+      "answer": "hat aufgenommen",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Ліза записала телефонне інтерв’ю з художником.",
+      "level": "A2",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Die Universität ___ neue Studenten für das Semester ___.",
+      "answer": "hat aufgenommen",
+      "ua_infinitiv": "приймати",
+      "ua_sentence": "Університет прийняв нових студентів на семестр.",
+      "level": "B1",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Das Krankenhaus ___ neue Patienten für die Studie ___.",
+      "answer": "hat aufgenommen",
+      "ua_infinitiv": "приймати",
+      "ua_sentence": "Лікарня прийняла нових пацієнтів для дослідження.",
+      "level": "B2",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Ich habe ein Foto von der Landschaft ___.",
+      "answer": "aufgenommen",
+      "ua_infinitiv": "знімати",
+      "ua_sentence": "Я зробив фотографію ландшафту.",
+      "level": "A1",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Max ___ den neuen Mitarbeiter ins Team ___.",
+      "answer": "hat aufgenommen",
+      "ua_infinitiv": "приймати",
+      "ua_sentence": "Макс прийняв нового співробітника в команду.",
+      "level": "A2",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Die Firma ___ einen Kredit für die Erweiterung ___.",
+      "answer": "hat aufgenommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Компанія отримала кредит для розширення.",
+      "level": "B1",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Die Regierung ___ Verhandlungen mit der Opposition ___.",
+      "answer": "hat aufgenommen",
+      "ua_infinitiv": "розпочинати",
+      "ua_sentence": "Уряд розпочав переговори з опозицією.",
+      "level": "B2",
+      "infinitive": "aufnehmen"
+    },
+    {
+      "sentence": "Ich habe die Telefonnummer auf einen Zettel ___.",
+      "answer": "aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Я записав номер телефону на листок.",
+      "level": "A1",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Tom ___ die Adresse für den Lieferdienst ___.",
+      "answer": "hat aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Том записав адресу для служби доставки.",
+      "level": "A2",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Die Studenten ___ die wichtigsten Informationen aus der Vorlesung ___.",
+      "answer": "haben aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Студенти записали найважливішу інформацію з лекції.",
+      "level": "B1",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Die Journalisten ___ die Aussagen des Sprechers ___.",
+      "answer": "haben aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Журналісти записали заяви речника.",
+      "level": "B2",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Ich habe die Einkaufsliste für den Supermarkt ___.",
+      "answer": "aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Я записав список покупок для супермаркету.",
+      "level": "A1",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Lisa ___ die Namen der neuen Kollegen ___.",
+      "answer": "hat aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Ліза записала імена нових колег.",
+      "level": "A2",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ die wichtigsten Punkte des Meetings ___.",
+      "answer": "haben aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Учасники записали найважливіші моменти зустрічі.",
+      "level": "B1",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ ihre Beobachtungen während des Experiments ___.",
+      "answer": "haben aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Вчені записали свої спостереження під час експерименту.",
+      "level": "B2",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Ich habe die neue Rezeptur für das Gericht ___.",
+      "answer": "aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Я записав новий рецепт страви.",
+      "level": "A1",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Max ___ die Telefonnummer des Kunden ___.",
+      "answer": "hat aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Макс записав номер телефону клієнта.",
+      "level": "A2",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Die Manager ___ die Anforderungen des Projekts ___.",
+      "answer": "haben aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Менеджери записали вимоги проєкту.",
+      "level": "B1",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Die Historiker ___ die mündlichen Berichte der Zeitzeugen ___.",
+      "answer": "haben aufgeschrieben",
+      "ua_infinitiv": "записувати",
+      "ua_sentence": "Історики записали усні свідчення очевидців.",
+      "level": "B2",
+      "infinitive": "aufschreiben"
+    },
+    {
+      "sentence": "Ich bin heute früh um sechs Uhr ___.",
+      "answer": "aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Я сьогодні рано встав о шостій годині.",
+      "level": "A1",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Tom ___ jeden Morgen um halb sieben ___.",
+      "answer": "ist aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Том щоранку встає о пів на сьому.",
+      "level": "A2",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Die Schüler ___ nach der Pause wieder ___.",
+      "answer": "sind aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Учні після перерви знову встали.",
+      "level": "B1",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Die Demonstranten ___ für ihre Rechte ___.",
+      "answer": "sind aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Демонстранти піднялися за свої права.",
+      "level": "B2",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Ich habe nach dem Klingeln des Weckers sofort ___.",
+      "answer": "aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Я одразу встав після дзвінка будильника.",
+      "level": "A1",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Lisa ___ trotz Müdigkeit früh ___.",
+      "answer": "ist aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Ліза встала рано, незважаючи на втому.",
+      "level": "A2",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Die Teilnehmer des Seminars ___ nach der kurzen Pause ___.",
+      "answer": "sind aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Учасники семінару встали після короткої перерви.",
+      "level": "B1",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Die Menschen ___ gegen die Ungerechtigkeit ___.",
+      "answer": "sind aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Люди піднялися проти несправедливості.",
+      "level": "B2",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Ich habe um acht Uhr aus dem Bett ___.",
+      "answer": "aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Я встав з ліжка о восьмій годині.",
+      "level": "A1",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Max ___ nach dem Weckruf sofort ___.",
+      "answer": "ist aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Макс відразу встав після дзвінка будильника.",
+      "level": "A2",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Die Angestellten ___ aus Respekt für den Direktor ___.",
+      "answer": "sind aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Співробітники встали з поваги до директора.",
+      "level": "B1",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Die Aktivisten ___ für den Umweltschutz ___.",
+      "answer": "sind aufgestanden",
+      "ua_infinitiv": "вставати",
+      "ua_sentence": "Активісти піднялися за захист довкілля.",
+      "level": "B2",
+      "infinitive": "aufstehen"
+    },
+    {
+      "sentence": "Ich habe mein ganzes Geld für Bücher ___.",
+      "answer": "ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Я витратив усі свої гроші на книги.",
+      "level": "A1",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Tom ___ sein Taschengeld für Süßigkeiten ___.",
+      "answer": "hat ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Том витратив свої кишенькові гроші на солодощі.",
+      "level": "A2",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Die Familie ___ viel Geld für den Urlaub ___.",
+      "answer": "hat ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Сім'я витратила багато грошей на відпустку.",
+      "level": "B1",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Die Regierung ___ große Summen für das Bildungswesen ___.",
+      "answer": "hat ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Уряд витратив великі суми на освіту.",
+      "level": "B2",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Ich habe mein letztes Geld für ein Geschenk ___.",
+      "answer": "ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Я витратив свої останні гроші на подарунок.",
+      "level": "A1",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Lisa ___ ihr Gehalt für neue Kleidung ___.",
+      "answer": "hat ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Ліза витратила свою зарплату на новий одяг.",
+      "level": "A2",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Die Firma ___ einen Teil des Budgets für Werbung ___.",
+      "answer": "hat ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Компанія витратила частину бюджету на рекламу.",
+      "level": "B1",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Die Stadtverwaltung ___ Gelder für den Straßenbau ___.",
+      "answer": "hat ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Міська адміністрація витратила кошти на будівництво доріг.",
+      "level": "B2",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Ich habe zu viel Geld für Essen ___.",
+      "answer": "ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Я витратив надто багато грошей на їжу.",
+      "level": "A1",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Max ___ sein ganzes Monatsgehalt für ein Fahrrad ___.",
+      "answer": "hat ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Макс витратив всю свою місячну зарплату на велосипед.",
+      "level": "A2",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Die Abteilung ___ die Mittel für neue Geräte ___.",
+      "answer": "hat ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Відділ витратив кошти на нове обладнання.",
+      "level": "B1",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Die Europäische Union ___ Milliarden für Klimaschutzmaßnahmen ___.",
+      "answer": "hat ausgegeben",
+      "ua_infinitiv": "витрачати",
+      "ua_sentence": "Європейський Союз витратив мільярди на заходи із захисту клімату.",
+      "level": "B2",
+      "infinitive": "ausgeben"
+    },
+    {
+      "sentence": "Ich habe im Spiegel gut ___.",
+      "answer": "ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Я виглядав добре у дзеркалі.",
+      "level": "A1",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Tom ___ nach der Erholung sehr gesund ___.",
+      "answer": "hat ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Том після відпочинку виглядав дуже здоровим.",
+      "level": "A2",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Die Stadt ___ nach der Renovierung wunderschön ___.",
+      "answer": "hat ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Місто після реконструкції виглядало чудово.",
+      "level": "B1",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Der Himmel ___ nach dem Sonnenuntergang spektakulär ___.",
+      "answer": "hat ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Небо після заходу сонця виглядало захоплююче.",
+      "level": "B2",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Ich habe in meinem neuen Kleid schön ___.",
+      "answer": "ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Я виглядала красиво у своїй новій сукні.",
+      "level": "A1",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Lisa ___ nach der langen Nacht müde ___.",
+      "answer": "hat ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Ліза після довгої ночі виглядала втомленою.",
+      "level": "A2",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Der Garten ___ nach dem Frühjahrsputz perfekt ___.",
+      "answer": "hat ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Сад після весняного прибирання виглядав ідеально.",
+      "level": "B1",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Die neuen Geschäftsräume ___ modern und einladend ___.",
+      "answer": "haben ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Нові офісні приміщення виглядали сучасно і привабливо.",
+      "level": "B2",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Ich habe nach dem Sport erschöpft ___.",
+      "answer": "ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Я після спорту виглядав виснаженим.",
+      "level": "A1",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Max ___ nach dem Marathon glücklich und stolz ___.",
+      "answer": "hat ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Макс після марафону виглядав щасливим і гордим.",
+      "level": "A2",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Das alte Gebäude ___ nach der Restaurierung beeindruckend ___.",
+      "answer": "hat ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Стара будівля після реставрації виглядала вражаюче.",
+      "level": "B1",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Das Kunstwerk ___ unter dem speziellen Licht einzigartig ___.",
+      "answer": "hat ausgesehen",
+      "ua_infinitiv": "виглядати",
+      "ua_sentence": "Мистецький твір під спеціальним освітленням виглядав унікально.",
+      "level": "B2",
+      "infinitive": "aussehen"
+    },
+    {
+      "sentence": "Ich bin an der Haltestelle ___.",
+      "answer": "ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Я вийшов на зупинці.",
+      "level": "A1",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Tom ___ an der letzten Station ___.",
+      "answer": "ist ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Том вийшов на останній станції.",
+      "level": "A2",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Die Fahrgäste ___ an der Endhaltestelle ___.",
+      "answer": "sind ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Пасажири вийшли на кінцевій зупинці.",
+      "level": "B1",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ nach der Besichtigung aus dem Bus ___.",
+      "answer": "sind ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Учасники вийшли з автобуса після екскурсії.",
+      "level": "B2",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Ich habe an der richtigen Station ___.",
+      "answer": "ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Я вийшов на правильній станції.",
+      "level": "A1",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Lisa ___ aus der Straßenbahn ___.",
+      "answer": "ist ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Ліза вийшла з трамвая.",
+      "level": "A2",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Die Touristen ___ nach der Stadtführung aus dem Bus ___.",
+      "answer": "sind ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Туристи вийшли з автобуса після екскурсії містом.",
+      "level": "B1",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Die Politiker ___ nach der Sitzung aus dem Dienstwagen ___.",
+      "answer": "sind ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Політики вийшли з службового автомобіля після засідання.",
+      "level": "B2",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Ich bin aus dem Auto ___.",
+      "answer": "ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Я вийшов з автомобіля.",
+      "level": "A1",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Max ___ an der Kreuzung aus dem Taxi ___.",
+      "answer": "ist ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Макс вийшов з таксі на перехресті.",
+      "level": "A2",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Die Schüler ___ an der Schule aus dem Bus ___.",
+      "answer": "sind ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Учні вийшли з автобуса біля школи.",
+      "level": "B1",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Die Delegation ___ am Hotel aus der Limousine ___.",
+      "answer": "sind ausgestiegen",
+      "ua_infinitiv": "виходити",
+      "ua_sentence": "Делегація вийшла з лімузина біля готелю.",
+      "level": "B2",
+      "infinitive": "aussteigen"
+    },
+    {
+      "sentence": "Ich habe die Zeitung an die Nachbarn ___.",
+      "answer": "ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Я розніс газету сусідам.",
+      "level": "A1",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Tom ___ die Briefe in der Nachbarschaft ___.",
+      "answer": "hat ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Том розніс листи по сусідству.",
+      "level": "A2",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Die Postboten ___ die Pakete am Morgen ___.",
+      "answer": "haben ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Поштарі рознесли пакунки вранці.",
+      "level": "B1",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Die Mitarbeiter der Firma ___ Werbematerial in der Stadt ___.",
+      "answer": "haben ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Працівники компанії рознесли рекламні матеріали містом.",
+      "level": "B2",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Ich habe Werbung für das neue Geschäft ___.",
+      "answer": "ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Я розніс рекламу для нового магазину.",
+      "level": "A1",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Lisa ___ die Einladungen zur Geburtstagsfeier ___.",
+      "answer": "hat ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Ліза рознесла запрошення на день народження.",
+      "level": "A2",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Die Schüler ___ Flyer für ein Schulprojekt ___.",
+      "answer": "haben ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Учні рознесли флаєри для шкільного проекту.",
+      "level": "B1",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Die Freiwilligen ___ Informationen über das Umweltprojekt ___.",
+      "answer": "haben ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Волонтери рознесли інформацію про екологічний проект.",
+      "level": "B2",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Ich habe den Werbeprospekt in meiner Straße ___.",
+      "answer": "ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Я розніс рекламний проспект на своїй вулиці.",
+      "level": "A1",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Max ___ die Zeitschriften in der ganzen Nachbarschaft ___.",
+      "answer": "hat ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Макс розніс журнали по всьому району.",
+      "level": "A2",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Die Jugendlichen ___ Wahlwerbung für die Bürgermeisterwahl ___.",
+      "answer": "haben ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Молодь рознесла агітаційні матеріали для виборів мера.",
+      "level": "B1",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Die Zusteller ___ die Tageszeitungen pünktlich am Morgen ___.",
+      "answer": "haben ausgetragen",
+      "ua_infinitiv": "розносити",
+      "ua_sentence": "Кур'єри рознесли щоденні газети вчасно вранці.",
+      "level": "B2",
+      "infinitive": "austragen"
+    },
+    {
+      "sentence": "Ich habe gestern einen Kuchen ___.",
+      "answer": "gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Я вчора спік торт.",
+      "level": "A1",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Tom ___ für den Geburtstag seiner Mutter eine Torte ___.",
+      "answer": "hat gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Том спік торт на день народження своєї мами.",
+      "level": "A2",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Die Bäckerei ___ heute frisches Brot ___.",
+      "answer": "hat gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Пекарня сьогодні спекла свіжий хліб.",
+      "level": "B1",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Der Konditor ___ eine wunderschöne Hochzeitstorte ___.",
+      "answer": "hat gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Кондитер спік чудовий весільний торт.",
+      "level": "B2",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Ich habe Weihnachtsplätzchen für meine Familie ___.",
+      "answer": "gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Я спік різдвяне печиво для своєї родини.",
+      "level": "A1",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Lisa ___ ein Blech Kekse für die Schule ___.",
+      "answer": "hat gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Ліза спекла деко печива для школи.",
+      "level": "A2",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Die Großmutter ___ einen Apfelkuchen für das Familienessen ___.",
+      "answer": "hat gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Бабуся спекла яблучний пиріг для сімейного обіду.",
+      "level": "B1",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Die Schüler ___ Brötchen für das Schulfest ___.",
+      "answer": "haben gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Учні спекли булочки для шкільного свята.",
+      "level": "B2",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Ich habe mit meiner Schwester Muffins ___.",
+      "answer": "gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Я спік мафіни разом із сестрою.",
+      "level": "A1",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Max ___ Croissants für das Frühstück ___.",
+      "answer": "hat gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Макс спік круасани для сніданку.",
+      "level": "A2",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Die Mitarbeiter der Konditorei ___ Spezialgebäck für das Fest ___.",
+      "answer": "haben gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Працівники кондитерської спекли особливу випічку для свята.",
+      "level": "B1",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Die besten Köche des Landes ___ exklusive Torten für den Wettbewerb ___.",
+      "answer": "haben gebacken",
+      "ua_infinitiv": "пекти",
+      "ua_sentence": "Найкращі кухарі країни спекли ексклюзивні торти для конкурсу.",
+      "level": "B2",
+      "infinitive": "backen"
+    },
+    {
+      "sentence": "Ich habe mit der Arbeit früh ___.",
+      "answer": "begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Я рано почав роботу.",
+      "level": "A1",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Tom ___ mit dem Studium an der Universität ___.",
+      "answer": "hat begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Том розпочав навчання в університеті.",
+      "level": "A2",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ mit dem Workshop um 10 Uhr ___.",
+      "answer": "haben begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Учасники розпочали семінар о 10 годині.",
+      "level": "B1",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Das Unternehmen ___ mit der Produktion neuer Produkte ___.",
+      "answer": "hat begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Компанія розпочала виробництво нової продукції.",
+      "level": "B2",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Ich habe gestern mit einem neuen Buch ___.",
+      "answer": "begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Я вчора почав читати нову книгу.",
+      "level": "A1",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Lisa ___ mit ihrem neuen Job ___.",
+      "answer": "hat begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Ліза розпочала свою нову роботу.",
+      "level": "A2",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Die Sportler ___ mit dem Training für die Meisterschaft ___.",
+      "answer": "haben begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Спортсмени розпочали тренування до чемпіонату.",
+      "level": "B1",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Die Regierung ___ mit der Umsetzung neuer Reformen ___.",
+      "answer": "hat begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Уряд розпочав впровадження нових реформ.",
+      "level": "B2",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Ich habe den Tag mit einer Tasse Kaffee ___.",
+      "answer": "begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Я почав день з чашки кави.",
+      "level": "A1",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Max ___ mit seinem Masterstudium ___.",
+      "answer": "hat begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Макс розпочав своє навчання в магістратурі.",
+      "level": "A2",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Die Forscher ___ mit einem neuen Experiment ___.",
+      "answer": "haben begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Дослідники розпочали новий експеримент.",
+      "level": "B1",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Die Verhandlungen zwischen den Ländern ___ offiziell ___.",
+      "answer": "haben begonnen",
+      "ua_infinitiv": "починати",
+      "ua_sentence": "Переговори між країнами офіційно розпочалися.",
+      "level": "B2",
+      "infinitive": "beginnen"
+    },
+    {
+      "sentence": "Ich habe ein Geschenk zum Geburtstag ___.",
+      "answer": "bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Я отримав подарунок на день народження.",
+      "level": "A1",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Tom ___ eine E-Mail von seinem Chef ___.",
+      "answer": "hat bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Том отримав електронний лист від свого начальника.",
+      "level": "A2",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Die Studenten ___ ihre Prüfungsergebnisse ___.",
+      "answer": "haben bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Студенти отримали результати своїх іспитів.",
+      "level": "B1",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Die Firma ___ einen neuen Großauftrag ___.",
+      "answer": "hat bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Компанія отримала нове велике замовлення.",
+      "level": "B2",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Ich habe eine Einladung zur Party ___.",
+      "answer": "bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Я отримав запрошення на вечірку.",
+      "level": "A1",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Lisa ___ einen Anruf von ihrer Freundin ___.",
+      "answer": "hat bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Ліза отримала дзвінок від своєї подруги.",
+      "level": "A2",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ ihre Gehälter rechtzeitig ___.",
+      "answer": "haben bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Співробітники отримали свої зарплати вчасно.",
+      "level": "B1",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ eine Auszeichnung für ihre Forschung ___.",
+      "answer": "haben bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Вчені отримали нагороду за свої дослідження.",
+      "level": "B2",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Ich habe eine Nachricht von meiner Schwester ___.",
+      "answer": "bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Я отримав повідомлення від своєї сестри.",
+      "level": "A1",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Max ___ eine Beförderung in seiner Firma ___.",
+      "answer": "hat bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Макс отримав підвищення в своїй компанії.",
+      "level": "A2",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Die Sportler ___ Medaillen für ihre Leistungen ___.",
+      "answer": "haben bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Спортсмени отримали медалі за свої досягнення.",
+      "level": "B1",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Die Regierung ___ finanzielle Unterstützung von der EU ___.",
+      "answer": "hat bekommen",
+      "ua_infinitiv": "отримувати",
+      "ua_sentence": "Уряд отримав фінансову підтримку від ЄС.",
+      "level": "B2",
+      "infinitive": "bekommen"
+    },
+    {
+      "sentence": "Ich habe meine Freundin zu einem wichtigen Thema ___.",
+      "answer": "beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Я проконсультував свою подругу з важливої теми.",
+      "level": "A1",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Tom ___ seinen Bruder bei der Berufswahl ___.",
+      "answer": "hat beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Том проконсультував свого брата щодо вибору професії.",
+      "level": "A2",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Die Experten ___ die Kunden über Investitionsmöglichkeiten ___.",
+      "answer": "haben beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Експерти проконсультували клієнтів щодо можливостей інвестування.",
+      "level": "B1",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Die Anwälte ___ ihre Mandanten in rechtlichen Fragen ___.",
+      "answer": "haben beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Адвокати проконсультували своїх клієнтів з юридичних питань.",
+      "level": "B2",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Ich habe meine Eltern bei der Urlaubsplanung ___.",
+      "answer": "beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Я проконсультував своїх батьків щодо планування відпустки.",
+      "level": "A1",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Lisa ___ ihre Freundin über eine neue Diät ___.",
+      "answer": "hat beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Ліза проконсультувала свою подругу щодо нової дієти.",
+      "level": "A2",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Die Lehrer ___ die Schüler bei der Wahl des Studienfachs ___.",
+      "answer": "haben beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Вчителі проконсультували учнів щодо вибору предметів для навчання.",
+      "level": "B1",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Die Finanzberater ___ die Firma zu neuen Investitionen ___.",
+      "answer": "haben beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Фінансові консультанти проконсультували компанію щодо нових інвестицій.",
+      "level": "B2",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Ich habe meine Schwester bei ihrer Karriereentscheidung ___.",
+      "answer": "beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Я проконсультував свою сестру щодо кар’єрного вибору.",
+      "level": "A1",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Max ___ seine Eltern bei der Autowahl ___.",
+      "answer": "hat beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Макс проконсультував своїх батьків щодо вибору автомобіля.",
+      "level": "A2",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Die Ärzte ___ die Patienten über mögliche Behandlungen ___.",
+      "answer": "haben beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Лікарі проконсультували пацієнтів щодо можливих методів лікування.",
+      "level": "B1",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Die Regierungsberater ___ den Präsidenten in wirtschaftlichen Fragen ___.",
+      "answer": "haben beraten",
+      "ua_infinitiv": "консультувати",
+      "ua_sentence": "Радники уряду проконсультували президента з економічних питань.",
+      "level": "B2",
+      "infinitive": "beraten"
+    },
+    {
+      "sentence": "Ich habe das Thema mit meiner Lehrerin ___.",
+      "answer": "besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Я обговорив цю тему зі своєю вчителькою.",
+      "level": "A1",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Tom ___ die Projektidee mit seinem Chef ___.",
+      "answer": "hat besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Том обговорив ідею проєкту зі своїм начальником.",
+      "level": "A2",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Die Kollegen ___ die neuen Arbeitsrichtlinien ___.",
+      "answer": "haben besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Колеги обговорили нові робочі інструкції.",
+      "level": "B1",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Die Führungskräfte ___ die Strategie für das kommende Jahr ___.",
+      "answer": "haben besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Керівники обговорили стратегію на наступний рік.",
+      "level": "B2",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Ich habe meinen Urlaub mit meinen Eltern ___.",
+      "answer": "besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Я обговорив свою відпустку з батьками.",
+      "level": "A1",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Lisa ___ die Prüfungsthemen mit ihrer Freundin ___.",
+      "answer": "hat besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Ліза обговорила теми іспиту зі своєю подругою.",
+      "level": "A2",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Die Ärzte ___ die Behandlungsmöglichkeiten mit dem Patienten ___.",
+      "answer": "haben besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Лікарі обговорили варіанти лікування з пацієнтом.",
+      "level": "B1",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Die Politiker ___ die aktuellen wirtschaftlichen Herausforderungen ___.",
+      "answer": "haben besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Політики обговорили актуальні економічні виклики.",
+      "level": "B2",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Ich habe mit meinem Freund unser nächstes Treffen ___.",
+      "answer": "besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Я обговорив із другом нашу наступну зустріч.",
+      "level": "A1",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Max ___ die Urlaubspläne mit seiner Familie ___.",
+      "answer": "hat besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Макс обговорив плани на відпустку зі своєю родиною.",
+      "level": "A2",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die Ergebnisse ihrer Studie ___.",
+      "answer": "haben besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Вчені обговорили результати свого дослідження.",
+      "level": "B1",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Die Unternehmensleitung ___ die Fusion mit der Konkurrenz ___.",
+      "answer": "hat besprochen",
+      "ua_infinitiv": "обговорювати",
+      "ua_sentence": "Керівництво компанії обговорило злиття з конкурентом.",
+      "level": "B2",
+      "infinitive": "besprechen"
+    },
+    {
+      "sentence": "Ich habe die Prüfung erfolgreich ___.",
+      "answer": "bestanden",
+      "ua_infinitiv": "складати (іспит)",
+      "ua_sentence": "Я успішно склав іспит.",
+      "level": "A1",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Tom ___ die Fahrprüfung beim ersten Versuch ___.",
+      "answer": "hat bestanden",
+      "ua_infinitiv": "складати (іспит)",
+      "ua_sentence": "Том склав іспит на водіння з першого разу.",
+      "level": "A2",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Die Studenten ___ ihre Abschlussprüfungen mit guten Noten ___.",
+      "answer": "haben bestanden",
+      "ua_infinitiv": "складати (іспит)",
+      "ua_sentence": "Студенти склали випускні іспити з хорошими оцінками.",
+      "level": "B1",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Die Kandidaten ___ den anspruchsvollen Auswahltest ___.",
+      "answer": "haben bestanden",
+      "ua_infinitiv": "складати (іспит)",
+      "ua_sentence": "Кандидати склали складний відбірковий тест.",
+      "level": "B2",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Ich habe die theoretische Prüfung für den Führerschein ___.",
+      "answer": "bestanden",
+      "ua_infinitiv": "складати (іспит)",
+      "ua_sentence": "Я склав теоретичний іспит на водійські права.",
+      "level": "A1",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Lisa ___ die Aufnahmeprüfung an der Universität ___.",
+      "answer": "hat bestanden",
+      "ua_infinitiv": "складати (іспит)",
+      "ua_sentence": "Ліза склала вступний іспит до університету.",
+      "level": "A2",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Die Auszubildenden ___ die praktische Prüfung erfolgreich ___.",
+      "answer": "haben bestanden",
+      "ua_infinitiv": "складати (іспит)",
+      "ua_sentence": "Стажери успішно склали практичний іспит.",
+      "level": "B1",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Die Bewerber ___ das anspruchsvolle Interviewverfahren ___.",
+      "answer": "haben bestanden",
+      "ua_infinitiv": "проходити (перевірку, тест)",
+      "ua_sentence": "Кандидати пройшли складну процедуру співбесіди.",
+      "level": "B2",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Ich habe die Mathematikprüfung mit einer guten Note ___.",
+      "answer": "bestanden",
+      "ua_infinitiv": "складати (іспит)",
+      "ua_sentence": "Я склав іспит з математики з хорошою оцінкою.",
+      "level": "A1",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Max ___ den Aufnahmetest für die Musikschule ___.",
+      "answer": "hat bestanden",
+      "ua_infinitiv": "складати (іспит)",
+      "ua_sentence": "Макс склав вступний іспит до музичної школи.",
+      "level": "A2",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Die Feuerwehrmänner ___ die körperliche Eignungsprüfung ___.",
+      "answer": "haben bestanden",
+      "ua_infinitiv": "проходити (перевірку, тест)",
+      "ua_sentence": "Пожежники пройшли перевірку фізичної підготовки.",
+      "level": "B1",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Die Ingenieure ___ die strenge Zertifizierung für ihre neuen Produkte ___.",
+      "answer": "haben bestanden",
+      "ua_infinitiv": "проходити (перевірку, тест)",
+      "ua_sentence": "Інженери пройшли сувору сертифікацію для своїх нових продуктів.",
+      "level": "B2",
+      "infinitive": "bestehen"
+    },
+    {
+      "sentence": "Ich habe meinem Freund Hilfe ___.",
+      "answer": "geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Я запропонував допомогу своєму другові.",
+      "level": "A1",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Tom ___ seiner Schwester Unterstützung ___.",
+      "answer": "hat geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Том запропонував своїй сестрі підтримку.",
+      "level": "A2",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Die Universität ___ den Studierenden neue Stipendien ___.",
+      "answer": "hat geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Університет запропонував студентам нові стипендії.",
+      "level": "B1",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Das Unternehmen ___ seinen Mitarbeitern flexible Arbeitszeiten ___.",
+      "answer": "hat geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Компанія запропонувала своїм працівникам гнучкий графік роботи.",
+      "level": "B2",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Ich habe meinem Kollegen eine Lösung für das Problem ___.",
+      "answer": "geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Я запропонував своєму колезі рішення проблеми.",
+      "level": "A1",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Lisa ___ ihren Eltern Hilfe im Haushalt ___.",
+      "answer": "hat geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Ліза запропонувала своїм батькам допомогу по господарству.",
+      "level": "A2",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Die Stadt ___ den Bürgern neue Freizeitmöglichkeiten ___.",
+      "answer": "hat geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Місто запропонувало жителям нові можливості для дозвілля.",
+      "level": "B1",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Die Regierung ___ den Unternehmen finanzielle Unterstützung ___.",
+      "answer": "hat geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Уряд запропонував підприємствам фінансову підтримку.",
+      "level": "B2",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Ich habe meinem Gast ein Glas Wasser ___.",
+      "answer": "geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Я запропонував гостю склянку води.",
+      "level": "A1",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Max ___ seinem Freund einen Schlafplatz ___.",
+      "answer": "hat geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Макс запропонував своєму другові місце для сну.",
+      "level": "A2",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Die Veranstalter ___ den Teilnehmern interessante Workshops ___.",
+      "answer": "haben geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Організатори запропонували учасникам цікаві майстер-класи.",
+      "level": "B1",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Das Hotel ___ seinen Gästen exklusive Dienstleistungen ___.",
+      "answer": "hat geboten",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Готель запропонував своїм гостям ексклюзивні послуги.",
+      "level": "B2",
+      "infinitive": "bieten"
+    },
+    {
+      "sentence": "Ich bin gestern lange im Park ___.",
+      "answer": "geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Я вчора довго залишався в парку.",
+      "level": "A1",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Tom ___ den ganzen Tag zu Hause ___.",
+      "answer": "ist geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Том залишився вдома цілий день.",
+      "level": "A2",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Die Gäste ___ nach der Feier noch eine Weile ___.",
+      "answer": "sind geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Гості залишилися ще трохи після свята.",
+      "level": "B1",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Die Demonstranten ___ trotz des Regens auf dem Platz ___.",
+      "answer": "sind geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Демонстранти залишилися на площі, незважаючи на дощ.",
+      "level": "B2",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Ich bin bis spät in die Nacht wach ___.",
+      "answer": "geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Я залишався не спати до пізньої ночі.",
+      "level": "A1",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Lisa ___ wegen der Krankheit im Bett ___.",
+      "answer": "ist geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Ліза залишилася в ліжку через хворобу.",
+      "level": "A2",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Die Schüler ___ nach dem Unterricht für eine Besprechung ___.",
+      "answer": "sind geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Учні залишилися після уроків для обговорення.",
+      "level": "B1",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Die Investoren ___ trotz der Marktschwankungen ruhig ___.",
+      "answer": "sind geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Інвестори залишилися спокійними, незважаючи на коливання ринку.",
+      "level": "B2",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Ich bin nach dem Abendessen noch ein bisschen sitzen ___.",
+      "answer": "geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Я залишився ще трохи посидіти після вечері.",
+      "level": "A1",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Max ___ während des ganzen Spiels auf seiner Position ___.",
+      "answer": "ist geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Макс залишався на своїй позиції протягом усього матчу.",
+      "level": "A2",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ trotz der schwierigen Lage im Unternehmen ___.",
+      "answer": "sind geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Працівники залишилися в компанії, незважаючи на складне становище.",
+      "level": "B1",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ bei ihrer ursprünglichen Hypothese ___.",
+      "answer": "sind geblieben",
+      "ua_infinitiv": "залишатися",
+      "ua_sentence": "Вчені залишилися при своїй початковій гіпотезі.",
+      "level": "B2",
+      "infinitive": "bleiben"
+    },
+    {
+      "sentence": "Ich habe ein Schnitzel in der Pfanne ___.",
+      "answer": "gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Я підсмажив шніцель на пательні.",
+      "level": "A1",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Tom ___ Fisch mit Gemüse ___.",
+      "answer": "hat gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Том підсмажив рибу з овочами.",
+      "level": "A2",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Die Köche ___ ein Steak auf dem Grill ___.",
+      "answer": "haben gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Кухарі підсмажили стейк на грилі.",
+      "level": "B1",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Der Sternekoch ___ eine exklusive Fleischspezialität ___.",
+      "answer": "hat gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Шеф-кухар підсмажив ексклюзивну м'ясну страву.",
+      "level": "B2",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Ich habe Bratkartoffeln mit Zwiebeln ___.",
+      "answer": "gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Я підсмажив картоплю з цибулею.",
+      "level": "A1",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Lisa ___ Hähnchen für das Mittagessen ___.",
+      "answer": "hat gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Ліза підсмажила курку на обід.",
+      "level": "A2",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Die Köche ___ eine große Portion Würstchen für das Fest ___.",
+      "answer": "haben gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Кухарі підсмажили велику порцію ковбасок для свята.",
+      "level": "B1",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Das Restaurant ___ eine spezielle Lammkeule für die Gäste ___.",
+      "answer": "hat gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Ресторан підсмажив спеціальну баранячу ногу для гостей.",
+      "level": "B2",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Ich habe Gemüse in der Pfanne ___.",
+      "answer": "gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Я підсмажив овочі на пательні.",
+      "level": "A1",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Max ___ eine Ente mit Orangen ___.",
+      "answer": "hat gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Макс підсмажив качку з апельсинами.",
+      "level": "A2",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Die Grillmeister ___ saftige Burger für das Event ___.",
+      "answer": "haben gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Гриль-майстри підсмажили соковиті бургери для заходу.",
+      "level": "B1",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Die Profiköche ___ ein zartes Filet in der Gourmet-Küche ___.",
+      "answer": "haben gebraten",
+      "ua_infinitiv": "смажити",
+      "ua_sentence": "Професійні кухарі підсмажили ніжне філе на кухні для гурманів.",
+      "level": "B2",
+      "infinitive": "braten"
+    },
+    {
+      "sentence": "Ich habe meiner Mutter Blumen ___.",
+      "answer": "gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Я приніс мамі квіти.",
+      "level": "A1",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Tom ___ seinem Freund ein Geschenk ___.",
+      "answer": "hat gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Том приніс своєму другові подарунок.",
+      "level": "A2",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Die Kellner ___ den Gästen das Essen schnell ___.",
+      "answer": "haben gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Офіціанти швидко принесли їжу гостям.",
+      "level": "B1",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Die Journalisten ___ neue Informationen in die Nachrichten ___.",
+      "answer": "haben gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Журналісти принесли нову інформацію в новини.",
+      "level": "B2",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Ich habe meinem Bruder eine Zeitung ___.",
+      "answer": "gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Я приніс своєму братові газету.",
+      "level": "A1",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Lisa ___ ihrem Lehrer ein Buch zurück ___.",
+      "answer": "hat gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Ліза повернула вчителю книгу.",
+      "level": "A2",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Die Assistenten ___ dem Chef wichtige Unterlagen ___.",
+      "answer": "haben gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Асистенти принесли керівнику важливі документи.",
+      "level": "B1",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Die Forscher ___ neue Erkenntnisse in die Wissenschaft ___.",
+      "answer": "haben gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Дослідники принесли нові відкриття в науку.",
+      "level": "B2",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Ich habe meiner Großmutter eine Tasse Tee ___.",
+      "answer": "gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Я приніс своїй бабусі чашку чаю.",
+      "level": "A1",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Max ___ seiner Schwester einen Schal aus dem Urlaub ___.",
+      "answer": "hat gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Макс привіз своїй сестрі шарф з відпустки.",
+      "level": "A2",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Die Schüler ___ dem Direktor ein Dankeschreiben ___.",
+      "answer": "haben gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Учні принесли директору подячний лист.",
+      "level": "B1",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Die Innovationen ___ der Industrie bedeutende Fortschritte ___.",
+      "answer": "haben gebracht",
+      "ua_infinitiv": "приносити",
+      "ua_sentence": "Інновації принесли промисловості значний прогрес.",
+      "level": "B2",
+      "infinitive": "bringen"
+    },
+    {
+      "sentence": "Ich habe den ganzen Tag an meine Familie ___.",
+      "answer": "gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Я весь день думав про свою сім'ю.",
+      "level": "A1",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Tom ___ intensiv über die Lösung des Problems ___.",
+      "answer": "hat gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Том інтенсивно думав про вирішення проблеми.",
+      "level": "A2",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Die Studenten ___ über das Konzept der Relativität ___.",
+      "answer": "haben gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Студенти розмірковували про концепцію відносності.",
+      "level": "B1",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Die Philosophen ___ über die Bedeutung des Lebens ___.",
+      "answer": "haben gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Філософи роздумували над сенсом життя.",
+      "level": "B2",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Ich habe an meinen besten Freund ___.",
+      "answer": "gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Я думав про свого найкращого друга.",
+      "level": "A1",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Lisa ___ über ihre Zukunftspläne ___.",
+      "answer": "hat gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Ліза думала про свої плани на майбутнє.",
+      "level": "A2",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Die Forscher ___ intensiv über neue Technologien ___.",
+      "answer": "haben gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Дослідники інтенсивно думали про нові технології.",
+      "level": "B1",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Die Manager ___ über innovative Geschäftsstrategien ___.",
+      "answer": "haben gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Менеджери думали про інноваційні бізнес-стратегії.",
+      "level": "B2",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Ich habe über meine Kindheit ___.",
+      "answer": "gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Я думав про своє дитинство.",
+      "level": "A1",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Max ___ über seine berufliche Karriere ___.",
+      "answer": "hat gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Макс думав про свою професійну кар'єру.",
+      "level": "A2",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Die Politiker ___ über die wirtschaftlichen Herausforderungen ___.",
+      "answer": "haben gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Політики думали про економічні виклики.",
+      "level": "B1",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ über die Auswirkungen des Klimawandels ___.",
+      "answer": "haben gedacht",
+      "ua_infinitiv": "думати",
+      "ua_sentence": "Вчені думали про наслідки змін клімату.",
+      "level": "B2",
+      "infinitive": "denken"
+    },
+    {
+      "sentence": "Ich habe das falsche Wort in meinem Heft ___.",
+      "answer": "durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Я закреслив неправильне слово у своєму зошиті.",
+      "level": "A1",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Tom ___ einen Fehler auf seinem Test ___.",
+      "answer": "hat durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Том закреслив помилку у своєму тесті.",
+      "level": "A2",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Die Schüler ___ die falschen Antworten im Arbeitsblatt ___.",
+      "answer": "haben durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Учні закреслили неправильні відповіді у робочому листі.",
+      "level": "B1",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Die Redakteure ___ die überflüssigen Sätze im Manuskript ___.",
+      "answer": "haben durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Редактори закреслили зайві речення в рукописі.",
+      "level": "B2",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Ich habe die alte Adresse im Formular ___.",
+      "answer": "durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Я закреслив стару адресу у формулярі.",
+      "level": "A1",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Lisa ___ das falsche Datum auf ihrem Kalender ___.",
+      "answer": "hat durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Ліза закреслила неправильну дату у своєму календарі.",
+      "level": "A2",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Die Lehrer ___ die falschen Antworten in den Tests der Schüler ___.",
+      "answer": "haben durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Вчителі закреслили неправильні відповіді в тестах учнів.",
+      "level": "B1",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Die Beamten ___ die ungültigen Dokumente ___.",
+      "answer": "haben durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Чиновники закреслили недійсні документи.",
+      "level": "B2",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Ich habe die falsche Telefonnummer auf dem Zettel ___.",
+      "answer": "durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Я закреслив неправильний номер телефону на записці.",
+      "level": "A1",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Max ___ ein falsches Wort in seiner Notiz ___.",
+      "answer": "hat durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Макс закреслив неправильне слово у своєму записі.",
+      "level": "A2",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ die veralteten Informationen im Bericht ___.",
+      "answer": "haben durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Співробітники закреслили застарілу інформацію в звіті.",
+      "level": "B1",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die fehlerhaften Formeln in der Studie ___.",
+      "answer": "haben durchgestrichen",
+      "ua_infinitiv": "закреслювати",
+      "ua_sentence": "Вчені закреслили помилкові формули в дослідженні.",
+      "level": "B2",
+      "infinitive": "durchstreichen"
+    },
+    {
+      "sentence": "Ich habe meine Freunde zur Party ___.",
+      "answer": "eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Я запросив своїх друзів на вечірку.",
+      "level": "A1",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Tom ___ seine Familie zum Abendessen ___.",
+      "answer": "hat eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Том запросив свою родину на вечерю.",
+      "level": "A2",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Die Kollegen ___ ihre Chefin zu einem gemeinsamen Essen ___.",
+      "answer": "haben eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Колеги запросили свою начальницю на спільний обід.",
+      "level": "B1",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Die Organisatoren ___ Experten zur Konferenz ___.",
+      "answer": "haben eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Організатори запросили експертів на конференцію.",
+      "level": "B2",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Ich habe meine Nachbarn zu einer Grillparty ___.",
+      "answer": "eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Я запросив своїх сусідів на барбекю.",
+      "level": "A1",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Lisa ___ ihre Freundin ins Kino ___.",
+      "answer": "hat eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Ліза запросила свою подругу в кіно.",
+      "level": "A2",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Die Eltern ___ die Lehrer zum Abschlussfest der Kinder ___.",
+      "answer": "haben eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Батьки запросили вчителів на випускне свято дітей.",
+      "level": "B1",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Das Unternehmen ___ führende Wissenschaftler zu einem Workshop ___.",
+      "answer": "hat eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Компанія запросила провідних науковців на воркшоп.",
+      "level": "B2",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Ich habe meine Großeltern zum Kaffee ___.",
+      "answer": "eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Я запросив своїх дідусів і бабусь на каву.",
+      "level": "A1",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Max ___ seine Arbeitskollegen zum Grillabend ___.",
+      "answer": "hat eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Макс запросив своїх колег на гриль-вечір.",
+      "level": "A2",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Die Universität ___ internationale Studierende zu einer Informationsveranstaltung ___.",
+      "answer": "hat eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Університет запросив міжнародних студентів на інформаційну зустріч.",
+      "level": "B1",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Die Stadtverwaltung ___ Vertreter verschiedener Organisationen zu einem Runden Tisch ___.",
+      "answer": "hat eingeladen",
+      "ua_infinitiv": "запрошувати",
+      "ua_sentence": "Міська адміністрація запросила представників різних організацій на круглий стіл.",
+      "level": "B2",
+      "infinitive": "einladen"
+    },
+    {
+      "sentence": "Ich bin in den Bus ___.",
+      "answer": "eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Я сів у автобус.",
+      "level": "A1",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Tom ___ in den Zug nach Berlin ___.",
+      "answer": "ist eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Том сів у поїзд до Берліна.",
+      "level": "A2",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Die Fahrgäste ___ schnell in die Straßenbahn ___.",
+      "answer": "sind eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Пасажири швидко сіли в трамвай.",
+      "level": "B1",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Die Geschäftsleute ___ in das Taxi vor dem Hotel ___.",
+      "answer": "sind eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Бізнесмени сіли в таксі перед готелем.",
+      "level": "B2",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Ich bin in die U-Bahn ___.",
+      "answer": "eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Я сів у метро.",
+      "level": "A1",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Lisa ___ in das Auto ihrer Freundin ___.",
+      "answer": "ist eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Ліза сіла в машину своєї подруги.",
+      "level": "A2",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Die Schüler ___ in den Schulbus vor der Schule ___.",
+      "answer": "sind eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Учні сіли в шкільний автобус перед школою.",
+      "level": "B1",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Die Diplomaten ___ in den bereitgestellten Dienstwagen ___.",
+      "answer": "sind eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Дипломати сіли в підготовлений службовий автомобіль.",
+      "level": "B2",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Ich bin ins Flugzeug nach Spanien ___.",
+      "answer": "eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Я сів у літак до Іспанії.",
+      "level": "A1",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Max ___ in die Fähre nach Schweden ___.",
+      "answer": "ist eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Макс сів на пором до Швеції.",
+      "level": "A2",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Die Passagiere ___ in das neue Hochgeschwindigkeitszug ___.",
+      "answer": "sind eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Пасажири сіли в новий швидкісний поїзд.",
+      "level": "B1",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Die Touristen ___ in die bereitgestellten Reisebusse ___.",
+      "answer": "sind eingestiegen",
+      "ua_infinitiv": "сідати (в транспорт)",
+      "ua_sentence": "Туристи сіли в підготовлені туристичні автобуси.",
+      "level": "B2",
+      "infinitive": "einsteigen"
+    },
+    {
+      "sentence": "Ich bin in eine neue Wohnung ___.",
+      "answer": "eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Я в'їхав у нову квартиру.",
+      "level": "A1",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Tom ___ in ein anderes Stadtviertel ___.",
+      "answer": "ist eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Том в'їхав у інший район міста.",
+      "level": "A2",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Die Familie ___ in ihr neues Haus am Stadtrand ___.",
+      "answer": "ist eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Сім'я в'їхала у свій новий будинок на околиці міста.",
+      "level": "B1",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Die Diplomaten ___ in ihre offizielle Residenz ___.",
+      "answer": "sind eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Дипломати в'їхали у свою офіційну резиденцію.",
+      "level": "B2",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Ich bin gestern in mein Studentenwohnheim ___.",
+      "answer": "eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Я вчора в'їхав у гуртожиток.",
+      "level": "A1",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Lisa ___ in eine moderne Wohnung in der Innenstadt ___.",
+      "answer": "ist eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Ліза в'їхала у сучасну квартиру в центрі міста.",
+      "level": "A2",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Die neuen Nachbarn ___ vor einer Woche in das Haus nebenan ___.",
+      "answer": "sind eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Нові сусіди в'їхали у будинок поруч тиждень тому.",
+      "level": "B1",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Die Forscher ___ in das neu gebaute Labor ___.",
+      "answer": "sind eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Дослідники в'їхали у новозбудовану лабораторію.",
+      "level": "B2",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Ich bin glücklich in mein erstes eigenes Apartment ___.",
+      "answer": "eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Я щасливо в'їхав у свою першу власну квартиру.",
+      "level": "A1",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Max ___ mit seiner Freundin in eine größere Wohnung ___.",
+      "answer": "ist eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Макс в'їхав у більшу квартиру зі своєю дівчиною.",
+      "level": "A2",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Die Universität ___ in ein neues modernes Gebäude ___.",
+      "answer": "ist eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Університет переїхав у нову сучасну будівлю.",
+      "level": "B1",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Die Regierung ___ in das frisch renovierte Kanzleramt ___.",
+      "answer": "ist eingezogen",
+      "ua_infinitiv": "в'їжджати",
+      "ua_sentence": "Уряд в'їхав у нещодавно відремонтовану канцелярію.",
+      "level": "B2",
+      "infinitive": "einziehen"
+    },
+    {
+      "sentence": "Ich habe eine neue Geschichte ___.",
+      "answer": "erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Я вигадав нову історію.",
+      "level": "A1",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Tom ___ eine interessante Lösung für das Problem ___.",
+      "answer": "hat erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Том винайшов цікаве рішення для проблеми.",
+      "level": "A2",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ eine neue Technologie ___.",
+      "answer": "haben erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Вчені винайшли нову технологію.",
+      "level": "B1",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Die Ingenieure ___ ein innovatives Produkt für den Markt ___.",
+      "answer": "haben erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Інженери винайшли інноваційний продукт для ринку.",
+      "level": "B2",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Ich habe eine lustige Geschichte für meine Kinder ___.",
+      "answer": "erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Я вигадав веселу історію для своїх дітей.",
+      "level": "A1",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Lisa ___ eine Methode zur Verbesserung der Arbeit ___.",
+      "answer": "hat erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Ліза винайшла метод для покращення роботи.",
+      "level": "A2",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Die Forscher ___ eine neue Art von Medikamenten ___.",
+      "answer": "haben erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Дослідники винайшли новий вид ліків.",
+      "level": "B1",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Die Experten ___ ein einzigartiges Verfahren zur Energiegewinnung ___.",
+      "answer": "haben erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Експерти винайшли унікальний метод отримання енергії.",
+      "level": "B2",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Ich habe eine Geschichte über einen Drachen ___.",
+      "answer": "erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Я вигадав історію про дракона.",
+      "level": "A1",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Max ___ ein neues Spiel für sein Handy ___.",
+      "answer": "hat erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Макс винайшов нову гру для свого телефону.",
+      "level": "A2",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ eine bahnbrechende Technik zur Datenanalyse ___.",
+      "answer": "haben erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Вчені винайшли проривну техніку для аналізу даних.",
+      "level": "B1",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Die Firma ___ eine revolutionäre Lösung für die Automobilbranche ___.",
+      "answer": "hat erfunden",
+      "ua_infinitiv": "винаходити",
+      "ua_sentence": "Компанія винайшла революційне рішення для автомобільної галузі.",
+      "level": "B2",
+      "infinitive": "erfinden"
+    },
+    {
+      "sentence": "Ich habe eine leckere Pizza ___.",
+      "answer": "gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Я з'їв смачну піцу.",
+      "level": "A1",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Tom ___ eine Suppe zum Mittagessen ___.",
+      "answer": "hat gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Том з'їв суп на обід.",
+      "level": "A2",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Die Gäste ___ verschiedene Spezialitäten im Restaurant ___.",
+      "answer": "haben gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Гості з'їли різні страви у ресторані.",
+      "level": "B1",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Die Sportler ___ eine gesunde Mahlzeit nach dem Training ___.",
+      "answer": "haben gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Спортсмени з'їли здоровий обід після тренування.",
+      "level": "B2",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Ich habe ein frisches Brötchen zum Frühstück ___.",
+      "answer": "gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Я з'їв свіжу булочку на сніданок.",
+      "level": "A1",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Lisa ___ einen Salat als Vorspeise ___.",
+      "answer": "hat gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Ліза з'їла салат як закуску.",
+      "level": "A2",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Die Kinder ___ eine große Portion Eis ___.",
+      "answer": "haben gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Діти з'їли велику порцію морозива.",
+      "level": "B1",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ während der Konferenz ein leichtes Mittagessen ___.",
+      "answer": "haben gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Вчені з'їли легкий обід під час конференції.",
+      "level": "B2",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Ich habe eine Banane als Snack ___.",
+      "answer": "gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Я з'їв банан як перекус.",
+      "level": "A1",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Max ___ ein Steak mit Kartoffeln ___.",
+      "answer": "hat gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Макс з'їв стейк з картоплею.",
+      "level": "A2",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Die Kollegen ___ gemeinsam in der Kantine ___.",
+      "answer": "haben gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Колеги разом поїли в їдальні.",
+      "level": "B1",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Die Familie ___ an einem festlich gedeckten Tisch ___.",
+      "answer": "hat gegessen",
+      "ua_infinitiv": "їсти",
+      "ua_sentence": "Сім'я поїла за святково сервірованим столом.",
+      "level": "B2",
+      "infinitive": "essen"
+    },
+    {
+      "sentence": "Ich bin mit dem Fahrrad zur Schule ___.",
+      "answer": "gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Я поїхав до школи на велосипеді.",
+      "level": "A1",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Tom ___ mit dem Auto nach München ___.",
+      "answer": "ist gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Том поїхав до Мюнхена на машині.",
+      "level": "A2",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Die Touristen ___ mit dem Bus zum Schloss Neuschwanstein ___.",
+      "answer": "sind gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Туристи поїхали автобусом до замку Нойшванштайн.",
+      "level": "B1",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Die Geschäftsleute ___ mit dem Schnellzug zur Konferenz ___.",
+      "answer": "sind gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Бізнесмени поїхали швидкісним поїздом на конференцію.",
+      "level": "B2",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Ich bin mit der Straßenbahn in die Stadt ___.",
+      "answer": "gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Я поїхав трамваєм у місто.",
+      "level": "A1",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Lisa ___ mit dem Boot über den See ___.",
+      "answer": "ist gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Ліза поїхала на човні через озеро.",
+      "level": "A2",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Die Familie ___ mit dem Wohnmobil durch Europa ___.",
+      "answer": "ist gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Сім'я поїхала на кемпері через Європу.",
+      "level": "B1",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ mit einem Forschungsschiff in die Antarktis ___.",
+      "answer": "sind gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Вчені поїхали на дослідницькому кораблі в Антарктиду.",
+      "level": "B2",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Ich bin mit dem Zug nach Hamburg ___.",
+      "answer": "gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Я поїхав до Гамбурга на поїзді.",
+      "level": "A1",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Max ___ mit seinem Motorrad durch die Berge ___.",
+      "answer": "ist gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Макс поїхав на своєму мотоциклі через гори.",
+      "level": "A2",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Die Schüler ___ mit dem Reisebus nach Italien ___.",
+      "answer": "sind gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Учні поїхали до Італії туристичним автобусом.",
+      "level": "B1",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Die Delegation ___ mit einem Sonderflug nach New York ___.",
+      "answer": "ist gefahren",
+      "ua_infinitiv": "їхати",
+      "ua_sentence": "Делегація полетіла спеціальним рейсом до Нью-Йорка.",
+      "level": "B2",
+      "infinitive": "fahren"
+    },
+    {
+      "sentence": "Ich habe gestern einen spannenden Film im Fernsehen ___.",
+      "answer": "ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Я вчора подивився захопливий фільм по телевізору.",
+      "level": "A1",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Tom ___ am Abend eine Nachrichtensendung ___.",
+      "answer": "hat ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Том увечері подивився випуск новин.",
+      "level": "A2",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Die Kinder ___ am Wochenende ihre Lieblingsserie ___.",
+      "answer": "haben ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Діти у вихідні подивилися свій улюблений серіал.",
+      "level": "B1",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ eine Dokumentation über den Klimawandel ___.",
+      "answer": "haben ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Вчені подивилися документальний фільм про зміну клімату.",
+      "level": "B2",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Ich habe nach der Schule eine Kindersendung ___.",
+      "answer": "ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Я після школи подивився дитячу передачу.",
+      "level": "A1",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Lisa ___ gestern Abend eine spannende Serie ___.",
+      "answer": "hat ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Ліза вчора ввечері подивилася захопливий серіал.",
+      "level": "A2",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Die Familie ___ gemeinsam eine Live-Sportübertragung ___.",
+      "answer": "hat ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Сім'я разом подивилася пряму трансляцію спортивного матчу.",
+      "level": "B1",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Die Politiker ___ eine Debatte über wirtschaftliche Themen ___.",
+      "answer": "haben ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Політики подивилися дебати на економічні теми.",
+      "level": "B2",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Ich habe mit meinen Freunden eine Comedy-Show ___.",
+      "answer": "ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Я подивився комедійне шоу з друзями.",
+      "level": "A1",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Max ___ eine Reportage über neue Technologien ___.",
+      "answer": "hat ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Макс подивився репортаж про нові технології.",
+      "level": "A2",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Die Studenten ___ eine wissenschaftliche Dokumentation ___.",
+      "answer": "haben ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Студенти подивилися науково-популярний фільм.",
+      "level": "B1",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Die Journalisten ___ eine investigative Sendung über Korruption ___.",
+      "answer": "haben ferngesehen",
+      "ua_infinitiv": "дивитися телевізор",
+      "ua_sentence": "Журналісти подивилися розслідувальну програму про корупцію.",
+      "level": "B2",
+      "infinitive": "fernsehen"
+    },
+    {
+      "sentence": "Ich habe einen schönen Stein am Strand ___.",
+      "answer": "gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Я знайшов гарний камінь на пляжі.",
+      "level": "A1",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Tom ___ eine alte Münze im Garten ___.",
+      "answer": "hat gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Том знайшов стару монету в саду.",
+      "level": "A2",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Die Kinder ___ einen verlorenen Hund im Park ___.",
+      "answer": "haben gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Діти знайшли загубленого собаку в парку.",
+      "level": "B1",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Die Forscher ___ eine neue Art von Insekten im Regenwald ___.",
+      "answer": "haben gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Дослідники знайшли новий вид комах у тропічному лісі.",
+      "level": "B2",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Ich habe endlich meine Brille ___.",
+      "answer": "gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Я нарешті знайшов свої окуляри.",
+      "level": "A1",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Lisa ___ ihre verlorenen Schlüssel in der Tasche ___.",
+      "answer": "hat gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Ліза знайшла свої загублені ключі в кишені.",
+      "level": "A2",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Die Archäologen ___ eine alte Ruine in der Wüste ___.",
+      "answer": "haben gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Археологи знайшли стародавню руїну в пустелі.",
+      "level": "B1",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ eine neue Lösung für das Problem ___.",
+      "answer": "haben gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Вчені знайшли нове рішення проблеми.",
+      "level": "B2",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Ich habe ein interessantes Buch in der Bibliothek ___.",
+      "answer": "gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Я знайшов цікаву книгу в бібліотеці.",
+      "level": "A1",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Max ___ einen freien Parkplatz in der Stadt ___.",
+      "answer": "hat gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Макс знайшов вільне місце для паркування в місті.",
+      "level": "A2",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Die Schüler ___ eine kreative Idee für ihr Schulprojekt ___.",
+      "answer": "haben gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Учні знайшли креативну ідею для свого шкільного проєкту.",
+      "level": "B1",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Die Ingenieure ___ eine innovative Lösung für die Energiegewinnung ___.",
+      "answer": "haben gefunden",
+      "ua_infinitiv": "знаходити",
+      "ua_sentence": "Інженери знайшли інноваційне рішення для отримання енергії.",
+      "level": "B2",
+      "infinitive": "finden"
+    },
+    {
+      "sentence": "Ich habe meinem Freund ein Geschenk ___.",
+      "answer": "gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Я дав своєму другу подарунок.",
+      "level": "A1",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Tom ___ seiner Schwester einen Rat ___.",
+      "answer": "hat gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Том дав своїй сестрі пораду.",
+      "level": "A2",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Die Lehrer ___ den Schülern zusätzliche Übungen ___.",
+      "answer": "haben gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Вчителі дали учням додаткові вправи.",
+      "level": "B1",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Die Regierung ___ finanzielle Unterstützung für Unternehmen ___.",
+      "answer": "hat gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Уряд надав фінансову підтримку підприємствам.",
+      "level": "B2",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Ich habe meiner Mutter eine Blume ___.",
+      "answer": "gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Я подарував мамі квітку.",
+      "level": "A1",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Lisa ___ ihrem Kollegen hilfreiche Tipps ___.",
+      "answer": "hat gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Ліза дала своєму колезі корисні поради.",
+      "level": "A2",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Die Ärzte ___ den Patienten neue Medikamente ___.",
+      "answer": "haben gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Лікарі дали пацієнтам нові ліки.",
+      "level": "B1",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Die Universität ___ Stipendien für herausragende Studierende ___.",
+      "answer": "hat gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Університет надав стипендії для видатних студентів.",
+      "level": "B2",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Ich habe meinem Bruder ein Buch ___.",
+      "answer": "gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Я подарував своєму братові книгу.",
+      "level": "A1",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Max ___ seinen Eltern eine Überraschung ___.",
+      "answer": "hat gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Макс зробив своїм батькам сюрприз.",
+      "level": "A2",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Die Firma ___ den Mitarbeitern einen Bonus ___.",
+      "answer": "hat gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Компанія надала працівникам бонус.",
+      "level": "B1",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Der Präsident ___ eine wichtige Rede über die Zukunft des Landes ___.",
+      "answer": "hat gegeben",
+      "ua_infinitiv": "давати",
+      "ua_sentence": "Президент виголосив важливу промову про майбутнє країни.",
+      "level": "B2",
+      "infinitive": "geben"
+    },
+    {
+      "sentence": "Ich habe ein schönes Geschenk bekommen und es hat mir sehr ___.",
+      "answer": "gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Я отримав гарний подарунок, і він мені дуже сподобався.",
+      "level": "A1",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Tom ___ die neue Wohnung sofort ___.",
+      "answer": "hat gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Тому одразу сподобалася нова квартира.",
+      "level": "A2",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Die Musik beim Konzert ___ allen Zuhörern sehr ___.",
+      "answer": "hat gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Музика на концерті дуже сподобалася всім слухачам.",
+      "level": "B1",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Die neue Strategie des Unternehmens ___ den Investoren ___.",
+      "answer": "hat gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Нова стратегія компанії сподобалася інвесторам.",
+      "level": "B2",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Ich habe den Film im Kino sehr ___.",
+      "answer": "gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Мені дуже сподобався фільм у кінотеатрі.",
+      "level": "A1",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Lisa ___ das neue Kleid aus dem Laden ___.",
+      "answer": "hat gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Лізі сподобалася нова сукня з магазину.",
+      "level": "A2",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Das Buch ___ mir von Anfang an ___.",
+      "answer": "hat gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Книга мені сподобалася з самого початку.",
+      "level": "B1",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Die Architektur des Gebäudes ___ den Touristen besonders ___.",
+      "answer": "hat gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Архітектура будівлі особливо сподобалася туристам.",
+      "level": "B2",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Ich habe die Stadt sofort ___.",
+      "answer": "gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Мені одразу сподобалося місто.",
+      "level": "A1",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Max ___ das Essen im neuen Restaurant ___.",
+      "answer": "hat gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Максу сподобалася їжа в новому ресторані.",
+      "level": "A2",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Die Vorlesung des Professors ___ den Studierenden ___.",
+      "answer": "hat gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Лекція професора сподобалася студентам.",
+      "level": "B1",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Das neue Konzept des Projekts ___ den Fachleuten ___.",
+      "answer": "hat gefallen",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Нова концепція проєкту сподобалася експертам.",
+      "level": "B2",
+      "infinitive": "gefallen"
+    },
+    {
+      "sentence": "Ich bin heute früh zur Arbeit ___.",
+      "answer": "gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Я сьогодні вранці пішов на роботу.",
+      "level": "A1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Tom ___ gestern Abend spät nach Hause ___.",
+      "answer": "ist gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Том учора ввечері пізно пішов додому.",
+      "level": "A2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Studenten ___ gemeinsam zur Bibliothek ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Студенти разом пішли до бібліотеки.",
+      "level": "B1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Demonstranten ___ für ihre Rechte auf die Straße ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Демонстранти вийшли на вулицю за свої права.",
+      "level": "B2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Ich bin mit meinem Hund im Park spazieren ___.",
+      "answer": "gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Я пішов гуляти зі своїм собакою в парку.",
+      "level": "A1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Lisa ___ am Wochenende ins Kino ___.",
+      "answer": "ist gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Ліза у вихідні пішла в кіно.",
+      "level": "A2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Kinder ___ nach der Schule zum Spielplatz ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Діти після школи пішли на дитячий майданчик.",
+      "level": "B1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Investoren ___ große Risiken mit ihrem neuen Projekt ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Інвестори пішли на великі ризики зі своїм новим проєктом.",
+      "level": "B2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Ich bin gestern früh ins Bett ___.",
+      "answer": "gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Я вчора рано пішов спати.",
+      "level": "A1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Max ___ nach dem Abendessen spazieren ___.",
+      "answer": "ist gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Макс пішов на прогулянку після вечері.",
+      "level": "A2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Kollegen ___ nach der Besprechung in ein Café ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Колеги після наради пішли в кафе.",
+      "level": "B1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Experten ___ auf eine detaillierte Analyse der Daten ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Експерти звернулися до детального аналізу даних.",
+      "level": "B2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Ich habe im Wettbewerb den ersten Platz ___.",
+      "answer": "gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Я виграв перше місце в конкурсі.",
+      "level": "A1",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Tom ___ eine Medaille im Sportturnier ___.",
+      "answer": "hat gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Том виграв медаль у спортивному турнірі.",
+      "level": "A2",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Die Mannschaft ___ das Finale der Meisterschaft ___.",
+      "answer": "hat gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Команда виграла фінал чемпіонату.",
+      "level": "B1",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Das Unternehmen ___ den Vertrag mit einem wichtigen Kunden ___.",
+      "answer": "hat gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Компанія виграла контракт із важливим клієнтом.",
+      "level": "B2",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Ich habe beim Lotto einen kleinen Preis ___.",
+      "answer": "gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Я виграв невеликий приз у лотереї.",
+      "level": "A1",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Lisa ___ eine Reise nach Italien ___.",
+      "answer": "hat gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Ліза виграла подорож до Італії.",
+      "level": "A2",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Die Firma ___ den Innovationspreis für ihre neue Technologie ___.",
+      "answer": "hat gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Компанія виграла премію за інновації для своєї нової технології.",
+      "level": "B1",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Die Forscher ___ neue Erkenntnisse durch ihre Studien ___.",
+      "answer": "haben gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Дослідники здобули нові знання завдяки своїм дослідженням.",
+      "level": "B2",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Ich habe im Quizspiel eine Trophäe ___.",
+      "answer": "gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Я виграв трофей у вікторині.",
+      "level": "A1",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Max ___ einen Wettbewerb im Schach ___.",
+      "answer": "hat gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Макс виграв турнір із шахів.",
+      "level": "A2",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Das Team ___ die Meisterschaft mit großem Abstand ___.",
+      "answer": "hat gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Команда виграла чемпіонат із великим відривом.",
+      "level": "B1",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ wichtige Erkenntnisse für die Medizin ___.",
+      "answer": "haben gewonnen",
+      "ua_infinitiv": "вигравати",
+      "ua_sentence": "Вчені здобули важливі знання для медицини.",
+      "level": "B2",
+      "infinitive": "gewinnen"
+    },
+    {
+      "sentence": "Ich habe ein neues Auto ___.",
+      "answer": "gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Я мав нову машину.",
+      "level": "A1",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Tom ___ viel Zeit für sein Hobby ___.",
+      "answer": "hat gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Том мав багато часу для свого хобі.",
+      "level": "A2",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Die Schüler ___ heute keinen Unterricht ___.",
+      "answer": "haben gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Учні сьогодні не мали уроків.",
+      "level": "B1",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Die Firma ___ in diesem Jahr große Erfolge ___.",
+      "answer": "hat gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Компанія мала великі успіхи цього року.",
+      "level": "B2",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Ich habe einen tollen Tag ___.",
+      "answer": "gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Я мав чудовий день.",
+      "level": "A1",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Lisa ___ gestern eine wichtige Besprechung ___.",
+      "answer": "hat gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Ліза вчора мала важливу зустріч.",
+      "level": "A2",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Die Forscher ___ neue Erkenntnisse durch ihre Arbeit ___.",
+      "answer": "haben gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Дослідники отримали нові знання завдяки своїй роботі.",
+      "level": "B1",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Die Stadt ___ viele Touristen in der Hochsaison ___.",
+      "answer": "hat gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Місто мало багато туристів у високий сезон.",
+      "level": "B2",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Ich habe gestern viel Spaß ___.",
+      "answer": "gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Я вчора мав багато задоволення.",
+      "level": "A1",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Max ___ in der Schule eine Prüfung ___.",
+      "answer": "hat gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Макс мав іспит у школі.",
+      "level": "A2",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ viele Fragen zur Präsentation ___.",
+      "answer": "haben gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Учасники мали багато питань до презентації.",
+      "level": "B1",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Das Unternehmen ___ große Herausforderungen im letzten Jahr ___.",
+      "answer": "hat gehabt",
+      "ua_infinitiv": "мати",
+      "ua_sentence": "Компанія мала великі виклики минулого року.",
+      "level": "B2",
+      "infinitive": "haben"
+    },
+    {
+      "sentence": "Ich habe das Glas mit beiden Händen ___.",
+      "answer": "gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Я тримав склянку двома руками.",
+      "level": "A1",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Tom ___ die Tür für seine Kollegin ___.",
+      "answer": "hat gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Том тримав двері для своєї колеги.",
+      "level": "A2",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Die Schüler ___ während der Rede absolute Stille ___.",
+      "answer": "haben gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Учні зберігали абсолютну тишу під час промови.",
+      "level": "B1",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Die Regierung ___ an ihrer ursprünglichen Strategie ___.",
+      "answer": "hat gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Уряд дотримувався своєї початкової стратегії.",
+      "level": "B2",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Ich habe meinen kleinen Bruder an der Hand ___.",
+      "answer": "gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Я тримав свого молодшого брата за руку.",
+      "level": "A1",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Lisa ___ ihren Hund an der Leine ___.",
+      "answer": "hat gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Ліза тримала свого собаку на повідку.",
+      "level": "A2",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Die Demonstranten ___ ihre Plakate hoch ___.",
+      "answer": "haben gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Демонстранти тримали свої плакати високо.",
+      "level": "B1",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ ihre Hypothese trotz neuer Daten ___.",
+      "answer": "haben gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Вчені дотримувалися своєї гіпотези, незважаючи на нові дані.",
+      "level": "B2",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Ich habe den Ball während des Spiels fest ___.",
+      "answer": "gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Я міцно тримав м'яч під час гри.",
+      "level": "A1",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Max ___ sein Fahrrad während des starken Windes ___.",
+      "answer": "hat gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Макс тримав свій велосипед під час сильного вітру.",
+      "level": "A2",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ ihre Positionen im Unternehmen trotz Veränderungen ___.",
+      "answer": "haben gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Співробітники зберегли свої позиції в компанії, незважаючи на зміни.",
+      "level": "B1",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Der Präsident ___ eine eindrucksvolle Rede vor der Nation ___.",
+      "answer": "hat gehalten",
+      "ua_infinitiv": "тримати",
+      "ua_sentence": "Президент виголосив вражаючу промову перед нацією.",
+      "level": "B2",
+      "infinitive": "halten"
+    },
+    {
+      "sentence": "Ich habe meinem neuen Freund meinen Namen ___.",
+      "answer": "gesagt",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Я сказав своє ім'я своєму новому другові.",
+      "level": "A1",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Tom ___ sich auf der Party mit seinem Namen ___.",
+      "answer": "hat geheißen",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Том представився своїм ім'ям на вечірці.",
+      "level": "A2",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Die Stadt ___ früher anders ___.",
+      "answer": "hat geheißen",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Місто раніше називалося по-іншому.",
+      "level": "B1",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Das neue Projekt ___ 'Green Future' ___.",
+      "answer": "hat geheißen",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Новий проєкт називався 'Green Future'.",
+      "level": "B2",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Ich habe den Namen des Lehrers ___.",
+      "answer": "gesagt",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Я сказав ім'я вчителя.",
+      "level": "A1",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Lisa ___ ihre Katze Mimi ___.",
+      "answer": "hat geheißen",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Ліза назвала свою кішку Мімі.",
+      "level": "A2",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Der alte Film ___ ursprünglich anders ___.",
+      "answer": "hat geheißen",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Старий фільм спочатку називався по-іншому.",
+      "level": "B1",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Die frühere Version der Software ___ 'Beta 1.0' ___.",
+      "answer": "hat geheißen",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Попередня версія програми називалася 'Beta 1.0'.",
+      "level": "B2",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Ich habe den Namen meines neuen Nachbarn ___.",
+      "answer": "gesagt",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Я сказав ім'я свого нового сусіда.",
+      "level": "A1",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Max ___ seinen Hund Rex ___.",
+      "answer": "hat geheißen",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Макс назвав свого собаку Рексом.",
+      "level": "A2",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Die Konferenz ___ früher 'Innovation Day' ___.",
+      "answer": "hat geheißen",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Конференція раніше називалася 'Innovation Day'.",
+      "level": "B1",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Die wissenschaftliche Studie ___ 'Climate Change Impact' ___.",
+      "answer": "hat geheißen",
+      "ua_infinitiv": "називатися",
+      "ua_sentence": "Наукове дослідження називалося 'Climate Change Impact'.",
+      "level": "B2",
+      "infinitive": "heißen"
+    },
+    {
+      "sentence": "Ich habe meiner Mutter in der Küche ___.",
+      "answer": "geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Я допоміг мамі на кухні.",
+      "level": "A1",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Tom ___ seinem Freund bei den Hausaufgaben ___.",
+      "answer": "hat geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Том допоміг своєму другу з домашнім завданням.",
+      "level": "A2",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Die Kollegen ___ dem neuen Mitarbeiter bei der Einarbeitung ___.",
+      "answer": "haben geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Колеги допомогли новому співробітнику з адаптацією.",
+      "level": "B1",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Die Ärzte ___ den Patienten mit einer neuen Therapie ___.",
+      "answer": "haben geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Лікарі допомогли пацієнтам за допомогою нової терапії.",
+      "level": "B2",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Ich habe meiner Schwester bei den Matheaufgaben ___.",
+      "answer": "geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Я допоміг своїй сестрі з математичними завданнями.",
+      "level": "A1",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Lisa ___ ihrer Oma beim Einkaufen ___.",
+      "answer": "hat geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Ліза допомогла своїй бабусі з покупками.",
+      "level": "A2",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Die Feuerwehr ___ den Bewohnern während des Hochwassers ___.",
+      "answer": "hat geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Пожежники допомогли жителям під час повені.",
+      "level": "B1",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Die Organisationen ___ Flüchtlingen mit humanitärer Hilfe ___.",
+      "answer": "haben geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Організації допомогли біженцям гуманітарною допомогою.",
+      "level": "B2",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Ich habe meinem Freund beim Umzug ___.",
+      "answer": "geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Я допоміг своєму другові з переїздом.",
+      "level": "A1",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Max ___ seinem Bruder beim Fahrradreparieren ___.",
+      "answer": "hat geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Макс допоміг своєму братові з ремонтом велосипеда.",
+      "level": "A2",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Die Studenten ___ ihren Kommilitonen bei der Prüfungsvorbereitung ___.",
+      "answer": "haben geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Студенти допомогли своїм однокурсникам у підготовці до іспиту.",
+      "level": "B1",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Die Experten ___ der Regierung bei der Entwicklung neuer Maßnahmen ___.",
+      "answer": "haben geholfen",
+      "ua_infinitiv": "допомагати",
+      "ua_sentence": "Експерти допомогли уряду у розробці нових заходів.",
+      "level": "B2",
+      "infinitive": "helfen"
+    },
+    {
+      "sentence": "Ich habe meinen besten Freund seit der Kindheit ___.",
+      "answer": "gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Я знав свого найкращого друга з дитинства.",
+      "level": "A1",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Tom ___ seine Nachbarn seit vielen Jahren ___.",
+      "answer": "hat gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Том знав своїх сусідів багато років.",
+      "level": "A2",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Die Lehrer ___ die Stärken und Schwächen ihrer Schüler gut ___.",
+      "answer": "haben gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Вчителі добре знали сильні та слабкі сторони своїх учнів.",
+      "level": "B1",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die Risiken dieser Methode bereits lange ___.",
+      "answer": "haben gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Вчені вже давно знали про ризики цього методу.",
+      "level": "B2",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Ich habe diesen Ort aus meiner Kindheit ___.",
+      "answer": "gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Я знав це місце з дитинства.",
+      "level": "A1",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Lisa ___ die besten Restaurants in ihrer Stadt ___.",
+      "answer": "hat gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Ліза знала найкращі ресторани у своєму місті.",
+      "level": "A2",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Die Touristen ___ die Geschichte der alten Burgruinen ___.",
+      "answer": "haben gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Туристи знали історію старих руїн замку.",
+      "level": "B1",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Die Experten ___ die wirtschaftlichen Herausforderungen des Landes genau ___.",
+      "answer": "haben gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Експерти добре знали економічні виклики країни.",
+      "level": "B2",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Ich habe die Hauptstadt von Deutschland immer ___.",
+      "answer": "gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Я завжди знав столицю Німеччини.",
+      "level": "A1",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Max ___ die richtige Antwort in der Prüfung ___.",
+      "answer": "hat gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Макс знав правильну відповідь на іспиті.",
+      "level": "A2",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die Eigenschaften dieser Substanz sehr gut ___.",
+      "answer": "haben gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Вчені дуже добре знали властивості цієї речовини.",
+      "level": "B1",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Die Forscher ___ die biologischen Auswirkungen des Medikaments seit Jahren ___.",
+      "answer": "haben gekannt",
+      "ua_infinitiv": "знати",
+      "ua_sentence": "Дослідники знали про біологічні наслідки цього препарату вже багато років.",
+      "level": "B2",
+      "infinitive": "kennen"
+    },
+    {
+      "sentence": "Ich habe meine neue Kollegin gestern ___.",
+      "answer": "kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Я вчора познайомився зі своєю новою колегою.",
+      "level": "A1",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Tom ___ einen berühmten Musiker bei der Veranstaltung ___.",
+      "answer": "hat kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Том познайомився з відомим музикантом на заході.",
+      "level": "A2",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Die Studenten ___ neue Freunde in der Universität ___.",
+      "answer": "haben kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Студенти познайомилися з новими друзями в університеті.",
+      "level": "B1",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ innovative Forschungsansätze während der Konferenz ___.",
+      "answer": "haben kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Вчені познайомилися з інноваційними методами досліджень під час конференції.",
+      "level": "B2",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Ich habe viele nette Leute auf der Party ___.",
+      "answer": "kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Я познайомився з багатьма приємними людьми на вечірці.",
+      "level": "A1",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Lisa ___ eine neue Kultur auf ihrer Reise ___.",
+      "answer": "hat kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Ліза познайомилася з новою культурою під час своєї подорожі.",
+      "level": "A2",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Die neuen Kollegen ___ sich am ersten Arbeitstag ___.",
+      "answer": "haben kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Нові колеги познайомилися у свій перший робочий день.",
+      "level": "B1",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Die Delegation ___ internationale Partner bei der Messe ___.",
+      "answer": "hat kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Делегація познайомилася з міжнародними партнерами на виставці.",
+      "level": "B2",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Ich habe ein neues Hobby in meiner Freizeit ___.",
+      "answer": "kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Я познайомився з новим хобі у свій вільний час.",
+      "level": "A1",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Max ___ interessante Leute auf dem Seminar ___.",
+      "answer": "hat kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Макс познайомився з цікавими людьми на семінарі.",
+      "level": "A2",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Die Manager ___ innovative Geschäftsmodelle bei der Tagung ___.",
+      "answer": "haben kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Менеджери познайомилися з інноваційними бізнес-моделями на конференції.",
+      "level": "B1",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Die Studienteilnehmer ___ neue Forschungsmethoden während des Workshops ___.",
+      "answer": "haben kennengelernt",
+      "ua_infinitiv": "знайомитися",
+      "ua_sentence": "Учасники дослідження познайомилися з новими методами досліджень під час семінару.",
+      "level": "B2",
+      "infinitive": "kennenlernen"
+    },
+    {
+      "sentence": "Ich bin gestern spät nach Hause ___.",
+      "answer": "gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Я вчора пізно прийшов додому.",
+      "level": "A1",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Tom ___ pünktlich zur Besprechung ___.",
+      "answer": "ist gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Том прийшов вчасно на нараду.",
+      "level": "A2",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Die Gäste ___ rechtzeitig zur Hochzeit ___.",
+      "answer": "sind gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Гості прибули вчасно на весілля.",
+      "level": "B1",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Die Experten ___ zu einer wichtigen Konferenz in Berlin ___.",
+      "answer": "sind gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Експерти прибули на важливу конференцію в Берлін.",
+      "level": "B2",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Ich bin heute früh in die Schule ___.",
+      "answer": "gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Я сьогодні рано прийшов до школи.",
+      "level": "A1",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Lisa ___ gut vorbereitet zum Vorstellungsgespräch ___.",
+      "answer": "ist gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Ліза добре підготувалася та прийшла на співбесіду.",
+      "level": "A2",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Die Zuschauer ___ in großer Zahl ins Theater ___.",
+      "answer": "sind gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Глядачі прийшли у великій кількості до театру.",
+      "level": "B1",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ zu neuen Erkenntnissen durch ihre Forschung ___.",
+      "answer": "sind gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Вчені дійшли до нових висновків завдяки своїм дослідженням.",
+      "level": "B2",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Ich bin mit meinen Freunden ins Kino ___.",
+      "answer": "gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Я прийшов у кінотеатр з друзями.",
+      "level": "A1",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Max ___ mit dem Zug aus Hamburg ___.",
+      "answer": "ist gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Макс приїхав на поїзді з Гамбурга.",
+      "level": "A2",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ aus verschiedenen Ländern zur Messe ___.",
+      "answer": "sind gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Учасники приїхали з різних країн на виставку.",
+      "level": "B1",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Die Politiker ___ zu einer wichtigen Verhandlung nach Brüssel ___.",
+      "answer": "sind gekommen",
+      "ua_infinitiv": "приходити",
+      "ua_sentence": "Політики прибули на важливі переговори до Брюсселя.",
+      "level": "B2",
+      "infinitive": "kommen"
+    },
+    {
+      "sentence": "Ich bin gestern schnell nach Hause ___.",
+      "answer": "gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Я вчора швидко прибіг додому.",
+      "level": "A1",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Tom ___ durch den Park ___.",
+      "answer": "ist gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Том пробіг через парк.",
+      "level": "A2",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Die Kinder ___ um die Wette ___.",
+      "answer": "sind gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Діти бігали наввипередки.",
+      "level": "B1",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Die Sportler ___ einen Marathon ___.",
+      "answer": "sind gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Спортсмени пробігли марафон.",
+      "level": "B2",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Ich bin heute Morgen zur Schule ___.",
+      "answer": "gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Я сьогодні вранці прибіг до школи.",
+      "level": "A1",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Lisa ___ zum Bus, weil sie spät dran war ___.",
+      "answer": "ist gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Ліза побігла до автобуса, бо запізнювалася.",
+      "level": "A2",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Die Zuschauer ___ nach dem Konzert schnell zur U-Bahn ___.",
+      "answer": "sind gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Глядачі після концерту швидко побігли до метро.",
+      "level": "B1",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Die Teilnehmer des Rennens ___ eine Strecke von zehn Kilometern ___.",
+      "answer": "sind gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Учасники забігу пробігли дистанцію у десять кілометрів.",
+      "level": "B2",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Ich bin mit meinem Hund im Park ___.",
+      "answer": "gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Я бігав у парку зі своїм собакою.",
+      "level": "A1",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Max ___ schnell nach Hause, weil es angefangen hat zu regnen ___.",
+      "answer": "ist gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Макс швидко побіг додому, бо почався дощ.",
+      "level": "A2",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Die Athleten ___ auf einer professionellen Laufbahn ___.",
+      "answer": "sind gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Атлети бігли по професійній доріжці.",
+      "level": "B1",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Die Forscher ___ durch den dichten Dschungel auf ihrer Expedition ___.",
+      "answer": "sind gelaufen",
+      "ua_infinitiv": "бігти",
+      "ua_sentence": "Дослідники бігли через густі джунглі під час своєї експедиції.",
+      "level": "B2",
+      "infinitive": "laufen"
+    },
+    {
+      "sentence": "Es hat mir wirklich ___.",
+      "answer": "leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Мені було справді шкода.",
+      "level": "A1",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Tom ___ seine verspätete Ankunft sehr ___.",
+      "answer": "hat leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Том дуже шкодував через своє запізнення.",
+      "level": "A2",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Die Lehrerin ___ den Schülern wegen der schwierigen Prüfung ___.",
+      "answer": "hat leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Учительці було шкода учнів через складний іспит.",
+      "level": "B1",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Der Manager ___ seinem Team nach der stressigen Woche ___.",
+      "answer": "hat leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Менеджеру було шкода своєї команди після напруженого тижня.",
+      "level": "B2",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Es hat uns sehr ___.",
+      "answer": "leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Нам було дуже шкода.",
+      "level": "A1",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Lisa ___ es leid, dass sie den Geburtstag ihrer Freundin verpasst hat ___.",
+      "answer": "hat leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Ліза шкодувала, що пропустила день народження своєї подруги.",
+      "level": "A2",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Die Eltern ___ es leid, dass sie nicht genug Zeit mit ihren Kindern verbringen konnten ___.",
+      "answer": "hat leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Батькам було шкода, що вони не змогли провести достатньо часу зі своїми дітьми.",
+      "level": "B1",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Die Regierung ___ den Bürgern wegen der steigenden Preise ___.",
+      "answer": "hat leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Уряд шкодував перед громадянами через зростання цін.",
+      "level": "B2",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Es hat dir sicher sehr ___.",
+      "answer": "leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Тобі, мабуть, було дуже шкода.",
+      "level": "A1",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Max ___ es, dass er sich gestritten hat ___.",
+      "answer": "hat leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Максу було шкода, що він посварився.",
+      "level": "A2",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Die Kollegen ___ es, dass sie den Chef kritisiert haben ___.",
+      "answer": "hat leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Колегам було шкода, що вони розкритикували начальника.",
+      "level": "B1",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ es, dass ihre Theorie nicht anerkannt wurde ___.",
+      "answer": "hat leidgetan",
+      "ua_infinitiv": "шкодувати",
+      "ua_sentence": "Вченим було шкода, що їхню теорію не визнали.",
+      "level": "B2",
+      "infinitive": "leidtun"
+    },
+    {
+      "sentence": "Ich habe meinem Freund mein Buch ___.",
+      "answer": "geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Я позичив свою книгу другу.",
+      "level": "A1",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Tom ___ seiner Schwester sein Fahrrad ___.",
+      "answer": "hat geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Том позичив своїй сестрі свій велосипед.",
+      "level": "A2",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Die Bibliothek ___ den Schülern viele interessante Bücher ___.",
+      "answer": "hat geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Бібліотека позичила учням багато цікавих книг.",
+      "level": "B1",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Das Unternehmen ___ seinen Partnern wichtige Dokumente zur Einsicht ___.",
+      "answer": "hat geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Компанія позичила своїм партнерам важливі документи для ознайомлення.",
+      "level": "B2",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Ich habe meinem Nachbarn meine Leiter ___.",
+      "answer": "geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Я позичив свою драбину сусідові.",
+      "level": "A1",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Lisa ___ ihrer Freundin ein Kleid für die Party ___.",
+      "answer": "hat geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Ліза позичила подрузі сукню на вечірку.",
+      "level": "A2",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Die Schule ___ den Schülern Tablets für den Unterricht ___.",
+      "answer": "hat geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Школа позичила учням планшети для навчання.",
+      "level": "B1",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Die Bank ___ dem Unternehmen eine große Summe Geld ___.",
+      "answer": "hat geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Банк позичив компанії велику суму грошей.",
+      "level": "B2",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Ich habe meinem Bruder mein Auto für das Wochenende ___.",
+      "answer": "geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Я позичив своєму братові машину на вихідні.",
+      "level": "A1",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Max ___ seinem Kollegen einen Kugelschreiber im Meeting ___.",
+      "answer": "hat geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Макс позичив своєму колезі ручку на зустрічі.",
+      "level": "A2",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Die Universität ___ den Forschern spezielle Geräte für das Experiment ___.",
+      "answer": "hat geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Університет позичив дослідникам спеціальні пристрої для експерименту.",
+      "level": "B1",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Die Galerie ___ dem Museum wertvolle Kunstwerke für die Ausstellung ___.",
+      "answer": "hat geliehen",
+      "ua_infinitiv": "позичати",
+      "ua_sentence": "Галерея позичила музею цінні твори мистецтва для виставки.",
+      "level": "B2",
+      "infinitive": "leihen"
+    },
+    {
+      "sentence": "Ich habe ein spannendes Buch ___.",
+      "answer": "gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Я прочитав захопливу книгу.",
+      "level": "A1",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Tom ___ einen Artikel über Wissenschaft ___.",
+      "answer": "hat gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Том прочитав статтю про науку.",
+      "level": "A2",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Die Schüler ___ einen Roman für den Deutschunterricht ___.",
+      "answer": "haben gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Учні прочитали роман для уроку німецької мови.",
+      "level": "B1",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ eine neue Studie über Klimawandel ___.",
+      "answer": "haben gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Вчені прочитали нове дослідження про зміну клімату.",
+      "level": "B2",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Ich habe eine Zeitung beim Frühstück ___.",
+      "answer": "gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Я прочитав газету за сніданком.",
+      "level": "A1",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Lisa ___ eine Nachricht auf ihrem Handy ___.",
+      "answer": "hat gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Ліза прочитала повідомлення на своєму телефоні.",
+      "level": "A2",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Die Studenten ___ ein wichtiges Dokument für ihr Studium ___.",
+      "answer": "haben gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Студенти прочитали важливий документ для свого навчання.",
+      "level": "B1",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Die Experten ___ den Bericht der Regierung ___.",
+      "answer": "haben gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Експерти прочитали звіт уряду.",
+      "level": "B2",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Ich habe meinem kleinen Bruder eine Geschichte ___.",
+      "answer": "gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Я прочитав своєму молодшому братові казку.",
+      "level": "A1",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Max ___ die E-Mail von seinem Chef ___.",
+      "answer": "hat gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Макс прочитав електронного листа від свого начальника.",
+      "level": "A2",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ die Konferenzmaterialien vor der Veranstaltung ___.",
+      "answer": "haben gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Учасники прочитали матеріали конференції перед заходом.",
+      "level": "B1",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Die Journalisten ___ die neuesten Informationen über die Krise ___.",
+      "answer": "haben gelesen",
+      "ua_infinitiv": "читати",
+      "ua_sentence": "Журналісти прочитали найновішу інформацію про кризу.",
+      "level": "B2",
+      "infinitive": "lesen"
+    },
+    {
+      "sentence": "Ich habe gestern lange auf dem Sofa ___.",
+      "answer": "gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Я вчора довго лежав на дивані.",
+      "level": "A1",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Tom ___ den ganzen Tag krank im Bett ___.",
+      "answer": "hat gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Том весь день хворий лежав у ліжку.",
+      "level": "A2",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Die Bücher ___ auf dem Tisch ___.",
+      "answer": "haben gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Книги лежали на столі.",
+      "level": "B1",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Die Stadt ___ in einem wunderschönen Tal ___.",
+      "answer": "hat gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Місто розташоване у прекрасній долині.",
+      "level": "B2",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Ich habe meine Schlüssel auf dem Schreibtisch ___.",
+      "answer": "gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Мої ключі лежали на письмовому столі.",
+      "level": "A1",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Lisa ___ stundenlang am Strand in der Sonne ___.",
+      "answer": "hat gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Ліза годинами лежала на пляжі на сонці.",
+      "level": "A2",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Die Dokumente ___ auf dem Schreibtisch des Chefs ___.",
+      "answer": "haben gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Документи лежали на столі начальника.",
+      "level": "B1",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Das Land ___ zwischen zwei großen Gebirgen ___.",
+      "answer": "hat gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Країна розташована між двома великими гірськими хребтами.",
+      "level": "B2",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Ich habe mein Handy neben dem Laptop ___.",
+      "answer": "gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Мій телефон лежав біля ноутбука.",
+      "level": "A1",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Max ___ lange auf der Wiese und hat die Wolken beobachtet ___.",
+      "answer": "hat gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Макс довго лежав на лузі і спостерігав за хмарами.",
+      "level": "A2",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Die Akten ___ wochenlang unbearbeitet auf dem Tisch ___.",
+      "answer": "haben gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Папери тижнями лежали непереглянутими на столі.",
+      "level": "B1",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Die Verantwortung für das Projekt ___ bei der Geschäftsleitung ___.",
+      "answer": "hat gelegen",
+      "ua_infinitiv": "лежати",
+      "ua_sentence": "Відповідальність за проєкт лежала на керівництві компанії.",
+      "level": "B2",
+      "infinitive": "liegen"
+    },
+    {
+      "sentence": "Ich bin früh am Morgen zur Arbeit ___.",
+      "answer": "losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Я рано вранці вирушив на роботу.",
+      "level": "A1",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Tom ___ mit seinen Freunden ins Kino ___.",
+      "answer": "ist losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Том вирушив зі своїми друзями в кіно.",
+      "level": "A2",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Die Touristen ___ früh am Morgen zur Bergwanderung ___.",
+      "answer": "sind losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Туристи рано вранці вирушили в похід у гори.",
+      "level": "B1",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Die Expedition ___ unter schwierigen Bedingungen in die Arktis ___.",
+      "answer": "ist losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Експедиція вирушила в Арктику в складних умовах.",
+      "level": "B2",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Ich bin nach dem Frühstück zur Schule ___.",
+      "answer": "losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Я після сніданку вирушив до школи.",
+      "level": "A1",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Lisa ___ mit ihrem Hund zum Park ___.",
+      "answer": "ist losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Ліза вирушила зі своїм собакою в парк.",
+      "level": "A2",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Die Demonstranten ___ zur Protestaktion im Stadtzentrum ___.",
+      "answer": "sind losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Демонстранти вирушили на акцію протесту в центр міста.",
+      "level": "B1",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Die Forscher ___ zu einer neuen Mission in den Regenwald ___.",
+      "answer": "sind losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Дослідники вирушили на нову місію в тропічний ліс.",
+      "level": "B2",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Ich bin mit meinen Freunden zur Party ___.",
+      "answer": "losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Я вирушив з друзями на вечірку.",
+      "level": "A1",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Max ___ nach der Schule direkt nach Hause ___.",
+      "answer": "ist losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Макс після школи відразу вирушив додому.",
+      "level": "A2",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ gemeinsam zu einem Teamevent ___.",
+      "answer": "sind losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Співробітники разом вирушили на командний захід.",
+      "level": "B1",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Die Rettungskräfte ___ sofort nach dem Notruf zum Unfallort ___.",
+      "answer": "sind losgegangen",
+      "ua_infinitiv": "вирушати",
+      "ua_sentence": "Рятувальники негайно вирушили на місце аварії після екстреного виклику.",
+      "level": "B2",
+      "infinitive": "losgehen"
+    },
+    {
+      "sentence": "Ich habe einen Kuchen zur Party ___.",
+      "answer": "mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Я приніс торт на вечірку.",
+      "level": "A1",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Tom ___ eine Flasche Wein zum Abendessen ___.",
+      "answer": "hat mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Том приніс пляшку вина на вечерю.",
+      "level": "A2",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Die Gäste ___ viele Geschenke zur Hochzeit ___.",
+      "answer": "haben mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Гості принесли багато подарунків на весілля.",
+      "level": "B1",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ wichtige Unterlagen zur Besprechung ___.",
+      "answer": "haben mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Учасники принесли важливі документи на нараду.",
+      "level": "B2",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Ich habe meiner Schwester Schokolade aus dem Urlaub ___.",
+      "answer": "mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Я привіз сестрі шоколад із відпустки.",
+      "level": "A1",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Lisa ___ ein Souvenir aus Frankreich ___.",
+      "answer": "hat mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Ліза привезла сувенір із Франції.",
+      "level": "A2",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Die Kollegen ___ Kaffee für das Meeting ___.",
+      "answer": "haben mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Колеги принесли каву на зустріч.",
+      "level": "B1",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ neue Proben aus dem Labor ___.",
+      "answer": "haben mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Вчені принесли нові зразки з лабораторії.",
+      "level": "B2",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Ich habe einen Ball zum Spielen ___.",
+      "answer": "mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Я приніс м'яч для гри.",
+      "level": "A1",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Max ___ seiner Mutter Blumen ___.",
+      "answer": "hat mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Макс приніс мамі квіти.",
+      "level": "A2",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Die Schüler ___ Material für das Projekt ___.",
+      "answer": "haben mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Учні принесли матеріали для проєкту.",
+      "level": "B1",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Die Firma ___ neue Produkte zur Messe ___.",
+      "answer": "hat mitgebracht",
+      "ua_infinitiv": "приносити з собою",
+      "ua_sentence": "Компанія привезла нові продукти на виставку.",
+      "level": "B2",
+      "infinitive": "mitbringen"
+    },
+    {
+      "sentence": "Ich bin mit meinen Freunden ins Kino ___.",
+      "answer": "mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Я пішов разом із друзями в кіно.",
+      "level": "A1",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Tom ___ mit seiner Schwester zum Einkaufen ___.",
+      "answer": "ist mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Том пішов разом із сестрою на покупки.",
+      "level": "A2",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Die Schüler ___ mit ihrem Lehrer ins Museum ___.",
+      "answer": "sind mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Учні пішли разом із учителем у музей.",
+      "level": "B1",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Die Journalisten ___ mit der Delegation zur Pressekonferenz ___.",
+      "answer": "sind mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Журналісти пішли разом із делегацією на пресконференцію.",
+      "level": "B2",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Ich bin mit meiner Familie in den Freizeitpark ___.",
+      "answer": "mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Я пішов разом із родиною в парк розваг.",
+      "level": "A1",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Lisa ___ mit ihrem Freund zur Party ___.",
+      "answer": "ist mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Ліза пішла разом зі своїм хлопцем на вечірку.",
+      "level": "A2",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Die Kollegen ___ nach der Arbeit in ein Café ___.",
+      "answer": "sind mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Колеги пішли разом після роботи в кафе.",
+      "level": "B1",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Die Politiker ___ mit den Diplomaten zu den Verhandlungen ___.",
+      "answer": "sind mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Політики пішли разом із дипломатами на переговори.",
+      "level": "B2",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Ich bin mit meiner Schwester zum Schwimmbad ___.",
+      "answer": "mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Я пішов разом із сестрою в басейн.",
+      "level": "A1",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Max ___ mit seinen Freunden ins Stadion ___.",
+      "answer": "ist mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Макс пішов разом із друзями на стадіон.",
+      "level": "A2",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ mit dem Veranstalter zur Exkursion ___.",
+      "answer": "sind mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Учасники пішли разом із організатором на екскурсію.",
+      "level": "B1",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ mit dem Team zur Forschungsstation ___.",
+      "answer": "sind mitgekommen",
+      "ua_infinitiv": "піти разом",
+      "ua_sentence": "Вчені пішли разом із командою на дослідницьку станцію.",
+      "level": "B2",
+      "infinitive": "mitkommen"
+    },
+    {
+      "sentence": "Ich habe den Text gemeinsam mit meiner Klasse ___.",
+      "answer": "mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Я читав текст разом зі своїм класом.",
+      "level": "A1",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Tom ___ das Buch mit seiner Schwester ___.",
+      "answer": "hat mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Том читав книгу разом зі своєю сестрою.",
+      "level": "A2",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Die Schüler ___ den Artikel mit dem Lehrer ___.",
+      "answer": "haben mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Учні читали статтю разом із учителем.",
+      "level": "B1",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ das Protokoll während der Besprechung ___.",
+      "answer": "haben mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Учасники читали протокол під час наради.",
+      "level": "B2",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Ich habe die Geschichte mit meiner kleinen Schwester ___.",
+      "answer": "mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Я читав історію разом зі своєю молодшою сестрою.",
+      "level": "A1",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Lisa ___ den Text mit ihren Freunden ___.",
+      "answer": "hat mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Ліза читала текст разом зі своїми друзями.",
+      "level": "A2",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Die Studenten ___ das Handbuch mit ihrem Professor ___.",
+      "answer": "haben mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Студенти читали підручник разом із професором.",
+      "level": "B1",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die Untersuchungsergebnisse mit ihren Kollegen ___.",
+      "answer": "haben mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Вчені читали результати дослідження разом із колегами.",
+      "level": "B2",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Ich habe das Märchen mit meinem kleinen Bruder ___.",
+      "answer": "mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Я читав казку разом зі своїм молодшим братом.",
+      "level": "A1",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Max ___ die Nachrichten mit seiner Familie ___.",
+      "answer": "hat mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Макс читав новини разом із родиною.",
+      "level": "A2",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Die Lehrer ___ die Schüler beim Lesen des Textes ___.",
+      "answer": "haben mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Учителі читали текст разом із учнями.",
+      "level": "B1",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Die Manager ___ den Bericht über die Finanzlage gemeinsam ___.",
+      "answer": "haben mitgelesen",
+      "ua_infinitiv": "читати разом",
+      "ua_sentence": "Менеджери читали разом звіт про фінансовий стан.",
+      "level": "B2",
+      "infinitive": "mitlesen"
+    },
+    {
+      "sentence": "Ich habe meinen Rucksack in den Bus ___.",
+      "answer": "mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Я взяв свій рюкзак у автобус.",
+      "level": "A1",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Tom ___ seinen Regenschirm zur Arbeit ___.",
+      "answer": "hat mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Том узяв із собою парасольку на роботу.",
+      "level": "A2",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Die Schüler ___ ihre Notizbücher zur Exkursion ___.",
+      "answer": "haben mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Учні взяли свої зошити на екскурсію.",
+      "level": "B1",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Die Forscher ___ spezielle Geräte für die Messungen ___.",
+      "answer": "haben mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Дослідники взяли спеціальні прилади для вимірювань.",
+      "level": "B2",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Ich habe eine Flasche Wasser zum Sport ___.",
+      "answer": "mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Я взяв із собою пляшку води на спорт.",
+      "level": "A1",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Lisa ___ ihre Kamera in den Urlaub ___.",
+      "answer": "hat mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Ліза взяла свою камеру у відпустку.",
+      "level": "A2",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ wichtige Dokumente zur Konferenz ___.",
+      "answer": "haben mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Співробітники взяли важливі документи на конференцію.",
+      "level": "B1",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ Bodenproben aus dem Labor ___.",
+      "answer": "haben mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Вчені взяли зразки ґрунту з лабораторії.",
+      "level": "B2",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Ich habe meine Jacke wegen des kalten Wetters ___.",
+      "answer": "mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Я взяв із собою куртку через холодну погоду.",
+      "level": "A1",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Max ___ seine Kopfhörer für die lange Reise ___.",
+      "answer": "hat mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Макс взяв свої навушники для довгої подорожі.",
+      "level": "A2",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Die Journalisten ___ Aufnahmegeräte für das Interview ___.",
+      "answer": "haben mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Журналісти взяли записуючі пристрої для інтерв'ю.",
+      "level": "B1",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Die Bergsteiger ___ Seile und andere Ausrüstungen für die Expedition ___.",
+      "answer": "haben mitgenommen",
+      "ua_infinitiv": "брати з собою",
+      "ua_sentence": "Альпіністи взяли мотузки та інше спорядження для експедиції.",
+      "level": "B2",
+      "infinitive": "mitnehmen"
+    },
+    {
+      "sentence": "Ich habe Schokolade immer sehr ___.",
+      "answer": "gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Мені завжди дуже подобався шоколад.",
+      "level": "A1",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Tom ___ das neue Restaurant in der Stadt sehr ___.",
+      "answer": "hat gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Тому дуже сподобався новий ресторан у місті.",
+      "level": "A2",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Die Schüler ___ den neuen Lehrer von Anfang an ___.",
+      "answer": "haben gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Учням одразу сподобався новий учитель.",
+      "level": "B1",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Die Gäste ___ das elegante Ambiente des Hotels sehr ___.",
+      "answer": "haben gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Гостям дуже сподобалася елегантна атмосфера готелю.",
+      "level": "B2",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Ich habe diesen Film als Kind immer ___.",
+      "answer": "gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Цей фільм мені завжди подобався в дитинстві.",
+      "level": "A1",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Lisa ___ das Buch, das sie letzte Woche gelesen hat, sehr ___.",
+      "answer": "hat gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Лізі дуже сподобалася книга, яку вона прочитала минулого тижня.",
+      "level": "A2",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ den Vortrag des Professors ___.",
+      "answer": "haben gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Учасникам сподобалася лекція професора.",
+      "level": "B1",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Die Kunden ___ die hohe Qualität der Produkte ___.",
+      "answer": "haben gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Клієнтам сподобалася висока якість продукції.",
+      "level": "B2",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Ich habe das Eis im Sommer immer ___.",
+      "answer": "gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Мені завжди подобалося морозиво влітку.",
+      "level": "A1",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Max ___ die Musik von Beethoven schon immer ___.",
+      "answer": "hat gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Максу завжди подобалася музика Бетховена.",
+      "level": "A2",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Die Zuschauer ___ die Inszenierung im Theater ___.",
+      "answer": "haben gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Глядачам сподобалася постановка в театрі.",
+      "level": "B1",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Die Leser ___ den neuen Roman des Autors ___.",
+      "answer": "haben gemocht",
+      "ua_infinitiv": "подобатися",
+      "ua_sentence": "Читачам сподобався новий роман автора.",
+      "level": "B2",
+      "infinitive": "mögen"
+    },
+    {
+      "sentence": "Ich habe eine neue Tasche im Geschäft ___.",
+      "answer": "genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Я взяв нову сумку в магазині.",
+      "level": "A1",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Tom ___ das letzte Stück Kuchen ___.",
+      "answer": "hat genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Том узяв останній шматок торта.",
+      "level": "A2",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Die Schüler ___ ihre Bücher aus dem Regal ___.",
+      "answer": "haben genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Учні взяли свої книги з полиці.",
+      "level": "B1",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ die Unterlagen für die Besprechung ___.",
+      "answer": "haben genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Учасники взяли документи для наради.",
+      "level": "B2",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Ich habe ein Glas Wasser aus der Küche ___.",
+      "answer": "genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Я взяв склянку води з кухні.",
+      "level": "A1",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Lisa ___ den Bus zur Arbeit ___.",
+      "answer": "hat genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Ліза взяла автобус, щоб дістатися на роботу.",
+      "level": "A2",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Die Kollegen ___ sich eine kurze Pause ___.",
+      "answer": "haben genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Колеги взяли коротку перерву.",
+      "level": "B1",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Die Forscher ___ Proben aus dem Labor für die Analyse ___.",
+      "answer": "haben genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Дослідники взяли зразки з лабораторії для аналізу.",
+      "level": "B2",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Ich habe einen Apfel vom Tisch ___.",
+      "answer": "genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Я взяв яблуко зі столу.",
+      "level": "A1",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Max ___ einen Regenschirm, weil es regnete ___.",
+      "answer": "hat genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Макс узяв парасольку, бо йшов дощ.",
+      "level": "A2",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Die Studenten ___ ihre Prüfungsunterlagen aus dem Sekretariat ___.",
+      "answer": "haben genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Студенти взяли свої екзаменаційні документи в секретаріаті.",
+      "level": "B1",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Die Manager ___ eine neue Strategie für das Unternehmen ___.",
+      "answer": "haben genommen",
+      "ua_infinitiv": "брати",
+      "ua_sentence": "Менеджери взяли нову стратегію для компанії.",
+      "level": "B2",
+      "infinitive": "nehmen"
+    },
+    {
+      "sentence": "Ich habe mein Haustier Max ___.",
+      "answer": "genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Я назвав свого домашнього улюбленця Максом.",
+      "level": "A1",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Tom ___ seinen neuen Hund Rex ___.",
+      "answer": "hat genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Том назвав свого нового собаку Рексом.",
+      "level": "A2",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Die Eltern ___ ihr Kind Anna ___.",
+      "answer": "haben genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Батьки назвали свою дитину Анною.",
+      "level": "B1",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Die Experten ___ drei Hauptgründe für die Krise ___.",
+      "answer": "haben genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Експерти назвали три основні причини кризи.",
+      "level": "B2",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Ich habe meinen Teddybären Balu ___.",
+      "answer": "genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Я назвав свого ведмедика Балу.",
+      "level": "A1",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Lisa ___ ihre Katze Minka ___.",
+      "answer": "hat genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Ліза назвала свою кішку Мінкою.",
+      "level": "A2",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Die Lehrer ___ die besten Schüler des Jahres ___.",
+      "answer": "haben genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Вчителі назвали найкращих учнів року.",
+      "level": "B1",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Die Forscher ___ die neue Entdeckung revolutionär ___.",
+      "answer": "haben genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Дослідники назвали нове відкриття революційним.",
+      "level": "B2",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Ich habe meine neue Puppe Lilli ___.",
+      "answer": "genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Я назвав свою нову ляльку Ліллі.",
+      "level": "A1",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Max ___ sein Fahrrad Blitz ___.",
+      "answer": "hat genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Макс назвав свій велосипед Блискавкою.",
+      "level": "A2",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Die Schüler ___ ihre Projektgruppe 'Zukunft' ___.",
+      "answer": "haben genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Учні назвали свою проєктну групу 'Майбутнє'.",
+      "level": "B1",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Die Politiker ___ den Vorschlag eine bahnbrechende Lösung ___.",
+      "answer": "haben genannt",
+      "ua_infinitiv": "називати",
+      "ua_sentence": "Політики назвали цю пропозицію проривним рішенням.",
+      "level": "B2",
+      "infinitive": "nennen"
+    },
+    {
+      "sentence": "Ich habe die richtige Antwort sofort ___.",
+      "answer": "geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Я одразу відгадав правильну відповідь.",
+      "level": "A1",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Tom ___ das Lösungswort des Rätsels schnell ___.",
+      "answer": "hat geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Том швидко відгадав слово-відповідь у головоломці.",
+      "level": "A2",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Die Schüler ___ die Bedeutung des fremden Wortes ___.",
+      "answer": "haben geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Учні відгадали значення незнайомого слова.",
+      "level": "B1",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Die Experten ___ die möglichen Auswirkungen der neuen Regelung ___.",
+      "answer": "haben geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Експерти припустили можливі наслідки нового регулювання.",
+      "level": "B2",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Ich habe die Zahl in dem Spiel ___.",
+      "answer": "geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Я відгадав число в грі.",
+      "level": "A1",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Lisa ___ das geheime Wort in wenigen Sekunden ___.",
+      "answer": "hat geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Ліза відгадала секретне слово за кілька секунд.",
+      "level": "A2",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ die Lösung des kniffligen Rätsels ___.",
+      "answer": "haben geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Учасники відгадали рішення складної головоломки.",
+      "level": "B1",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Die Analysten ___ die wirtschaftliche Entwicklung für das nächste Jahr ___.",
+      "answer": "haben geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Аналітики спрогнозували економічний розвиток на наступний рік.",
+      "level": "B2",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Ich habe die Antwort auf die Frage richtig ___.",
+      "answer": "geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Я правильно відгадав відповідь на питання.",
+      "level": "A1",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Max ___ das geheime Symbol in der Prüfung ___.",
+      "answer": "hat geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Макс відгадав секретний символ на іспиті.",
+      "level": "A2",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Die Studenten ___ die Ergebnisse der Forschung korrekt ___.",
+      "answer": "haben geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Студенти правильно відгадали результати дослідження.",
+      "level": "B1",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die mögliche Lösung für das Problem ___.",
+      "answer": "haben geraten",
+      "ua_infinitiv": "відгадувати",
+      "ua_sentence": "Вчені запропонували можливе рішення проблеми.",
+      "level": "B2",
+      "infinitive": "raten"
+    },
+    {
+      "sentence": "Ich bin am Wochenende auf einem Pferd ___.",
+      "answer": "geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Я на вихідних катався на коні.",
+      "level": "A1",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Tom ___ durch den Wald ___.",
+      "answer": "ist geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Том проїхав верхи через ліс.",
+      "level": "A2",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Die Kinder ___ den ganzen Tag auf dem Reiterhof ___.",
+      "answer": "sind geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Діти цілий день каталися на конях у кінному клубі.",
+      "level": "B1",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Die Cowboys ___ stundenlang durch die Prärie ___.",
+      "answer": "sind geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Ковбої годинами їхали через прерію верхи.",
+      "level": "B2",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Ich bin mit meiner Schwester am Strand ___.",
+      "answer": "geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Я катався на коні разом із сестрою на пляжі.",
+      "level": "A1",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Lisa ___ in den Bergen auf einem Pony ___.",
+      "answer": "ist geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Ліза каталася верхи на поні в горах.",
+      "level": "A2",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Die Touristen ___ bei der Safari auf Kamelen ___.",
+      "answer": "sind geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Туристи каталися верхи на верблюдах під час сафарі.",
+      "level": "B1",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Die Forscher ___ auf Pferden durch das abgelegene Gebiet ___.",
+      "answer": "sind geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Дослідники проїхали верхи через віддалений район.",
+      "level": "B2",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Ich bin noch nie in meinem Leben auf einem Pferd ___.",
+      "answer": "geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Я ніколи в житті не катався на коні.",
+      "level": "A1",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Max ___ mit seinem Cousin auf Islandpferden ___.",
+      "answer": "ist geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Макс катався верхи на ісландських конях разом із двоюрідним братом.",
+      "level": "A2",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Die Sportler ___ bei einem internationalen Turnier ___.",
+      "answer": "sind geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Спортсмени брали участь у міжнародному турнірі з верхової їзди.",
+      "level": "B1",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Die Einheimischen ___ traditionell auf Pferden in der Wüste ___.",
+      "answer": "sind geritten",
+      "ua_infinitiv": "їздити верхи",
+      "ua_sentence": "Місцеві жителі традиційно їздили верхи по пустелі.",
+      "level": "B2",
+      "infinitive": "reiten"
+    },
+    {
+      "sentence": "Ich habe frische Blumen im Garten ___.",
+      "answer": "gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Я понюхав свіжі квіти в саду.",
+      "level": "A1",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Tom ___ den Duft von frisch gebackenem Brot ___.",
+      "answer": "hat gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Том відчув аромат свіжоспеченого хліба.",
+      "level": "A2",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Die Kinder ___ das Parfüm ihrer Mutter ___.",
+      "answer": "haben gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Діти понюхали парфуми своєї мами.",
+      "level": "B1",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Die Experten ___ die Qualität des Weins ___.",
+      "answer": "haben gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Експерти перевірили аромат вина.",
+      "level": "B2",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Ich habe den Duft von Lavendel auf dem Feld ___.",
+      "answer": "gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Я відчув запах лаванди в полі.",
+      "level": "A1",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Lisa ___ das frisch gemähte Gras ___.",
+      "answer": "hat gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Ліза відчула запах свіжоскошеної трави.",
+      "level": "A2",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Die Gäste ___ den angenehmen Duft des Tees ___.",
+      "answer": "haben gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Гості відчули приємний аромат чаю.",
+      "level": "B1",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ chemische Verbindungen im Labor ___.",
+      "answer": "haben gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Вчені досліджували запахи хімічних сполук у лабораторії.",
+      "level": "B2",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Ich habe den Geruch von Regen auf heißem Asphalt ___.",
+      "answer": "gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Я відчув запах дощу на гарячому асфальті.",
+      "level": "A1",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Max ___ den starken Duft von Kaffee am Morgen ___.",
+      "answer": "hat gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Макс відчув сильний аромат кави вранці.",
+      "level": "A2",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Die Touristen ___ den Duft exotischer Gewürze auf dem Markt ___.",
+      "answer": "haben gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Туристи відчули аромат екзотичних спецій на ринку.",
+      "level": "B1",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Die Biologen ___ den Geruch der seltenen Pflanzen im Regenwald ___.",
+      "answer": "haben gerochen",
+      "ua_infinitiv": "нюхати",
+      "ua_sentence": "Біологи дослідили запах рідкісних рослин у тропічному лісі.",
+      "level": "B2",
+      "infinitive": "riechen"
+    },
+    {
+      "sentence": "Ich habe die ganze Nacht tief ___.",
+      "answer": "geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Я всю ніч міцно спав.",
+      "level": "A1",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Tom ___ gestern sehr lange ___.",
+      "answer": "hat geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Том вчора дуже довго спав.",
+      "level": "A2",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Die Kinder ___ während der langen Autofahrt ___.",
+      "answer": "haben geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Діти спали під час довгої поїздки на машині.",
+      "level": "B1",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Die Gäste ___ in einem luxuriösen Hotelzimmer ___.",
+      "answer": "haben geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Гості спали в розкішному номері готелю.",
+      "level": "B2",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Ich habe am Wochenende bis Mittag ___.",
+      "answer": "geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Я на вихідних спав до полудня.",
+      "level": "A1",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Lisa ___ nach der Prüfung tief und fest ___.",
+      "answer": "hat geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Ліза після іспиту міцно спала.",
+      "level": "A2",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ nach dem anstrengenden Arbeitstag gut ___.",
+      "answer": "haben geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Співробітники добре виспалися після напруженого робочого дня.",
+      "level": "B1",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Die Forscher ___ in Zelten während ihrer Expedition ___.",
+      "answer": "haben geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Дослідники спали в наметах під час своєї експедиції.",
+      "level": "B2",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Ich habe heute besonders gut ___.",
+      "answer": "geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Я сьогодні особливо добре спав.",
+      "level": "A1",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Max ___ die ganze Nacht durch ___.",
+      "answer": "hat geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Макс проспав усю ніч без пробуджень.",
+      "level": "A2",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Die Soldaten ___ trotz des Lärms im Lager ___.",
+      "answer": "haben geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Солдати спали в таборі, незважаючи на шум.",
+      "level": "B1",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Die Patienten ___ nach der Operation ruhig ___.",
+      "answer": "haben geschlafen",
+      "ua_infinitiv": "спати",
+      "ua_sentence": "Пацієнти спокійно спали після операції.",
+      "level": "B2",
+      "infinitive": "schlafen"
+    },
+    {
+      "sentence": "Ich habe das Brot mit einem scharfen Messer ___.",
+      "answer": "geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Я нарізав хліб гострим ножем.",
+      "level": "A1",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Tom ___ das Papier in kleine Stücke ___.",
+      "answer": "hat geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Том порізав папір на маленькі шматочки.",
+      "level": "A2",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Die Friseurin ___ dem Kunden die Haare ___.",
+      "answer": "hat geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Перукар підстриг клієнту волосся.",
+      "level": "B1",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die Proben für die Analyse ___.",
+      "answer": "haben geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Вчені розрізали зразки для аналізу.",
+      "level": "B2",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Ich habe das Obst für den Salat ___.",
+      "answer": "geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Я порізав фрукти для салату.",
+      "level": "A1",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Lisa ___ das Geschenkpapier sorgfältig ___.",
+      "answer": "hat geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Ліза акуратно розрізала обгортковий папір.",
+      "level": "A2",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Die Handwerker ___ das Holz für das neue Regal ___.",
+      "answer": "haben geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Ремісники порізали деревину для нової полиці.",
+      "level": "B1",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Die Ärzte ___ das Gewebe für eine Biopsie ___.",
+      "answer": "haben geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Лікарі вирізали тканину для біопсії.",
+      "level": "B2",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Ich habe den Kuchen in acht Stücke ___.",
+      "answer": "geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Я порізав торт на вісім шматочків.",
+      "level": "A1",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Max ___ das Seil mit einem Messer ___.",
+      "answer": "hat geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Макс розрізав мотузку ножем.",
+      "level": "A2",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Die Techniker ___ die Kabel für die Installation ___.",
+      "answer": "haben geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Техніки розрізали кабелі для установки.",
+      "level": "B1",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Die Archäologen ___ das alte Pergament vorsichtig ___.",
+      "answer": "haben geschnitten",
+      "ua_infinitiv": "різати",
+      "ua_sentence": "Археологи обережно розрізали старовинний пергамент.",
+      "level": "B2",
+      "infinitive": "schneiden"
+    },
+    {
+      "sentence": "Ich habe einen Brief an meinen Freund ___.",
+      "answer": "geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Я написав листа своєму другові.",
+      "level": "A1",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Tom ___ eine E-Mail an seine Kollegin ___.",
+      "answer": "hat geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Том написав електронного листа своїй колезі.",
+      "level": "A2",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Die Schüler ___ einen Aufsatz über ihre Ferien ___.",
+      "answer": "haben geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Учні написали твір про свої канікули.",
+      "level": "B1",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Die Journalisten ___ einen Artikel über die aktuellen Ereignisse ___.",
+      "answer": "haben geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Журналісти написали статтю про актуальні події.",
+      "level": "B2",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Ich habe eine Postkarte aus dem Urlaub ___.",
+      "answer": "geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Я написав листівку з відпустки.",
+      "level": "A1",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Lisa ___ einen Liebesbrief an ihren Freund ___.",
+      "answer": "hat geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Ліза написала любовного листа своєму хлопцеві.",
+      "level": "A2",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Die Studenten ___ eine wissenschaftliche Arbeit über Klimawandel ___.",
+      "answer": "haben geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Студенти написали наукову роботу про зміну клімату.",
+      "level": "B1",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Die Experten ___ einen Bericht über die wirtschaftliche Lage ___.",
+      "answer": "haben geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Експерти написали звіт про економічну ситуацію.",
+      "level": "B2",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Ich habe meine Hausaufgaben in mein Heft ___.",
+      "answer": "geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Я написав домашнє завдання у свій зошит.",
+      "level": "A1",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Max ___ eine Nachricht an seine Eltern ___.",
+      "answer": "hat geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Макс написав повідомлення своїм батькам.",
+      "level": "A2",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ Notizen während des Vortrags ___.",
+      "answer": "haben geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Учасники робили записи під час лекції.",
+      "level": "B1",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Die Autoren ___ ein neues Buch über künstliche Intelligenz ___.",
+      "answer": "haben geschrieben",
+      "ua_infinitiv": "писати",
+      "ua_sentence": "Автори написали нову книгу про штучний інтелект.",
+      "level": "B2",
+      "infinitive": "schreiben"
+    },
+    {
+      "sentence": "Ich habe einen wunderschönen Sonnenuntergang ___.",
+      "answer": "gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Я бачив прекрасний захід сонця.",
+      "level": "A1",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Tom ___ gestern einen spannenden Film im Kino ___.",
+      "answer": "hat gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Том вчора подивився цікавий фільм у кіно.",
+      "level": "A2",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Die Kinder ___ ein seltenes Tier im Zoo ___.",
+      "answer": "haben gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Діти побачили рідкісну тварину в зоопарку.",
+      "level": "B1",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ eine neue Sternenkonstellation ___.",
+      "answer": "haben gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Вчені побачили нове сузір'я.",
+      "level": "B2",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Ich habe meinen alten Freund auf der Straße ___.",
+      "answer": "gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Я побачив свого старого друга на вулиці.",
+      "level": "A1",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Lisa ___ eine interessante Dokumentation über Tiere ___.",
+      "answer": "hat gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Ліза подивилася цікаву документалку про тварин.",
+      "level": "A2",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Die Touristen ___ die berühmte Kathedrale in der Stadt ___.",
+      "answer": "haben gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Туристи побачили знамениту катедру в місті.",
+      "level": "B1",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Die Astronomen ___ ein ungewöhnliches Phänomen im Weltraum ___.",
+      "answer": "haben gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Астрономи побачили незвичайне явище в космосі.",
+      "level": "B2",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Ich habe gestern ein wunderschönes Feuerwerk ___.",
+      "answer": "gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Я вчора побачив чудовий феєрверк.",
+      "level": "A1",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Max ___ seinen Lieblingsschauspieler auf der Bühne ___.",
+      "answer": "hat gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Макс побачив свого улюбленого актора на сцені.",
+      "level": "A2",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Die Reporter ___ den Präsidenten bei der Pressekonferenz ___.",
+      "answer": "haben gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Репортери побачили президента на пресконференції.",
+      "level": "B1",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Die Forscher ___ Beweise für eine neue Theorie ___.",
+      "answer": "haben gesehen",
+      "ua_infinitiv": "бачити",
+      "ua_sentence": "Дослідники побачили докази нової теорії.",
+      "level": "B2",
+      "infinitive": "sehen"
+    },
+    {
+      "sentence": "Ich bin gestern im See ___.",
+      "answer": "geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Я вчора плавав у озері.",
+      "level": "A1",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Tom ___ im Meer mit seinen Freunden ___.",
+      "answer": "ist geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Том плавав у морі зі своїми друзями.",
+      "level": "A2",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Die Kinder ___ eine Stunde im Schwimmbad ___.",
+      "answer": "sind geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Діти плавали годину в басейні.",
+      "level": "B1",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Die Sportler ___ im offenen Wasser für das Turnier ___.",
+      "answer": "sind geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Спортсмени плавали у відкритій воді для змагань.",
+      "level": "B2",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Ich bin im Sommer oft im Fluss ___.",
+      "answer": "geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Я влітку часто плавав у річці.",
+      "level": "A1",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Lisa ___ mit ihrer Schwester im See ___.",
+      "answer": "ist geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Ліза плавала зі своєю сестрою в озері.",
+      "level": "A2",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Die Touristen ___ in einem warmen Thermalbad ___.",
+      "answer": "sind geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Туристи плавали в теплому термальному басейні.",
+      "level": "B1",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ durch die starken Strömungen des Flusses ___.",
+      "answer": "sind geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Вчені пропливли через сильні течії річки.",
+      "level": "B2",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Ich bin in meiner Kindheit oft im Meer ___.",
+      "answer": "geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Я в дитинстві часто плавав у морі.",
+      "level": "A1",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Max ___ jeden Morgen im Schwimmbad ___.",
+      "answer": "ist geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Макс щоранку плавав у басейні.",
+      "level": "A2",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ bei einem Wettkampf fünf Kilometer ___.",
+      "answer": "sind geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Учасники пропливли п’ять кілометрів на змаганнях.",
+      "level": "B1",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Die Forscher ___ in eiskaltem Wasser während ihrer Expedition ___.",
+      "answer": "sind geschwommen",
+      "ua_infinitiv": "плавати",
+      "ua_sentence": "Дослідники плавали в крижаній воді під час експедиції.",
+      "level": "B2",
+      "infinitive": "schwimmen"
+    },
+    {
+      "sentence": "Ich habe gestern ein schönes Lied ___.",
+      "answer": "gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Я вчора заспівав гарну пісню.",
+      "level": "A1",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Tom ___ ein Lied für seine Freundin ___.",
+      "answer": "hat gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Том заспівав пісню для своєї дівчини.",
+      "level": "A2",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Die Kinder ___ ein Lied in der Schule ___.",
+      "answer": "haben gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Діти заспівали пісню у школі.",
+      "level": "B1",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Die Opernsänger ___ eine Arie auf der Bühne ___.",
+      "answer": "haben gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Оперні співаки заспівали арію на сцені.",
+      "level": "B2",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Ich habe mit meinen Freunden Karaoke ___.",
+      "answer": "gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Я співав караоке з друзями.",
+      "level": "A1",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Lisa ___ ein Lied im Chor ___.",
+      "answer": "hat gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Ліза заспівала пісню у хорі.",
+      "level": "A2",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Die Schüler ___ ein Weihnachtslied auf der Feier ___.",
+      "answer": "haben gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Учні заспівали різдвяну пісню на святі.",
+      "level": "B1",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Die Musiker ___ eine neue Komposition beim Konzert ___.",
+      "answer": "haben gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Музиканти виконали нову композицію на концерті.",
+      "level": "B2",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Ich habe mein Lieblingslied im Auto ___.",
+      "answer": "gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Я заспівав свою улюблену пісню в машині.",
+      "level": "A1",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Max ___ bei einer Hochzeit ein romantisches Lied ___.",
+      "answer": "hat gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Макс заспівав романтичну пісню на весіллі.",
+      "level": "A2",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Die Fans ___ die Hymne ihres Vereins im Stadion ___.",
+      "answer": "haben gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Фани заспівали гімн свого клубу на стадіоні.",
+      "level": "B1",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Die Teilnehmer des Wettbewerbs ___ verschiedene Genres von Liedern ___.",
+      "answer": "haben gesungen",
+      "ua_infinitiv": "співати",
+      "ua_sentence": "Учасники конкурсу виконали пісні різних жанрів.",
+      "level": "B2",
+      "infinitive": "singen"
+    },
+    {
+      "sentence": "Ich habe gestern lange auf dem Sofa ___.",
+      "answer": "gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Я вчора довго сидів на дивані.",
+      "level": "A1",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Tom ___ im Café und wartete auf seinen Freund ___.",
+      "answer": "hat gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Том сидів у кафе і чекав на свого друга.",
+      "level": "A2",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Die Kinder ___ den ganzen Tag in der Schule ___.",
+      "answer": "haben gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Діти весь день сиділи в школі.",
+      "level": "B1",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ lange in der Bibliothek und studierten alte Manuskripte ___.",
+      "answer": "haben gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Вчені довго сиділи в бібліотеці і вивчали старі манускрипти.",
+      "level": "B2",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Ich habe mit meinem Hund auf der Parkbank ___.",
+      "answer": "gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Я сидів із собакою на лавці в парку.",
+      "level": "A1",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Lisa ___ am Fenster und las ein Buch ___.",
+      "answer": "hat gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Ліза сиділа біля вікна і читала книгу.",
+      "level": "A2",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Die Touristen ___ im Restaurant und genossen die Aussicht ___.",
+      "answer": "haben gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Туристи сиділи в ресторані і насолоджувалися краєвидом.",
+      "level": "B1",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Die Politiker ___ stundenlang bei den Verhandlungen ___.",
+      "answer": "haben gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Політики годинами сиділи на переговорах.",
+      "level": "B2",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Ich habe auf dem Boden neben meinem Bruder ___.",
+      "answer": "gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Я сидів на підлозі поруч із братом.",
+      "level": "A1",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Max ___ lange im Wartezimmer des Arztes ___.",
+      "answer": "hat gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Макс довго сидів у приймальні лікаря.",
+      "level": "A2",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Die Studenten ___ stundenlang in der Bibliothek und lernten für die Prüfung ___.",
+      "answer": "haben gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Студенти годинами сиділи в бібліотеці і готувалися до іспиту.",
+      "level": "B1",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Die Delegierten ___ den ganzen Tag in der Konferenz ___.",
+      "answer": "haben gesessen",
+      "ua_infinitiv": "сидіти",
+      "ua_sentence": "Делегати сиділи весь день на конференції.",
+      "level": "B2",
+      "infinitive": "sitzen"
+    },
+    {
+      "sentence": "Ich bin gestern eine Stunde im Park ___.",
+      "answer": "spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Я вчора годину гуляв у парку.",
+      "level": "A1",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Tom ___ mit seinem Hund durch die Stadt ___.",
+      "answer": "ist spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Том гуляв зі своїм собакою по місту.",
+      "level": "A2",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Die Kinder ___ am Strand entlang ___.",
+      "answer": "sind spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Діти гуляли вздовж пляжу.",
+      "level": "B1",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Die Touristen ___ durch die historische Altstadt ___.",
+      "answer": "sind spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Туристи гуляли історичним центром міста.",
+      "level": "B2",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Ich bin heute Morgen durch den Wald ___.",
+      "answer": "spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Я сьогодні вранці гуляв по лісі.",
+      "level": "A1",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Lisa ___ mit ihrer Freundin am Flussufer ___.",
+      "answer": "ist spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Ліза гуляла зі своєю подругою вздовж річки.",
+      "level": "A2",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Die Senioren ___ gemütlich durch den Park ___.",
+      "answer": "sind spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Пенсіонери спокійно гуляли парком.",
+      "level": "B1",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ durch das Naturschutzgebiet und beobachteten die Tiere ___.",
+      "answer": "sind spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Вчені прогулювалися заповідником і спостерігали за тваринами.",
+      "level": "B2",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Ich bin mit meiner Schwester an der Küste ___.",
+      "answer": "spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Я гуляв з сестрою вздовж узбережжя.",
+      "level": "A1",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Max ___ durch den botanischen Garten ___.",
+      "answer": "ist spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Макс гуляв ботанічним садом.",
+      "level": "A2",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Die Familien ___ am Wochenende durch das Dorf ___.",
+      "answer": "sind spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Сім'ї гуляли селом у вихідні.",
+      "level": "B1",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Die Diplomaten ___ nach dem Treffen am See entlang ___.",
+      "answer": "sind spaziert",
+      "ua_infinitiv": "гуляти",
+      "ua_sentence": "Дипломати гуляли вздовж озера після зустрічі.",
+      "level": "B2",
+      "infinitive": "spazieren"
+    },
+    {
+      "sentence": "Ich bin gestern den gleichen Weg ___.",
+      "answer": "zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Я вчора повернувся тією ж дорогою.",
+      "level": "A1",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Tom ___ nach der Arbeit nach Hause ___.",
+      "answer": "ist zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Том повернувся додому після роботи.",
+      "level": "A2",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Die Schüler ___ nach der Exkursion zur Schule ___.",
+      "answer": "sind zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Учні повернулися до школи після екскурсії.",
+      "level": "B1",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Die Forscher ___ nach ihrer Expedition ins Basislager ___.",
+      "answer": "sind zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Дослідники повернулися в базовий табір після експедиції.",
+      "level": "B2",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Ich bin nach dem Einkauf sofort nach Hause ___.",
+      "answer": "zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Я одразу повернувся додому після покупок.",
+      "level": "A1",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Lisa ___ nach dem Spaziergang in ihr Hotel ___.",
+      "answer": "ist zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Ліза повернулася в свій готель після прогулянки.",
+      "level": "A2",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Die Gäste ___ nach dem Konzert ins Restaurant ___.",
+      "answer": "sind zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Гості повернулися в ресторан після концерту.",
+      "level": "B1",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ nach der Untersuchung der Höhle zum Forschungslabor ___.",
+      "answer": "sind zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Вчені повернулися в дослідницьку лабораторію після вивчення печери.",
+      "level": "B2",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Ich bin nach dem Regen in mein Haus ___.",
+      "answer": "zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Я повернувся додому після дощу.",
+      "level": "A1",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Max ___ nach dem Training ins Fitnessstudio ___.",
+      "answer": "ist zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Макс повернувся до фітнес-клубу після тренування.",
+      "level": "A2",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Die Touristen ___ nach der Stadtführung zum Treffpunkt ___.",
+      "answer": "sind zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Туристи повернулися на місце зустрічі після екскурсії містом.",
+      "level": "B1",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Die Manager ___ nach der Geschäftsreise ins Büro ___.",
+      "answer": "sind zurückgegangen",
+      "ua_infinitiv": "повертатися",
+      "ua_sentence": "Менеджери повернулися в офіс після відрядження.",
+      "level": "B2",
+      "infinitive": "zurückgehen"
+    },
+    {
+      "sentence": "Ich bin mit dem Zug nach Hause ___.",
+      "answer": "zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Я повернувся додому на поїзді.",
+      "level": "A1",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Tom ___ nach dem Urlaub mit dem Auto ___.",
+      "answer": "ist zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Том повернувся з відпустки на машині.",
+      "level": "A2",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Die Schüler ___ nach der Klassenfahrt mit dem Bus ___.",
+      "answer": "sind zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Учні повернулися з класної поїздки автобусом.",
+      "level": "B1",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Die Geschäftsleute ___ nach der Konferenz mit dem Flugzeug ___.",
+      "answer": "sind zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Бізнесмени повернулися після конференції літаком.",
+      "level": "B2",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Ich bin gestern spät mit dem Taxi ___.",
+      "answer": "zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Я вчора пізно повернувся на таксі.",
+      "level": "A1",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Lisa ___ nach dem Wochenende mit dem Zug ___.",
+      "answer": "ist zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Ліза повернулася після вихідних на поїзді.",
+      "level": "A2",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Die Urlauber ___ nach zwei Wochen aus dem Ausland ___.",
+      "answer": "sind zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Відпочивальники повернулися через два тижні з-за кордону.",
+      "level": "B1",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ nach ihrer Forschungsexpedition mit dem Schiff ___.",
+      "answer": "sind zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Вчені повернулися після наукової експедиції кораблем.",
+      "level": "B2",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Ich bin mit dem Fahrrad vom Park ___.",
+      "answer": "zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Я повернувся з парку на велосипеді.",
+      "level": "A1",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Max ___ nach dem Konzert mit der Straßenbahn ___.",
+      "answer": "ist zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Макс повернувся після концерту на трамваї.",
+      "level": "A2",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Die Touristen ___ nach der Stadtführung mit dem Reisebus ___.",
+      "answer": "sind zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Туристи повернулися після екскурсії містом туристичним автобусом.",
+      "level": "B1",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Die Diplomaten ___ nach den Verhandlungen mit der Limousine ___.",
+      "answer": "sind zurückgefahren",
+      "ua_infinitiv": "повертатися (їхати назад)",
+      "ua_sentence": "Дипломати повернулися після переговорів на лімузині.",
+      "level": "B2",
+      "infinitive": "zurückfahren"
+    },
+    {
+      "sentence": "Ich bin gestern durch den Park ___.",
+      "answer": "gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Я вчора гуляв по парку.",
+      "level": "A1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Tom ___ früh am Morgen zur Arbeit ___.",
+      "answer": "ist gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Том вранці рано пішов на роботу.",
+      "level": "A2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Kinder ___ gemeinsam zur Schule ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Діти разом пішли до школи.",
+      "level": "B1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Teilnehmer der Demonstration ___ friedlich durch die Straßen ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Учасники демонстрації мирно пройшли вулицями.",
+      "level": "B2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Ich bin nach dem Abendessen spazieren ___.",
+      "answer": "gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Я пішов на прогулянку після вечері.",
+      "level": "A1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Lisa ___ zum Markt, um frisches Gemüse zu kaufen ___.",
+      "answer": "ist gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Ліза пішла на ринок, щоб купити свіжі овочі.",
+      "level": "A2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Gäste ___ nach der Feier nach Hause ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Гості пішли додому після свята.",
+      "level": "B1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Studenten ___ nach der Vorlesung zur Bibliothek ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Студенти пішли в бібліотеку після лекції.",
+      "level": "B2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Ich bin mit meinem Hund am Fluss entlang ___.",
+      "answer": "gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Я гуляв зі своїм собакою вздовж річки.",
+      "level": "A1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Max ___ in die Stadt, um seine Freunde zu treffen ___.",
+      "answer": "ist gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Макс пішов у місто, щоб зустрітися з друзями.",
+      "level": "A2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Wanderer ___ einen steilen Bergpfad hinauf ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Мандрівники піднялися крутою гірською стежкою.",
+      "level": "B1",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Die Forscher ___ durch den dichten Regenwald auf ihrer Expedition ___.",
+      "answer": "sind gegangen",
+      "ua_infinitiv": "йти",
+      "ua_sentence": "Дослідники йшли крізь густий тропічний ліс під час експедиції.",
+      "level": "B2",
+      "infinitive": "gehen"
+    },
+    {
+      "sentence": "Ich habe meinen Schrank an die andere Wand ___.",
+      "answer": "gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Я пересунув свою шафу до іншої стіни.",
+      "level": "A1",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Tom ___ seine Jacke an, weil es kalt war ___.",
+      "answer": "hat gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Том натягнув свою куртку, бо було холодно.",
+      "level": "A2",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Die Arbeiter ___ die Kisten mit Seilen ___.",
+      "answer": "haben gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Робітники тягнули ящики за допомогою мотузок.",
+      "level": "B1",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Die Soldaten ___ ihre Ausrüstung durch den Schlamm ___.",
+      "answer": "haben gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Солдати тягнули своє спорядження через болото.",
+      "level": "B2",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Ich habe meine Tasche auf dem Boden ___.",
+      "answer": "gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Я потягнув свою сумку по підлозі.",
+      "level": "A1",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Lisa ___ das Seil, um das Boot an Land zu bringen ___.",
+      "answer": "hat gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Ліза тягнула мотузку, щоб витягнути човен на берег.",
+      "level": "A2",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Die Kinder ___ ihre Schlitten den Hügel hinauf ___.",
+      "answer": "haben gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Діти тягнули свої санки на пагорб.",
+      "level": "B1",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ Kabel für das neue Experiment ___.",
+      "answer": "haben gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Вчені протягнули кабелі для нового експерименту.",
+      "level": "B2",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Ich habe meine Katze aus der Kiste ___.",
+      "answer": "gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Я витягнув свою кішку з коробки.",
+      "level": "A1",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Max ___ das Boot ans Ufer ___.",
+      "answer": "hat gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Макс витягнув човен на берег.",
+      "level": "A2",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Die Sportler ___ ein schweres Gewicht über den Sand ___.",
+      "answer": "haben gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Спортсмени тягнули важкий вантаж через пісок.",
+      "level": "B1",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Die Techniker ___ neue Stromleitungen durch die Stadt ___.",
+      "answer": "haben gezogen",
+      "ua_infinitiv": "тягнути",
+      "ua_sentence": "Техніки проклали нові електричні кабелі через місто.",
+      "level": "B2",
+      "infinitive": "ziehen"
+    },
+    {
+      "sentence": "Ich habe gestern mit meiner Schwester lange ___.",
+      "answer": "gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Я вчора довго розмовляв зі своєю сестрою.",
+      "level": "A1",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Tom ___ mit seinem Lehrer über das Projekt ___.",
+      "answer": "hat gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Том говорив зі своїм вчителем про проєкт.",
+      "level": "A2",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Die Schüler ___ auf Deutsch im Unterricht ___.",
+      "answer": "haben gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Учні говорили німецькою на уроці.",
+      "level": "B1",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Die Politiker ___ über die wirtschaftliche Krise ___.",
+      "answer": "haben gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Політики говорили про економічну кризу.",
+      "level": "B2",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Ich habe mit meinem Freund am Telefon ___.",
+      "answer": "gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Я говорив зі своїм другом по телефону.",
+      "level": "A1",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Lisa ___ mit der Verkäuferin im Geschäft ___.",
+      "answer": "hat gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Ліза говорила з продавчинею у магазині.",
+      "level": "A2",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ über ihre Erfahrungen im Ausland ___.",
+      "answer": "haben gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Учасники говорили про свій досвід за кордоном.",
+      "level": "B1",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ über neue Erkenntnisse in der Medizin ___.",
+      "answer": "haben gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Вчені говорили про нові відкриття в медицині.",
+      "level": "B2",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Ich habe mit meinen Eltern über die Ferien ___.",
+      "answer": "gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Я говорив з батьками про канікули.",
+      "level": "A1",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Max ___ mit seinem Chef über eine Gehaltserhöhung ___.",
+      "answer": "hat gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Макс говорив зі своїм начальником про підвищення зарплати.",
+      "level": "A2",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Die Lehrer ___ mit den Eltern über die Leistungen der Schüler ___.",
+      "answer": "haben gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Вчителі говорили з батьками про успіхи учнів.",
+      "level": "B1",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Die Führungskräfte ___ über die Zukunft des Unternehmens ___.",
+      "answer": "haben gesprochen",
+      "ua_infinitiv": "говорити",
+      "ua_sentence": "Керівники говорили про майбутнє компанії.",
+      "level": "B2",
+      "infinitive": "sprechen"
+    },
+    {
+      "sentence": "Das Konzert ___ gestern Abend im Stadtpark ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Концерт відбувся вчора ввечері в міському парку.",
+      "level": "A1",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Die Besprechung ___ um 10 Uhr im Konferenzraum ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Нарада відбулася о 10-й годині у конференц-залі.",
+      "level": "A2",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Die Hochzeit ___ in einer wunderschönen Kirche ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Весілля відбулося у прекрасній церкві.",
+      "level": "B1",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Die internationale Konferenz ___ in Berlin ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Міжнародна конференція відбулася в Берліні.",
+      "level": "B2",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Das Festival ___ dieses Jahr im Sommer ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Фестиваль цього року відбувся влітку.",
+      "level": "A1",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Die Prüfung ___ wie geplant am Freitag ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Іспит відбувся, як і планувалося, у п’ятницю.",
+      "level": "A2",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Das Fußballspiel ___ trotz des Regens ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Футбольний матч відбувся, незважаючи на дощ.",
+      "level": "B1",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Die Verhandlungen zwischen den Ländern ___ unter strengen Sicherheitsmaßnahmen ___.",
+      "answer": "haben stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Переговори між країнами відбулися під суворими заходами безпеки.",
+      "level": "B2",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Das Konzert der Schüler ___ in der Aula der Schule ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Концерт учнів відбувся в актовій залі школи.",
+      "level": "A1",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Die Präsentation ___ im großen Saal des Unternehmens ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Презентація відбулася у великому залі компанії.",
+      "level": "A2",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Das Experiment ___ erfolgreich im Labor ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Експеримент успішно відбувся в лабораторії.",
+      "level": "B1",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Die feierliche Zeremonie ___ in der Hauptstadt des Landes ___.",
+      "answer": "hat stattgefunden",
+      "ua_infinitiv": "відбуватися",
+      "ua_sentence": "Урочиста церемонія відбулася в столиці країни.",
+      "level": "B2",
+      "infinitive": "stattfinden"
+    },
+    {
+      "sentence": "Ich habe die Informationen an meine Kollegen ___.",
+      "answer": "weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Я передав інформацію своїм колегам.",
+      "level": "A1",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Tom ___ die Nachricht sofort an seine Freunde ___.",
+      "answer": "hat weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Том негайно передав повідомлення своїм друзям.",
+      "level": "A2",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Die Lehrer ___ wichtige Hinweise an die Schüler ___.",
+      "answer": "haben weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Вчителі передали важливі вказівки учням.",
+      "level": "B1",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ ihre Erkenntnisse an die nächste Generation von Forschern ___.",
+      "answer": "haben weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Вчені передали свої знання наступному поколінню дослідників.",
+      "level": "B2",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Ich habe die Einladung an meine Familie ___.",
+      "answer": "weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Я передав запрошення своїй сім’ї.",
+      "level": "A1",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Lisa ___ die Anweisungen an ihre Kollegen ___.",
+      "answer": "hat weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Ліза передала інструкції своїм колегам.",
+      "level": "A2",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Die Manager ___ die Strategieänderung an das Team ___.",
+      "answer": "haben weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Менеджери передали зміни в стратегії команді.",
+      "level": "B1",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Die Historiker ___ ihre Forschungsergebnisse an die Universität ___.",
+      "answer": "haben weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Історики передали результати своїх досліджень університету.",
+      "level": "B2",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Ich habe die Telefonnummer an meinen Freund ___.",
+      "answer": "weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Я передав номер телефону своєму другові.",
+      "level": "A1",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Max ___ die wichtigen Informationen an seine Chefin ___.",
+      "answer": "hat weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Макс передав важливу інформацію своїй начальниці.",
+      "level": "A2",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Die Teamleiter ___ die neuen Regeln an alle Mitarbeiter ___.",
+      "answer": "haben weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Керівники команди передали нові правила всім співробітникам.",
+      "level": "B1",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Die Dozenten ___ ihre akademischen Erfahrungen an die Studenten ___.",
+      "answer": "haben weitergegeben",
+      "ua_infinitiv": "передавати",
+      "ua_sentence": "Викладачі передали свій академічний досвід студентам.",
+      "level": "B2",
+      "infinitive": "weitergeben"
+    },
+    {
+      "sentence": "Ich bin Lehrer ___.",
+      "answer": "geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Я став учителем.",
+      "level": "A1",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Tom ___ ein berühmter Sänger ___.",
+      "answer": "ist geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Том став відомим співаком.",
+      "level": "A2",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Die Stadt ___ immer moderner ___.",
+      "answer": "ist geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Місто стає все більш сучасним.",
+      "level": "B1",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Die Technologie ___ in den letzten Jahren sehr fortschrittlich ___.",
+      "answer": "ist geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Технологія стала дуже передовою за останні роки.",
+      "level": "B2",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Ich bin krank ___.",
+      "answer": "geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Я захворів.",
+      "level": "A1",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Lisa ___ sehr glücklich nach ihrer Hochzeit ___.",
+      "answer": "ist geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Ліза стала дуже щасливою після весілля.",
+      "level": "A2",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Die Situation ___ mit der Zeit komplizierter ___.",
+      "answer": "ist geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Ситуація з часом ускладнилася.",
+      "level": "B1",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Die Umweltprobleme ___ in den letzten Jahrzehnten ernster ___.",
+      "answer": "sind geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Екологічні проблеми стали серйознішими в останні десятиліття.",
+      "level": "B2",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Ich bin müde ___.",
+      "answer": "geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Я втомився.",
+      "level": "A1",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Max ___ ein sehr guter Koch ___.",
+      "answer": "ist geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Макс став дуже хорошим кухарем.",
+      "level": "A2",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Die Arbeitsbedingungen ___ im letzten Jahr schlechter ___.",
+      "answer": "sind geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Умови праці погіршилися за останній рік.",
+      "level": "B1",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Die politische Lage ___ in vielen Ländern instabiler ___.",
+      "answer": "ist geworden",
+      "ua_infinitiv": "ставати",
+      "ua_sentence": "Політична ситуація в багатьох країнах стала нестабільнішою.",
+      "level": "B2",
+      "infinitive": "werden"
+    },
+    {
+      "sentence": "Ich habe mir den Fuß ___.",
+      "answer": "wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Я забив собі ногу.",
+      "level": "A1",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Tom ___ sich beim Sport am Knie ___.",
+      "answer": "hat wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Том забив коліно під час спорту.",
+      "level": "A2",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Die Kopfschmerzen ___ ihm den ganzen Tag ___.",
+      "answer": "haben wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Головний біль мучив його весь день.",
+      "level": "B1",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Die Worte seiner Freundin ___ ihm sehr ___.",
+      "answer": "haben wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Слова його подруги дуже його образили.",
+      "level": "B2",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Ich habe mir den Finger ___.",
+      "answer": "wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Я порізав палець.",
+      "level": "A1",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Lisa ___ sich beim Sturz am Arm ___.",
+      "answer": "hat wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Ліза забила руку під час падіння.",
+      "level": "A2",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Die Patienten ___ über starke Schmerzen im Rücken ___.",
+      "answer": "haben wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Пацієнти скаржилися на сильний біль у спині.",
+      "level": "B1",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Die Konsequenzen seiner Entscheidung ___ ihm am meisten ___.",
+      "answer": "haben wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Наслідки його рішення завдали йому найбільшого болю.",
+      "level": "B2",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Ich habe mir das Knie ___.",
+      "answer": "wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Я забив собі коліно.",
+      "level": "A1",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Max ___ sich beim Fußballspielen den Fuß ___.",
+      "answer": "hat wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Макс забив собі ногу під час гри у футбол.",
+      "level": "A2",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Die Folgen der Operation ___ dem Patienten lange ___.",
+      "answer": "haben wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Наслідки операції довго завдавали пацієнту болю.",
+      "level": "B1",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Die Wahrheit ___ ihm am meisten ___.",
+      "answer": "hat wehgetan",
+      "ua_infinitiv": "боліти",
+      "ua_sentence": "Правда завдала йому найбільшого болю.",
+      "level": "B2",
+      "infinitive": "wehtun"
+    },
+    {
+      "sentence": "Ich bin gestern in den Bergen ___.",
+      "answer": "gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Я вчора ходив у гори.",
+      "level": "A1",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Tom ___ den ganzen Tag durch den Wald ___.",
+      "answer": "ist gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Том цілий день мандрував лісом.",
+      "level": "A2",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Die Touristen ___ entlang des Flusses ___.",
+      "answer": "sind gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Туристи мандрували вздовж річки.",
+      "level": "B1",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Die Abenteurer ___ durch die Wüste ___.",
+      "answer": "sind gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Мандрівники подорожували пустелею.",
+      "level": "B2",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Ich bin mit meiner Familie im Nationalpark ___.",
+      "answer": "gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Я мандрував з родиною в національному парку.",
+      "level": "A1",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Lisa ___ durch die grünen Wiesen ___.",
+      "answer": "ist gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Ліза гуляла через зелені луки.",
+      "level": "A2",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Die Bergsteiger ___ in einer Höhe von 3000 Metern ___.",
+      "answer": "sind gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Альпіністи ходили на висоті 3000 метрів.",
+      "level": "B1",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ durch das unbekannte Gelände ___.",
+      "answer": "sind gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Вчені мандрували невідомою місцевістю.",
+      "level": "B2",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Ich bin im Herbst oft durch den Park ___.",
+      "answer": "gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Я восени часто гуляв по парку.",
+      "level": "A1",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Max ___ mit seinem Hund über die Hügel ___.",
+      "answer": "ist gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Макс гуляв зі своїм собакою по пагорбах.",
+      "level": "A2",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Die Naturfreunde ___ mehrere Tage durch die Alpen ___.",
+      "answer": "sind gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Любителі природи кілька днів мандрували Альпами.",
+      "level": "B1",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Die Forscher ___ auf der Suche nach neuen Arten durch den Dschungel ___.",
+      "answer": "sind gewandert",
+      "ua_infinitiv": "мандрувати",
+      "ua_sentence": "Дослідники подорожували джунглями в пошуках нових видів.",
+      "level": "B2",
+      "infinitive": "wandern"
+    },
+    {
+      "sentence": "Ich habe meine Hände ___.",
+      "answer": "gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Я помив руки.",
+      "level": "A1",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Tom ___ sein Auto gründlich ___.",
+      "answer": "hat gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Том ретельно помив свою машину.",
+      "level": "A2",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Die Kinder ___ sich vor dem Essen die Hände ___.",
+      "answer": "haben gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Діти помили руки перед їжею.",
+      "level": "B1",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Die Köche ___ das Gemüse vor der Zubereitung sorgfältig ___.",
+      "answer": "haben gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Кухарі ретельно помили овочі перед приготуванням.",
+      "level": "B2",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Ich habe meine Kleidung ___.",
+      "answer": "gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Я виправ свій одяг.",
+      "level": "A1",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Lisa ___ die Fenster in ihrer Wohnung ___.",
+      "answer": "hat gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Ліза помила вікна у своїй квартирі.",
+      "level": "A2",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Die Sportler ___ ihre Trikots nach dem Spiel ___.",
+      "answer": "haben gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Спортсмени випрали свої майки після гри.",
+      "level": "B1",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Die Reinigungskräfte ___ alle Böden im Hotel ___.",
+      "answer": "haben gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Прибиральники помили всі підлоги у готелі.",
+      "level": "B2",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Ich habe meine Haare ___.",
+      "answer": "gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Я помив своє волосся.",
+      "level": "A1",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Max ___ seinen Hund nach dem Spaziergang ___.",
+      "answer": "hat gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Макс помив свого собаку після прогулянки.",
+      "level": "A2",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Die Mechaniker ___ die verschmutzten Autoteile ___.",
+      "answer": "haben gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Механіки помили забруднені деталі автомобіля.",
+      "level": "B1",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Die Laboranten ___ ihre Hände nach jedem Experiment ___.",
+      "answer": "haben gewaschen",
+      "ua_infinitiv": "мити",
+      "ua_sentence": "Лаборанти мили руки після кожного експерименту.",
+      "level": "B2",
+      "infinitive": "waschen"
+    },
+    {
+      "sentence": "Ich habe meinem kleinen Bruder eine Geschichte ___.",
+      "answer": "vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Я прочитав своєму молодшому братові історію вголос.",
+      "level": "A1",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Tom ___ seinen Großeltern einen Brief ___.",
+      "answer": "hat vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Том прочитав листа своїм бабусі та дідусеві вголос.",
+      "level": "A2",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Die Lehrerin ___ den Kindern im Kindergarten ein Märchen ___.",
+      "answer": "hat vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Вчителька прочитала дітям у дитячому садку казку вголос.",
+      "level": "B1",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Der Moderator ___ den Zuhörern einen Ausschnitt aus dem neuen Buch ___.",
+      "answer": "hat vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Ведучий прочитав слухачам уривок з нової книги вголос.",
+      "level": "B2",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Ich habe meiner Schwester ein Gedicht ___.",
+      "answer": "vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Я прочитав своїй сестрі вірш вголос.",
+      "level": "A1",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Lisa ___ den Patienten im Krankenhaus eine Zeitung ___.",
+      "answer": "hat vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Ліза прочитала пацієнтам у лікарні газету вголос.",
+      "level": "A2",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Der Lehrer ___ der Klasse eine interessante Passage aus dem Roman ___.",
+      "answer": "hat vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Учитель прочитав класу цікавий уривок з роману вголос.",
+      "level": "B1",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Die Rednerin ___ dem Publikum eine bedeutende Stelle aus der Rede ___.",
+      "answer": "hat vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Ораторка прочитала публіці важливе місце зі своєї промови вголос.",
+      "level": "B2",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Ich habe meinen Eltern den Artikel aus der Zeitung ___.",
+      "answer": "vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Я прочитав своїм батькам статтю з газети вголос.",
+      "level": "A1",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Max ___ den Senioren in der Bibliothek eine Kurzgeschichte ___.",
+      "answer": "hat vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Макс прочитав літнім людям у бібліотеці коротке оповідання вголос.",
+      "level": "A2",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Die Dozentin ___ den Studenten einen Text aus der Fachliteratur ___.",
+      "answer": "hat vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Доцентка прочитала студентам текст із фахової літератури вголос.",
+      "level": "B1",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Der Autor ___ dem Publikum einige Seiten aus seinem neuen Buch ___.",
+      "answer": "hat vorgelesen",
+      "ua_infinitiv": "читати вголос",
+      "ua_sentence": "Автор прочитав публіці кілька сторінок зі своєї нової книги вголос.",
+      "level": "B2",
+      "infinitive": "vorlesen"
+    },
+    {
+      "sentence": "Ich habe meinem Freund eine gute Idee ___.",
+      "answer": "vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Я запропонував своєму другові хорошу ідею.",
+      "level": "A1",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Tom ___ seinem Kollegen eine neue Strategie ___.",
+      "answer": "hat vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Том запропонував своєму колезі нову стратегію.",
+      "level": "A2",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Die Schüler ___ einen anderen Termin für die Prüfung ___.",
+      "answer": "haben vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Учні запропонували іншу дату для іспиту.",
+      "level": "B1",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ eine innovative Lösung für das Problem ___.",
+      "answer": "haben vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Вчені запропонували інноваційне рішення проблеми.",
+      "level": "B2",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Ich habe meiner Schwester einen schönen Ausflug ___.",
+      "answer": "vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Я запропонував своїй сестрі гарну поїздку.",
+      "level": "A1",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Lisa ___ eine neue Methode zur Lösung des Problems ___.",
+      "answer": "hat vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Ліза запропонувала новий метод вирішення проблеми.",
+      "level": "A2",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Die Teilnehmer der Konferenz ___ mehrere Änderungen im Vertrag ___.",
+      "answer": "haben vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Учасники конференції запропонували кілька змін у договорі.",
+      "level": "B1",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Die Experten ___ eine nachhaltige Strategie für die Zukunft ___.",
+      "answer": "haben vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Експерти запропонували сталу стратегію на майбутнє.",
+      "level": "B2",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Ich habe meinen Eltern ein gutes Restaurant ___.",
+      "answer": "vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Я запропонував своїм батькам хороший ресторан.",
+      "level": "A1",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Max ___ seiner Freundin eine Reise nach Italien ___.",
+      "answer": "hat vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Макс запропонував своїй дівчині поїздку до Італії.",
+      "level": "A2",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Die Manager ___ eine Verbesserung des Produktionsprozesses ___.",
+      "answer": "haben vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Менеджери запропонували покращення виробничого процесу.",
+      "level": "B1",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Die Regierung ___ eine neue Regelung zur Steuerreform ___.",
+      "answer": "hat vorgeschlagen",
+      "ua_infinitiv": "пропонувати",
+      "ua_sentence": "Уряд запропонував нове регулювання податкової реформи.",
+      "level": "B2",
+      "infinitive": "vorschlagen"
+    },
+    {
+      "sentence": "Ich habe den Text genau ___.",
+      "answer": "verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Я точно зрозумів текст.",
+      "level": "A1",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Tom ___ die Anweisungen des Lehrers ___.",
+      "answer": "hat verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Том зрозумів вказівки вчителя.",
+      "level": "A2",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Die Schüler ___ den Inhalt der Vorlesung ___.",
+      "answer": "haben verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Учні зрозуміли зміст лекції.",
+      "level": "B1",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Die Forscher ___ die Bedeutung der neuen Entdeckung ___.",
+      "answer": "haben verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Дослідники зрозуміли значення нового відкриття.",
+      "level": "B2",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Ich habe die Frage richtig ___.",
+      "answer": "verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Я правильно зрозумів питання.",
+      "level": "A1",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Lisa ___ das Problem nach der Erklärung des Professors ___.",
+      "answer": "hat verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Ліза зрозуміла проблему після пояснення професора.",
+      "level": "A2",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ die Diskussion über die Klimapolitik ___.",
+      "answer": "haben verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Учасники зрозуміли дискусію щодо кліматичної політики.",
+      "level": "B1",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die komplexen Zusammenhänge der Theorie ___.",
+      "answer": "haben verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Вчені зрозуміли складні взаємозв'язки теорії.",
+      "level": "B2",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Ich habe den Film ohne Untertitel ___.",
+      "answer": "verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Я зрозумів фільм без субтитрів.",
+      "level": "A1",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Max ___ die Bedeutung des Textes nach mehrmaligem Lesen ___.",
+      "answer": "hat verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Макс зрозумів значення тексту після багаторазового читання.",
+      "level": "A2",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Die Studenten ___ die schwierigen Konzepte der Physikvorlesung ___.",
+      "answer": "haben verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Студенти зрозуміли складні концепції лекції з фізики.",
+      "level": "B1",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Die Experten ___ die Auswirkungen der neuen Gesetzgebung ___.",
+      "answer": "haben verstanden",
+      "ua_infinitiv": "розуміти",
+      "ua_sentence": "Експерти зрозуміли наслідки нового законодавства.",
+      "level": "B2",
+      "infinitive": "verstehen"
+    },
+    {
+      "sentence": "Ich habe die Preise von zwei Produkten ___.",
+      "answer": "verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Я порівняв ціни двох продуктів.",
+      "level": "A1",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Tom ___ die Angebote verschiedener Reisebüros ___.",
+      "answer": "hat verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Том порівняв пропозиції різних туристичних агентств.",
+      "level": "A2",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Die Kunden ___ die Funktionen der neuen Smartphones ___.",
+      "answer": "haben verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Клієнти порівняли функції нових смартфонів.",
+      "level": "B1",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Die Forscher ___ die Ergebnisse der beiden Experimente ___.",
+      "answer": "haben verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Дослідники порівняли результати двох експериментів.",
+      "level": "B2",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Ich habe die Qualität von zwei Kleidungsstücken ___.",
+      "answer": "verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Я порівняв якість двох предметів одягу.",
+      "level": "A1",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Lisa ___ die Bewertungen der Hotels vor der Buchung ___.",
+      "answer": "hat verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Ліза порівняла відгуки про готелі перед бронюванням.",
+      "level": "A2",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Die Schüler ___ die Gedichte verschiedener Autoren ___.",
+      "answer": "haben verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Учні порівняли вірші різних авторів.",
+      "level": "B1",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Die Analysten ___ die Finanzberichte der letzten fünf Jahre ___.",
+      "answer": "haben verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Аналітики порівняли фінансові звіти останніх п’яти років.",
+      "level": "B2",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Ich habe die Farben von zwei Autos ___.",
+      "answer": "verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Я порівняв кольори двох автомобілів.",
+      "level": "A1",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Max ___ die Leistungen der verschiedenen Internetanbieter ___.",
+      "answer": "hat verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Макс порівняв послуги різних інтернет-провайдерів.",
+      "level": "A2",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Die Journalisten ___ die politischen Programme der Parteien ___.",
+      "answer": "haben verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Журналісти порівняли політичні програми партій.",
+      "level": "B1",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die DNA-Proben verschiedener Spezies ___.",
+      "answer": "haben verglichen",
+      "ua_infinitiv": "порівнювати",
+      "ua_sentence": "Вчені порівняли зразки ДНК різних видів.",
+      "level": "B2",
+      "infinitive": "vergleichen"
+    },
+    {
+      "sentence": "Ich habe meine Schlüssel zu Hause ___.",
+      "answer": "vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Я забув свої ключі вдома.",
+      "level": "A1",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Tom ___ seinen Termin beim Arzt ___.",
+      "answer": "hat vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Том забув про свій прийом у лікаря.",
+      "level": "A2",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Die Schüler ___ ihre Hausaufgaben zu machen ___.",
+      "answer": "haben vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Учні забули зробити домашнє завдання.",
+      "level": "B1",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die alte Theorie aufgrund neuer Erkenntnisse ___.",
+      "answer": "haben vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Вчені забули стару теорію через нові відкриття.",
+      "level": "B2",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Ich habe die Telefonnummer meines Freundes ___.",
+      "answer": "vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Я забув номер телефону свого друга.",
+      "level": "A1",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Lisa ___ ihre Tasche im Café ___.",
+      "answer": "hat vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Ліза забула свою сумку в кафе.",
+      "level": "A2",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ die wichtigen Unterlagen mitzubringen ___.",
+      "answer": "haben vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Учасники забули взяти з собою важливі документи.",
+      "level": "B1",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Die Politiker ___ ihre Versprechen aus dem Wahlkampf ___.",
+      "answer": "haben vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Політики забули свої передвиборчі обіцянки.",
+      "level": "B2",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Ich habe mein Passwort für den Computer ___.",
+      "answer": "vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Я забув свій пароль від комп’ютера.",
+      "level": "A1",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Max ___ den Geburtstag seiner Schwester ___.",
+      "answer": "hat vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Макс забув про день народження своєї сестри.",
+      "level": "A2",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Die Angestellten ___ die Sicherheitsvorschriften zu beachten ___.",
+      "answer": "haben vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Співробітники забули дотримуватись правил безпеки.",
+      "level": "B1",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Die Generation der Zukunft ___ die Lehren aus der Geschichte ___.",
+      "answer": "hat vergessen",
+      "ua_infinitiv": "забувати",
+      "ua_sentence": "Майбутнє покоління забуло уроки історії.",
+      "level": "B2",
+      "infinitive": "vergessen"
+    },
+    {
+      "sentence": "Ich habe die Kabel miteinander ___.",
+      "answer": "verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Я з'єднав кабелі один з одним.",
+      "level": "A1",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Tom ___ die beiden Städte mit einer neuen Straße ___.",
+      "answer": "hat verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Том з'єднав два міста новою дорогою.",
+      "level": "A2",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Die Ingenieure ___ die Systeme erfolgreich ___.",
+      "answer": "haben verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Інженери успішно з'єднали системи.",
+      "level": "B1",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ die Theorie mit praktischen Anwendungen ___.",
+      "answer": "haben verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Вчені з'єднали теорію з практичними застосуваннями.",
+      "level": "B2",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Ich habe mein Handy mit dem WLAN ___.",
+      "answer": "verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Я з'єднав свій телефон із Wi-Fi.",
+      "level": "A1",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Lisa ___ die Punkte in ihrer Präsentation logisch ___.",
+      "answer": "hat verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Ліза логічно з'єднала пункти у своїй презентації.",
+      "level": "A2",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Die Techniker ___ die Kabel für die neue Anlage ___.",
+      "answer": "haben verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Техніки з'єднали кабелі для нової установки.",
+      "level": "B1",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Die Forscher ___ die Daten verschiedener Experimente ___.",
+      "answer": "haben verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Дослідники об'єднали дані різних експериментів.",
+      "level": "B2",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Ich habe die Schläuche für die Bewässerung ___.",
+      "answer": "verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Я з'єднав шланги для поливу.",
+      "level": "A1",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Max ___ die alten Traditionen mit modernen Konzepten ___.",
+      "answer": "hat verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Макс поєднав старі традиції з сучасними концепціями.",
+      "level": "A2",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Die Entwickler ___ die Software mit der neuen Hardware ___.",
+      "answer": "haben verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Розробники з'єднали програмне забезпечення з новим обладнанням.",
+      "level": "B1",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Die Architekten ___ Funktionalität und Ästhetik im neuen Gebäude ___.",
+      "answer": "haben verbunden",
+      "ua_infinitiv": "з'єднувати",
+      "ua_sentence": "Архітектори поєднали функціональність і естетику в новій будівлі.",
+      "level": "B2",
+      "infinitive": "verbinden"
+    },
+    {
+      "sentence": "Ich habe den Vertrag ___.",
+      "answer": "unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Я підписав контракт.",
+      "level": "A1",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Tom ___ die Dokumente im Büro ___.",
+      "answer": "hat unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Том підписав документи в офісі.",
+      "level": "A2",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ die Liste vor der Veranstaltung ___.",
+      "answer": "haben unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Учасники підписали список перед заходом.",
+      "level": "B1",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Die Politiker ___ das neue Abkommen ___.",
+      "answer": "haben unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Політики підписали нову угоду.",
+      "level": "B2",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Ich habe den Brief ___.",
+      "answer": "unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Я підписав лист.",
+      "level": "A1",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Lisa ___ die Bewerbung beim Unternehmen ___.",
+      "answer": "hat unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Ліза підписала заяву в компанії.",
+      "level": "A2",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Die Schüler ___ den Vertrag für den Austausch ___.",
+      "answer": "haben unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Учні підписали контракт на обмін.",
+      "level": "B1",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Die Manager ___ den Geschäftsvertrag mit der neuen Firma ___.",
+      "answer": "haben unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Менеджери підписали бізнес-контракт із новою компанією.",
+      "level": "B2",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Ich habe die Einwilligung ___.",
+      "answer": "unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Я підписав згоду.",
+      "level": "A1",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Max ___ den Vertrag über die Zusammenarbeit ___.",
+      "answer": "hat unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Макс підписав договір про співпрацю.",
+      "level": "A2",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Die Angestellten ___ die neuen Arbeitsverträge ___.",
+      "answer": "haben unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Працівники підписали нові трудові договори.",
+      "level": "B1",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Die Vertreter der Länder ___ die Friedenserklärung ___.",
+      "answer": "haben unterschrieben",
+      "ua_infinitiv": "підписувати",
+      "ua_sentence": "Представники країн підписали мирну декларацію.",
+      "level": "B2",
+      "infinitive": "unterschreiben"
+    },
+    {
+      "sentence": "Ich bin in eine neue Wohnung ___.",
+      "answer": "umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Я переїхав у нову квартиру.",
+      "level": "A1",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Tom ___ nach Berlin ___.",
+      "answer": "ist umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Том переїхав до Берліна.",
+      "level": "A2",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Die Familie ___ in ein größeres Haus ___.",
+      "answer": "ist umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Сім'я переїхала в більший будинок.",
+      "level": "B1",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Viele Menschen ___ wegen der Arbeit in eine andere Stadt ___.",
+      "answer": "sind umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Багато людей переїхали в інше місто через роботу.",
+      "level": "B2",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Ich bin letzte Woche nach Hamburg ___.",
+      "answer": "umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Я минулого тижня переїхав до Гамбурга.",
+      "level": "A1",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Lisa ___ mit ihrer Familie in eine andere Stadt ___.",
+      "answer": "ist umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Ліза переїхала з родиною в інше місто.",
+      "level": "A2",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Die Kollegen ___ wegen des neuen Arbeitsplatzes in eine andere Region ___.",
+      "answer": "sind umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Колеги переїхали в інший регіон через нову роботу.",
+      "level": "B1",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Die Flüchtlinge ___ aufgrund der politischen Situation in ein anderes Land ___.",
+      "answer": "sind umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Біженці переїхали в іншу країну через політичну ситуацію.",
+      "level": "B2",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Ich bin vor zwei Jahren in diese Stadt ___.",
+      "answer": "umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Я переїхав у це місто два роки тому.",
+      "level": "A1",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Max ___ in eine größere Wohnung ___.",
+      "answer": "ist umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Макс переїхав у більшу квартиру.",
+      "level": "A2",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Die Studenten ___ für ihr Studium in eine neue Stadt ___.",
+      "answer": "sind umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Студенти переїхали в нове місто для навчання.",
+      "level": "B1",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Die Angestellten ___ aufgrund der Firmenverlagerung in ein anderes Land ___.",
+      "answer": "sind umgezogen",
+      "ua_infinitiv": "переїжджати",
+      "ua_sentence": "Працівники переїхали в іншу країну через перенесення компанії.",
+      "level": "B2",
+      "infinitive": "umziehen"
+    },
+    {
+      "sentence": "Ich bin in München aus dem Zug und in die U-Bahn ___.",
+      "answer": "umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Я пересів у Мюнхені з поїзда на метро.",
+      "level": "A1",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Tom ___ am Hauptbahnhof in einen anderen Zug ___.",
+      "answer": "ist umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Том пересів на інший поїзд на головному вокзалі.",
+      "level": "A2",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Die Reisenden ___ in Frankfurt in einen internationalen Flug ___.",
+      "answer": "sind umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Мандрівники пересадилися у Франкфурті на міжнародний рейс.",
+      "level": "B1",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Die Passagiere ___ aufgrund einer Verspätung auf einen anderen Zug ___.",
+      "answer": "sind umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Пасажири через затримку пересадилися на інший поїзд.",
+      "level": "B2",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Ich bin an der nächsten Haltestelle in den Bus ___.",
+      "answer": "umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Я пересів на автобус на наступній зупинці.",
+      "level": "A1",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Lisa ___ am Flughafen in ein anderes Flugzeug ___.",
+      "answer": "ist umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Ліза пересіла в інший літак в аеропорту.",
+      "level": "A2",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Die Fahrgäste ___ am Bahnhof in eine Regionalbahn ___.",
+      "answer": "sind umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Пасажири пересадилися на приміський поїзд на вокзалі.",
+      "level": "B1",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Die Geschäftsreisenden ___ während ihrer Reise mehrfach in andere Züge ___.",
+      "answer": "sind umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Бізнесмени під час своєї поїздки кілька разів пересідали на інші поїзди.",
+      "level": "B2",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Ich bin auf dem Weg nach Hause in eine andere Straßenbahn ___.",
+      "answer": "umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Я пересів на інший трамвай по дорозі додому.",
+      "level": "A1",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Max ___ in Köln auf einen Fernbus ___.",
+      "answer": "ist umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Макс пересів у Кельні на міжміський автобус.",
+      "level": "A2",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Die Studenten ___ auf ihrer Reise nach Spanien mehrfach in verschiedene Verkehrsmittel ___.",
+      "answer": "sind umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Студенти під час своєї подорожі до Іспанії кілька разів пересідали на різні види транспорту.",
+      "level": "B1",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Die Politiker ___ auf ihrem diplomatischen Besuch in mehrere Flugzeuge ___.",
+      "answer": "sind umgestiegen",
+      "ua_infinitiv": "пересідати",
+      "ua_sentence": "Політики під час свого дипломатичного візиту пересідали на кілька літаків.",
+      "level": "B2",
+      "infinitive": "umsteigen"
+    },
+    {
+      "sentence": "Ich habe lange vor dem Museum ___.",
+      "answer": "gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Я довго стояв перед музеєм.",
+      "level": "A1",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Tom ___ eine Stunde in der Warteschlange ___.",
+      "answer": "hat gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Том стояв годину в черзі.",
+      "level": "A2",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Die Zuschauer ___ gespannt vor der Bühne ___.",
+      "answer": "haben gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Глядачі напружено стояли перед сценою.",
+      "level": "B1",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Die Demonstranten ___ stundenlang vor dem Regierungsgebäude ___.",
+      "answer": "haben gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Демонстранти годинами стояли перед урядовою будівлею.",
+      "level": "B2",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Ich habe vor der Tür ___.",
+      "answer": "gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Я стояв перед дверима.",
+      "level": "A1",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Lisa ___ neben der Bushaltestelle ___.",
+      "answer": "hat gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Ліза стояла поруч із автобусною зупинкою.",
+      "level": "A2",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Die Menschen ___ während der ganzen Zeremonie ___.",
+      "answer": "haben gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Люди стояли протягом всієї церемонії.",
+      "level": "B1",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Die Gäste ___ während der Begrüßung des Präsidenten ___.",
+      "answer": "haben gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Гості стояли під час привітання президента.",
+      "level": "B2",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Ich habe in der Sonne ___.",
+      "answer": "gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Я стояв на сонці.",
+      "level": "A1",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Max ___ eine Weile am Eingang ___.",
+      "answer": "hat gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Макс деякий час стояв біля входу.",
+      "level": "A2",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Die Besucher ___ still vor dem Denkmal ___.",
+      "answer": "haben gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Відвідувачі стояли мовчки перед пам'ятником.",
+      "level": "B1",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Die Zeugen ___ während der gesamten Gerichtsverhandlung ___.",
+      "answer": "haben gestanden",
+      "ua_infinitiv": "стояти",
+      "ua_sentence": "Свідки стояли протягом всього судового засідання.",
+      "level": "B2",
+      "infinitive": "stehen"
+    },
+    {
+      "sentence": "Ich habe eine schwere Tasche nach Hause ___.",
+      "answer": "getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Я ніс важку сумку додому.",
+      "level": "A1",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Tom ___ den Einkaufskorb für seine Mutter ___.",
+      "answer": "hat getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Том ніс кошик для покупок для своєї мами.",
+      "level": "A2",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Die Bauarbeiter ___ die Ziegel auf die Baustelle ___.",
+      "answer": "haben getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Будівельники носили цеглу на будівельний майданчик.",
+      "level": "B1",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Die Athleten ___ die olympische Fackel durch die Stadt ___.",
+      "answer": "haben getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Атлети несли олімпійський факел через місто.",
+      "level": "B2",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Ich habe meinen neuen Mantel gestern ___.",
+      "answer": "getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Я вчора носив своє нове пальто.",
+      "level": "A1",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Lisa ___ ein elegantes Kleid zur Party ___.",
+      "answer": "hat getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Ліза носила елегантну сукню на вечірці.",
+      "level": "A2",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Die Demonstranten ___ Plakate mit politischen Slogans ___.",
+      "answer": "haben getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Демонстранти носили плакати з політичними гаслами.",
+      "level": "B1",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Die Musiker ___ ihre Instrumente durch das ganze Land ___.",
+      "answer": "haben getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Музиканти носили свої інструменти по всій країні.",
+      "level": "B2",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Ich habe meine Sportschuhe den ganzen Tag ___.",
+      "answer": "getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Я носив свої спортивні черевики весь день.",
+      "level": "A1",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Max ___ einen Rucksack auf seinem Rücken ___.",
+      "answer": "hat getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Макс носив рюкзак на спині.",
+      "level": "A2",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Die Arbeiter ___ Schutzkleidung während der gesamten Schicht ___.",
+      "answer": "haben getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Робітники носили захисний одяг протягом усієї зміни.",
+      "level": "B1",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Die Schauspieler ___ historische Kostüme bei der Theateraufführung ___.",
+      "answer": "haben getragen",
+      "ua_infinitiv": "носити",
+      "ua_sentence": "Актори носили історичні костюми під час театральної вистави.",
+      "level": "B2",
+      "infinitive": "tragen"
+    },
+    {
+      "sentence": "Ich habe meinen besten Freund im Park ___.",
+      "answer": "getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Я зустрів свого найкращого друга в парку.",
+      "level": "A1",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Tom ___ seine Kollegen zum Mittagessen ___.",
+      "answer": "hat getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Том зустрів своїх колег на обід.",
+      "level": "A2",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Die Studenten ___ ihre Professoren auf einer Konferenz ___.",
+      "answer": "haben getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Студенти зустріли своїх професорів на конференції.",
+      "level": "B1",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Die Politiker ___ sich zu einem Gipfeltreffen ___.",
+      "answer": "haben getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Політики зустрілися на саміті.",
+      "level": "B2",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Ich habe gestern meine Tante im Supermarkt ___.",
+      "answer": "getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Я вчора зустрів свою тітку в супермаркеті.",
+      "level": "A1",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Lisa ___ ihre alte Schulfreundin zufällig in der Stadt ___.",
+      "answer": "hat getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Ліза випадково зустріла свою стару шкільну подругу в місті.",
+      "level": "A2",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Die Sportler ___ sich vor dem Wettkampf ___.",
+      "answer": "haben getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Спортсмени зустрілися перед змаганнями.",
+      "level": "B1",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Die Wissenschaftler ___ sich, um über neue Entdeckungen zu diskutieren ___.",
+      "answer": "haben getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Вчені зустрілися, щоб обговорити нові відкриття.",
+      "level": "B2",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Ich habe meinen Nachbarn im Café ___.",
+      "answer": "getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Я зустрів свого сусіда в кафе.",
+      "level": "A1",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Max ___ seinen Bruder nach langer Zeit wieder ___.",
+      "answer": "hat getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Макс знову зустрів свого брата після довгого часу.",
+      "level": "A2",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Die Forscher ___ internationale Experten auf einem Symposium ___.",
+      "answer": "haben getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Дослідники зустріли міжнародних експертів на симпозіумі.",
+      "level": "B1",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Die Unternehmensleiter ___ sich, um die neue Strategie zu besprechen ___.",
+      "answer": "haben getroffen",
+      "ua_infinitiv": "зустрічати",
+      "ua_sentence": "Керівники компаній зустрілися, щоб обговорити нову стратегію.",
+      "level": "B2",
+      "infinitive": "treffen"
+    },
+    {
+      "sentence": "Ich habe gestern Abend ein Glas Wasser ___.",
+      "answer": "getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Я випив склянку води вчора ввечері.",
+      "level": "A1",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Tom ___ eine Tasse Kaffee am Morgen ___.",
+      "answer": "hat getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Том випив чашку кави вранці.",
+      "level": "A2",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Die Kinder ___ Apfelsaft zum Frühstück ___.",
+      "answer": "haben getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Діти випили яблучний сік на сніданок.",
+      "level": "B1",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Die Teilnehmer ___ während der Konferenz Wasser und Kaffee ___.",
+      "answer": "haben getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Учасники пили воду і каву під час конференції.",
+      "level": "B2",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Ich habe Orangensaft beim Frühstück ___.",
+      "answer": "getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Я випив апельсиновий сік на сніданок.",
+      "level": "A1",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Anna ___ nach dem Training viel Wasser ___.",
+      "answer": "hat getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Анна випила багато води після тренування.",
+      "level": "A2",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Die Freunde ___ Bier in der Kneipe ___.",
+      "answer": "haben getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Друзі випили пиво в пабі.",
+      "level": "B1",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Die Geschäftsleute ___ nach dem Meeting Wein ___.",
+      "answer": "haben getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Бізнесмени випили вина після зустрічі.",
+      "level": "B2",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Ich habe Tee mit Zitrone ___.",
+      "answer": "getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Я пив чай з лимоном.",
+      "level": "A1",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Max ___ eine heiße Schokolade nach dem Spaziergang ___.",
+      "answer": "hat getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Макс випив гарячий шоколад після прогулянки.",
+      "level": "A2",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Die Studenten ___ während der Vorlesung Kaffee ___.",
+      "answer": "haben getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Студенти пили каву під час лекції.",
+      "level": "B1",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Die Gäste ___ Champagner zur Feier des Jubiläums ___.",
+      "answer": "haben getrunken",
+      "ua_infinitiv": "пити",
+      "ua_sentence": "Гості випили шампанське на святкуванні ювілею.",
+      "level": "B2",
+      "infinitive": "trinken"
+    },
+    {
+      "sentence": "Ich habe gestern meine Hausaufgaben ___.",
+      "answer": "getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Я зробив вчора своє домашнє завдання.",
+      "level": "A1",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Maria ___ etwas Gutes für die Gemeinschaft ___.",
+      "answer": "hat getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Марія зробила щось хороше для громади.",
+      "level": "A2",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Die Schüler ___ ihr Bestes, um das Projekt abzuschließen ___.",
+      "answer": "haben getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Учні зробили все можливе, щоб завершити проєкт.",
+      "level": "B1",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Die Mitarbeiter ___ alles, um die Frist einzuhalten ___.",
+      "answer": "haben getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Працівники зробили все можливе, щоб дотриматися терміну.",
+      "level": "B2",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Ich habe gestern etwas Nettes für meine Mutter ___.",
+      "answer": "getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Я зробив учора щось приємне для мами.",
+      "level": "A1",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Leo ___ seine Pflicht als Klassenvertreter ___.",
+      "answer": "hat getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Лео виконав свій обов'язок як представник класу.",
+      "level": "A2",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Die Freiwilligen ___ viel für die Flüchtlinge ___.",
+      "answer": "haben getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Волонтери багато зробили для біженців.",
+      "level": "B1",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Die Ärzte ___ alles Menschenmögliche, um den Patienten zu retten ___.",
+      "answer": "haben getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Лікарі зробили все можливе, щоб врятувати пацієнта.",
+      "level": "B2",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Ich habe heute nichts Besonderes ___.",
+      "answer": "getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Я сьогодні нічого особливого не робив.",
+      "level": "A1",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Sara ___ etwas Wichtiges für die Umwelt ___.",
+      "answer": "hat getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Сара зробила щось важливе для навколишнього середовища.",
+      "level": "A2",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Die Lehrer ___ viel, um die Schüler zu motivieren ___.",
+      "answer": "haben getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Вчителі зробили багато, щоб мотивувати учнів.",
+      "level": "B1",
+      "infinitive": "tun"
+    },
+    {
+      "sentence": "Die Politiker ___ wenig, um das Problem zu lösen ___.",
+      "answer": "haben getan",
+      "ua_infinitiv": "робити",
+      "ua_sentence": "Політики зробили мало, щоб вирішити проблему.",
+      "level": "B2",
+      "infinitive": "tun"
     }
   ]
 };

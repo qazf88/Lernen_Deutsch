@@ -1,6 +1,7 @@
 {
     let current_arr = eval(Liste_tests[0].name);
     let current_level = "All";
+    const setse_per_page = 10;
 
     function setCurrentButton(index, parentElementId) {
         let btns = document.getElementById(parentElementId).children;
@@ -9,7 +10,7 @@
                 btns[i].style.color = "black";
                 btns[i].style.fontSize = "26px";
             } else {
-                btns[i].style.color = "gray"
+                btns[i].style.color = "rgb(85, 86, 85)"
                 btns[i].style.fontSize = "20px";
             }
         }
@@ -48,7 +49,6 @@
     }
 
     function generateTasks() {
-        console.log(current_arr);
         let resElement = document.getElementById("result");
         resElement.innerHTML = "";
         let desk = document.getElementById("deskription");
@@ -61,9 +61,10 @@
         } else {
             levelOneArray = current_arr.data.filter(item => item.level === current_level);
         }
-        let selectedSentences = levelOneArray.toSorted(() => 0.5 - Math.random()).slice(0, 10);
+        let selectedSentences = levelOneArray.toSorted(() => 0.5 - Math.random()).slice(0, setse_per_page);
         selectedSentences.forEach((item, index) => {
             let sentenceId = `sentens_${current_arr.data.findIndex(e => e.sentence === item.sentence)}`;
+
 
             let sentenceWithInputs = item.sentence.replace("___", `<input type='text' id='q${index}_0'>`);
             if (sentenceWithInputs.includes("___")) {
@@ -74,11 +75,16 @@
                 infinitive = "(" + item.infinitive + ")";
             }
 
+            let backgraund = "";
+
+            if (index % 2 == 0) {
+                backgraund = " style=\" background-color: rgba(168, 168, 166, 0.59);\"";
+            }
+
             let taskHTML = `
-            <p id='${sentenceId}'>
+            <p class='task_p' id='${sentenceId}' ${backgraund}>
                 ${index + 1}. ${sentenceWithInputs} 
-                ${infinitive}
-                <span data-tooltip="${item.ua_infinitiv}"> &#9755; &#9432;</span>  
+                <span data-tooltip="${item.ua_infinitiv}"> ${infinitive} </span>  
                 <span data-tooltip="${item.ua_sentence}"> &#9755; &#9432;</span> 
                 <span data-tooltip="${item.level}"> &#9755; &#9432;</span> 
                 <span class='hint' id='hint${index}'></span> 
@@ -137,11 +143,14 @@
             resElement.style.color = "green";
         }
         else if (res >= sentenceElements.length / 2 && res < sentenceElements.length) {
-            resElement.style.color = "yellow";
+            resElement.style.color = "#FF8C00";
         }
         else {
             resElement.style.color = "red";
         }
+
+        setScore(Math.round((res / sentenceElements.length) * 100), res);
+
     };
 
 
@@ -168,7 +177,80 @@
         setCurrentButton(Levels.length - 1, "buttonLevelContainer");
         setCurrentButton(0, "buttonTestContainer");
 
+        setScore(null)
+
+        const del = document.querySelectorAll(".btnDelete");
+        for (let i = 0; i < del.length; i++) {
+            del[i].addEventListener("click", function (e) {
+                e.preventDefault();
+                showbox();
+            });
+        }
+
+        document.querySelector("#btnYes").addEventListener("click", function (e) {
+            hidebox();
+            localStorage.setItem("lernen_d", 0);
+            localStorage.setItem("corect_score", 0);
+            setScore(null)
+            e.returnValue = true;
+        });
+        document.querySelector("#btnNo").addEventListener("click", function () {
+            hidebox();
+        });
+
     }
+
+    function setScore(current_score, corect_score) {
+
+        let allSetse = localStorage.getItem("corect_score");
+
+        if (allSetse == null) {
+            localStorage.setItem("corect_score", 0);
+        }
+        allSetse = localStorage.getItem("corect_score");
+
+        if (corect_score != null) {
+            localStorage.setItem("corect_score", Number(allSetse) + Number(corect_score));
+        }
+
+        let _current_score = current_score === null ? 0 : current_score
+        let scoreElement = document.getElementById("score");
+        const allScore = localStorage.getItem("lernen_d");
+        let wievScore;
+        if (allScore === null) {
+            localStorage.setItem("lernen_d", _current_score);
+            wievScore = _current_score;
+        } else {
+            if (current_score != null) {
+                let new_score = Math.round((Number(allScore) + _current_score) / 2);
+                localStorage.setItem("lernen_d", new_score);
+                wievScore = new_score;
+            } else {
+                wievScore = allScore;
+            }
+        }
+
+
+        scoreElement.innerHTML = `<p><span data-tooltip="${localStorage.getItem("corect_score")}"> ${wievScore}% </span></p>`;
+
+        if (wievScore >= 75) {
+            scoreElement.style.color = "green";
+        } else if (wievScore < 75 && wievScore > 25) {
+            scoreElement.style.color = "#FF8C00";
+        } else {
+            scoreElement.style.color = "red";
+        }
+
+    }
+
+    function showbox() {
+        document.getElementById("modalHolder").style.display = "flex";
+    }
+
+    function hidebox() {
+        document.getElementById("modalHolder").style.display = "none";
+    }
+
 
     init();
     generateTasks();
