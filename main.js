@@ -48,6 +48,7 @@
     }
 
     function generateTasks() {
+        console.log(current_arr);
         let resElement = document.getElementById("result");
         resElement.innerHTML = "";
         let desk = document.getElementById("deskription");
@@ -68,16 +69,21 @@
             if (sentenceWithInputs.includes("___")) {
                 sentenceWithInputs = sentenceWithInputs.replace("___", `<input type='text' id='q${index + 1}_1'>`);
             }
+            let infinitive = "";
+            if (item.level === "A1" || item.level === "A2" || item.level === "B1") {
+                infinitive = "(" + item.infinitive + ")";
+            }
 
             let taskHTML = `
             <p id='${sentenceId}'>
                 ${index + 1}. ${sentenceWithInputs} 
+                ${infinitive}
                 <span data-tooltip="${item.ua_infinitiv}"> &#9755; &#9432;</span>  
                 <span data-tooltip="${item.ua_sentence}"> &#9755; &#9432;</span> 
                 <span data-tooltip="${item.level}"> &#9755; &#9432;</span> 
                 <span class='hint' id='hint${index}'></span> 
-                <a href="${item.dict}" target="_blank">dict.com</a> 
-                <a href="${item.duden}" target="_blank">duden</a>
+                <a href="https://dict.com/deutsch-ukrainisch/${item.infinitive}" target="_blank">dict.com</a> 
+                <a href="https://www.duden.de/rechtschreibung/${item.infinitive}" target="_blank">duden</a>
             </p>
         `;
             taskContainer.innerHTML += taskHTML;
