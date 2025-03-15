@@ -222,7 +222,13 @@
             wievScore = _current_score;
         } else {
             if (current_score != null) {
-                let new_score = Math.round((Number(allScore) + _current_score) / 2);
+                let new_score;
+                if (Number(allScore) === 0) {
+                    new_score == _current_score;
+                } else {
+                    new_score = Math.round((Number(allScore) + _current_score) / 2);
+                }
+
                 localStorage.setItem("lernen_d", new_score);
                 wievScore = new_score;
             } else {
