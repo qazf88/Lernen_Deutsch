@@ -149,7 +149,7 @@
             resElement.style.color = "red";
         }
 
-        setScore(Math.round((res / sentenceElements.length) * 100), res);
+        calcScore(res, sentenceElements.length);
 
     };
 
@@ -177,7 +177,7 @@
         setCurrentButton(Levels.length - 1, "buttonLevelContainer");
         setCurrentButton(0, "buttonTestContainer");
 
-        setScore(null)
+        wievScore()
 
         const del = document.querySelectorAll(".btnDelete");
         for (let i = 0; i < del.length; i++) {
@@ -189,9 +189,8 @@
 
         document.querySelector("#btnYes").addEventListener("click", function (e) {
             hidebox();
-            localStorage.setItem("lernen_d", 0);
-            localStorage.setItem("corect_score", 0);
-            setScore(null)
+            setScore(0, 0);
+            wievScore()
             e.returnValue = true;
         });
         document.querySelector("#btnNo").addEventListener("click", function () {
@@ -200,44 +199,25 @@
 
     }
 
-    function setScore(current_score, corect_score) {
+    function checkScore() {
 
-        let allSetse = localStorage.getItem("corect_score");
-
-        if (allSetse == null) {
-            localStorage.setItem("corect_score", 0);
-        }
-        allSetse = localStorage.getItem("corect_score");
-
-        if (corect_score != null) {
-            localStorage.setItem("corect_score", Number(allSetse) + Number(corect_score));
+        let total_score = localStorage.getItem("total_score");
+        if (total_score == null || !Number.isInteger(Number(total_score))) {
+            localStorage.setItem("total_score", 0);
         }
 
-        let _current_score = current_score === null ? 0 : current_score
+        let percent_score = localStorage.getItem("percent_score");
+        if (percent_score == null || !Number.isInteger(Number(percent_score))) {
+            localStorage.setItem("percent_score", 0);
+        }
+    }
+
+    function wievScore() {
+
+        checkScore();
+
         let scoreElement = document.getElementById("score");
-        const allScore = localStorage.getItem("lernen_d");
-        let wievScore;
-        if (allScore === null) {
-            localStorage.setItem("lernen_d", _current_score);
-            wievScore = _current_score;
-        } else {
-            if (current_score != null) {
-                let new_score;
-                if (Number(allScore) === 0) {
-                    new_score == _current_score;
-                } else {
-                    new_score = Math.round((Number(allScore) + _current_score) / 2);
-                }
-
-                localStorage.setItem("lernen_d", new_score);
-                wievScore = new_score;
-            } else {
-                wievScore = allScore;
-            }
-        }
-
-
-        scoreElement.innerHTML = `<p><span data-tooltip="${localStorage.getItem("corect_score")}"> ${wievScore}% </span></p>`;
+        scoreElement.innerHTML = `<p><span data-tooltip="${localStorage.getItem("total_score")}"> ${localStorage.getItem("percent_score")}% </span></p>`;
 
         if (wievScore >= 75) {
             scoreElement.style.color = "green";
@@ -246,7 +226,25 @@
         } else {
             scoreElement.style.color = "red";
         }
+    }
 
+    function calcScore(current_score, tests_size) {
+        let total_score = Number(localStorage.getItem("total_score"));
+        let percent_score = Number(localStorage.getItem("percent_score"));
+
+        let new_percent = ( Math.round(100 / tests_size * current_score ))
+
+        if (Number(percent_score) > 0){
+            new_percent = Math.round((new_percent + percent_score) / 2);
+        }
+
+        setScore(new_percent, total_score + current_score)
+        wievScore();
+    }
+
+    function setScore(percent, total) {
+        localStorage.setItem("percent_score", percent );
+        localStorage.setItem("total_score", total);
     }
 
     function showbox() {
