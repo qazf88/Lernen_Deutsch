@@ -1,17 +1,16 @@
-
 [data-tooltip] {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
 }
 
 [data-tooltip]::after {
-    content: attr(data-tooltip); 
+    content: attr(data-tooltip);
     position: absolute;
     min-width: max-content;
     left: 50%;
     top: 100%;
     transform: translateX(-50%);
-    background-color: rgba(4, 59, 104, 1); 
+    background-color: rgba(4, 59, 104, 1);
     color: #fff;
     padding: 0.5em;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
@@ -19,8 +18,8 @@
     opacity: 0;
     transition: opacity 0.3s, transform 0.3s;
     border-radius: 3pt;
-    white-space: nowrap; 
-    visibility: hidden; 
+    white-space: nowrap;
+    visibility: hidden;
 }
 
 [data-tooltip]:hover::after {
@@ -144,9 +143,10 @@ button:hover,
 button:focus {
     background-color: #9ed0ec;
 }
-.score{
+
+.score {
     position: fixed;
-    right:  3%;
+    right: 3%;
     background-color: #d8d5d5;
     border-radius: 5px;
     padding: 10px;

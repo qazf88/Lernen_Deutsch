@@ -1,10 +1,3 @@
-// const Liste_tests = [
-//     { name: "present_sentenses" },
-//     { name: "partizip_sentenses" },
-//     { name: "preteritum_sentenses" },
-//     { name: "plusquamperfekt_sentenses" }
-// ]
-
 const Wortart = [
     {
         name: "Pronomen",

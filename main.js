@@ -44,7 +44,7 @@
 
     function changeTest(val) {
 
-        if (Number(val) >= Wortart.length) {
+        if (Number(val) > Wortart.length) {
             current_test = eval(Wortart[current_wortart].data[0].name);
         } else {
             Wortart[current_wortart].data.forEach((item, index) => {
