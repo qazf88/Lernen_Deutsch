@@ -1,5 +1,6 @@
 {
-    let current_arr = eval(Liste_tests[0].name);
+    let current_wortart = null;
+    let current_test = null;
     let current_level = "All";
     const setse_per_page = 10;
 
@@ -16,16 +17,42 @@
         }
     }
 
-    function changeTest(val) {
-        if (Number(val) >= Liste_tests.length) {
-            current_arr = eval(Liste_tests[0].name);
+    function changeWortart(val) {
+
+        if (Number(val) > Wortart.length) {
+            current_wortart = Wortart[0].name;
         } else {
-            Liste_tests.forEach((item, index) => {
+            if (current_wortart === Number(val)) {
+                return;
+            } else {
+                current_wortart = Number(val);
+            }
+        }
+
+        document.getElementById("taskContainer").replaceChildren();
+        current_test = null;
+
+        let buttonTestContainer = document.getElementById("buttonTestContainer");
+        buttonTestContainer.replaceChildren();
+
+        Wortart[current_wortart].data.forEach((testItem, testIndex) => {
+            buttonTestContainer.appendChild(create_button(eval(testItem.name).name, testIndex, "changeTest"));
+        })
+
+        setCurrentButton(val, "buttonWortartenContainer");
+    }
+
+    function changeTest(val) {
+
+        if (Number(val) >= Wortart.length) {
+            current_test = eval(Wortart[current_wortart].data[0].name);
+        } else {
+            Wortart[current_wortart].data.forEach((item, index) => {
                 if (Number(val) === Number(index)) {
-                    if (current_arr === eval(item.name)) {
+                    if (current_test === eval(item.name)) {
                         return;
                     } else {
-                        current_arr = eval(item.name)
+                        current_test = eval(item.name)
                         setCurrentButton(val, "buttonTestContainer");
                         generateTasks();
                     }
@@ -39,40 +66,48 @@
         if (current_level === Levels[val].name) {
             return;
         }
-        current_level = Levels[val].name || undefined;
-        if (Levels[val].name === undefined) {
-            alert("Error: Level not found")
+
+        if ((Levels[val].name === undefined) || (Number(val) > Levels.length)) {
             current_level = Levels[0].name;
+        } else {
+            current_level = Levels[Number(val)].name;
         }
         setCurrentButton(val, "buttonLevelContainer");
-        generateTasks();
+        if ((current_test != null) && current_test != null) {
+            generateTasks();
+        }
     }
 
     function generateTasks() {
         let resElement = document.getElementById("result");
         resElement.innerHTML = "";
         let desk = document.getElementById("deskription");
-        desk.innerHTML = current_arr.desc;
+        desk.innerHTML = current_test.desc;
         let taskContainer = document.getElementById("taskContainer");
         taskContainer.innerHTML = "";
         let levelOneArray;
         if (current_level === "All") {
-            levelOneArray = current_arr.data;
+            levelOneArray = current_test.data;
         } else {
-            levelOneArray = current_arr.data.filter(item => item.level === current_level);
+            levelOneArray = current_test.data.filter(item => item.level === current_level);
         }
-        let selectedSentences = levelOneArray.toSorted(() => 0.5 - Math.random()).slice(0, setse_per_page);
+        let selectedSentences = levelOneArray.toSorted(() => 0.5 - Math.random()).slice(0, levelOneArray.length < setse_per_page ? levelOneArray.length : setse_per_page);
         selectedSentences.forEach((item, index) => {
-            let sentenceId = `sentens_${current_arr.data.findIndex(e => e.sentence === item.sentence)}`;
+            let sentenceId = `sentens_${current_test.data.findIndex(e => e.sentence === item.sentence)}`;
 
 
             let sentenceWithInputs = item.sentence.replace("___", `<input type='text' id='q${index}_0'>`);
             if (sentenceWithInputs.includes("___")) {
                 sentenceWithInputs = sentenceWithInputs.replace("___", `<input type='text' id='q${index + 1}_1'>`);
             }
+
             let infinitive = "";
-            if (item.level === "A1" || item.level === "A2" || item.level === "B1") {
-                infinitive = "(" + item.infinitive + ")";
+            if (Wortart[current_wortart].name === "Pronomen") {
+                infinitive = ' &#9755; &#9432;';
+            } else {
+                if (item.level === "A1" || item.level === "A2" || item.level === "B1") {
+                    infinitive = "(" + item.infinitive + ")";
+                }
             }
 
             let backgraund = "";
@@ -81,16 +116,27 @@
                 backgraund = " style=\" background-color: rgba(168, 168, 166, 0.59);\"";
             }
 
+            let levelInfo = '';
+            if (current_level == "All") {
+                levelInfo = `<span data-tooltip="${item.level}"> &#9755; &#9432;</span>`;
+            }
+
+            let linksDict = '';
+            if (Wortart[current_wortart].name === "Verb") {
+                linksDict = `     <a href="https://dict.com/deutsch-ukrainisch/${item.infinitive}" target="_blank">dict.com</a> 
+                <a href="https://www.duden.de/rechtschreibung/${item.infinitive}" target="_blank">duden</a>
+         `
+            }
+
             let taskHTML = `
             <p class='task_p' id='${sentenceId}' ${backgraund}>
                 ${index + 1}. ${sentenceWithInputs} 
                 <span data-tooltip="${item.ua_infinitiv}"> ${infinitive} </span>  
                 <span data-tooltip="${item.ua_sentence}"> &#9755; &#9432;</span> 
-                <span data-tooltip="${item.level}"> &#9755; &#9432;</span> 
+               ${levelInfo}
+               ${linksDict}
                 <span class='hint' id='hint${index}'></span> 
-                <a href="https://dict.com/deutsch-ukrainisch/${item.infinitive}" target="_blank">dict.com</a> 
-                <a href="https://www.duden.de/rechtschreibung/${item.infinitive}" target="_blank">duden</a>
-            </p>
+              </p>
         `;
             taskContainer.innerHTML += taskHTML;
 
@@ -110,7 +156,7 @@
                 ans.push(input.value.trim());
             });
 
-            let richtig = current_arr.data[Number(sentenceElements[i].id.replace("sentens_", ""))].answer.split(" ");
+            let richtig = current_test.data[Number(sentenceElements[i].id.replace("sentens_", ""))].answer.split(" ");
 
             if (ans.length === 2) {
                 if (ans[0].toLowerCase() === richtig[0].toLowerCase() && ans[1].toLowerCase() === richtig[1].toLowerCase()) {
@@ -153,7 +199,6 @@
 
     };
 
-
     function create_button(name, index, oncFunc) {
         var el = document.createElement("button");
         el.id = "btn_" + index;
@@ -162,20 +207,26 @@
         return el;
     }
 
-
-    function init() {
-        let buttonTestContainer = document.getElementById("buttonTestContainer");
-        Liste_tests.forEach((item, index) => {
-            buttonTestContainer.appendChild(create_button(eval(item.name).name, index, "changeTest"));
-        });
+    function initLevel() {
         let buttonLevelContainer = document.getElementById("buttonLevelContainer");
         Levels.forEach((item, index) => {
             buttonLevelContainer.appendChild(create_button(item.name, index, "changeLevel"));
         });
-        current_arr = eval(Liste_tests[0].name);
-        current_level = "All";
-        setCurrentButton(Levels.length - 1, "buttonLevelContainer");
-        setCurrentButton(0, "buttonTestContainer");
+        changeLevel(0);
+    }
+
+    function initWortart() {
+        let buttonWortartenContainer = document.getElementById("buttonWortartenContainer");
+        Wortart.forEach((item, index) => {
+            buttonWortartenContainer.appendChild(create_button(item.name, index, "changeWortart"));
+        });
+    }
+
+    function init() {
+        initLevel();
+        initWortart();
+
+        document.getElementById("taskContainer").innerHTML = "<p id='wahlen' style='text-align: center;  font-size: 26px;'>Wählen Sie einen Test aus!</p>";
 
         wievScore()
 
@@ -232,9 +283,9 @@
         let total_score = Number(localStorage.getItem("total_score"));
         let percent_score = Number(localStorage.getItem("percent_score"));
 
-        let new_percent = ( Math.round(100 / tests_size * current_score ))
+        let new_percent = (Math.round(100 / tests_size * current_score))
 
-        if (Number(percent_score) > 0){
+        if (Number(percent_score) > 0) {
             new_percent = Math.round((new_percent + percent_score) / 2);
         }
 
@@ -243,7 +294,7 @@
     }
 
     function setScore(percent, total) {
-        localStorage.setItem("percent_score", percent );
+        localStorage.setItem("percent_score", percent);
         localStorage.setItem("total_score", total);
     }
 
@@ -257,6 +308,5 @@
 
 
     init();
-    generateTasks();
 
 }

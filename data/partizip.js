@@ -659,10 +659,10 @@ const partizip_sentenses = {
       "infinitive": "aufräumen"
     },
     {
-      "sentence": "Ich habe die Adresse auf einen Zettel ___.",
+      "sentence": "Ich habe der Tipp auf einen Zettel ___.",
       "answer": "aufgeschrieben",
       "ua_infinitiv": "записувати",
-      "ua_sentence": "Я записав адресу на аркуші паперу.",
+      "ua_sentence": "Я записав пораду на аркуші паперу.",
       "level": "A1",
       "infinitive": "aufschreiben"
     },
