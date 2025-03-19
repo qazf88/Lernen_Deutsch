@@ -2,7 +2,17 @@
     let current_wortart = null;
     let current_test = null;
     let current_level = "All";
+    let current_antworte = [];
     const setse_per_page = 10;
+
+    let activeTime = 0;
+    let lastTime = Date.now();
+    let isActive = true;
+    let lastInteractionTime = Date.now();
+    const inactivityLimit = 3 * 60 * 1000;
+
+    const today = new Date().toISOString().split('T')[0];
+    const storageKey = `activeTime_${today}`;
 
     function setCurrentButton(index, parentElementId) {
         let btns = document.getElementById(parentElementId).children;
@@ -35,9 +45,13 @@
         let buttonTestContainer = document.getElementById("buttonTestContainer");
         buttonTestContainer.replaceChildren();
 
-        Wortart[current_wortart].data.forEach((testItem, testIndex) => {
-            buttonTestContainer.appendChild(create_button(eval(testItem.name).name, testIndex, "changeTest"));
-        })
+        if (Wortart[current_wortart].data.length === 1) {
+            changeTest(0);
+        } else {
+            Wortart[current_wortart].data.forEach((testItem, testIndex) => {
+                buttonTestContainer.appendChild(create_button(eval(testItem.name).name, testIndex, "changeTest"));
+            })
+        }
 
         setCurrentButton(val, "buttonWortartenContainer");
     }
@@ -78,7 +92,17 @@
         }
     }
 
+    function replaceUmlauts(str) {
+        const umlautMap = {
+            'ä': 'ae', 'ö': 'oe', 'ü': 'ue', 'ß': 'ss',
+            'Ä': 'Ae', 'Ö': 'Oe', 'Ü': 'Ue'
+        };
+
+        return str.replace(/[äöüßÄÖÜ]/g, match => umlautMap[match] || match);
+    }
+
     function generateTasks() {
+        current_antworte = [];
         let resElement = document.getElementById("result");
         resElement.innerHTML = "";
         let desk = document.getElementById("deskription");
@@ -95,6 +119,7 @@
         selectedSentences.forEach((item, index) => {
             let sentenceId = `sentens_${current_test.data.findIndex(e => e.sentence === item.sentence)}`;
 
+            current_antworte.push({ index: index, antwort: item.answer })
 
             let sentenceWithInputs = item.sentence.replace("___", `<input type='text' id='q${index}_0'>`);
             if (sentenceWithInputs.includes("___")) {
@@ -110,6 +135,18 @@
                 }
             }
 
+            if (Wortart[current_wortart].name === "Nomen") {
+                if (item.level === "A1") {
+                    infinitive = "(" + item.infinitive + ")";
+                } else {
+                    infinitive = ' &#9755; &#9432;';
+                }
+            }
+
+            if (Wortart[current_wortart].name === "Zahlen") {
+                infinitive = "(" + item.ua_infinitiv + " " + item.type + ")";
+            }
+
             let backgraund = "";
 
             if (index % 2 == 0) {
@@ -121,11 +158,11 @@
                 levelInfo = `<span data-tooltip="${item.level}"> &#9755; &#9432;</span>`;
             }
 
+            let infinitiveDict = item.infinitive.split(",");
             let linksDict = '';
-            if (Wortart[current_wortart].name === "Verb") {
-                linksDict = `     <a href="https://dict.com/deutsch-ukrainisch/${item.infinitive}" target="_blank">dict.com</a> 
-                <a href="https://www.duden.de/rechtschreibung/${item.infinitive}" target="_blank">duden</a>
-         `
+            if (Wortart[current_wortart].name === "Verb" || Wortart[current_wortart].name === "Nomen") {
+                linksDict = `<a href="https://dict.com/deutsch-ukrainisch/${infinitiveDict[0]}" target="_blank">dict.com</a> 
+                <a href="https://www.duden.de/rechtschreibung/${replaceUmlauts(infinitiveDict[0])}" target="_blank">duden</a>`
             }
 
             let taskHTML = `
@@ -136,8 +173,7 @@
                ${levelInfo}
                ${linksDict}
                 <span class='hint' id='hint${index}'></span> 
-              </p>
-        `;
+              </p>`;
             taskContainer.innerHTML += taskHTML;
 
         });
@@ -156,7 +192,7 @@
                 ans.push(input.value.trim());
             });
 
-            let richtig = current_test.data[Number(sentenceElements[i].id.replace("sentens_", ""))].answer.split(" ");
+            let richtig = current_antworte[i].antwort.split(" ");
 
             if (ans.length === 2) {
                 if (ans[0].toLowerCase() === richtig[0].toLowerCase() && ans[1].toLowerCase() === richtig[1].toLowerCase()) {
@@ -248,6 +284,19 @@
             hidebox();
         });
 
+        document.addEventListener("visibilitychange", handleVisibilityChange);
+        window.addEventListener("blur", () => { isActive = false; updateTime(); });
+        window.addEventListener("focus", () => { isActive = true; lastTime = Date.now(); });
+
+        document.addEventListener("mousemove", resetInactivityTimer);
+        document.addEventListener("keydown", resetInactivityTimer);
+        document.addEventListener("click", resetInactivityTimer);
+        document.addEventListener("scroll", resetInactivityTimer);
+
+        activeTime = parseFloat(localStorage.getItem(storageKey)) || 0;
+
+        document.getElementById("work_time").innerHTML = formatTime(activeTime);
+
     }
 
     function checkScore() {
@@ -306,6 +355,52 @@
         document.getElementById("modalHolder").style.display = "none";
     }
 
+    function updateTime() {
+        if (isActive) {
+            let currentTime = Date.now();
+            activeTime += Math.round((currentTime - lastTime) / 1000);
+            lastTime = currentTime;
+            localStorage.setItem(storageKey, activeTime);
+        }
+    }
+
+    function resetInactivityTimer() {
+        lastInteractionTime = Date.now();
+        if (!isActive) {
+            isActive = true;
+            lastTime = Date.now();
+        }
+    }
+
+    function handleVisibilityChange() {
+        if (document.hidden) {
+            isActive = false;
+            updateTime();
+        } else {
+            isActive = true;
+            lastTime = Date.now();
+        }
+    }
+
+    function formatTime(seconds) {
+        const hours = Math.floor(seconds / 3600).toString().padStart(2, '0');
+        const minutes = Math.floor((seconds % 3600) / 60).toString().padStart(2, '0');
+        return `${hours}:${minutes}`;
+    }
+
+
+    setInterval(() => {
+        updateTime();
+        document.getElementById("work_time").innerHTML = formatTime(activeTime);
+    }, 15000);
+
+
+    setInterval(() => {
+        if (Date.now() - lastInteractionTime > inactivityLimit) {
+            isActive = false;
+            updateTime();
+        }
+    }, 5000);
 
     init();
 

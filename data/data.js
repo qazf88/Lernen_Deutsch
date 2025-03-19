@@ -20,6 +20,10 @@ const Wortart = [
     {
         name: "Nomen",
         data: [{ name: "nomen" }]
+    },
+    {
+        name: "Zahlen",
+        data: [{ name: "zahlen_test" }]
     }
 ]
 

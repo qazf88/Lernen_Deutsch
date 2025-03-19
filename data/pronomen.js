@@ -2327,7 +2327,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Ich wasche ___ jeden Morgen das Gesicht.",
       "answer": "mich",
-      "ua_infinitiv": "себе (знах. відмінок)",
+      "ua_infinitiv": "мене (знах. відмінок)",
       "ua_sentence": "Я щоранку вмиваюся.",
       "level": "A1",
       "infinitive": ""
@@ -2343,7 +2343,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Du sollst ___ besser auf die Prüfung vorbereiten.",
       "answer": "dich",
-      "ua_infinitiv": "себе (знах. відмінок)",
+      "ua_infinitiv": "тебе (знах. відмінок)",
       "ua_sentence": "Ти повинен краще підготуватися до іспиту.",
       "level": "A2",
       "infinitive": ""
@@ -2351,7 +2351,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Wir treffen ___ morgen im Park.",
       "answer": "uns",
-      "ua_infinitiv": "себе (множина, знах. відмінок)",
+      "ua_infinitiv": "нас (множина, знах. відмінок)",
       "ua_sentence": "Ми зустрінемося завтра в парку.",
       "level": "A2",
       "infinitive": ""
@@ -2407,7 +2407,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Wir freuen ___ auf den Urlaub.",
       "answer": "uns",
-      "ua_infinitiv": "себе (множина, знах. відмінок)",
+      "ua_infinitiv": "нам (множина, знах. відмінок)",
       "ua_sentence": "Ми радіємо відпустці.",
       "level": "A2",
       "infinitive": ""
