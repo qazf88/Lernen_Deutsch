@@ -1,5 +1,5 @@
 const present_sentenses = {
-    name: "Präsens verbs",
+    name: "Präsens",
     desc: "Konjugation von Verben im Präsens.",
     data: [
         {
@@ -6833,6 +6833,297 @@ const present_sentenses = {
             "ua_sentence": "Компанія готує річний звіт для акціонерів.",
             "level": "B2",
             "infinitive": "schreiben"
+        },
+        {
+            "sentence": "Ich ___ meine Haare heute schneiden.",
+            "answer": "lasse",
+            "ua_infinitiv": "дозволяти",
+            "ua_sentence": "Я сьогодні підстригаю волосся (доручаю підстригти).",
+            "level": "A1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Wir ___ die Kinder draußen spielen.",
+            "answer": "lassen",
+            "ua_infinitiv": "дозволяти",
+            "ua_sentence": "Ми дозволяємо дітям гратися на вулиці.",
+            "level": "A1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Er ___ das Fenster immer offen.",
+            "answer": "lässt",
+            "ua_infinitiv": "залишати",
+            "ua_sentence": "Він завжди залишає вікно відкритим.",
+            "level": "A1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ mein Fahrrad reparieren.",
+            "answer": "lasse",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Я доручаю полагодити мій велосипед.",
+            "level": "A2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Sie ___ die Tür immer offen.",
+            "answer": "lässt",
+            "ua_infinitiv": "залишати",
+            "ua_sentence": "Вона завжди залишає двері відкритими.",
+            "level": "A2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Wir ___ die Fenster von einem Profi putzen.",
+            "answer": "lassen",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Ми доручаємо професіоналу мити вікна.",
+            "level": "A2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Er ___ sein Auto jede Woche waschen.",
+            "answer": "lässt",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Він кожного тижня миє авто (замовляє мийку).",
+            "level": "B1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ mir ein neues Hemd nähen.",
+            "answer": "lasse",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Я доручаю пошити собі нову сорочку.",
+            "level": "B1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Sie ___ ihren Sohn allein zur Schule gehen.",
+            "answer": "lässt",
+            "ua_infinitiv": "дозволяти",
+            "ua_sentence": "Вона дозволяє своєму синові самостійно ходити до школи.",
+            "level": "B1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Das Unternehmen ___ seine Büros professionell reinigen.",
+            "answer": "lässt",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Компанія замовляє професійне прибирання офісів.",
+            "level": "B2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ meine Präsentation noch einmal überprüfen.",
+            "answer": "lasse",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Я доручаю ще раз перевірити свою презентацію.",
+            "level": "B2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Sie ___ den Kunden nie zu lange warten.",
+            "answer": "lässt",
+            "ua_infinitiv": "змушувати, дозволяти",
+            "ua_sentence": "Вона ніколи не змушує клієнтів довго чекати.",
+            "level": "B2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ mein Fahrrad heute reparieren.",
+            "answer": "lasse",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Я сьогодні доручаю полагодити велосипед.",
+            "level": "A1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Wir ___ die Kinder bis 20 Uhr draußen spielen.",
+            "answer": "lassen",
+            "ua_infinitiv": "дозволяти",
+            "ua_sentence": "Ми дозволяємо дітям гратися на вулиці до 20:00.",
+            "level": "A1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Meine Schwester ___ die Fenster immer offen.",
+            "answer": "lässt",
+            "ua_infinitiv": "залишати",
+            "ua_sentence": "Моя сестра завжди залишає вікна відкритими.",
+            "level": "A1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ heute das Auto waschen.",
+            "answer": "lasse",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Я сьогодні замовляю мийку авто.",
+            "level": "A2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Sie ___ ihre Tochter allein zur Schule gehen.",
+            "answer": "lässt",
+            "ua_infinitiv": "дозволяти",
+            "ua_sentence": "Вона дозволяє своїй доньці самостійно йти до школи.",
+            "level": "A2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Wir ___ das Abendessen vom Restaurant liefern.",
+            "answer": "lassen",
+            "ua_infinitiv": "замовляти (доручати доставити)",
+            "ua_sentence": "Ми замовляємо вечерю з ресторану.",
+            "level": "A2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Mein Kollege ___ oft seinen Kaffee kalt werden.",
+            "answer": "lässt",
+            "ua_infinitiv": "залишати",
+            "ua_sentence": "Мій колега часто залишає каву охолонути.",
+            "level": "B1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ meine E-Mails vom Assistenten beantworten.",
+            "answer": "lasse",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Я доручаю асистенту відповідати на мої електронні листи.",
+            "level": "B1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Sie ___ ihren Hund im Büro bleiben.",
+            "answer": "lässt",
+            "ua_infinitiv": "дозволяти",
+            "ua_sentence": "Вона дозволяє своєму собаці залишатися в офісі.",
+            "level": "B1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Der Manager ___ seine Berichte von der Sekretärin schreiben.",
+            "answer": "lässt",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Менеджер доручає секретарці писати звіти.",
+            "level": "B2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ regelmäßig mein Haus professionell reinigen.",
+            "answer": "lasse",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Я регулярно замовляю професійне прибирання дому.",
+            "level": "B2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Die Firma ___ die Produkte von einer externen Agentur vermarkten.",
+            "answer": "lässt",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Компанія доручає зовнішній агенції просування продуктів.",
+            "level": "B2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ meinen Bruder mit meinem Fahrrad fahren.",
+            "answer": "lasse",
+            "ua_infinitiv": "дозволяти",
+            "ua_sentence": "Я дозволяю своєму братові їздити на моєму велосипеді.",
+            "level": "A1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Wir ___ das Fenster bei Nacht offen.",
+            "answer": "lassen",
+            "ua_infinitiv": "залишати",
+            "ua_sentence": "Ми залишаємо вікно відкритим на ніч.",
+            "level": "A1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Sie ___ ihre Tasche im Auto.",
+            "answer": "lässt",
+            "ua_infinitiv": "залишати",
+            "ua_sentence": "Вона залишає свою сумку в машині.",
+            "level": "A1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ meine Schuhe draußen stehen.",
+            "answer": "lasse",
+            "ua_infinitiv": "залишати",
+            "ua_sentence": "Я залишаю своє взуття надворі.",
+            "level": "A2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Mein Vater ___ das Auto in der Werkstatt reparieren.",
+            "answer": "lässt",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Мій батько ремонтує авто в майстерні (доручає ремонт).",
+            "level": "A2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Wir ___ unsere Wohnung regelmäßig putzen.",
+            "answer": "lassen",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Ми регулярно доручаємо прибирання квартири.",
+            "level": "A2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Die Lehrerin ___ die Schüler eine Übung wiederholen.",
+            "answer": "lässt",
+            "ua_infinitiv": "змушувати",
+            "ua_sentence": "Учителька змушує учнів повторити вправу.",
+            "level": "B1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ mein Hemd beim Schneider ändern.",
+            "answer": "lasse",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Я доручаю кравцеві змінити сорочку.",
+            "level": "B1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Sie ___ ihr Kind selbst entscheiden.",
+            "answer": "lässt",
+            "ua_infinitiv": "дозволяти",
+            "ua_sentence": "Вона дозволяє своїй дитині вирішувати самостійно.",
+            "level": "B1",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Die Firma ___ alle Verträge von einem Anwalt prüfen.",
+            "answer": "lässt",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Компанія доручає юристу перевірити всі контракти.",
+            "level": "B2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Ich ___ meine Texte von jemandem korrekturlesen.",
+            "answer": "lasse",
+            "ua_infinitiv": "доручати",
+            "ua_sentence": "Я доручаю комусь вичитувати мої тексти.",
+            "level": "B2",
+            "infinitive": "lassen"
+        },
+        {
+            "sentence": "Sie ___ ihre Mitarbeiter sehr selbstständig arbeiten.",
+            "answer": "lässt",
+            "ua_infinitiv": "дозволяти",
+            "ua_sentence": "Вона дозволяє своїм працівникам працювати дуже самостійно.",
+            "level": "B2",
+            "infinitive": "lassen"
         }
+
+
+
     ]
 };

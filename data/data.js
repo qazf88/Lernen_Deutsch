@@ -14,7 +14,9 @@ const Wortart = [
             { name: "present_sentenses" },
             { name: "partizip_sentenses" },
             { name: "preteritum_sentenses" },
-            { name: "plusquamperfekt_sentenses" }
+            { name: "plusquamperfekt_sentenses" },
+            { name: "futur1_sentenses" },
+            { name: "futur2_sentenses" }
         ]
     },
     {
@@ -32,6 +34,7 @@ const Levels = [
     { name: "A2" },
     { name: "B1" },
     { name: "B2" },
+    { name: "C1" },
     { name: "All" }
 ]
 

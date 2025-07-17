@@ -1,5 +1,5 @@
 const partizip_sentenses = {
-  name: "Partizip II verbs",
+  name: "Perfect",
   desc: "Setze die richtige Vergangenheitsform (Partizip II) ein.",
   data: [
     {
@@ -19849,6 +19849,294 @@ const partizip_sentenses = {
       "ua_sentence": "Політики зробили мало, щоб вирішити проблему.",
       "level": "B2",
       "infinitive": "tun"
+    },
+    {
+      "sentence": "Ich habe meine Haare schneiden ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Я підстриг волосся (доручив підстригти).",
+      "level": "A1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Wir haben die Kinder draußen spielen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "дозволяти",
+      "ua_sentence": "Ми дозволили дітям гратися на вулиці.",
+      "level": "A1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Er hat das Fenster offen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "залишати",
+      "ua_sentence": "Він залишив вікно відкритим.",
+      "level": "A1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe mein Fahrrad reparieren ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Я доручив полагодити свій велосипед.",
+      "level": "A2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat die Tür auf ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "залишати",
+      "ua_sentence": "Вона залишила двері відкритими.",
+      "level": "A2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Wir haben die Fenster von einem Profi putzen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Ми доручили професіоналу помити вікна.",
+      "level": "A2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Er hat sein Auto waschen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Він замовив мийку авто.",
+      "level": "B1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe mir ein Hemd nähen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Я пошив собі сорочку (доручив пошити).",
+      "level": "B1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat ihren Sohn allein zur Schule gehen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "дозволяти",
+      "ua_sentence": "Вона дозволила сину самостійно ходити до школи.",
+      "level": "B1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Das Unternehmen hat seine Büros reinigen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Компанія замовила прибирання офісів.",
+      "level": "B2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe meine Präsentation überprüfen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Я доручив перевірити свою презентацію.",
+      "level": "B2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat die Kunden nicht lange warten ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "змушувати, дозволяти",
+      "ua_sentence": "Вона не змусила клієнтів довго чекати.",
+      "level": "B2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Meine Mutter hat den Kuchen backen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Моя мама доручила спекти торт.",
+      "level": "A1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe mein Handy zu Hause liegen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "залишати",
+      "ua_sentence": "Я залишив свій телефон удома.",
+      "level": "A1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Wir haben den Hund im Garten spielen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "дозволяти",
+      "ua_sentence": "Ми дозволили собаці гратися в саду.",
+      "level": "A1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat sich ein Kleid schneidern ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "замовляти (щоб пошили)",
+      "ua_sentence": "Вона замовила собі пошиття сукні.",
+      "level": "A2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe die Tür offen stehen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "залишати",
+      "ua_sentence": "Я залишив двері відчиненими.",
+      "level": "A2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie haben das Kind allein zu Hause bleiben ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "дозволяти",
+      "ua_sentence": "Вони дозволили дитині залишитися вдома самій.",
+      "level": "A2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Der Chef hat den Bericht von einem Kollegen schreiben ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Шеф доручив написати звіт колезі.",
+      "level": "B1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe meine Wohnung renovieren ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Я зробив ремонт у квартирі (доручив зробити).",
+      "level": "B1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat den Tisch decken ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Вона доручила накрити на стіл.",
+      "level": "B1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Die Firma hat die Webseite neu gestalten ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Компанія замовила редизайн сайту.",
+      "level": "B2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe mein Auto in der Werkstatt reparieren ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Я полагодив авто у майстерні (доручив ремонт).",
+      "level": "B2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat ihren Namen aus der Liste streichen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати, дозволяти",
+      "ua_sentence": "Вона викреслила своє ім’я зі списку (доручила викреслити).",
+      "level": "B2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe meine Jacke im Auto liegen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "залишати",
+      "ua_sentence": "Я залишив свою куртку в машині.",
+      "level": "A1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat ihr Kind einen Apfel essen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "дозволяти",
+      "ua_sentence": "Вона дозволила своїй дитині з’їсти яблуко.",
+      "level": "A1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Wir haben die Fenster offen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "залишати",
+      "ua_sentence": "Ми залишили вікна відкритими.",
+      "level": "A1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe mein Fahrrad von einem Fachmann reparieren ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Я доручив майстру полагодити велосипед.",
+      "level": "A2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat die Blumen gießen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Вона доручила полити квіти.",
+      "level": "A2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Wir haben das Licht an ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "залишати",
+      "ua_sentence": "Ми залишили світло увімкненим.",
+      "level": "A2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Der Lehrer hat die Schüler länger arbeiten ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "змушувати, дозволяти",
+      "ua_sentence": "Учитель змусив учнів працювати довше.",
+      "level": "B1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe meine Schuhe putzen ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Я почистив взуття (доручив почистити).",
+      "level": "B1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat ihre Haare färben ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Вона пофарбувала волосся (доручила фарбування).",
+      "level": "B1",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Das Team hat den Entwurf überarbeiten ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Команда доручила переробити проєкт.",
+      "level": "B2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Ich habe das Protokoll vom Assistenten schreiben ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "доручати",
+      "ua_sentence": "Я доручив асистенту написати протокол.",
+      "level": "B2",
+      "infinitive": "lassen"
+    },
+    {
+      "sentence": "Sie hat die Teilnehmer bis zum Ende warten ___ .",
+      "answer": "lassen",
+      "ua_infinitiv": "змушувати",
+      "ua_sentence": "Вона змусила учасників чекати до кінця.",
+      "level": "B2",
+      "infinitive": "lassen"
     }
   ]
 };
