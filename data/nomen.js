@@ -1,6 +1,6 @@
 const nomen = {
     name: "Nomen",
-    desc: "Setze die richtige Vergangenheitsform (Partizip II) ein.",
+    desc: "Setze das passende Nomen in der richtigen Form ein.",
     data: [
         {
             "sentence": "Ich mache eine ___ als Verkäuferin.",
@@ -506,6 +506,6 @@ const nomen = {
             "infinitive": "Bahn, Bahnen",
             "article": "die"
           },
-          
+
     ]
 };

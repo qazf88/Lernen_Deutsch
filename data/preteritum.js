@@ -3,1060 +3,1192 @@ const preteritum_sentenses = {
   desc: "Konjugation von Verben im Präteritum.",
   data: [
     {
-      "sentence": "Ich ___ meine Schwester vom Bahnhof.",
+      "sentence": "Ich ___ meine Schwester vom Bahnhof ___.",
       "answer": "holte ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Я забрав свою сестру з вокзалу.",
       "level": "A1",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holte","ab"]
     },
     {
-      "sentence": "Er ___ sein Paket von der Post.",
+      "sentence": "Er ___ sein Paket von der Post ___.",
       "answer": "holte ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Він забрав свою посилку з пошти.",
       "level": "A1",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holte","ab"]
     },
     {
-      "sentence": "Wir ___ unsere Freunde vom Flughafen.",
+      "sentence": "Wir ___ unsere Freunde vom Flughafen ___.",
       "answer": "holten ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Ми забрали наших друзів з аеропорту.",
       "level": "A1",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holten","ab"]
     },
     {
-      "sentence": "Sie ___ ihre Mutter vom Arzttermin.",
+      "sentence": "Sie ___ ihre Mutter vom Arzttermin ___.",
       "answer": "holte ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Вона забрала свою маму з прийому у лікаря.",
       "level": "A2",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holte","ab"]
     },
     {
-      "sentence": "Ihr ___ die Kinder nach der Schule.",
+      "sentence": "Ihr ___ die Kinder nach der Schule ___.",
       "answer": "holtet ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Ви забрали дітей після школи.",
       "level": "A2",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holtet","ab"]
     },
     {
-      "sentence": "Der Busfahrer ___ die Fahrgäste pünktlich.",
+      "sentence": "Der Busfahrer ___ die Fahrgäste pünktlich ___.",
       "answer": "holte ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Водій автобуса забрав пасажирів вчасно.",
       "level": "A2",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holte","ab"]
     },
     {
-      "sentence": "Das Unternehmen ___ wichtige Gäste am Bahnhof.",
+      "sentence": "Das Unternehmen ___ wichtige Gäste am Bahnhof ___.",
       "answer": "holte ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Компанія забрала важливих гостей з вокзалу.",
       "level": "B1",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holte","ab"]
     },
     {
-      "sentence": "Die Delegation ___ die Experten vom Flughafen.",
+      "sentence": "Die Delegation ___ die Experten vom Flughafen ___.",
       "answer": "holte ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Делегація забрала експертів з аеропорту.",
       "level": "B1",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holte","ab"]
     },
     {
-      "sentence": "Wir ___ die Waren direkt vom Lager.",
+      "sentence": "Wir ___ die Waren direkt vom Lager ___.",
       "answer": "holten ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Ми забрали товари прямо зі складу.",
       "level": "B1",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holten","ab"]
     },
     {
-      "sentence": "Die Firma ___ die defekten Produkte zur Reparatur.",
+      "sentence": "Die Firma ___ die defekten Produkte zur Reparatur ___.",
       "answer": "holte ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Компанія забрала несправні продукти для ремонту.",
       "level": "B2",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holte","ab"]
     },
     {
-      "sentence": "Die Logistikabteilung ___ die Lieferung vom Hafen.",
+      "sentence": "Die Logistikabteilung ___ die Lieferung vom Hafen ___.",
       "answer": "holte ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Логістичний відділ забрав доставку з порту.",
       "level": "B2",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holte","ab"]
     },
     {
-      "sentence": "Der Kurier ___ das Paket vom Hauptsitz der Firma.",
+      "sentence": "Der Kurier ___ das Paket vom Hauptsitz der Firma ___.",
       "answer": "holte ab",
       "ua_infinitiv": "забирати",
       "ua_sentence": "Кур'єр забрав посилку з головного офісу компанії.",
       "level": "B2",
-      "infinitive": "abholen"
+      "infinitive": "abholen",
+      "answers": ["holte","ab"]
     },
     {
-      "sentence": "Ich ___ mein Fahrrad vor dem Haus.",
+      "sentence": "Ich ___ mein Fahrrad vor dem Haus ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "ставити, залишати",
       "ua_sentence": "Я залишив свій велосипед перед будинком.",
       "level": "A1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Er ___ das Auto in der Garage.",
+      "sentence": "Er ___ das Auto in der Garage ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "ставити, залишати",
       "ua_sentence": "Він залишив машину в гаражі.",
       "level": "A1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Wir ___ die Koffer vor dem Hotelzimmer.",
+      "sentence": "Wir ___ die Koffer vor dem Hotelzimmer ___.",
       "answer": "stellten ab",
       "ua_infinitiv": "ставити, залишати",
       "ua_sentence": "Ми залишили валізи перед готельним номером.",
       "level": "A1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellten","ab"]
     },
     {
-      "sentence": "Der Fahrer ___ das Auto auf dem Parkplatz.",
+      "sentence": "Der Fahrer ___ das Auto auf dem Parkplatz ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "ставити, залишати",
       "ua_sentence": "Водій залишив автомобіль на парковці.",
       "level": "A2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Ihr ___ eure Fahrräder am Eingang.",
+      "sentence": "Ihr ___ eure Fahrräder am Eingang ___.",
       "answer": "stelltet ab",
       "ua_infinitiv": "ставити, залишати",
       "ua_sentence": "Ви залишили свої велосипеди біля входу.",
       "level": "A2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stelltet","ab"]
     },
     {
-      "sentence": "Die Mutter ___ die heiße Suppe auf den Tisch.",
+      "sentence": "Die Mutter ___ die heiße Suppe auf den Tisch ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "ставити, залишати",
       "ua_sentence": "Мати поставила гарячий суп на стіл.",
       "level": "A2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Das Unternehmen ___ eine Maschine zur Reparatur.",
+      "sentence": "Das Unternehmen ___ eine Maschine zur Reparatur ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "вимикати, залишати",
       "ua_sentence": "Компанія вимкнула машину для ремонту.",
       "level": "B1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Der Techniker ___ die defekte Klimaanlage.",
+      "sentence": "Der Techniker ___ die defekte Klimaanlage ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "вимикати, залишати",
       "ua_sentence": "Технік вимкнув несправний кондиціонер.",
       "level": "B1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Die Bauarbeiter ___ die Geräte nach der Arbeit.",
+      "sentence": "Die Bauarbeiter ___ die Geräte nach der Arbeit ___.",
       "answer": "stellten ab",
       "ua_infinitiv": "вимикати, залишати",
       "ua_sentence": "Будівельники вимкнули обладнання після роботи.",
       "level": "B1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellten","ab"]
     },
     {
-      "sentence": "Der Projektleiter ___ Ressourcen für die Entwicklung.",
+      "sentence": "Der Projektleiter ___ Ressourcen für die Entwicklung ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "виділяти",
       "ua_sentence": "Керівник проєкту виділив ресурси для розробки.",
       "level": "B2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Die Regierung ___ Spezialisten für die Untersuchung.",
+      "sentence": "Die Regierung ___ Spezialisten für die Untersuchung ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "виділяти",
       "ua_sentence": "Уряд виділив спеціалістів для розслідування.",
       "level": "B2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Das Unternehmen ___ ein Team für den internationalen Markt.",
+      "sentence": "Das Unternehmen ___ ein Team für den internationalen Markt ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "виділяти",
       "ua_sentence": "Компанія виділила команду для міжнародного ринку.",
       "level": "B2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Ich ___ den Staubsauger nach der Reinigung.",
+      "sentence": "Ich ___ den Staubsauger nach der Reinigung ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "вимикати",
       "ua_sentence": "Я вимкнув пилосос після прибирання.",
       "level": "A1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Sie ___ die Lampe auf den Tisch.",
+      "sentence": "Sie ___ die Lampe auf den Tisch ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "ставити",
       "ua_sentence": "Вона поставила лампу на стіл.",
       "level": "A1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Wir ___ unsere Taschen in der Ecke.",
+      "sentence": "Wir ___ unsere Taschen in der Ecke ___.",
       "answer": "stellten ab",
       "ua_infinitiv": "залишати",
       "ua_sentence": "Ми залишили свої сумки у кутку.",
       "level": "A1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellten","ab"]
     },
     {
-      "sentence": "Der Kellner ___ das Tablett auf den Tresen.",
+      "sentence": "Der Kellner ___ das Tablett auf den Tresen ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "ставити",
       "ua_sentence": "Офіціант поставив піднос на стійку.",
       "level": "A2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Ihr ___ eure Handys vor der Prüfung.",
+      "sentence": "Ihr ___ eure Handys vor der Prüfung ___.",
       "answer": "stelltet ab",
       "ua_infinitiv": "відкладати",
       "ua_sentence": "Ви відклали свої телефони перед іспитом.",
       "level": "A2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stelltet","ab"]
     },
     {
-      "sentence": "Die Angestellten ___ die Computer nach der Arbeit.",
+      "sentence": "Die Angestellten ___ die Computer nach der Arbeit ___.",
       "answer": "stellten ab",
       "ua_infinitiv": "вимикати",
       "ua_sentence": "Співробітники вимкнули комп’ютери після роботи.",
       "level": "A2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellten","ab"]
     },
     {
-      "sentence": "Das Unternehmen ___ eine neue Maschine zur Produktion.",
+      "sentence": "Das Unternehmen ___ eine neue Maschine zur Produktion ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "встановлювати",
       "ua_sentence": "Компанія встановила нову машину для виробництва.",
       "level": "B1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Die Techniker ___ das kaputte Gerät zur Reparatur.",
+      "sentence": "Die Techniker ___ das kaputte Gerät zur Reparatur ___.",
       "answer": "stellten ab",
       "ua_infinitiv": "відправляти",
       "ua_sentence": "Техніки відправили несправний пристрій на ремонт.",
       "level": "B1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellten","ab"]
     },
     {
-      "sentence": "Wir ___ unsere Autos auf dem Firmenparkplatz.",
+      "sentence": "Wir ___ unsere Autos auf dem Firmenparkplatz ___.",
       "answer": "stellten ab",
       "ua_infinitiv": "залишати",
       "ua_sentence": "Ми залишили свої машини на парковці компанії.",
       "level": "B1",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellten","ab"]
     },
     {
-      "sentence": "Der Manager ___ ein Team für das neue Projekt.",
+      "sentence": "Der Manager ___ ein Team für das neue Projekt ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "призначати",
       "ua_sentence": "Менеджер призначив команду для нового проєкту.",
       "level": "B2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Die Regierung ___ zusätzliche Polizeikräfte zur Sicherheit.",
+      "sentence": "Die Regierung ___ zusätzliche Polizeikräfte zur Sicherheit ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "виділяти",
       "ua_sentence": "Уряд виділив додаткові поліцейські сили для безпеки.",
       "level": "B2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Das Unternehmen ___ Experten für die Qualitätskontrolle.",
+      "sentence": "Das Unternehmen ___ Experten für die Qualitätskontrolle ___.",
       "answer": "stellte ab",
       "ua_infinitiv": "відправляти",
       "ua_sentence": "Компанія відправила експертів для контролю якості.",
       "level": "B2",
-      "infinitive": "abstellen"
+      "infinitive": "abstellen",
+      "answers": ["stellte","ab"]
     },
     {
-      "sentence": "Ich ___ die richtige Antwort auf dem Testbogen.",
+      "sentence": "Ich ___ die richtige Antwort auf dem Testbogen ___.",
       "answer": "kreuzte an",
       "ua_infinitiv": "відзначати хрестиком",
       "ua_sentence": "Я відзначив правильну відповідь у тесті.",
       "level": "A1",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzte","an"]
     },
     {
-      "sentence": "Du ___ die korrekten Kästchen im Formular.",
+      "sentence": "Du ___ die korrekten Kästchen im Formular ___.",
       "answer": "kreuztest an",
       "ua_infinitiv": "відзначати хрестиком",
       "ua_sentence": "Ти відзначив правильні квадрати у формі.",
       "level": "A1",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuztest","an"]
     },
     {
-      "sentence": "Wir ___ die bevorzugte Zahlungsmethode.",
+      "sentence": "Wir ___ die bevorzugte Zahlungsmethode ___.",
       "answer": "kreuzten an",
       "ua_infinitiv": "відзначати хрестиком",
       "ua_sentence": "Ми відзначили бажаний спосіб оплати.",
       "level": "A1",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzten","an"]
     },
     {
-      "sentence": "Der Lehrer ___ die richtigen Antworten auf dem Arbeitsblatt.",
+      "sentence": "Der Lehrer ___ die richtigen Antworten auf dem Arbeitsblatt ___.",
       "answer": "kreuzte an",
       "ua_infinitiv": "відзначати хрестиком",
       "ua_sentence": "Вчитель відзначив правильні відповіді на робочому аркуші.",
       "level": "A2",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzte","an"]
     },
     {
-      "sentence": "Ihr ___ die Fragen, die ihr nicht verstanden habt.",
+      "sentence": "Ihr ___ die Fragen, die ihr nicht verstanden habt, ___.",
       "answer": "kreuztet an",
       "ua_infinitiv": "відзначати хрестиком",
       "ua_sentence": "Ви відзначили питання, які не зрозуміли.",
       "level": "A2",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuztet","an"]
     },
     {
-      "sentence": "Die Teilnehmer ___ ihre Interessen auf dem Anmeldeformular.",
+      "sentence": "Die Teilnehmer ___ ihre Interessen auf dem Anmeldeformular ___.",
       "answer": "kreuzten an",
       "ua_infinitiv": "відзначати хрестиком",
       "ua_sentence": "Учасники відзначили свої інтереси в реєстраційній формі.",
       "level": "A2",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzten","an"]
     },
     {
-      "sentence": "Die Firma ___ die relevanten Informationen im Vertrag.",
+      "sentence": "Die Firma ___ die relevanten Informationen im Vertrag ___.",
       "answer": "kreuzte an",
       "ua_infinitiv": "відзначати",
       "ua_sentence": "Компанія відзначила важливу інформацію в договорі.",
       "level": "B1",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzte","an"]
     },
     {
-      "sentence": "Die Prüfer ___ die fehlerhaften Antworten im Bericht.",
+      "sentence": "Die Prüfer ___ die fehlerhaften Antworten im Bericht ___.",
       "answer": "kreuzten an",
       "ua_infinitiv": "відзначати",
       "ua_sentence": "Екзаменатори відзначили неправильні відповіді у звіті.",
       "level": "B1",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzten","an"]
     },
     {
-      "sentence": "Wir ___ die Optionen für die nächsten Schritte im Projekt.",
+      "sentence": "Wir ___ die Optionen für die nächsten Schritte im Projekt ___.",
       "answer": "kreuzten an",
       "ua_infinitiv": "відзначати",
       "ua_sentence": "Ми відзначили варіанти наступних кроків у проєкті.",
       "level": "B1",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzten","an"]
     },
     {
-      "sentence": "Der Manager ___ die wichtigsten Punkte in der Präsentation.",
+      "sentence": "Der Manager ___ die wichtigsten Punkte in der Präsentation ___.",
       "answer": "kreuzte an",
       "ua_infinitiv": "відзначати",
       "ua_sentence": "Менеджер відзначив найважливіші моменти у презентації.",
       "level": "B2",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzte","an"]
     },
     {
-      "sentence": "Die Regierung ___ die prioritären Maßnahmen für die Wirtschaftsförderung.",
+      "sentence": "Die Regierung ___ die prioritären Maßnahmen für die Wirtschaftsförderung ___.",
       "answer": "kreuzte an",
       "ua_infinitiv": "відзначати",
       "ua_sentence": "Уряд відзначив пріоритетні заходи для стимулювання економіки.",
       "level": "B2",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzte","an"]
     },
     {
-      "sentence": "Das Forschungsteam ___ die relevanten Daten für die Analyse.",
+      "sentence": "Das Forschungsteam ___ die relevanten Daten für die Analyse ___.",
       "answer": "kreuzte an",
       "ua_infinitiv": "відзначати",
       "ua_sentence": "Дослідницька група відзначила відповідні дані для аналізу.",
       "level": "B2",
-      "infinitive": "ankreuzen"
+      "infinitive": "ankreuzen",
+      "answers": ["kreuzte","an"]
     },
     {
-      "sentence": "Ich ___ meine Mutter jeden Sonntag.",
+      "sentence": "Ich ___ meine Mutter jeden Sonntag ___.",
       "answer": "rief an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Я дзвонив своїй мамі щонеділі.",
       "level": "A1",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["rief","an"]
     },
     {
-      "sentence": "Du ___ deinen Freund am Abend.",
+      "sentence": "Du ___ deinen Freund am Abend ___.",
       "answer": "riefst an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Ти подзвонив своєму другу ввечері.",
       "level": "A1",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["riefst","an"]
     },
     {
-      "sentence": "Wir ___ den Arzt wegen eines Termins.",
+      "sentence": "Wir ___ den Arzt wegen eines Termins ___.",
       "answer": "riefen an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Ми подзвонили лікарю щодо прийому.",
       "level": "A1",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["riefen","an"]
     },
     {
-      "sentence": "Er ___ seinen Chef, um eine Frage zu klären.",
+      "sentence": "Er ___ seinen Chef ___, um eine Frage zu klären.",
       "answer": "rief an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Він подзвонив своєму начальнику, щоб уточнити питання.",
       "level": "A2",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["rief","an"]
     },
     {
-      "sentence": "Ihr ___ eure Eltern aus dem Urlaub.",
+      "sentence": "Ihr ___ eure Eltern aus dem Urlaub ___.",
       "answer": "rieft an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Ви подзвонили своїм батькам з відпустки.",
       "level": "A2",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["rieft","an"]
     },
     {
-      "sentence": "Die Lehrerin ___ die Eltern des Schülers.",
+      "sentence": "Die Lehrerin ___ die Eltern des Schülers ___.",
       "answer": "rief an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Вчителька подзвонила батькам учня.",
       "level": "A2",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["rief","an"]
     },
     {
-      "sentence": "Der Kunde ___ die Hotline wegen einer Reklamation.",
+      "sentence": "Der Kunde ___ die Hotline wegen einer Reklamation ___.",
       "answer": "rief an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Клієнт подзвонив на гарячу лінію через скаргу.",
       "level": "B1",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["rief","an"]
     },
     {
-      "sentence": "Die Firma ___ den Lieferanten für eine Bestellung.",
+      "sentence": "Die Firma ___ den Lieferanten für eine Bestellung ___.",
       "answer": "rief an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Компанія подзвонила постачальнику для замовлення.",
       "level": "B1",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["rief","an"]
     },
     {
-      "sentence": "Wir ___ die Behörde für weitere Informationen.",
+      "sentence": "Wir ___ die Behörde für weitere Informationen ___.",
       "answer": "riefen an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Ми подзвонили до установи для отримання додаткової інформації.",
       "level": "B1",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["riefen","an"]
     },
     {
-      "sentence": "Der Manager ___ den internationalen Partner für Verhandlungen.",
+      "sentence": "Der Manager ___ den internationalen Partner für Verhandlungen ___.",
       "answer": "rief an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Менеджер подзвонив міжнародному партнеру для переговорів.",
       "level": "B2",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["rief","an"]
     },
     {
-      "sentence": "Die Regierung ___ die Botschaft für eine diplomatische Anfrage.",
+      "sentence": "Die Regierung ___ die Botschaft für eine diplomatische Anfrage ___.",
       "answer": "rief an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Уряд подзвонив до посольства для дипломатичного запиту.",
       "level": "B2",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["rief","an"]
     },
     {
-      "sentence": "Das Unternehmen ___ den Investor für ein wichtiges Gespräch.",
+      "sentence": "Das Unternehmen ___ den Investor für ein wichtiges Gespräch ___.",
       "answer": "rief an",
       "ua_infinitiv": "дзвонити",
       "ua_sentence": "Компанія подзвонила інвестору для важливої розмови.",
       "level": "B2",
-      "infinitive": "anrufen"
+      "infinitive": "anrufen",
+      "answers": ["rief","an"]
     },
     {
-      "sentence": "Ich ___ mir einen interessanten Film im Kino.",
+      "sentence": "Ich ___ mir einen interessanten Film im Kino ___.",
       "answer": "sah an",
       "ua_infinitiv": "дивитися",
       "ua_sentence": "Я подивився цікавий фільм у кінотеатрі.",
       "level": "A1",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sah","an"]
     },
     {
-      "sentence": "Du ___ die Bilder in der Ausstellung.",
+      "sentence": "Du ___ die Bilder in der Ausstellung ___.",
       "answer": "sahst an",
       "ua_infinitiv": "дивитися",
       "ua_sentence": "Ти подивився на картини у виставці.",
       "level": "A1",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sahst","an"]
     },
     {
-      "sentence": "Wir ___ die Sehenswürdigkeiten der Stadt.",
+      "sentence": "Wir ___ die Sehenswürdigkeiten der Stadt ___.",
       "answer": "sahen an",
       "ua_infinitiv": "дивитися",
       "ua_sentence": "Ми оглянули визначні місця міста.",
       "level": "A1",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sahen","an"]
     },
     {
-      "sentence": "Er ___ die Nachrichten im Fernsehen.",
+      "sentence": "Er ___ die Nachrichten im Fernsehen ___.",
       "answer": "sah an",
       "ua_infinitiv": "дивитися",
       "ua_sentence": "Він подивився новини по телевізору.",
       "level": "A2",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sah","an"]
     },
     {
-      "sentence": "Ihr ___ die Präsentation des neuen Produkts.",
+      "sentence": "Ihr ___ die Präsentation des neuen Produkts ___.",
       "answer": "saht an",
       "ua_infinitiv": "дивитися",
       "ua_sentence": "Ви подивилися презентацію нового продукту.",
       "level": "A2",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["saht","an"]
     },
     {
-      "sentence": "Die Schüler ___ den Film im Unterricht.",
+      "sentence": "Die Schüler ___ den Film im Unterricht ___.",
       "answer": "sahen an",
       "ua_infinitiv": "дивитися",
       "ua_sentence": "Учні подивилися фільм на уроці.",
       "level": "A2",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sahen","an"]
     },
     {
-      "sentence": "Der Kunde ___ die Ware vor dem Kauf genau.",
+      "sentence": "Der Kunde ___ die Ware vor dem Kauf genau ___.",
       "answer": "sah an",
       "ua_infinitiv": "оглядати",
       "ua_sentence": "Клієнт уважно оглянув товар перед покупкою.",
       "level": "B1",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sah","an"]
     },
     {
-      "sentence": "Die Firma ___ die Marktanalyse für die Expansion.",
+      "sentence": "Die Firma ___ die Marktanalyse für die Expansion ___.",
       "answer": "sah an",
       "ua_infinitiv": "аналізувати",
       "ua_sentence": "Компанія проаналізувала ринок для розширення.",
       "level": "B1",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sah","an"]
     },
     {
-      "sentence": "Wir ___ die Berichte über das Projekt.",
+      "sentence": "Wir ___ die Berichte über das Projekt ___.",
       "answer": "sahen an",
       "ua_infinitiv": "переглядати",
       "ua_sentence": "Ми переглянули звіти про проєкт.",
       "level": "B1",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sahen","an"]
     },
     {
-      "sentence": "Der Manager ___ die Finanzberichte des letzten Jahres.",
+      "sentence": "Der Manager ___ die Finanzberichte des letzten Jahres ___.",
       "answer": "sah an",
       "ua_infinitiv": "переглядати",
       "ua_sentence": "Менеджер переглянув фінансові звіти за минулий рік.",
       "level": "B2",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sah","an"]
     },
     {
-      "sentence": "Die Regierung ___ die wirtschaftlichen Entwicklungen des Landes.",
+      "sentence": "Die Regierung ___ die wirtschaftlichen Entwicklungen des Landes ___.",
       "answer": "sah an",
       "ua_infinitiv": "аналізувати",
       "ua_sentence": "Уряд проаналізував економічний розвиток країни.",
       "level": "B2",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sah","an"]
     },
     {
-      "sentence": "Das Forschungsteam ___ die neuesten Studien zur Klimaveränderung.",
+      "sentence": "Das Forschungsteam ___ die neuesten Studien zur Klimaveränderung ___.",
       "answer": "sah an",
       "ua_infinitiv": "вивчати",
       "ua_sentence": "Дослідницька група вивчила останні дослідження щодо зміни клімату.",
       "level": "B2",
-      "infinitive": "ansehen"
+      "infinitive": "ansehen",
+      "answers": ["sah","an"]
     },
     {
-      "sentence": "Ich ___ das Bild an die Wand.",
+      "sentence": "Ich ___ das Bild an die Wand ___.",
       "answer": "hängte auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Я повісив картину на стіну.",
       "level": "A1",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängte","auf"]
     },
     {
-      "sentence": "Du ___ deine Jacke an den Haken.",
+      "sentence": "Du ___ deine Jacke an den Haken ___.",
       "answer": "hängtest auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Ти повісив свою куртку на гачок.",
       "level": "A1",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängtest","auf"]
     },
     {
-      "sentence": "Wir ___ die Weihnachtsdekoration im Wohnzimmer.",
+      "sentence": "Wir ___ die Weihnachtsdekoration im Wohnzimmer ___.",
       "answer": "hängten auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Ми повісили різдвяні прикраси у вітальні.",
       "level": "A1",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängten","auf"]
     },
     {
-      "sentence": "Er ___ die nassen Handtücher draußen.",
+      "sentence": "Er ___ die nassen Handtücher draußen ___.",
       "answer": "hängte auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Він повісив мокрі рушники надворі.",
       "level": "A2",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängte","auf"]
     },
     {
-      "sentence": "Ihr ___ die Plakate für die Veranstaltung.",
+      "sentence": "Ihr ___ die Plakate für die Veranstaltung ___.",
       "answer": "hängtet auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Ви повісили плакати для заходу.",
       "level": "A2",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängtet","auf"]
     },
     {
-      "sentence": "Die Schüler ___ die Karten im Klassenzimmer.",
+      "sentence": "Die Schüler ___ die Karten im Klassenzimmer ___.",
       "answer": "hängten auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Учні повісили карти у класі.",
       "level": "A2",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängten","auf"]
     },
     {
-      "sentence": "Die Mitarbeiter ___ die neuen Firmenlogos im Büro.",
+      "sentence": "Die Mitarbeiter ___ die neuen Firmenlogos im Büro ___.",
       "answer": "hängten auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Співробітники повісили нові логотипи компанії в офісі.",
       "level": "B1",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängten","auf"]
     },
     {
-      "sentence": "Der Künstler ___ seine Gemälde in der Galerie.",
+      "sentence": "Der Künstler ___ seine Gemälde in der Galerie ___.",
       "answer": "hängte auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Художник повісив свої картини в галереї.",
       "level": "B1",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängte","auf"]
     },
     {
-      "sentence": "Wir ___ die Werbebanner für das Event.",
+      "sentence": "Wir ___ die Werbebanner für das Event ___.",
       "answer": "hängten auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Ми повісили рекламні банери для заходу.",
       "level": "B1",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängten","auf"]
     },
     {
-      "sentence": "Der Manager ___ die Unternehmensziele im Konferenzraum.",
+      "sentence": "Der Manager ___ die Unternehmensziele im Konferenzraum ___.",
       "answer": "hängte auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Менеджер повісив корпоративні цілі в конференц-залі.",
       "level": "B2",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängte","auf"]
     },
     {
-      "sentence": "Die Regierung ___ offizielle Bekanntmachungen im Rathaus.",
+      "sentence": "Die Regierung ___ offizielle Bekanntmachungen im Rathaus ___.",
       "answer": "hängte auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Уряд повісив офіційні оголошення в мерії.",
       "level": "B2",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängte","auf"]
     },
     {
-      "sentence": "Das Museum ___ wertvolle Gemälde aus der Sammlung.",
+      "sentence": "Das Museum ___ wertvolle Gemälde aus der Sammlung ___.",
       "answer": "hängte auf",
       "ua_infinitiv": "вішати",
       "ua_sentence": "Музей повісив цінні картини з колекції.",
       "level": "B2",
-      "infinitive": "aufhängen"
+      "infinitive": "aufhängen",
+      "answers": ["hängte","auf"]
     },
     {
-      "sentence": "Ich ___ mein Zimmer am Wochenende.",
+      "sentence": "Ich ___ mein Zimmer am Wochenende ___.",
       "answer": "räumte auf",
       "ua_infinitiv": "прибирати",
       "ua_sentence": "Я прибрав свою кімнату на вихідних.",
       "level": "A1",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumte","auf"]
     },
     {
-      "sentence": "Du ___ die Küche nach dem Kochen.",
+      "sentence": "Du ___ die Küche nach dem Kochen ___.",
       "answer": "räumtest auf",
       "ua_infinitiv": "прибирати",
       "ua_sentence": "Ти прибрав кухню після готування.",
       "level": "A1",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumtest","auf"]
     },
     {
-      "sentence": "Wir ___ das Wohnzimmer vor dem Besuch.",
+      "sentence": "Wir ___ das Wohnzimmer vor dem Besuch ___.",
       "answer": "räumten auf",
       "ua_infinitiv": "прибирати",
       "ua_sentence": "Ми прибрали вітальню перед приходом гостей.",
       "level": "A1",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumten","auf"]
     },
     {
-      "sentence": "Er ___ den Keller im Frühling.",
+      "sentence": "Er ___ den Keller im Frühling ___.",
       "answer": "räumte auf",
       "ua_infinitiv": "прибирати",
       "ua_sentence": "Він прибрав підвал навесні.",
       "level": "A2",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumte","auf"]
     },
     {
-      "sentence": "Ihr ___ eure Schreibtische nach der Arbeit.",
+      "sentence": "Ihr ___ eure Schreibtische nach der Arbeit ___.",
       "answer": "räumtet auf",
       "ua_infinitiv": "прибирати",
       "ua_sentence": "Ви прибрали свої столи після роботи.",
       "level": "A2",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumtet","auf"]
     },
     {
-      "sentence": "Die Schüler ___ das Klassenzimmer nach dem Unterricht.",
+      "sentence": "Die Schüler ___ das Klassenzimmer nach dem Unterricht ___.",
       "answer": "räumten auf",
       "ua_infinitiv": "прибирати",
       "ua_sentence": "Учні прибрали клас після уроку.",
       "level": "A2",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumten","auf"]
     },
     {
-      "sentence": "Die Mitarbeiter ___ das Büro nach dem Meeting.",
+      "sentence": "Die Mitarbeiter ___ das Büro nach dem Meeting ___.",
       "answer": "räumten auf",
       "ua_infinitiv": "прибирати",
       "ua_sentence": "Співробітники прибрали офіс після наради.",
       "level": "B1",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumten","auf"]
     },
     {
-      "sentence": "Der Hausmeister ___ den Hof nach dem Sturm.",
+      "sentence": "Der Hausmeister ___ den Hof nach dem Sturm ___.",
       "answer": "räumte auf",
       "ua_infinitiv": "прибирати",
       "ua_sentence": "Двірник прибрав двір після бурі.",
       "level": "B1",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumte","auf"]
     },
     {
-      "sentence": "Wir ___ das Lager nach der Lieferung neuer Waren.",
+      "sentence": "Wir ___ das Lager nach der Lieferung neuer Waren ___.",
       "answer": "räumten auf",
       "ua_infinitiv": "прибирати",
       "ua_sentence": "Ми прибрали склад після доставки нових товарів.",
       "level": "B1",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumten","auf"]
     },
     {
-      "sentence": "Der Manager ___ das System von alten Dateien.",
+      "sentence": "Der Manager ___ das System von alten Dateien ___.",
       "answer": "räumte auf",
       "ua_infinitiv": "чистити",
       "ua_sentence": "Менеджер очистив систему від старих файлів.",
       "level": "B2",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumte","auf"]
     },
     {
-      "sentence": "Die Regierung ___ die alten Vorschriften aus dem Gesetzbuch.",
+      "sentence": "Die Regierung ___ die alten Vorschriften aus dem Gesetzbuch ___.",
       "answer": "räumte auf",
       "ua_infinitiv": "видаляти",
       "ua_sentence": "Уряд видалив старі нормативи з кодексу законів.",
       "level": "B2",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumte","auf"]
     },
     {
-      "sentence": "Das IT-Team ___ die Server von unnötigen Daten.",
+      "sentence": "Das IT-Team ___ die Server von unnötigen Daten ___.",
       "answer": "räumte auf",
       "ua_infinitiv": "чистити",
       "ua_sentence": "ІТ-команда очистила сервери від непотрібних даних.",
       "level": "B2",
-      "infinitive": "aufräumen"
+      "infinitive": "aufräumen",
+      "answers": ["räumte","auf"]
     },
     {
-      "sentence": "Ich ___ die Adresse auf ein Blatt Papier.",
+      "sentence": "Ich ___ die Adresse auf ein Blatt Papier ___.",
       "answer": "schrieb auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Я записав адресу на аркуші паперу.",
       "level": "A1",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieb","auf"]
     },
     {
-      "sentence": "Du ___ die Telefonnummer deiner Freundin.",
+      "sentence": "Du ___ die Telefonnummer deiner Freundin ___.",
       "answer": "schriebst auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Ти записав номер телефону своєї подруги.",
       "level": "A1",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schriebst","auf"]
     },
     {
-      "sentence": "Wir ___ die Einkaufsliste für den Supermarkt.",
+      "sentence": "Wir ___ die Einkaufsliste für den Supermarkt ___.",
       "answer": "schrieben auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Ми записали список покупок для супермаркету.",
       "level": "A1",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieben","auf"]
     },
     {
-      "sentence": "Er ___ die wichtigsten Notizen während des Meetings.",
+      "sentence": "Er ___ die wichtigsten Notizen während des Meetings ___.",
       "answer": "schrieb auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Він записав найважливіші нотатки під час наради.",
       "level": "A2",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieb","auf"]
     },
     {
-      "sentence": "Ihr ___ die neuen Vokabeln ins Heft.",
+      "sentence": "Ihr ___ die neuen Vokabeln ins Heft ___.",
       "answer": "schriebt auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Ви записали нові слова в зошит.",
       "level": "A2",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schriebt","auf"]
     },
     {
-      "sentence": "Die Schüler ___ die Hausaufgabe aus dem Unterricht.",
+      "sentence": "Die Schüler ___ die Hausaufgabe aus dem Unterricht ___.",
       "answer": "schrieben auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Учні записали домашнє завдання з уроку.",
       "level": "A2",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieben","auf"]
     },
     {
-      "sentence": "Der Journalist ___ ein Interview mit einem berühmten Politiker.",
+      "sentence": "Der Journalist ___ ein Interview mit einem berühmten Politiker ___.",
       "answer": "schrieb auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Журналіст записав інтерв’ю з відомим політиком.",
       "level": "B1",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieb","auf"]
     },
     {
-      "sentence": "Die Firma ___ die wichtigen Geschäftsdaten.",
+      "sentence": "Die Firma ___ die wichtigen Geschäftsdaten ___.",
       "answer": "schrieb auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Компанія записала важливі ділові дані.",
       "level": "B1",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieb","auf"]
     },
     {
-      "sentence": "Wir ___ die Ideen für das neue Projekt.",
+      "sentence": "Wir ___ die Ideen für das neue Projekt ___.",
       "answer": "schrieben auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Ми записали ідеї для нового проєкту.",
       "level": "B1",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieben","auf"]
     },
     {
-      "sentence": "Der Manager ___ die wichtigsten Punkte aus der Besprechung.",
+      "sentence": "Der Manager ___ die wichtigsten Punkte aus der Besprechung ___.",
       "answer": "schrieb auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Менеджер записав найважливіші моменти з наради.",
       "level": "B2",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieb","auf"]
     },
     {
-      "sentence": "Die Regierung ___ die neuen gesetzlichen Vorschläge.",
+      "sentence": "Die Regierung ___ die neuen gesetzlichen Vorschläge ___.",
       "answer": "schrieb auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Уряд записав нові законодавчі пропозиції.",
       "level": "B2",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieb","auf"]
     },
     {
-      "sentence": "Das Forschungsteam ___ die wichtigsten Erkenntnisse aus der Studie.",
+      "sentence": "Das Forschungsteam ___ die wichtigsten Erkenntnisse aus der Studie ___.",
       "answer": "schrieb auf",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Дослідницька група записала найважливіші висновки зі свого дослідження.",
       "level": "B2",
-      "infinitive": "aufschreiben"
+      "infinitive": "aufschreiben",
+      "answers": ["schrieb","auf"]
     },
     {
-      "sentence": "Ich ___ das Formular für die Anmeldung.",
+      "sentence": "Ich ___ das Formular für die Anmeldung ___.",
       "answer": "füllte aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Я заповнив форму для реєстрації.",
       "level": "A1",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllte","aus"]
     },
     {
-      "sentence": "Du ___ die Felder im Dokument.",
+      "sentence": "Du ___ die Felder im Dokument ___.",
       "answer": "fülltest aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Ти заповнив поля в документі.",
       "level": "A1",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["fülltest","aus"]
     },
     {
-      "sentence": "Wir ___ den Fragebogen für die Umfrage.",
+      "sentence": "Wir ___ den Fragebogen für die Umfrage ___.",
       "answer": "füllten aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Ми заповнили анкету для опитування.",
       "level": "A1",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllten","aus"]
     },
     {
-      "sentence": "Er ___ das Visumsformular sorgfältig.",
+      "sentence": "Er ___ das Visumsformular sorgfältig ___.",
       "answer": "füllte aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Він ретельно заповнив форму для візи.",
       "level": "A2",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllte","aus"]
     },
     {
-      "sentence": "Ihr ___ die Felder mit den persönlichen Daten.",
+      "sentence": "Ihr ___ die Felder mit den persönlichen Daten ___.",
       "answer": "fülltet aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Ви заповнили поля з особистими даними.",
       "level": "A2",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["fülltet","aus"]
     },
     {
-      "sentence": "Die Studenten ___ das Einschreibungsformular für die Universität.",
+      "sentence": "Die Studenten ___ das Einschreibungsformular für die Universität ___.",
       "answer": "füllten aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Студенти заповнили форму для вступу до університету.",
       "level": "A2",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllten","aus"]
     },
     {
-      "sentence": "Die Kunden ___ die Umfrage zur Servicequalität.",
+      "sentence": "Die Kunden ___ die Umfrage zur Servicequalität ___.",
       "answer": "füllten aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Клієнти заповнили анкету щодо якості обслуговування.",
       "level": "B1",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllten","aus"]
     },
     {
-      "sentence": "Der Mitarbeiter ___ das Bestellformular für neue Produkte.",
+      "sentence": "Der Mitarbeiter ___ das Bestellformular für neue Produkte ___.",
       "answer": "füllte aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Співробітник заповнив форму замовлення для нових продуктів.",
       "level": "B1",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllte","aus"]
     },
     {
-      "sentence": "Wir ___ den Bericht über den aktuellen Status des Projekts.",
+      "sentence": "Wir ___ den Bericht über den aktuellen Status des Projekts ___.",
       "answer": "füllten aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Ми заповнили звіт про поточний стан проєкту.",
       "level": "B1",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllten","aus"]
     },
     {
-      "sentence": "Der Manager ___ die Finanzdokumente für das Quartal.",
+      "sentence": "Der Manager ___ die Finanzdokumente für das Quartal ___.",
       "answer": "füllte aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Менеджер заповнив фінансові документи за квартал.",
       "level": "B2",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllte","aus"]
     },
     {
-      "sentence": "Die Regierung ___ die notwendigen Berichte für das Ministerium.",
+      "sentence": "Die Regierung ___ die notwendigen Berichte für das Ministerium ___.",
       "answer": "füllte aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Уряд заповнив необхідні звіти для міністерства.",
       "level": "B2",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllte","aus"]
     },
     {
-      "sentence": "Das Forschungsteam ___ die detaillierte Analyse für die Studie.",
+      "sentence": "Das Forschungsteam ___ die detaillierte Analyse für die Studie ___.",
       "answer": "füllte aus",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Дослідницька група заповнила детальний аналіз для дослідження.",
       "level": "B2",
-      "infinitive": "ausfuellen"
+      "infinitive": "ausfuellen",
+      "answers": ["füllte","aus"]
     },
     {
-      "sentence": "Ich ___ ein neues Rezept zum Abendessen.",
+      "sentence": "Ich ___ ein neues Rezept zum Abendessen ___.",
       "answer": "probierte aus",
       "ua_infinitiv": "пробувати",
       "ua_sentence": "Я спробував новий рецепт на вечерю.",
       "level": "A1",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierte","aus"]
     },
     {
-      "sentence": "Du ___ die neuen Schuhe im Geschäft.",
+      "sentence": "Du ___ die neuen Schuhe im Geschäft ___.",
       "answer": "probiertest aus",
       "ua_infinitiv": "пробувати",
       "ua_sentence": "Ти приміряв нове взуття в магазині.",
       "level": "A1",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probiertest","aus"]
     },
     {
-      "sentence": "Wir ___ das Fahrrad vor dem Kauf.",
+      "sentence": "Wir ___ das Fahrrad vor dem Kauf ___.",
       "answer": "probierten aus",
       "ua_infinitiv": "пробувати",
       "ua_sentence": "Ми випробували велосипед перед покупкою.",
       "level": "A1",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierten","aus"]
     },
     {
-      "sentence": "Er ___ eine neue Sportart im Urlaub.",
+      "sentence": "Er ___ eine neue Sportart im Urlaub ___.",
       "answer": "probierte aus",
       "ua_infinitiv": "пробувати",
       "ua_sentence": "Він спробував новий вид спорту у відпустці.",
       "level": "A2",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierte","aus"]
     },
     {
-      "sentence": "Ihr ___ verschiedene Strategien für das Projekt.",
+      "sentence": "Ihr ___ verschiedene Strategien für das Projekt ___.",
       "answer": "probiertet aus",
       "ua_infinitiv": "пробувати",
       "ua_sentence": "Ви випробували різні стратегії для проєкту.",
       "level": "A2",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probiertet","aus"]
     },
     {
-      "sentence": "Die Schüler ___ eine neue Lernmethode.",
+      "sentence": "Die Schüler ___ eine neue Lernmethode ___.",
       "answer": "probierten aus",
       "ua_infinitiv": "пробувати",
       "ua_sentence": "Учні випробували новий метод навчання.",
       "level": "A2",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierten","aus"]
     },
     {
-      "sentence": "Das Team ___ eine neue Software für die Firma.",
+      "sentence": "Das Team ___ eine neue Software für die Firma ___.",
       "answer": "probierte aus",
       "ua_infinitiv": "тестувати",
       "ua_sentence": "Команда випробувала нове програмне забезпечення для компанії.",
       "level": "B1",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierte","aus"]
     },
     {
-      "sentence": "Die Wissenschaftler ___ ein neues Experiment im Labor.",
+      "sentence": "Die Wissenschaftler ___ ein neues Experiment im Labor ___.",
       "answer": "probierten aus",
       "ua_infinitiv": "тестувати",
       "ua_sentence": "Вчені випробували новий експеримент у лабораторії.",
       "level": "B1",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierten","aus"]
     },
     {
-      "sentence": "Wir ___ ein innovatives Geschäftsmodell.",
+      "sentence": "Wir ___ ein innovatives Geschäftsmodell ___.",
       "answer": "probierten aus",
       "ua_infinitiv": "випробовувати",
       "ua_sentence": "Ми випробували інноваційну бізнес-модель.",
       "level": "B1",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierten","aus"]
     },
     {
-      "sentence": "Der Ingenieur ___ ein neues Material für die Konstruktion.",
+      "sentence": "Der Ingenieur ___ ein neues Material für die Konstruktion ___.",
       "answer": "probierte aus",
       "ua_infinitiv": "тестувати",
       "ua_sentence": "Інженер випробував новий матеріал для конструкції.",
       "level": "B2",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierte","aus"]
     },
     {
-      "sentence": "Die Regierung ___ verschiedene Maßnahmen zur Krisenbewältigung.",
+      "sentence": "Die Regierung ___ verschiedene Maßnahmen zur Krisenbewältigung ___.",
       "answer": "probierte aus",
       "ua_infinitiv": "випробовувати",
       "ua_sentence": "Уряд випробував різні заходи для подолання кризи.",
       "level": "B2",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierte","aus"]
     },
     {
-      "sentence": "Das Unternehmen ___ neue Methoden zur Effizienzsteigerung.",
+      "sentence": "Das Unternehmen ___ neue Methoden zur Effizienzsteigerung ___.",
       "answer": "probierte aus",
       "ua_infinitiv": "випробовувати",
       "ua_sentence": "Компанія випробувала нові методи підвищення ефективності.",
       "level": "B2",
-      "infinitive": "ausprobieren"
+      "infinitive": "ausprobieren",
+      "answers": ["probierte","aus"]
     },
     {
       "sentence": "Ich ___ einen Kuchen für den Geburtstag.",
@@ -1079,7 +1211,7 @@ const preteritum_sentenses = {
       "answer": "backten",
       "ua_infinitiv": "пекти",
       "ua_sentence": "Ми спекли хліб на сніданок.",
-      "   level": "A1",
+            "level": "A1",
       "infinitive": "backen"
     },
     {
@@ -2139,196 +2271,220 @@ const preteritum_sentenses = {
       "infinitive": "buchstabieren"
     },
     {
-      "sentence": "Ich ___ im Hotel nach der langen Reise.",
+      "sentence": "Ich ___ im Hotel nach der langen Reise ___.",
       "answer": "checkte ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Я зареєструвався в готелі після довгої подорожі.",
       "level": "A1",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkte","ein"]
     },
     {
-      "sentence": "Du ___ am Flughafen vor dem Abflug.",
+      "sentence": "Du ___ am Flughafen vor dem Abflug ___.",
       "answer": "checktest ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Ти зареєструвався в аеропорту перед вильотом.",
       "level": "A1",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checktest","ein"]
     },
     {
-      "sentence": "Wir ___ in unser Zimmer um 14 Uhr.",
+      "sentence": "Wir ___ in unser Zimmer um 14 Uhr ___.",
       "answer": "checkten ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Ми зареєструвалися в нашому номері о 14:00.",
       "level": "A1",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkten","ein"]
     },
     {
-      "sentence": "Er ___ am Schalter der Fluggesellschaft.",
+      "sentence": "Er ___ am Schalter der Fluggesellschaft ___.",
       "answer": "checkte ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Він зареєструвався на стійці авіакомпанії.",
       "level": "A2",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkte","ein"]
     },
     {
-      "sentence": "Ihr ___ für den Flug nach Paris.",
+      "sentence": "Ihr ___ für den Flug nach Paris ___.",
       "answer": "checktet ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Ви зареєструвалися на рейс до Парижа.",
       "level": "A2",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checktet","ein"]
     },
     {
-      "sentence": "Die Gäste ___ am Empfang des Hotels.",
+      "sentence": "Die Gäste ___ am Empfang des Hotels ___.",
       "answer": "checkten ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Гості зареєструвалися на рецепції готелю.",
       "level": "A2",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkten","ein"]
     },
     {
-      "sentence": "Die Geschäftsreisenden ___ für den internationalen Flug.",
+      "sentence": "Die Geschäftsreisenden ___ für den internationalen Flug ___.",
       "answer": "checkten ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Бізнес-мандрівники зареєструвалися на міжнародний рейс.",
       "level": "B1",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkten","ein"]
     },
     {
-      "sentence": "Das Team ___ im Konferenzhotel für das Meeting.",
+      "sentence": "Das Team ___ im Konferenzhotel für das Meeting ___.",
       "answer": "checkte ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Команда зареєструвалася в конференц-готелі для зустрічі.",
       "level": "B1",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkte","ein"]
     },
     {
-      "sentence": "Wir ___ in der VIP-Lounge des Flughafens.",
+      "sentence": "Wir ___ in der VIP-Lounge des Flughafens ___.",
       "answer": "checkten ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Ми зареєструвалися в VIP-залі аеропорту.",
       "level": "B1",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkten","ein"]
     },
     {
-      "sentence": "Der Minister ___ in einem Luxushotel für die Konferenz.",
+      "sentence": "Der Minister ___ in einem Luxushotel für die Konferenz ___.",
       "answer": "checkte ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Міністр зареєструвався в розкішному готелі для конференції.",
       "level": "B2",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkte","ein"]
     },
     {
-      "sentence": "Die Delegation ___ für den diplomatischen Flug.",
+      "sentence": "Die Delegation ___ für den diplomatischen Flug ___.",
       "answer": "checkte ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Делегація зареєструвалася на дипломатичний рейс.",
       "level": "B2",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkte","ein"]
     },
     {
-      "sentence": "Das Unternehmen ___ seine Mitarbeiter für das Business-Event.",
+      "sentence": "Das Unternehmen ___ seine Mitarbeiter für das Business-Event ___.",
       "answer": "checkte ein",
       "ua_infinitiv": "реєструватися",
       "ua_sentence": "Компанія зареєструвала своїх співробітників на бізнес-захід.",
       "level": "B2",
-      "infinitive": "einchecken"
+      "infinitive": "einchecken",
+      "answers": ["checkte","ein"]
     },
     {
-      "sentence": "Ich ___ meine Freunde zur Geburtstagsfeier.",
+      "sentence": "Ich ___ meine Freunde zur Geburtstagsfeier ___.",
       "answer": "lud ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Я запросив своїх друзів на день народження.",
       "level": "A1",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["lud","ein"]
     },
     {
-      "sentence": "Du ___ deine Familie zum Abendessen.",
+      "sentence": "Du ___ deine Familie zum Abendessen ___.",
       "answer": "ludst ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Ти запросив свою сім'ю на вечерю.",
       "level": "A1",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["ludst","ein"]
     },
     {
-      "sentence": "Wir ___ unsere Nachbarn zu einer Grillparty.",
+      "sentence": "Wir ___ unsere Nachbarn zu einer Grillparty ___.",
       "answer": "luden ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Ми запросили наших сусідів на барбекю.",
       "level": "A1",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["luden","ein"]
     },
     {
-      "sentence": "Er ___ seine Kollegen zu einem Meeting.",
+      "sentence": "Er ___ seine Kollegen zu einem Meeting ___.",
       "answer": "lud ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Він запросив своїх колег на зустріч.",
       "level": "A2",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["lud","ein"]
     },
     {
-      "sentence": "Ihr ___ eure Freunde zum Picknick.",
+      "sentence": "Ihr ___ eure Freunde zum Picknick ___.",
       "answer": "ludet ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Ви запросили своїх друзів на пікнік.",
       "level": "A2",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["ludet","ein"]
     },
     {
-      "sentence": "Die Lehrer ___ die Eltern zum Elternabend.",
+      "sentence": "Die Lehrer ___ die Eltern zum Elternabend ___.",
       "answer": "luden ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Учителі запросили батьків на батьківські збори.",
       "level": "A2",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["luden","ein"]
     },
     {
-      "sentence": "Das Unternehmen ___ Gäste zur Produktpräsentation.",
+      "sentence": "Das Unternehmen ___ Gäste zur Produktpräsentation ___.",
       "answer": "lud ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Компанія запросила гостей на презентацію продукту.",
       "level": "B1",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["lud","ein"]
     },
     {
-      "sentence": "Der Bürgermeister ___ zur Eröffnung des neuen Parks.",
+      "sentence": "Der Bürgermeister ___ zur Eröffnung des neuen Parks ___.",
       "answer": "lud ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Мер запросив на відкриття нового парку.",
       "level": "B1",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["lud","ein"]
     },
     {
-      "sentence": "Wir ___ Experten zur Konferenz über Nachhaltigkeit.",
+      "sentence": "Wir ___ Experten zur Konferenz über Nachhaltigkeit ___.",
       "answer": "luden ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Ми запросили експертів на конференцію про сталий розвиток.",
       "level": "B1",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["luden","ein"]
     },
     {
-      "sentence": "Die Regierung ___ internationale Vertreter zu Verhandlungen.",
+      "sentence": "Die Regierung ___ internationale Vertreter zu Verhandlungen ___.",
       "answer": "lud ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Уряд запросив міжнародних представників на переговори.",
       "level": "B2",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["lud","ein"]
     },
     {
-      "sentence": "Das Unternehmen ___ Investoren zu einer Geschäftspräsentation.",
+      "sentence": "Das Unternehmen ___ Investoren zu einer Geschäftspräsentation ___.",
       "answer": "lud ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Компанія запросила інвесторів на бізнес-презентацію.",
       "level": "B2",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["lud","ein"]
     },
     {
-      "sentence": "Die Universität ___ Wissenschaftler zu einem Fachseminar.",
+      "sentence": "Die Universität ___ Wissenschaftler zu einem Fachseminar ___.",
       "answer": "lud ein",
       "ua_infinitiv": "запрошувати",
       "ua_sentence": "Університет запросив вчених на науковий семінар.",
       "level": "B2",
-      "infinitive": "einladen"
+      "infinitive": "einladen",
+      "answers": ["lud","ein"]
     },
     {
       "sentence": "Ich ___ die Liste mit neuen Informationen.",
@@ -3298,14 +3454,7 @@ const preteritum_sentenses = {
       "level": "A1",
       "infinitive": "kennen"
     },
-    {
-      "sentence": "Ich ___ diesen Ort seit meiner Kindheit.",
-      "answer": "kannte",
-      "ua_infinitiv": "знати",
-      "ua_sentence": "Я знав це місце з дитинства.",
-      "level": "A1",
-      "infinitive": "kennen"
-    },
+
     {
       "sentence": "Du ___ die Antwort auf die Frage.",
       "answer": "kanntest",
@@ -3699,7 +3848,6 @@ const preteritum_sentenses = {
       "level": "B2",
       "infinitive": "lassen"
     }
-
 
   ]
 };
