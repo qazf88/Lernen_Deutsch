@@ -1,407 +1,311 @@
-{
-    let current_wortart = null;
-    let current_test = null;
-    let current_level = "All";
-    let current_antworte = [];
-    const setse_per_page = 10;
-
-    let activeTime = 0;
-    let lastTime = Date.now();
-    let isActive = true;
-    let lastInteractionTime = Date.now();
-    const inactivityLimit = 3 * 60 * 1000;
-
-    const today = new Date().toISOString().split('T')[0];
-    const storageKey = `activeTime_${today}`;
-
-    function setCurrentButton(index, parentElementId) {
-        let btns = document.getElementById(parentElementId).children;
-        for (i = 0; i < btns.length; i++) {
-            if (index === i) {
-                btns[i].style.color = "black";
-                btns[i].style.fontSize = "26px";
-            } else {
-                btns[i].style.color = "rgb(85, 86, 85)"
-                btns[i].style.fontSize = "20px";
+(function () {
+    'use strict';
+    const core = DeutschCore;
+    const $ = id => document.getElementById(id);
+    const memoryStorage = new Map();
+    const storage = {
+        get(key) {
+            if (memoryStorage.has(key)) return memoryStorage.get(key);
+            try { return localStorage.getItem(key) ?? memoryStorage.get(key) ?? null; }
+            catch { return memoryStorage.get(key) ?? null; }
+        },
+        set(key, value) {
+            memoryStorage.set(key, String(value));
+            try { localStorage.setItem(key, String(value)); }
+            catch {
+                $('storageNotice').hidden = false;
+                $('storageNotice').textContent = 'Браузер не дозволяє зберігати прогрес. Вправи працюють, але після закриття сторінки нові результати можуть зникнути.';
             }
         }
-    }
-
-    function changeWortart(val) {
-
-        if (Number(val) > Wortart.length) {
-            current_wortart = Wortart[0].name;
-        } else {
-            if (current_wortart === Number(val)) {
-                return;
-            } else {
-                current_wortart = Number(val);
-            }
-        }
-
-        document.getElementById("taskContainer").replaceChildren();
-        current_test = null;
-
-        let buttonTestContainer = document.getElementById("buttonTestContainer");
-        buttonTestContainer.replaceChildren();
-
-        if (Wortart[current_wortart].data.length === 1) {
-            changeTest(0);
-        } else {
-            Wortart[current_wortart].data.forEach((testItem, testIndex) => {
-                buttonTestContainer.appendChild(create_button(eval(testItem.name).name, testIndex, "changeTest"));
-            })
-        }
-
-        setCurrentButton(val, "buttonWortartenContainer");
-    }
-
-    function changeTest(val) {
-
-        if (Number(val) > Wortart[current_wortart].length) {
-            current_test = eval(Wortart[current_wortart].data[0].name);
-        } else {
-            Wortart[current_wortart].data.forEach((item, index) => {
-                if (Number(val) === Number(index)) {
-                    if (current_test === eval(item.name)) {
-                        return;
-                    } else {
-                        current_test = eval(item.name)
-                        setCurrentButton(val, "buttonTestContainer");
-                        generateTasks();
-                    }
-                }
-            });
-        }
-    }
-
-    function changeLevel(val) {
-
-        if (current_level === Levels[val].name) {
-            return;
-        }
-
-        if ((Levels[val].name === undefined) || (Number(val) > Levels.length)) {
-            current_level = Levels[0].name;
-        } else {
-            current_level = Levels[Number(val)].name;
-        }
-        setCurrentButton(val, "buttonLevelContainer");
-        if ((current_test != null) && current_test != null) {
-            generateTasks();
-        }
-    }
-
-    function replaceUmlauts(str) {
-        const umlautMap = {
-            'ä': 'ae', 'ö': 'oe', 'ü': 'ue', 'ß': 'ss',
-            'Ä': 'Ae', 'Ö': 'Oe', 'Ü': 'Ue'
-        };
-
-        return str.replace(/[äöüßÄÖÜ]/g, match => umlautMap[match] || match);
-    }
-
-    function generateTasks() {
-        current_antworte = [];
-        let resElement = document.getElementById("result");
-        resElement.innerHTML = "";
-        let desk = document.getElementById("deskription");
-        desk.innerHTML = current_test.desc;
-        let taskContainer = document.getElementById("taskContainer");
-        taskContainer.innerHTML = "";
-        let levelOneArray;
-        if (current_level === "All") {
-            levelOneArray = current_test.data;
-        } else {
-            levelOneArray = current_test.data.filter(item => item.level === current_level);
-        }
-        let selectedSentences = levelOneArray.toSorted(() => 0.5 - Math.random()).slice(0, levelOneArray.length < setse_per_page ? levelOneArray.length : setse_per_page);
-        selectedSentences.forEach((item, index) => {
-            let sentenceId = `sentens_${current_test.data.findIndex(e => e.sentence === item.sentence)}`;
-
-            current_antworte.push({ index: index, antwort: item.answer })
-
-            let sentenceWithInputs = item.sentence.replace("___", `<input type='text' id='q${index}_0'>`);
-            if (sentenceWithInputs.includes("___")) {
-                sentenceWithInputs = sentenceWithInputs.replace("___", `<input type='text' id='q${index + 1}_1'>`);
-            }
-
-            let infinitive = "";
-            if (Wortart[current_wortart].name === "Pronomen") {
-                infinitive = ' &#9755; &#9432;';
-            } else {
-                if (item.level === "A1" || item.level === "A2" || item.level === "B1") {
-                    infinitive = "(" + item.infinitive + ")";
-                }
-            }
-
-            if (Wortart[current_wortart].name === "Nomen") {
-                if (item.level === "A1") {
-                    infinitive = "(" + item.infinitive + ")";
-                } else {
-                    infinitive = ' &#9755; &#9432;';
-                }
-            }
-
-            if (Wortart[current_wortart].name === "Zahlen") {
-                infinitive = "(" + item.ua_infinitiv + " " + item.type + ")";
-            }
-
-            let backgraund = "";
-
-            if (index % 2 == 0) {
-                backgraund = " style=\" background-color: rgba(168, 168, 166, 0.59);\"";
-            }
-
-            let levelInfo = '';
-            if (current_level == "All") {
-                levelInfo = `<span data-tooltip="${item.level}"> &#9755; &#9432;</span>`;
-            }
-
-            let infinitiveDict = item.infinitive.split(",");
-            let linksDict = '';
-            if (Wortart[current_wortart].name === "Verb" || Wortart[current_wortart].name === "Nomen") {
-                linksDict = `<a href="https://dict.com/deutsch-ukrainisch/${infinitiveDict[0]}" target="_blank">dict.com</a> 
-                <a href="https://www.duden.de/rechtschreibung/${replaceUmlauts(infinitiveDict[0])}" target="_blank">duden</a>`
-            }
-
-            let taskHTML = `
-            <p class='task_p' id='${sentenceId}' ${backgraund}>
-                ${index + 1}. ${sentenceWithInputs} 
-                <span data-tooltip="${item.ua_infinitiv}"> ${infinitive} </span>  
-                <span data-tooltip="${item.ua_sentence}"> &#9755; &#9432;</span> 
-               ${levelInfo}
-               ${linksDict}
-                <span class='hint' id='hint${index}'></span> 
-              </p>`;
-            taskContainer.innerHTML += taskHTML;
-
-        });
-    }
-
-    function checkAnswers() {
-        let res = 0;
-        let sentenceElements = document.getElementById("taskContainer").children;
-
-        for (let i = 0; i < sentenceElements.length; i++) {
-            let userAnswer = sentenceElements[i].querySelectorAll("input");
-            let hint = document.getElementById(`hint${i}`);
-
-            let ans = [];
-            userAnswer.forEach((input, index) => {
-                ans.push(input.value.trim());
-            });
-
-            let richtig = current_antworte[i].antwort.split(" ");
-
-            if (ans.length === 2) {
-                if (ans[0].toLowerCase() === richtig[0].toLowerCase() && ans[1].toLowerCase() === richtig[1].toLowerCase()) {
-                    userAnswer[0].style.color = "green";
-                    userAnswer[1].style.color = "green";
-                    hint.style.display = "none";
-                    res++;
-                } else {
-                    userAnswer[0].style.color = "red";
-                    userAnswer[1].style.color = "red";
-                    hint.style.display = "inline";
-                    hint.textContent = `(${richtig.join(' ')})`;
-                }
-            }
-            else {
-                if (ans[0].toLowerCase() === richtig[0].toLowerCase()) {
-                    userAnswer[0].style.color = "green";
-                    hint.style.display = "none";
-                    res++;
-                } else {
-                    userAnswer[0].style.color = "red";
-                    hint.style.display = "inline";
-                    hint.textContent = `(${richtig.join(' ')})`;
-                }
-            }
-        }
-        let resElement = document.getElementById("result");
-        resElement.innerHTML = `Ergebnis: ${res} von ${sentenceElements.length}`;
-        if (res === sentenceElements.length) {
-            resElement.style.color = "green";
-        }
-        else if (res >= sentenceElements.length / 2 && res < sentenceElements.length) {
-            resElement.style.color = "#FF8C00";
-        }
-        else {
-            resElement.style.color = "red";
-        }
-
-        calcScore(res, sentenceElements.length);
-
     };
+    function readJSON(key, fallback) {
+        try { return JSON.parse(storage.get(key)) ?? fallback; } catch { return fallback; }
+    }
+    const settings = readJSON('deutsch.settings.v2', {});
+    let score = readJSON('deutsch.score.v2', { correct: 0, attempted: 0 });
+    try { core.summarizeScore(score, 0, 0); } catch { score = { correct: 0, attempted: 0 }; }
+    let currentGroup = exerciseGroups.find(group => group.id === settings?.group) || exerciseGroups[0];
+    let currentTest = currentGroup.tests.find(test => test.id === settings?.test) || currentGroup.tests[0];
+    let round = [];
+    let roundScored = false;
+    let mistakes = [];
+    let activeInput = null;
+    let searchTimer;
 
-    function create_button(name, index, oncFunc) {
-        var el = document.createElement("button");
-        el.id = "btn_" + index;
-        el.innerHTML = name
-        el.setAttribute("onClick", oncFunc + "(" + Number(index) + ")")
+    function element(tag, className, text) {
+        const el = document.createElement(tag);
+        if (className) el.className = className;
+        if (text !== undefined) el.textContent = text;
         return el;
     }
-
-    function initLevel() {
-        let buttonLevelContainer = document.getElementById("buttonLevelContainer");
-        Levels.forEach((item, index) => {
-            buttonLevelContainer.appendChild(create_button(item.name, index, "changeLevel"));
-        });
-        changeLevel(0);
+    function saveSettings() {
+        storage.set('deutsch.settings.v2', JSON.stringify({
+            group: currentGroup.id, test: currentTest.id,
+            level: $('levelSelect').value, count: Number($('countSelect').value)
+        }));
     }
-
-    function initWortart() {
-        let buttonWortartenContainer = document.getElementById("buttonWortartenContainer");
-        Wortart.forEach((item, index) => {
-            buttonWortartenContainer.appendChild(create_button(item.name, index, "changeWortart"));
-        });
+    function renderScore() {
+        $('score').textContent = `${score.correct} / ${score.attempted}`;
+        $('scorePercent').textContent = score.attempted ? `${Math.round(score.correct / score.attempted * 100)}% правильних` : 'Ще все попереду';
+        const legacy = Number(storage.get('total_score'));
+        $('legacyScore').hidden = !Number.isSafeInteger(legacy) || legacy <= 0;
+        $('legacyScore').textContent = `Раніше: ${legacy} правильних відповідей. Точна статистика спроб ведеться від цього оновлення.`;
     }
-
-    function init() {
-        initLevel();
-        initWortart();
-
-        document.getElementById("taskContainer").innerHTML = "<p id='wahlen' style='text-align: center;  font-size: 26px;'>Wählen Sie einen Test aus!</p>";
-
-        wievScore()
-
-        const del = document.querySelectorAll(".btnDelete");
-        for (let i = 0; i < del.length; i++) {
-            del[i].addEventListener("click", function (e) {
-                e.preventDefault();
-                showbox();
+    function renderTests() {
+        $('testSelect').replaceChildren(...currentGroup.tests.map(test => {
+            const option = element('option', '', `${test.name} (${test.data.length.toLocaleString('uk')})`);
+            option.value = test.id;
+            return option;
+        }));
+        $('testSelect').value = currentTest.id;
+        for (const button of $('buttonWortartenContainer').children) {
+            button.setAttribute('aria-pressed', String(button.dataset.group === currentGroup.id));
+        }
+    }
+    function renderTask(item, index) {
+        const card = element('article', 'task-card');
+        card.id = `task-${index}`;
+        const heading = element('div', 'task-heading');
+        heading.append(element('span', 'task-number', String(index + 1).padStart(2, '0')), element('span', 'badge', item.level));
+        card.append(heading);
+        const sentence = element('p', 'sentence');
+        sentence.lang = 'de';
+        const parts = item.sentence.split('___');
+        const primary = core.getAnswerVariants(item)[0];
+        parts.forEach((part, blank) => {
+            sentence.append(document.createTextNode(part));
+            if (blank === parts.length - 1) return;
+            const input = element('input', 'answer-input');
+            input.type = 'text';
+            input.id = `q${index}_${blank}`;
+            input.name = input.id;
+            input.autocomplete = 'off';
+            input.autocapitalize = 'none';
+            input.spellcheck = false;
+            input.setAttribute('autocorrect', 'off');
+            input.setAttribute('aria-label', `Вправа ${index + 1}, пропуск ${blank + 1}: ${item.sentence.replaceAll('___', '…')}`);
+            input.setAttribute('aria-describedby', `feedback-${index}`);
+            input.enterKeyHint = index === round.length - 1 && blank === parts.length - 2 ? 'done' : 'next';
+            input.style.setProperty('--answer-width', `${Math.min(26, Math.max(8, (primary?.[blank]?.length || 8) + 2))}ch`);
+            input.addEventListener('focus', () => { activeInput = input; });
+            sentence.append(input);
+        });
+        card.append(sentence);
+        const lemma = currentTest.id === 'nomen' ? '' : item.infinitive;
+        const hint = [lemma, item.ua_infinitiv, item.type].filter(Boolean).join(' · ');
+        if (hint) card.append(element('p', 'word-hint', hint));
+        const translation = element('details', 'translation');
+        translation.append(element('summary', '', 'Переклад речення'), element('p', '', item.ua_sentence || item.ua_infinitiv));
+        if (currentGroup.id === 'verbs' || currentGroup.id === 'nouns') {
+            const word = (item.lemma || item.infinitive || '').split(/[·,]/)[0].trim();
+            if (word) {
+                const dictionary = element('a', 'dictionary-link', 'Німецько-український словник ↗');
+                dictionary.href = `https://dict.com/deutsch-ukrainisch/${encodeURIComponent(word)}`;
+                dictionary.target = '_blank';
+                dictionary.rel = 'noopener noreferrer';
+                translation.append(dictionary);
+            }
+        }
+        card.append(translation);
+        const feedback = element('p', 'feedback');
+        feedback.id = `feedback-${index}`;
+        feedback.hidden = true;
+        card.append(feedback);
+        return card;
+    }
+    function generateTasks(items) {
+        clearTimeout(searchTimer);
+        const pool = core.filterItems(currentTest.data, $('levelSelect').value, $('searchInput').value);
+        round = Array.isArray(items) ? [...items] : core.sampleItems(pool, Number($('countSelect').value));
+        roundScored = false;
+        mistakes = [];
+        activeInput = null;
+        $('retryErrors').hidden = true;
+        $('checkButton').disabled = round.length === 0;
+        $('checkButton').textContent = 'Перевірити';
+        $('newRound').disabled = pool.length === 0;
+        $('deskription').textContent = currentTest.desc;
+        $('availableCount').textContent = `За цими умовами: ${pool.length} вправ. Пошук працює в обраному тесті.`;
+        $('roundInfo').textContent = `${round.length} вправ${Array.isArray(items) ? ' · повторення помилок' : ''}`;
+        $('result').textContent = round.length ? 'Заповни пропуски у реченнях.' : 'За цими умовами вправ немає.';
+        $('result').className = '';
+        const container = $('taskContainer');
+        container.replaceChildren(...round.map(renderTask));
+        if (!round.length) {
+            const empty = element('div', 'empty-state panel');
+            empty.append(element('h3', '', 'Спробуй інші умови'), element('p', '', 'Обери інший рівень, тест або очисть пошук.'));
+            const reset = element('button', 'secondary', 'Усі рівні, без пошуку');
+            reset.type = 'button';
+            reset.addEventListener('click', () => {
+                $('levelSelect').value = 'All';
+                $('searchInput').value = '';
+                generateTasks();
             });
+            empty.append(reset);
+            container.append(empty);
         }
-
-        document.querySelector("#btnYes").addEventListener("click", function (e) {
-            hidebox();
-            setScore(0, 0);
-            wievScore()
-            e.returnValue = true;
+        saveSettings();
+    }
+    function checkAnswers(event) {
+        event.preventDefault();
+        if (!round.length) return;
+        let correct = 0;
+        mistakes = [];
+        round.forEach((item, index) => {
+            const card = $(`task-${index}`);
+            const inputs = [...card.querySelectorAll('input')];
+            const valid = core.checkAnswer(item, inputs.map(input => input.value));
+            const feedback = $(`feedback-${index}`);
+            card.classList.toggle('is-correct', valid);
+            card.classList.toggle('is-incorrect', !valid);
+            inputs.forEach(input => input.setAttribute('aria-invalid', String(!valid)));
+            feedback.hidden = false;
+            const answer = core.getAnswerVariants(item)[0].join(' · ');
+            feedback.textContent = valid ? '✓ Правильно!' : `Правильна відповідь: ${answer}`;
+            if (item.explanation) feedback.append(document.createTextNode(` ${item.explanation}`));
+            if (valid) correct++;
+            else mistakes.push(item);
         });
-        document.querySelector("#btnNo").addEventListener("click", function () {
-            hidebox();
+        if (!roundScored) {
+            score = core.summarizeScore(score, correct, round.length);
+            storage.set('deutsch.score.v2', JSON.stringify(score));
+            roundScored = true;
+            renderScore();
+        }
+        $('result').textContent = `${correct} із ${round.length} правильно. ${correct === round.length ? 'Чудово! Спробуй нові речення.' : 'Виправ відповіді або повтори помилки.'}`;
+        $('result').className = correct === round.length ? 'correct-result' : '';
+        $('retryErrors').hidden = mistakes.length === 0;
+        $('retryErrors').textContent = `Повторити помилки (${mistakes.length})`;
+        $('checkButton').textContent = 'Перевірити ще раз';
+    }
+
+    for (const group of exerciseGroups) {
+        const button = element('button', 'topic-button', group.name);
+        button.type = 'button';
+        button.dataset.group = group.id;
+        button.addEventListener('click', () => {
+            if (group === currentGroup) return;
+            currentGroup = group;
+            currentTest = group.tests[0];
+            $('searchInput').value = '';
+            renderTests();
+            generateTasks();
         });
-
-        document.addEventListener("visibilitychange", handleVisibilityChange);
-        window.addEventListener("blur", () => { isActive = false; updateTime(); });
-        window.addEventListener("focus", () => { isActive = true; lastTime = Date.now(); });
-
-        document.addEventListener("mousemove", resetInactivityTimer);
-        document.addEventListener("keydown", resetInactivityTimer);
-        document.addEventListener("click", resetInactivityTimer);
-        document.addEventListener("scroll", resetInactivityTimer);
-
-        activeTime = parseFloat(localStorage.getItem(storageKey)) || 0;
-
-        document.getElementById("work_time").innerHTML = formatTime(activeTime);
-
+        $('buttonWortartenContainer').append(button);
     }
+    $('levelSelect').value = Levels.includes(settings?.level) ? settings.level : 'B2';
+    $('countSelect').value = [5, 10, 20].includes(settings?.count) ? String(settings.count) : '10';
+    $('bankCount').textContent = `${exerciseGroups.reduce((sum, group) => sum + group.tests.reduce((n, test) => n + test.data.length, 0), 0).toLocaleString('uk')} вправ`;
+    const b2Count = exerciseGroups.flatMap(group => group.tests).reduce((sum, test) => sum + test.data.filter(item => item.level === 'B2').length, 0);
+    $('b2BankCount').textContent = `${b2Count.toLocaleString('uk')} вправ рівня B2 у всіх темах.`;
+    $('startB2').addEventListener('click', () => {
+        currentGroup = exerciseGroups.find(group => group.id === 'goethe-b2');
+        currentTest = currentGroup.tests[0];
+        $('levelSelect').value = 'B2';
+        $('searchInput').value = '';
+        renderTests();
+        generateTasks();
+        $('practice').scrollIntoView({ block: 'start' });
+    });
+    $('testSelect').addEventListener('change', () => {
+        currentTest = currentGroup.tests.find(test => test.id === $('testSelect').value);
+        $('searchInput').value = '';
+        generateTasks();
+    });
+    for (const id of ['levelSelect', 'countSelect']) $(id).addEventListener('change', () => generateTasks());
+    $('searchInput').addEventListener('input', () => {
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => generateTasks(), 250);
+    });
+    $('exerciseForm').addEventListener('submit', checkAnswers);
+    $('exerciseForm').addEventListener('keydown', event => {
+        if (event.key !== 'Enter' || !event.target.matches('.answer-input') || event.isComposing) return;
+        const inputs = [...$('taskContainer').querySelectorAll('input')];
+        const next = inputs[inputs.indexOf(event.target) + 1];
+        if (next) { event.preventDefault(); next.focus(); }
+    });
+    $('newRound').addEventListener('click', () => {
+        generateTasks();
+        $('practice').scrollIntoView({ block: 'start' });
+    });
+    $('retryErrors').addEventListener('click', () => {
+        generateTasks(mistakes);
+        $('practice').scrollIntoView({ block: 'start' });
+    });
+    $('characterKeys').addEventListener('pointerdown', event => {
+        if (event.target.closest('button')) event.preventDefault();
+    });
+    $('characterKeys').addEventListener('click', event => {
+        const button = event.target.closest('button');
+        if (!button) return;
+        if (!activeInput?.isConnected) activeInput = $('taskContainer').querySelector('input');
+        if (!activeInput) return;
+        const { selectionStart, selectionEnd } = activeInput;
+        activeInput.setRangeText(button.dataset.char, selectionStart, selectionEnd, 'end');
+        activeInput.focus({ preventScroll: true });
+        activeInput.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    $('resetScore').addEventListener('click', () => $('confirmModal').showModal());
+    $('btnNo').addEventListener('click', () => $('confirmModal').close());
+    $('btnYes').addEventListener('click', () => {
+        score = { correct: 0, attempted: 0 };
+        storage.set('deutsch.score.v2', JSON.stringify(score));
+        storage.set('total_score', '0');
+        storage.set('percent_score', '0');
+        renderScore();
+        $('confirmModal').close();
+    });
 
-    function checkScore() {
-
-        let total_score = localStorage.getItem("total_score");
-        if (total_score == null || !Number.isInteger(Number(total_score))) {
-            localStorage.setItem("total_score", 0);
+    // Count only visible, focused, recently active time. Split at local midnight.
+    const inactivityLimit = 3 * 60 * 1000;
+    let lastTime = Date.now();
+    let lastInteraction = lastTime;
+    let timerActive = !document.hidden && document.hasFocus();
+    let day = core.localDateKey(new Date(lastTime));
+    const readTime = key => {
+        const value = Number(storage.get(`activeTime_${key}`));
+        return Number.isFinite(value) && value >= 0 ? value * 1000 : 0;
+    };
+    let activeMs = readTime(day);
+    function updateTime(now = Date.now()) {
+        const elapsed = timerActive ? core.elapsedActiveMs(lastTime, now, lastInteraction, inactivityLimit) : 0;
+        let cursor = lastTime;
+        const until = lastTime + elapsed;
+        while (cursor < until) {
+            const date = new Date(cursor);
+            const key = core.localDateKey(date);
+            if (key !== day) { day = key; activeMs = readTime(day); }
+            const midnight = new Date(date);
+            midnight.setHours(24, 0, 0, 0);
+            const end = Math.min(until, midnight.getTime());
+            activeMs += end - cursor;
+            storage.set(`activeTime_${day}`, activeMs / 1000);
+            cursor = end;
         }
-
-        let percent_score = localStorage.getItem("percent_score");
-        if (percent_score == null || !Number.isInteger(Number(percent_score))) {
-            localStorage.setItem("percent_score", 0);
-        }
+        const today = core.localDateKey(new Date(now));
+        if (today !== day) { day = today; activeMs = readTime(day); }
+        lastTime = now;
+        const seconds = Math.floor(activeMs / 1000);
+        $('work_time').textContent = [Math.floor(seconds / 3600), Math.floor(seconds / 60) % 60, seconds % 60].map(n => String(n).padStart(2, '0')).join(':');
     }
-
-    function wievScore() {
-
-        checkScore();
-
-        let scoreElement = document.getElementById("score");
-        scoreElement.innerHTML = `<p><span data-tooltip="${localStorage.getItem("total_score")}"> ${localStorage.getItem("percent_score")}% </span></p>`;
-
-        if (wievScore >= 75) {
-            scoreElement.style.color = "green";
-        } else if (wievScore < 75 && wievScore > 25) {
-            scoreElement.style.color = "#FF8C00";
-        } else {
-            scoreElement.style.color = "red";
-        }
-    }
-
-    function calcScore(current_score, tests_size) {
-        let total_score = Number(localStorage.getItem("total_score"));
-        let percent_score = Number(localStorage.getItem("percent_score"));
-
-        let new_percent = (Math.round(100 / tests_size * current_score))
-
-        if (Number(percent_score) > 0) {
-            new_percent = Math.round((new_percent + percent_score) / 2);
-        }
-
-        setScore(new_percent, total_score + current_score)
-        wievScore();
-    }
-
-    function setScore(percent, total) {
-        localStorage.setItem("percent_score", percent);
-        localStorage.setItem("total_score", total);
-    }
-
-    function showbox() {
-        document.getElementById("modalHolder").style.display = "flex";
-    }
-
-    function hidebox() {
-        document.getElementById("modalHolder").style.display = "none";
-    }
-
-    function updateTime() {
-        if (isActive) {
-            let currentTime = Date.now();
-            activeTime += Math.round((currentTime - lastTime) / 1000);
-            lastTime = currentTime;
-            localStorage.setItem(storageKey, activeTime);
-        }
-    }
-
-    function resetInactivityTimer() {
-        lastInteractionTime = Date.now();
-        if (!isActive) {
-            isActive = true;
-            lastTime = Date.now();
-        }
-    }
-
-    function handleVisibilityChange() {
-        if (document.hidden) {
-            isActive = false;
-            updateTime();
-        } else {
-            isActive = true;
-            lastTime = Date.now();
-        }
-    }
-
-    function formatTime(seconds) {
-        const hours = Math.floor(seconds / 3600).toString().padStart(2, '0');
-        const minutes = Math.floor((seconds % 3600) / 60).toString().padStart(2, '0');
-        return `${hours}:${minutes}`;
-    }
-
-
-    setInterval(() => {
+    function resume() {
         updateTime();
-        document.getElementById("work_time").innerHTML = formatTime(activeTime);
-    }, 15000);
-
-
-    setInterval(() => {
-        if (Date.now() - lastInteractionTime > inactivityLimit) {
-            isActive = false;
-            updateTime();
-        }
-    }, 5000);
-
-    init();
-
-}
+        lastInteraction = Date.now();
+        timerActive = !document.hidden && document.hasFocus();
+    }
+    document.addEventListener('visibilitychange', () => {
+        updateTime();
+        timerActive = !document.hidden && document.hasFocus();
+        if (timerActive) lastInteraction = Date.now();
+    });
+    window.addEventListener('blur', () => { updateTime(); timerActive = false; });
+    window.addEventListener('focus', resume);
+    window.addEventListener('pagehide', () => { updateTime(); timerActive = false; });
+    window.addEventListener('pageshow', resume);
+    for (const type of ['pointerdown', 'keydown', 'touchstart', 'scroll']) document.addEventListener(type, resume, { passive: true });
+    setInterval(updateTime, 1000);
+    renderTests();
+    renderScore();
+    generateTasks();
+    updateTime();
+})();
