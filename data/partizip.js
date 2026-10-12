@@ -1,6 +1,6 @@
 const partizip_sentenses = {
-  name: "Perfect",
-  desc: "Setze die richtige Vergangenheitsform (Partizip II) ein.",
+  name: "Perfekt",
+  desc: "Ergänze das Perfekt. Je nach Satz fehlen das Hilfsverb (haben/sein), das Partizip II oder beide Formen.",
   data: [
     {
       "sentence": "Mein Vater ___ gestern meinen Onkel vom Bahnhof ___.",
@@ -148,7 +148,7 @@ const partizip_sentenses = {
     },
     {
       "sentence": "Ich ___ meinen Koffer im Hotelzimmer ___.",
-      "answer": "abgestellt",
+      "answer": "habe abgestellt",
       "ua_infinitiv": "ставити",
       "ua_sentence": "Я поставив свою валізу в готельному номері.",
       "level": "B1",
@@ -156,7 +156,7 @@ const partizip_sentenses = {
     },
     {
       "sentence": "Mein Vater hat den Rasenmäher in der Garage ___.",
-      "answer": "habe abgestellt",
+      "answer": "abgestellt",
       "ua_infinitiv": "ставити",
       "ua_sentence": "Мій батько поставив газонокосарку в гаражі.",
       "level": "B2",
@@ -667,7 +667,7 @@ const partizip_sentenses = {
       "infinitive": "aufschreiben"
     },
     {
-      "sentence": "Er __ die Telefonnummer in sein Notizbuch ___.",
+      "sentence": "Er ___ die Telefonnummer in sein Notizbuch ___.",
       "answer": "hat aufgeschrieben",
       "ua_infinitiv": "записувати",
       "ua_sentence": "Він записав номер телефону у свій записник.",
@@ -779,7 +779,7 @@ const partizip_sentenses = {
       "infinitive": "ausfüllen"
     },
     {
-      "sentence": "Die Mitarbeiterin __ das Dokument für den Kunden ___.",
+      "sentence": "Die Mitarbeiterin ___ das Dokument für den Kunden ___.",
       "answer": "hat ausgefüllt",
       "ua_infinitiv": "заповнювати",
       "ua_sentence": "Співробітниця заповнила документ для клієнта.",
@@ -1795,10 +1795,10 @@ const partizip_sentenses = {
       "infinitive": "braten"
     },
     {
-      "sentence": "Die Restaurantbesitzerin ___ eine neue Art, Lachs zu ___. (braten), entwickelt",
+      "sentence": "Die Restaurantbesitzerin ___ den Lachs auf eine neue Art ___.",
       "answer": "hat gebraten",
       "ua_infinitiv": "смажити",
-      "ua_sentence": "Власниця ресторану розробила новий спосіб смаження лосося.",
+      "ua_sentence": "Власниця ресторану посмажила лосося новим способом.",
       "level": "B1",
       "infinitive": "braten"
     },
@@ -2755,10 +2755,10 @@ const partizip_sentenses = {
       "infinitive": "grillen"
     },
     {
-      "sentence": "Die Restaurantbesitzerin ___ eine neue Art, Fisch zu ___. (grillen), entwickelt",
+      "sentence": "Die Restaurantbesitzerin ___ den Fisch auf eine neue Art ___.",
       "answer": "hat gegrillt",
       "ua_infinitiv": "грилювати",
-      "ua_sentence": "Власниця ресторану розробила новий спосіб грилювати рибу.",
+      "ua_sentence": "Власниця ресторану приготувала рибу на грилі новим способом.",
       "level": "B1",
       "infinitive": "grillen"
     },
@@ -2984,7 +2984,7 @@ const partizip_sentenses = {
       "ua_infinitiv": "слухати",
       "ua_sentence": "Журі уважно прослухало доповідь.",
       "level": "B2",
-      "infinitive": "hören"
+      "infinitive": "anhören"
     },
     {
       "sentence": "Meine Schwester hat den Vogel im Garten ___.",
@@ -3795,10 +3795,10 @@ const partizip_sentenses = {
       "infinitive": "lernen"
     },
     {
-      "sentence": "Der Lehrer ___ uns beigebracht, wie man richtig ___.",
-      "answer": "hat lernt",
+      "sentence": "Der Schüler ___ von seinem Lehrer die richtige Technik ___.",
+      "answer": "hat gelernt",
       "ua_infinitiv": "вчитися",
-      "ua_sentence": "Учитель навчив нас, як правильно вчитися.",
+      "ua_sentence": "Учень навчився правильної техніки у свого вчителя.",
       "level": "A2",
       "infinitive": "lernen"
     },
@@ -4492,67 +4492,67 @@ const partizip_sentenses = {
     },
     {
       "sentence": "Ich habe ein Stück Kuchen ___.",
-      "answer": "mögen wollen",
+      "answer": "gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Я хотів шматок торта.",
       "level": "A1",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Er ___ ein Glas Wasser ___.",
-      "answer": "hat mögen wollen",
+      "answer": "hat gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Він хотів склянку води.",
       "level": "A2",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Wir ___ eine Pause ___.",
-      "answer": "haben mögen wollen",
+      "answer": "haben gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Ми хотіли перерву.",
       "level": "B1",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Die Gäste ___ einen Kaffee nach dem Essen ___.",
-      "answer": "haben mögen wollen",
+      "answer": "haben gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Гості хотіли каву після їжі.",
       "level": "B2",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Ich habe eine neue Jacke ___.",
-      "answer": "mögen wollen",
+      "answer": "gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Я хотів нову куртку.",
       "level": "A1",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Sie ___ ein ruhiges Wochenende ___.",
-      "answer": "hat mögen wollen",
+      "answer": "hat gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Вона хотіла спокійний вихідний.",
       "level": "A2",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Der Mitarbeiter ___ eine Gehaltserhöhung ___.",
-      "answer": "hat mögen wollen",
+      "answer": "hat gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Співробітник хотів підвищення зарплати.",
       "level": "B1",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Die Firma ___ mehr Kunden gewinnen ___.",
-      "answer": "hat mögen wollen",
+      "answer": "hat wollen",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Компанія хотіла залучити більше клієнтів.",
       "level": "B2",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Ich habe immer Schokolade ___.",
@@ -4652,35 +4652,35 @@ const partizip_sentenses = {
     },
     {
       "sentence": "Ich habe heute Morgen einen Kaffee ___.",
-      "answer": "mögen wollen",
+      "answer": "gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Я хотів каву цього ранку.",
       "level": "A1",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
-      "sentence": "Meine Schwester ___ sich ein neues Fahrrad ___.",
-      "answer": "hat mögen wollen",
+      "sentence": "Meine Schwester ___ ein neues Fahrrad ___.",
+      "answer": "hat gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Моя сестра хотіла новий велосипед.",
       "level": "A2",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Die Kollegen ___ mehr Freizeit nach der Arbeit ___.",
-      "answer": "haben mögen wollen",
+      "answer": "haben gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Колеги хотіли більше вільного часу після роботи.",
       "level": "B1",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Die Forscher ___ ein größeres Labor für ihre Experimente ___.",
-      "answer": "haben mögen wollen",
+      "answer": "haben gewollt",
       "ua_infinitiv": "хотіти",
       "ua_sentence": "Дослідники хотіли більшу лабораторію для своїх експериментів.",
       "level": "B2",
-      "infinitive": "möchten"
+      "infinitive": "wollen"
     },
     {
       "sentence": "Ich habe ein Buch aus der Bibliothek ___.",
@@ -8395,7 +8395,7 @@ const partizip_sentenses = {
       "infinitive": "wissen"
     },
     {
-      "sentence": "Ich habe nicht ____, wie spät es ist.",
+            "sentence": "Ich habe nicht ___, wie spät es ist.",
       "answer": "gewusst",
       "ua_infinitiv": "знати",
       "ua_sentence": "Я не знав, котра година.",
@@ -8403,7 +8403,7 @@ const partizip_sentenses = {
       "infinitive": "wissen"
     },
     {
-      "sentence": "Anna ___ nicht, dass die Prüfung heute ist ___.",
+      "sentence": "Anna ___ nicht ___, dass die Prüfung heute ist.",
       "answer": "hat gewusst",
       "ua_infinitiv": "знати",
       "ua_sentence": "Анна не знала, що іспит сьогодні.",
@@ -8691,7 +8691,7 @@ const partizip_sentenses = {
       "infinitive": "zeigen"
     },
     {
-      "sentence": "Max ___ seinem Kollegen, wie die Maschine funktioniert ___.",
+      "sentence": "Max ___ seinem Kollegen ___, wie die Maschine funktioniert.",
       "answer": "hat gezeigt",
       "ua_infinitiv": "показувати",
       "ua_sentence": "Макс показав своєму колезі, як працює машина.",
@@ -8883,7 +8883,7 @@ const partizip_sentenses = {
       "infinitive": "ziehen"
     },
     {
-      "sentence": "Max ___ die Leine, um den Hund zu kontrollieren ___.",
+      "sentence": "Max ___ die Leine ___, um den Hund zu kontrollieren.",
       "answer": "hat gezogen",
       "ua_infinitiv": "тягнути",
       "ua_sentence": "Макс потягнув повідець, щоб контролювати собаку.",
@@ -9195,10 +9195,10 @@ const partizip_sentenses = {
       "infinitive": "helfen"
     },
     {
-      "sentence": "Ich habe dieses Lied schon oft ___.",
+      "sentence": "Dieses Lied hat mir schon immer ___.",
       "answer": "gefallen",
       "ua_infinitiv": "подобатися",
-      "ua_sentence": "Ця пісня мені вже давно подобається.",
+      "ua_sentence": "Ця пісня мені завжди подобалася.",
       "level": "A1",
       "infinitive": "gefallen"
     },
@@ -9227,10 +9227,10 @@ const partizip_sentenses = {
       "infinitive": "gefallen"
     },
     {
-      "sentence": "Ich habe die Geschichte wirklich ___.",
+      "sentence": "Die Geschichte hat mir wirklich ___.",
       "answer": "gefallen",
       "ua_infinitiv": "подобатися",
-      "ua_sentence": "Мені дуже сподобалася ця історія.",
+      "ua_sentence": "Мені справді сподобалася ця історія.",
       "level": "A1",
       "infinitive": "gefallen"
     },
@@ -9259,7 +9259,7 @@ const partizip_sentenses = {
       "infinitive": "gefallen"
     },
     {
-      "sentence": "Ich habe das Buch sehr ___.",
+      "sentence": "Das Buch hat mir sehr ___.",
       "answer": "gefallen",
       "ua_infinitiv": "подобатися",
       "ua_sentence": "Мені дуже сподобалася ця книга.",
@@ -9291,10 +9291,10 @@ const partizip_sentenses = {
       "infinitive": "gefallen"
     },
     {
-      "sentence": "Ich habe das Auto meiner Schwester immer ___.",
+      "sentence": "Das Auto hat immer meiner Schwester ___.",
       "answer": "gehört",
       "ua_infinitiv": "належати",
-      "ua_sentence": "Я завжди належав автомобілю своєї сестри.",
+      "ua_sentence": "Автомобіль завжди належав моїй сестрі.",
       "level": "A1",
       "infinitive": "gehören"
     },
@@ -9323,10 +9323,10 @@ const partizip_sentenses = {
       "infinitive": "gehören"
     },
     {
-      "sentence": "Ich habe das Fahrrad meinem Cousin ___.",
+      "sentence": "Das Fahrrad hat meinem Cousin ___.",
       "answer": "gehört",
       "ua_infinitiv": "належати",
-      "ua_sentence": "Я належав велосипед моєму кузену.",
+      "ua_sentence": "Велосипед належав моєму кузену.",
       "level": "A1",
       "infinitive": "gehören"
     },
@@ -9355,7 +9355,7 @@ const partizip_sentenses = {
       "infinitive": "gehören"
     },
     {
-      "sentence": "Ich habe die Jacke meinem Bruder ___.",
+      "sentence": "Die Jacke hat meinem Bruder ___.",
       "answer": "gehört",
       "ua_infinitiv": "належати",
       "ua_sentence": "Ця куртка належала моєму братові.",
@@ -9483,7 +9483,7 @@ const partizip_sentenses = {
       "infinitive": "gratulieren"
     },
     {
-      "sentence": "Ich habe meinem Freund wegen seines Verlustes sehr ___.",
+      "sentence": "Mein Freund hat mir wegen seines Verlustes sehr ___.",
       "answer": "leidgetan",
       "ua_infinitiv": "співчувати",
       "ua_sentence": "Мені було дуже шкода мого друга через його втрату.",
@@ -9491,7 +9491,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Er ___ seiner Kollegin nach der schlechten Nachricht ___.",
+      "sentence": "Seine Kollegin ___ ihm nach der schlechten Nachricht ___.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "співчувати",
       "ua_sentence": "Йому було шкода його колегу після поганої новини.",
@@ -9499,7 +9499,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Wir ___ den Opfern des Unfalls sehr ___.",
+      "sentence": "Die Opfer des Unfalls ___ uns sehr ___.",
       "answer": "haben leidgetan",
       "ua_infinitiv": "співчувати",
       "ua_sentence": "Нам було дуже шкода жертв аварії.",
@@ -9515,7 +9515,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Ich habe meiner Nachbarin nach dem Verlust ihres Hundes sehr ___.",
+      "sentence": "Meine Nachbarin hat mir nach dem Verlust ihres Hundes sehr ___.",
       "answer": "leidgetan",
       "ua_infinitiv": "співчувати",
       "ua_sentence": "Мені було дуже шкода мою сусідку після втрати її собаки.",
@@ -9523,7 +9523,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Lisa ___ ihrem Bruder nach seinem Misserfolg ___.",
+      "sentence": "Ihr Bruder ___ Lisa nach seinem Misserfolg ___.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "співчувати",
       "ua_sentence": "Лізі було шкода свого брата після його невдачі.",
@@ -9531,8 +9531,8 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Die Zuschauer ___ dem Sportler nach seiner Verletzung ___.",
-      "answer": "haben leidgetan",
+      "sentence": "Der Sportler ___ den Zuschauern nach seiner Verletzung ___.",
+      "answer": "hat leidgetan",
       "ua_infinitiv": "співчувати",
       "ua_sentence": "Глядачі співчували спортсмену після його травми.",
       "level": "B1",
@@ -9547,7 +9547,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Ich habe meinen Eltern nach ihrem langen Arbeitstag sehr ___.",
+      "sentence": "Meine Eltern haben mir nach ihrem langen Arbeitstag sehr ___.",
       "answer": "leidgetan",
       "ua_infinitiv": "співчувати",
       "ua_sentence": "Мені було шкода моїх батьків після їхнього довгого робочого дня.",
@@ -9555,7 +9555,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Tom ___ seiner Freundin nach dem Streit ___.",
+      "sentence": "Seine Freundin ___ Tom nach dem Streit ___.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "співчувати",
       "ua_sentence": "Тому було шкода свою дівчину після сварки.",
@@ -9563,8 +9563,8 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Die Kollegen ___ dem entlassenen Mitarbeiter ___.",
-      "answer": "haben leidgetan",
+      "sentence": "Der entlassene Mitarbeiter ___ den Kollegen ___.",
+      "answer": "hat leidgetan",
       "ua_infinitiv": "співчувати",
       "ua_sentence": "Колеги співчували звільненому співробітнику.",
       "level": "B1",
@@ -9579,7 +9579,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Ich habe den Kuchen sehr ___.",
+      "sentence": "Der Kuchen hat mir sehr gut ___.",
       "answer": "geschmeckt",
       "ua_infinitiv": "смакувати",
       "ua_sentence": "Мені дуже сподобався торт.",
@@ -9590,7 +9590,7 @@ const partizip_sentenses = {
       "sentence": "Das Essen ___ meiner Großmutter besonders gut ___.",
       "answer": "hat geschmeckt",
       "ua_infinitiv": "смакувати",
-      "ua_sentence": "Їжа моєї бабусі була особливо смачною.",
+      "ua_sentence": "Їжа особливо смакувала моїй бабусі.",
       "level": "A2",
       "infinitive": "schmecken"
     },
@@ -9611,15 +9611,15 @@ const partizip_sentenses = {
       "infinitive": "schmecken"
     },
     {
-      "sentence": "Ich habe die Suppe mit viel Freude ___.",
+      "sentence": "Die Suppe hat mir sehr gut ___.",
       "answer": "geschmeckt",
       "ua_infinitiv": "смакувати",
-      "ua_sentence": "Я з насолодою скуштував суп.",
+      "ua_sentence": "Суп мені дуже смакував.",
       "level": "A1",
       "infinitive": "schmecken"
     },
     {
-      "sentence": "Max ___ das Frühstück heute Morgen besonders gut ___.",
+      "sentence": "Das Frühstück ___ Max heute Morgen besonders gut ___.",
       "answer": "hat geschmeckt",
       "ua_infinitiv": "смакувати",
       "ua_sentence": "Максу дуже сподобався сніданок сьогодні вранці.",
@@ -9643,7 +9643,7 @@ const partizip_sentenses = {
       "infinitive": "schmecken"
     },
     {
-      "sentence": "Ich habe die Schokolade wirklich ___.",
+      "sentence": "Die Schokolade hat mir wirklich gut ___.",
       "answer": "geschmeckt",
       "ua_infinitiv": "смакувати",
       "ua_sentence": "Мені дуже сподобалася шоколадка.",
@@ -9651,7 +9651,7 @@ const partizip_sentenses = {
       "infinitive": "schmecken"
     },
     {
-      "sentence": "Lisa ___ die Pasta mit Tomatensoße ausgezeichnet ___.",
+      "sentence": "Die Pasta mit Tomatensoße ___ Lisa ausgezeichnet ___.",
       "answer": "hat geschmeckt",
       "ua_infinitiv": "смакувати",
       "ua_sentence": "Лізі дуже сподобалася паста з томатним соусом.",
@@ -9995,7 +9995,7 @@ const partizip_sentenses = {
       "infinitive": "gehen"
     },
     {
-      "sentence": "Ich habe mit meiner Schwester zum Markt ___.",
+      "sentence": "Ich bin mit meiner Schwester zum Markt ___.",
       "answer": "gegangen",
       "ua_infinitiv": "йти",
       "ua_sentence": "Я пішов з моєю сестрою на ринок.",
@@ -10571,7 +10571,7 @@ const partizip_sentenses = {
       "infinitive": "abfahren"
     },
     {
-      "sentence": "Ich habe gestern Abend mit dem Fahrrad ___.",
+      "sentence": "Ich bin gestern Abend mit dem Fahrrad ___.",
       "answer": "abgefahren",
       "ua_infinitiv": "від'їжджати",
       "ua_sentence": "Я вчора ввечері поїхав на велосипеді.",
@@ -10603,7 +10603,7 @@ const partizip_sentenses = {
       "infinitive": "abfahren"
     },
     {
-      "sentence": "Ich habe mit dem Auto von der Schule ___.",
+      "sentence": "Ich bin mit dem Auto von der Schule ___.",
       "answer": "abgefahren",
       "ua_infinitiv": "від'їжджати",
       "ua_sentence": "Я від'їхав на машині зі школи.",
@@ -10922,102 +10922,7 @@ const partizip_sentenses = {
       "level": "B2",
       "infinitive": "abwaschen"
     },
-    {
-      "sentence": "Ich habe meinem Gast eine Tasse Tee ___.",
-      "answer": "angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Я запропонував своєму гостю чашку чаю.",
-      "level": "A1",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Der Kellner ___ uns ein Dessert nach dem Essen ___.",
-      "answer": "hat angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Офіціант запропонував нам десерт після їжі.",
-      "level": "A2",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Die Firma ___ den Kunden einen Rabatt auf ihre Produkte ___.",
-      "answer": "hat angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Компанія запропонувала клієнтам знижку на свою продукцію.",
-      "level": "B1",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Das Hotel ___ seinen Gästen zusätzliche Dienstleistungen ___.",
-      "answer": "hat angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Готель запропонував своїм гостям додаткові послуги.",
-      "level": "B2",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Ich habe meiner Nachbarin Hilfe beim Tragen der Einkäufe ___.",
-      "answer": "angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Я запропонував своїй сусідці допомогу у перенесенні покупок.",
-      "level": "A1",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Tom ___ seinem Freund ein Stück Kuchen ___.",
-      "answer": "hat angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Том запропонував своєму другові шматок торта.",
-      "level": "A2",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Die Firma ___ ihren Mitarbeitern flexible Arbeitszeiten ___.",
-      "answer": "hat angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Компанія запропонувала своїм співробітникам гнучкий графік роботи.",
-      "level": "B1",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Die Universität ___ ihren Studierenden neue Forschungsmöglichkeiten ___.",
-      "answer": "hat angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Університет запропонував своїм студентам нові можливості для досліджень.",
-      "level": "B2",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Ich habe meinem Kollegen meine Unterstützung bei dem Projekt ___.",
-      "answer": "angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Я запропонував своєму колезі свою підтримку у проєкті.",
-      "level": "A1",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Lisa ___ ihren Eltern Hilfe bei der Gartenarbeit ___.",
-      "answer": "hat angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Ліза запропонувала своїм батькам допомогу в садівництві.",
-      "level": "A2",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Die Bank ___ ihren Kunden spezielle Kreditkonditionen ___.",
-      "answer": "hat angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Банк запропонував своїм клієнтам спеціальні умови кредитування.",
-      "level": "B1",
-      "infinitive": "anbieten"
-    },
-    {
-      "sentence": "Das Unternehmen ___ seinen Partnern eine langfristige Zusammenarbeit ___.",
-      "answer": "hat angeboten",
-      "ua_infinitiv": "пропонувати",
-      "ua_sentence": "Компанія запропонувала своїм партнерам довгострокову співпрацю.",
-      "level": "B2",
-      "infinitive": "anbieten"
-    },
+
     {
       "sentence": "Ich habe mit dem neuen Buch ___.",
       "answer": "angefangen",
@@ -11147,7 +11052,7 @@ const partizip_sentenses = {
       "infinitive": "ankommen"
     },
     {
-      "sentence": "Ich habe mit dem Bus in der Stadt ___.",
+      "sentence": "Ich bin mit dem Bus in der Stadt ___.",
       "answer": "angekommen",
       "ua_infinitiv": "прибувати",
       "ua_sentence": "Я прибув у місто автобусом.",
@@ -11179,7 +11084,7 @@ const partizip_sentenses = {
       "infinitive": "ankommen"
     },
     {
-      "sentence": "Ich habe in meiner neuen Wohnung gut ___.",
+      "sentence": "Ich bin in meiner neuen Wohnung gut ___.",
       "answer": "angekommen",
       "ua_infinitiv": "прибувати",
       "ua_sentence": "Я добре освоївся у своїй новій квартирі.",
@@ -11723,7 +11628,7 @@ const partizip_sentenses = {
       "infinitive": "aufstehen"
     },
     {
-      "sentence": "Ich habe nach dem Klingeln des Weckers sofort ___.",
+      "sentence": "Ich bin nach dem Klingeln des Weckers sofort ___.",
       "answer": "aufgestanden",
       "ua_infinitiv": "вставати",
       "ua_sentence": "Я одразу встав після дзвінка будильника.",
@@ -11755,7 +11660,7 @@ const partizip_sentenses = {
       "infinitive": "aufstehen"
     },
     {
-      "sentence": "Ich habe um acht Uhr aus dem Bett ___.",
+      "sentence": "Ich bin um acht Uhr aus dem Bett ___.",
       "answer": "aufgestanden",
       "ua_infinitiv": "вставати",
       "ua_sentence": "Я встав з ліжка о восьмій годині.",
@@ -12011,7 +11916,7 @@ const partizip_sentenses = {
       "infinitive": "aussteigen"
     },
     {
-      "sentence": "Ich habe an der richtigen Station ___.",
+      "sentence": "Ich bin an der richtigen Station ___.",
       "answer": "ausgestiegen",
       "ua_infinitiv": "виходити",
       "ua_sentence": "Я вийшов на правильній станції.",
@@ -12362,14 +12267,7 @@ const partizip_sentenses = {
       "level": "B2",
       "infinitive": "beginnen"
     },
-    {
-      "sentence": "Ich habe ein Geschenk zum Geburtstag ___.",
-      "answer": "bekommen",
-      "ua_infinitiv": "отримувати",
-      "ua_sentence": "Я отримав подарунок на день народження.",
-      "level": "A1",
-      "infinitive": "bekommen"
-    },
+
     {
       "sentence": "Tom ___ eine E-Mail von seinem Chef ___.",
       "answer": "hat bekommen",
@@ -14195,7 +14093,7 @@ const partizip_sentenses = {
       "infinitive": "gefallen"
     },
     {
-      "sentence": "Tom ___ die neue Wohnung sofort ___.",
+      "sentence": "Die neue Wohnung ___ Tom sofort ___.",
       "answer": "hat gefallen",
       "ua_infinitiv": "подобатися",
       "ua_sentence": "Тому одразу сподобалася нова квартира.",
@@ -14219,7 +14117,7 @@ const partizip_sentenses = {
       "infinitive": "gefallen"
     },
     {
-      "sentence": "Ich habe den Film im Kino sehr ___.",
+      "sentence": "Der Film im Kino hat mir sehr ___.",
       "answer": "gefallen",
       "ua_infinitiv": "подобатися",
       "ua_sentence": "Мені дуже сподобався фільм у кінотеатрі.",
@@ -14227,7 +14125,7 @@ const partizip_sentenses = {
       "infinitive": "gefallen"
     },
     {
-      "sentence": "Lisa ___ das neue Kleid aus dem Laden ___.",
+      "sentence": "Das neue Kleid aus dem Laden ___ Lisa ___.",
       "answer": "hat gefallen",
       "ua_infinitiv": "подобатися",
       "ua_sentence": "Лізі сподобалася нова сукня з магазину.",
@@ -14251,7 +14149,7 @@ const partizip_sentenses = {
       "infinitive": "gefallen"
     },
     {
-      "sentence": "Ich habe die Stadt sofort ___.",
+      "sentence": "Die Stadt hat mir sofort ___.",
       "answer": "gefallen",
       "ua_infinitiv": "подобатися",
       "ua_sentence": "Мені одразу сподобалося місто.",
@@ -14259,7 +14157,7 @@ const partizip_sentenses = {
       "infinitive": "gefallen"
     },
     {
-      "sentence": "Max ___ das Essen im neuen Restaurant ___.",
+      "sentence": "Das Essen im neuen Restaurant ___ Max ___.",
       "answer": "hat gefallen",
       "ua_infinitiv": "подобатися",
       "ua_sentence": "Максу сподобалася їжа в новому ресторані.",
@@ -14669,16 +14567,16 @@ const partizip_sentenses = {
     {
       "sentence": "Ich habe meinem neuen Freund meinen Namen ___.",
       "answer": "gesagt",
-      "ua_infinitiv": "називатися",
+      "ua_infinitiv": "казати",
       "ua_sentence": "Я сказав своє ім'я своєму новому другові.",
       "level": "A1",
-      "infinitive": "heißen"
+      "infinitive": "sagen"
     },
     {
-      "sentence": "Tom ___ sich auf der Party mit seinem Namen ___.",
+      "sentence": "Tom ___ früher Thomas ___.",
       "answer": "hat geheißen",
       "ua_infinitiv": "називатися",
-      "ua_sentence": "Том представився своїм ім'ям на вечірці.",
+      "ua_sentence": "Тома раніше звали Томас.",
       "level": "A2",
       "infinitive": "heißen"
     },
@@ -14701,16 +14599,16 @@ const partizip_sentenses = {
     {
       "sentence": "Ich habe den Namen des Lehrers ___.",
       "answer": "gesagt",
-      "ua_infinitiv": "називатися",
+      "ua_infinitiv": "казати",
       "ua_sentence": "Я сказав ім'я вчителя.",
       "level": "A1",
-      "infinitive": "heißen"
+      "infinitive": "sagen"
     },
     {
-      "sentence": "Lisa ___ ihre Katze Mimi ___.",
+      "sentence": "Lisas Katze ___ Mimi ___.",
       "answer": "hat geheißen",
       "ua_infinitiv": "називатися",
-      "ua_sentence": "Ліза назвала свою кішку Мімі.",
+      "ua_sentence": "Лізину кішку звали Мімі.",
       "level": "A2",
       "infinitive": "heißen"
     },
@@ -14733,16 +14631,16 @@ const partizip_sentenses = {
     {
       "sentence": "Ich habe den Namen meines neuen Nachbarn ___.",
       "answer": "gesagt",
-      "ua_infinitiv": "називатися",
+      "ua_infinitiv": "казати",
       "ua_sentence": "Я сказав ім'я свого нового сусіда.",
       "level": "A1",
-      "infinitive": "heißen"
+      "infinitive": "sagen"
     },
     {
-      "sentence": "Max ___ seinen Hund Rex ___.",
+      "sentence": "Der Hund von Max ___ Rex ___.",
       "answer": "hat geheißen",
       "ua_infinitiv": "називатися",
-      "ua_sentence": "Макс назвав свого собаку Рексом.",
+      "ua_sentence": "Собаку Макса звали Рекс.",
       "level": "A2",
       "infinitive": "heißen"
     },
@@ -14778,14 +14676,7 @@ const partizip_sentenses = {
       "level": "A2",
       "infinitive": "helfen"
     },
-    {
-      "sentence": "Die Kollegen ___ dem neuen Mitarbeiter bei der Einarbeitung ___.",
-      "answer": "haben geholfen",
-      "ua_infinitiv": "допомагати",
-      "ua_sentence": "Колеги допомогли новому співробітнику з адаптацією.",
-      "level": "B1",
-      "infinitive": "helfen"
-    },
+
     {
       "sentence": "Die Ärzte ___ den Patienten mit einer neuen Therapie ___.",
       "answer": "haben geholfen",
@@ -15187,7 +15078,7 @@ const partizip_sentenses = {
       "infinitive": "laufen"
     },
     {
-      "sentence": "Lisa ___ zum Bus, weil sie spät dran war ___.",
+      "sentence": "Lisa ___ zum Bus ___, weil sie spät dran war.",
       "answer": "ist gelaufen",
       "ua_infinitiv": "бігти",
       "ua_sentence": "Ліза побігла до автобуса, бо запізнювалася.",
@@ -15219,7 +15110,7 @@ const partizip_sentenses = {
       "infinitive": "laufen"
     },
     {
-      "sentence": "Max ___ schnell nach Hause, weil es angefangen hat zu regnen ___.",
+      "sentence": "Max ___ schnell nach Hause ___, weil es angefangen hat zu regnen.",
       "answer": "ist gelaufen",
       "ua_infinitiv": "бігти",
       "ua_sentence": "Макс швидко побіг додому, бо почався дощ.",
@@ -15251,7 +15142,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Tom ___ seine verspätete Ankunft sehr ___.",
+      "sentence": "Seine verspätete Ankunft ___ Tom sehr ___.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "шкодувати",
       "ua_sentence": "Том дуже шкодував через своє запізнення.",
@@ -15259,15 +15150,15 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Die Lehrerin ___ den Schülern wegen der schwierigen Prüfung ___.",
-      "answer": "hat leidgetan",
+      "sentence": "Die Schüler ___ der Lehrerin wegen der schwierigen Prüfung ___.",
+      "answer": "haben leidgetan",
       "ua_infinitiv": "шкодувати",
       "ua_sentence": "Учительці було шкода учнів через складний іспит.",
       "level": "B1",
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Der Manager ___ seinem Team nach der stressigen Woche ___.",
+      "sentence": "Sein Team ___ dem Manager nach der stressigen Woche ___.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "шкодувати",
       "ua_sentence": "Менеджеру було шкода своєї команди після напруженого тижня.",
@@ -15283,7 +15174,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Lisa ___ es leid, dass sie den Geburtstag ihrer Freundin verpasst hat ___.",
+      "sentence": "Es ___ Lisa ___, dass sie den Geburtstag ihrer Freundin verpasst hat.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "шкодувати",
       "ua_sentence": "Ліза шкодувала, що пропустила день народження своєї подруги.",
@@ -15291,7 +15182,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Die Eltern ___ es leid, dass sie nicht genug Zeit mit ihren Kindern verbringen konnten ___.",
+      "sentence": "Es ___ den Eltern ___, dass sie nicht genug Zeit mit ihren Kindern verbringen konnten.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "шкодувати",
       "ua_sentence": "Батькам було шкода, що вони не змогли провести достатньо часу зі своїми дітьми.",
@@ -15299,10 +15190,10 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Die Regierung ___ den Bürgern wegen der steigenden Preise ___.",
-      "answer": "hat leidgetan",
+      "sentence": "Die Bürger ___ der Regierung wegen der steigenden Preise ___.",
+      "answer": "haben leidgetan",
       "ua_infinitiv": "шкодувати",
-      "ua_sentence": "Уряд шкодував перед громадянами через зростання цін.",
+      "ua_sentence": "Урядові було шкода громадян через зростання цін.",
       "level": "B2",
       "infinitive": "leidtun"
     },
@@ -15315,7 +15206,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Max ___ es, dass er sich gestritten hat ___.",
+      "sentence": "Es ___ Max ___, dass er sich gestritten hat.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "шкодувати",
       "ua_sentence": "Максу було шкода, що він посварився.",
@@ -15323,7 +15214,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Die Kollegen ___ es, dass sie den Chef kritisiert haben ___.",
+      "sentence": "Es ___ den Kollegen ___, dass sie den Chef kritisiert haben.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "шкодувати",
       "ua_sentence": "Колегам було шкода, що вони розкритикували начальника.",
@@ -15331,7 +15222,7 @@ const partizip_sentenses = {
       "infinitive": "leidtun"
     },
     {
-      "sentence": "Die Wissenschaftler ___ es, dass ihre Theorie nicht anerkannt wurde ___.",
+      "sentence": "Es ___ den Wissenschaftlern ___, dass ihre Theorie nicht anerkannt wurde.",
       "answer": "hat leidgetan",
       "ua_infinitiv": "шкодувати",
       "ua_sentence": "Вченим було шкода, що їхню теорію не визнали.",
@@ -16147,7 +16038,7 @@ const partizip_sentenses = {
       "infinitive": "mögen"
     },
     {
-      "sentence": "Lisa ___ das Buch, das sie letzte Woche gelesen hat, sehr ___.",
+      "sentence": "Lisa ___ das Buch ___, das sie letzte Woche gelesen hat, sehr.",
       "answer": "hat gemocht",
       "ua_infinitiv": "подобатися",
       "ua_sentence": "Лізі дуже сподобалася книга, яку вона прочитала минулого тижня.",
@@ -16275,7 +16166,7 @@ const partizip_sentenses = {
       "infinitive": "nehmen"
     },
     {
-      "sentence": "Max ___ einen Regenschirm, weil es regnete ___.",
+      "sentence": "Max ___ einen Regenschirm ___, weil es regnete.",
       "answer": "hat genommen",
       "ua_infinitiv": "брати",
       "ua_sentence": "Макс узяв парасольку, бо йшов дощ.",
@@ -16906,14 +16797,7 @@ const partizip_sentenses = {
       "level": "B2",
       "infinitive": "schreiben"
     },
-    {
-      "sentence": "Ich habe eine Postkarte aus dem Urlaub ___.",
-      "answer": "geschrieben",
-      "ua_infinitiv": "писати",
-      "ua_sentence": "Я написав листівку з відпустки.",
-      "level": "A1",
-      "infinitive": "schreiben"
-    },
+
     {
       "sentence": "Lisa ___ einen Liebesbrief an ihren Freund ___.",
       "answer": "hat geschrieben",
@@ -17683,7 +17567,7 @@ const partizip_sentenses = {
       "infinitive": "gehen"
     },
     {
-      "sentence": "Lisa ___ zum Markt, um frisches Gemüse zu kaufen ___.",
+      "sentence": "Lisa ___ zum Markt ___, um frisches Gemüse zu kaufen.",
       "answer": "ist gegangen",
       "ua_infinitiv": "йти",
       "ua_sentence": "Ліза пішла на ринок, щоб купити свіжі овочі.",
@@ -17715,7 +17599,7 @@ const partizip_sentenses = {
       "infinitive": "gehen"
     },
     {
-      "sentence": "Max ___ in die Stadt, um seine Freunde zu treffen ___.",
+      "sentence": "Max ___ in die Stadt ___, um seine Freunde zu treffen.",
       "answer": "ist gegangen",
       "ua_infinitiv": "йти",
       "ua_sentence": "Макс пішов у місто, щоб зустрітися з друзями.",
@@ -17747,12 +17631,12 @@ const partizip_sentenses = {
       "infinitive": "ziehen"
     },
     {
-      "sentence": "Tom ___ seine Jacke an, weil es kalt war ___.",
-      "answer": "hat gezogen",
+      "sentence": "Tom ___ seine Jacke ___, weil es kalt war.",
+      "answer": "hat angezogen",
       "ua_infinitiv": "тягнути",
       "ua_sentence": "Том натягнув свою куртку, бо було холодно.",
       "level": "A2",
-      "infinitive": "ziehen"
+      "infinitive": "anziehen"
     },
     {
       "sentence": "Die Arbeiter ___ die Kisten mit Seilen ___.",
@@ -17779,7 +17663,7 @@ const partizip_sentenses = {
       "infinitive": "ziehen"
     },
     {
-      "sentence": "Lisa ___ das Seil, um das Boot an Land zu bringen ___.",
+      "sentence": "Lisa ___ das Seil ___, um das Boot an Land zu bringen.",
       "answer": "hat gezogen",
       "ua_infinitiv": "тягнути",
       "ua_sentence": "Ліза тягнула мотузку, щоб витягнути човен на берег.",
@@ -18254,7 +18138,7 @@ const partizip_sentenses = {
       "sentence": "Ich habe mir den Finger ___.",
       "answer": "wehgetan",
       "ua_infinitiv": "боліти",
-      "ua_sentence": "Я порізав палець.",
+      "ua_sentence": "Я забив собі палець.",
       "level": "A1",
       "infinitive": "wehtun"
     },
@@ -18267,10 +18151,10 @@ const partizip_sentenses = {
       "infinitive": "wehtun"
     },
     {
-      "sentence": "Die Patienten ___ über starke Schmerzen im Rücken ___.",
-      "answer": "haben wehgetan",
+      "sentence": "Der Rücken ___ dem Patienten sehr ___.",
+      "answer": "hat wehgetan",
       "ua_infinitiv": "боліти",
-      "ua_sentence": "Пацієнти скаржилися на сильний біль у спині.",
+      "ua_sentence": "У пацієнта дуже боліла спина.",
       "level": "B1",
       "infinitive": "wehtun"
     },
@@ -18714,14 +18598,7 @@ const partizip_sentenses = {
       "level": "A2",
       "infinitive": "verstehen"
     },
-    {
-      "sentence": "Die Schüler ___ den Inhalt der Vorlesung ___.",
-      "answer": "haben verstanden",
-      "ua_infinitiv": "розуміти",
-      "ua_sentence": "Учні зрозуміли зміст лекції.",
-      "level": "B1",
-      "infinitive": "verstehen"
-    },
+
     {
       "sentence": "Die Forscher ___ die Bedeutung der neuen Entdeckung ___.",
       "answer": "haben verstanden",
@@ -19619,7 +19496,7 @@ const partizip_sentenses = {
       "infinitive": "treffen"
     },
     {
-      "sentence": "Die Wissenschaftler ___ sich, um über neue Entdeckungen zu diskutieren ___.",
+      "sentence": "Die Wissenschaftler ___ sich ___, um über neue Entdeckungen zu diskutieren.",
       "answer": "haben getroffen",
       "ua_infinitiv": "зустрічати",
       "ua_sentence": "Вчені зустрілися, щоб обговорити нові відкриття.",
@@ -19651,7 +19528,7 @@ const partizip_sentenses = {
       "infinitive": "treffen"
     },
     {
-      "sentence": "Die Unternehmensleiter ___ sich, um die neue Strategie zu besprechen ___.",
+      "sentence": "Die Unternehmensleiter ___ sich ___, um die neue Strategie zu besprechen.",
       "answer": "haben getroffen",
       "ua_infinitiv": "зустрічати",
       "ua_sentence": "Керівники компаній зустрілися, щоб обговорити нову стратегію.",
@@ -19771,7 +19648,7 @@ const partizip_sentenses = {
       "infinitive": "tun"
     },
     {
-      "sentence": "Die Schüler ___ ihr Bestes, um das Projekt abzuschließen ___.",
+      "sentence": "Die Schüler ___ ihr Bestes ___, um das Projekt abzuschließen.",
       "answer": "haben getan",
       "ua_infinitiv": "робити",
       "ua_sentence": "Учні зробили все можливе, щоб завершити проєкт.",
@@ -19779,7 +19656,7 @@ const partizip_sentenses = {
       "infinitive": "tun"
     },
     {
-      "sentence": "Die Mitarbeiter ___ alles, um die Frist einzuhalten ___.",
+      "sentence": "Die Mitarbeiter ___ alles ___, um die Frist einzuhalten.",
       "answer": "haben getan",
       "ua_infinitiv": "робити",
       "ua_sentence": "Працівники зробили все можливе, щоб дотриматися терміну.",
@@ -19811,7 +19688,7 @@ const partizip_sentenses = {
       "infinitive": "tun"
     },
     {
-      "sentence": "Die Ärzte ___ alles Menschenmögliche, um den Patienten zu retten ___.",
+      "sentence": "Die Ärzte ___ alles Menschenmögliche ___, um den Patienten zu retten.",
       "answer": "haben getan",
       "ua_infinitiv": "робити",
       "ua_sentence": "Лікарі зробили все можливе, щоб врятувати пацієнта.",
@@ -19835,7 +19712,7 @@ const partizip_sentenses = {
       "infinitive": "tun"
     },
     {
-      "sentence": "Die Lehrer ___ viel, um die Schüler zu motivieren ___.",
+      "sentence": "Die Lehrer ___ viel ___, um die Schüler zu motivieren.",
       "answer": "haben getan",
       "ua_infinitiv": "робити",
       "ua_sentence": "Вчителі зробили багато, щоб мотивувати учнів.",
@@ -19843,7 +19720,7 @@ const partizip_sentenses = {
       "infinitive": "tun"
     },
     {
-      "sentence": "Die Politiker ___ wenig, um das Problem zu lösen ___.",
+      "sentence": "Die Politiker ___ wenig ___, um das Problem zu lösen.",
       "answer": "haben getan",
       "ua_infinitiv": "робити",
       "ua_sentence": "Політики зробили мало, щоб вирішити проблему.",
@@ -19868,7 +19745,7 @@ const partizip_sentenses = {
     },
     {
       "sentence": "Er hat das Fenster offen ___ .",
-      "answer": "lassen",
+      "answer": "gelassen",
       "ua_infinitiv": "залишати",
       "ua_sentence": "Він залишив вікно відкритим.",
       "level": "A1",
@@ -19883,8 +19760,8 @@ const partizip_sentenses = {
       "infinitive": "lassen"
     },
     {
-      "sentence": "Sie hat die Tür auf ___ .",
-      "answer": "lassen",
+      "sentence": "Sie hat die Tür offen ___.",
+      "answer": "gelassen",
       "ua_infinitiv": "залишати",
       "ua_sentence": "Вона залишила двері відкритими.",
       "level": "A2",
@@ -20060,7 +19937,7 @@ const partizip_sentenses = {
     },
     {
       "sentence": "Wir haben die Fenster offen ___ .",
-      "answer": "lassen",
+      "answer": "gelassen",
       "ua_infinitiv": "залишати",
       "ua_sentence": "Ми залишили вікна відкритими.",
       "level": "A1",
@@ -20083,12 +19960,12 @@ const partizip_sentenses = {
       "infinitive": "lassen"
     },
     {
-      "sentence": "Wir haben das Licht an ___ .",
-      "answer": "lassen",
+      "sentence": "Wir haben das Licht ___.",
+      "answer": "angelassen",
       "ua_infinitiv": "залишати",
       "ua_sentence": "Ми залишили світло увімкненим.",
       "level": "A2",
-      "infinitive": "lassen"
+      "infinitive": "anlassen"
     },
     {
       "sentence": "Der Lehrer hat die Schüler länger arbeiten ___ .",

@@ -1,6 +1,6 @@
 const personalpronomen_sentenses = {
   name: "Personalpronomen",
-  desc: "Setze die richtige Vergangenheitsform (Partizip II) ein.",
+  desc: "Setze das passende Personalpronomen ein. Beachte die ukrainische Bedeutung und den Kasus.",
   data: [
     {
       "sentence": "___ bin aus der Ukraine.",
@@ -172,9 +172,9 @@ const personalpronomen_sentenses = {
     },
     {
       "sentence": "Kann ___ mir helfen?",
-      "answer": "jemand",
-      "ua_infinitiv": "хтось",
-      "ua_sentence": "Хтось може мені допомогти?",
+      "answer": "er",
+      "ua_infinitiv": "він",
+      "ua_sentence": "Він може мені допомогти?",
       "level": "B1",
       "infinitive": ""
     },
@@ -211,10 +211,10 @@ const personalpronomen_sentenses = {
       "infinitive": ""
     },
     {
-      "sentence": "___ hast du gestern getroffen?",
-      "answer": "Wen",
-      "ua_infinitiv": "кого",
-      "ua_sentence": "Кого ти вчора зустрів?",
+      "sentence": "Hast du ___ gestern getroffen?",
+      "answer": "ihn",
+      "ua_infinitiv": "його",
+      "ua_sentence": "Ти вчора зустрів його?",
       "level": "A2",
       "infinitive": ""
     },
@@ -348,9 +348,9 @@ const personalpronomen_sentenses = {
     },
     {
       "sentence": "Kann ___ mir sagen, wo der Bahnhof ist?",
-      "answer": "jemand",
-      "ua_infinitiv": "хтось",
-      "ua_sentence": "Чи може хтось мені сказати, де вокзал?",
+      "answer": "sie",
+      "ua_infinitiv": "вона",
+      "ua_sentence": "Чи може вона мені сказати, де вокзал?",
       "level": "A2",
       "infinitive": ""
     },
@@ -382,7 +382,7 @@ const personalpronomen_sentenses = {
       "sentence": "Wir wissen nicht, warum ___ sich beschwert.",
       "answer": "sie",
       "ua_infinitiv": "вона / вони",
-      "ua_sentence": "Ми не знаємо, чому вона / вони скаржаться.",
+      "ua_sentence": "Ми не знаємо, чому вона скаржиться.",
       "level": "B2",
       "infinitive": ""
     },
@@ -574,18 +574,11 @@ const personalpronomen_sentenses = {
       "sentence": "Ich frage mich, warum ___ nicht geantwortet hat.",
       "answer": "sie",
       "ua_infinitiv": "вона / вони",
-      "ua_sentence": "Я питаю себе, чому вона / вони не відповіли.",
+      "ua_sentence": "Я питаю себе, чому вона не відповіла.",
       "level": "B2",
       "infinitive": ""
     },
-    {
-      "sentence": "___ ist mein bester Freund.",
-      "answer": "Er",
-      "ua_infinitiv": "він",
-      "ua_sentence": "Він мій найкращий друг.",
-      "level": "A1",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Woher kennt ___ sie?",
       "answer": "er",
@@ -758,7 +751,7 @@ const personalpronomen_sentenses = {
       "sentence": "Falls ___ morgen nicht kommen kann, informieren wir dich.",
       "answer": "sie",
       "ua_infinitiv": "вона / вони",
-      "ua_sentence": "Якщо вона / вони завтра не зможе прийти, ми тебе повідомимо.",
+      "ua_sentence": "Якщо вона завтра не зможе прийти, ми тебе повідомимо.",
       "level": "B2",
       "infinitive": ""
     },
@@ -898,22 +891,7 @@ const personalpronomen_sentenses = {
       "level": "B2",
       "infinitive": ""
     },
-    {
-      "sentence": "___ ist mein Bruder.",
-      "answer": "Er",
-      "ua_infinitiv": "він",
-      "ua_sentence": "Він — мій брат.",
-      "level": "A1",
-      "infinitive": ""
-    },
-    {
-      "sentence": "Wie alt ist ___?",
-      "answer": "sie",
-      "ua_infinitiv": "вона",
-      "ua_sentence": "Скільки їй років?",
-      "level": "A1",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Kannst du ___ bitte deine Adresse geben?",
       "answer": "mir",
@@ -970,22 +948,7 @@ const personalpronomen_sentenses = {
       "level": "A1",
       "infinitive": ""
     },
-    {
-      "sentence": "Wo wohnt ___?",
-      "answer": "sie",
-      "ua_infinitiv": "вона",
-      "ua_sentence": "Де вона живе?",
-      "level": "A1",
-      "infinitive": ""
-    },
-    {
-      "sentence": "Kannst du ___ bitte helfen?",
-      "answer": "ihm",
-      "ua_infinitiv": "йому",
-      "ua_sentence": "Чи можеш ти йому допомогти?",
-      "level": "A2",
-      "infinitive": ""
-    },
+
     {
       "sentence": "___ haben gestern zusammen gelernt.",
       "answer": "Wir",
@@ -994,22 +957,7 @@ const personalpronomen_sentenses = {
       "level": "A2",
       "infinitive": ""
     },
-    {
-      "sentence": "Warum hast du ___ nichts gesagt?",
-      "answer": "uns",
-      "ua_infinitiv": "нам",
-      "ua_sentence": "Чому ти нічого нам не сказав?",
-      "level": "B1",
-      "infinitive": ""
-    },
-    {
-      "sentence": "Ich glaube, dass ___ das nicht verstanden hat.",
-      "answer": "er",
-      "ua_infinitiv": "він",
-      "ua_sentence": "Я вважаю, що він цього не зрозумів.",
-      "level": "B1",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Wenn ___ mehr Zeit hätte, würde er mit uns reisen.",
       "answer": "er",
@@ -1098,14 +1046,7 @@ const personalpronomen_sentenses = {
       "level": "A1",
       "infinitive": ""
     },
-    {
-      "sentence": "Woher kommt ___?",
-      "answer": "sie",
-      "ua_infinitiv": "вона",
-      "ua_sentence": "Звідки вона?",
-      "level": "A1",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Kannst du ___ bitte deinen Stift geben?",
       "answer": "mir",
@@ -1158,10 +1099,9 @@ const personalpronomen_sentenses = {
 
 };
 
-
 const possessivpronomen_sentenses = {
   name: "Possessivpronomen",
-  desc: "Setze die richtige Vergangenheitsform (Partizip II) ein.",
+  desc: "Setze den passenden Possessivartikel ein. Beachte Person, Genus, Numerus und Kasus.",
   data: [
     {
       "sentence": "Das ist ___ Buch.",
@@ -1197,7 +1137,7 @@ const possessivpronomen_sentenses = {
     },
     {
       "sentence": "Warum hast du ___ Schlüssel vergessen?",
-      "answer": "deinen",
+      "answer": "deine",
       "ua_infinitiv": "твої",
       "ua_sentence": "Чому ти забув свої ключі?",
       "level": "B1",
@@ -1460,14 +1400,7 @@ const possessivpronomen_sentenses = {
       "level": "B1",
       "infinitive": ""
     },
-    {
-      "sentence": "Warum hast du ___ Meinung nicht gesagt?",
-      "answer": "deine",
-      "ua_infinitiv": "твоя",
-      "ua_sentence": "Чому ти не сказав свою думку?",
-      "level": "B1",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Ohne ___ Rat hätte ich das nicht gewusst.",
       "answer": "seinen",
@@ -1524,14 +1457,7 @@ const possessivpronomen_sentenses = {
       "level": "B1",
       "infinitive": ""
     },
-    {
-      "sentence": "Er hat ___ Auto verkauft und ein neues gekauft.",
-      "answer": "sein",
-      "ua_infinitiv": "його",
-      "ua_sentence": "Він продав свою машину і купив нову.",
-      "level": "B1",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Ohne ___ Hilfe hätten wir es nicht geschafft.",
       "answer": "ihre",
@@ -1566,20 +1492,13 @@ const possessivpronomen_sentenses = {
     },
     {
       "sentence": "Er hat ___ Schlüssel auf dem Tisch liegen lassen.",
-      "answer": "seinen",
+      "answer": "seine",
       "ua_infinitiv": "його",
       "ua_sentence": "Він залишив свої ключі на столі.",
       "level": "A2",
       "infinitive": ""
     },
-    {
-      "sentence": "Kannst du mir bitte ___ Adresse geben?",
-      "answer": "deine",
-      "ua_infinitiv": "твоя",
-      "ua_sentence": "Чи можеш ти дати мені свою адресу?",
-      "level": "A2",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Ich habe ___ Tasche im Zug vergessen.",
       "answer": "meine",
@@ -1654,7 +1573,7 @@ const possessivpronomen_sentenses = {
     },
     {
       "sentence": "Warum hast du ___ Schlüssel nicht gefunden?",
-      "answer": "deinen",
+      "answer": "deine",
       "ua_infinitiv": "твій",
       "ua_sentence": "Чому ти не знайшов свої ключі?",
       "level": "B1",
@@ -1892,14 +1811,7 @@ const possessivpronomen_sentenses = {
       "level": "A2",
       "infinitive": ""
     },
-    {
-      "sentence": "Kannst du mir ___ Telefonnummer geben?",
-      "answer": "deine",
-      "ua_infinitiv": "твоя",
-      "ua_sentence": "Чи можеш ти дати мені свій номер телефону?",
-      "level": "A2",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Er hat ___ Schlüssel auf dem Tisch liegen lassen.",
       "answer": "seine",
@@ -2100,30 +2012,7 @@ const possessivpronomen_sentenses = {
       "level": "B1",
       "infinitive": ""
     },
-    {
-      "sentence": "Warum hast du ___ Laptop nicht mitgenommen?",
-      "answer": "deinen",
-      "ua_infinitiv": "твій",
-      "ua_sentence": "Чому ти не взяв свій ноутбук?",
-      "level": "B1",
-      "infinitive": ""
-    },
-    {
-      "sentence": "Ohne ___ Unterstützung hätten wir das Ziel nicht erreicht.",
-      "answer": "ihre",
-      "ua_infinitiv": "її / їхня",
-      "ua_sentence": "Без її / їхньої підтримки ми б не досягли цієї мети.",
-      "level": "B2",
-      "infinitive": ""
-    },
-    {
-      "sentence": "Ich bin mir nicht sicher, ob ___ Plan wirklich funktioniert.",
-      "answer": "sein",
-      "ua_infinitiv": "його",
-      "ua_sentence": "Я не впевнений, чи його план дійсно працює.",
-      "level": "B2",
-      "infinitive": ""
-    },
+
     {
       "sentence": "___ Bruder ist sehr sportlich.",
       "answer": "Mein",
@@ -2220,14 +2109,7 @@ const possessivpronomen_sentenses = {
       "level": "A2",
       "infinitive": ""
     },
-    {
-      "sentence": "Er hat ___ Schlüssel auf dem Tisch liegen lassen.",
-      "answer": "seine",
-      "ua_infinitiv": "його",
-      "ua_sentence": "Він залишив свої ключі на столі.",
-      "level": "B1",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Warum hast du ___ Tasche nicht eingepackt?",
       "answer": "deine",
@@ -2268,14 +2150,7 @@ const possessivpronomen_sentenses = {
       "level": "A1",
       "infinitive": ""
     },
-    {
-      "sentence": "Wir besuchen heute ___ Großeltern.",
-      "answer": "unsere",
-      "ua_infinitiv": "наші",
-      "ua_sentence": "Ми сьогодні відвідуємо наших дідусів і бабусь.",
-      "level": "A2",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Kannst du mir ___ Adresse geben?",
       "answer": "deine",
@@ -2284,22 +2159,7 @@ const possessivpronomen_sentenses = {
       "level": "A2",
       "infinitive": ""
     },
-    {
-      "sentence": "Er hat ___ Handy im Büro vergessen.",
-      "answer": "sein",
-      "ua_infinitiv": "його",
-      "ua_sentence": "Він забув свій телефон в офісі.",
-      "level": "B1",
-      "infinitive": ""
-    },
-    {
-      "sentence": "Warum hast du ___ Jacke nicht angezogen?",
-      "answer": "deine",
-      "ua_infinitiv": "твоя",
-      "ua_sentence": "Чому ти не вдягнув свою куртку?",
-      "level": "B1",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Ohne ___ Hilfe wäre das Projekt nicht erfolgreich gewesen.",
       "answer": "ihre",
@@ -2319,15 +2179,14 @@ const possessivpronomen_sentenses = {
   ]
 };
 
-
 const reflexivpronomen_sentenses = {
   name: "Reflexivpronomen",
-  desc: "Setze die richtige Vergangenheitsform (Partizip II) ein.",
+  desc: "Setze das Reflexivpronomen im Akkusativ oder Dativ ein.",
   data: [
     {
       "sentence": "Ich wasche ___ jeden Morgen das Gesicht.",
-      "answer": "mich",
-      "ua_infinitiv": "мене (знах. відмінок)",
+      "answer": "mir",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Я щоранку вмиваюся.",
       "level": "A1",
       "infinitive": ""
@@ -2375,7 +2234,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Manchmal muss man ___ selbst vertrauen.",
       "answer": "sich",
-      "ua_infinitiv": "собі (дав. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Іноді потрібно довіряти самому собі.",
       "level": "B2",
       "infinitive": ""
@@ -2439,7 +2298,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Manchmal muss man ___ selbst neue Ziele setzen.",
       "answer": "sich",
-      "ua_infinitiv": "собі (дав. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Іноді потрібно ставити собі нові цілі.",
       "level": "B2",
       "infinitive": ""
@@ -2503,7 +2362,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Man muss ___ manchmal neue Herausforderungen stellen.",
       "answer": "sich",
-      "ua_infinitiv": "собі (дав. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Іноді потрібно ставити собі нові виклики.",
       "level": "B2",
       "infinitive": ""
@@ -2518,8 +2377,8 @@ const reflexivpronomen_sentenses = {
     },
     {
       "sentence": "Ich kämme ___ jeden Morgen die Haare.",
-      "answer": "mich",
-      "ua_infinitiv": "себе (знах. відмінок)",
+      "answer": "mir",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Я розчісую волосся щоранку.",
       "level": "A1",
       "infinitive": ""
@@ -2549,7 +2408,7 @@ const reflexivpronomen_sentenses = {
       "infinitive": ""
     },
     {
-      "sentence": "Ihr müsst ___ für den Test vorbereiten.",
+      "sentence": "Ihr müsst ___ auf den Test vorbereiten.",
       "answer": "euch",
       "ua_infinitiv": "себе (множина, знах. відмінок)",
       "ua_sentence": "Ви повинні підготуватися до тесту.",
@@ -2567,13 +2426,13 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Manchmal muss man ___ eine Pause gönnen.",
       "answer": "sich",
-      "ua_infinitiv": "собі (дав. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Іноді потрібно дозволити собі перерву.",
       "level": "B2",
       "infinitive": ""
     },
     {
-      "sentence": "Er hat ___ entschlossen, ins Ausland zu gehen.",
+      "sentence": "Er hat ___ entschieden, ins Ausland zu gehen.",
       "answer": "sich",
       "ua_infinitiv": "себе (знах. відмінок)",
       "ua_sentence": "Він вирішив поїхати за кордон.",
@@ -2589,9 +2448,9 @@ const reflexivpronomen_sentenses = {
       "infinitive": ""
     },
     {
-      "sentence": "Du sollst ___ nicht so viel Sorgen machen.",
-      "answer": "dich",
-      "ua_infinitiv": "себе (знах. відмінок)",
+      "sentence": "Du sollst ___ nicht so viele Sorgen machen.",
+      "answer": "dir",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Ти не повинен так сильно хвилюватися.",
       "level": "A1",
       "infinitive": ""
@@ -2631,7 +2490,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Manchmal muss man ___ selbst eine neue Perspektive geben.",
       "answer": "sich",
-      "ua_infinitiv": "собі (дав. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Іноді потрібно дати собі нову перспективу.",
       "level": "B2",
       "infinitive": ""
@@ -2644,14 +2503,7 @@ const reflexivpronomen_sentenses = {
       "level": "B2",
       "infinitive": ""
     },
-    {
-      "sentence": "Ich setze ___ auf den Stuhl.",
-      "answer": "mich",
-      "ua_infinitiv": "себе (знах. відмінок)",
-      "ua_sentence": "Я сідаю на стілець.",
-      "level": "A1",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Du musst ___ jeden Morgen waschen.",
       "answer": "dich",
@@ -2735,7 +2587,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Er wäscht ___ vor dem Essen die Hände.",
       "answer": "sich",
-      "ua_infinitiv": "себе (знах. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Він миє руки перед їжею.",
       "level": "A2",
       "infinitive": ""
@@ -2767,7 +2619,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Sie hat ___ vorgenommen, mehr Sport zu treiben.",
       "answer": "sich",
-      "ua_infinitiv": "себе (знах. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Вона вирішила більше займатися спортом.",
       "level": "B2",
       "infinitive": ""
@@ -2823,7 +2675,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Man sollte ___ jeden Tag Zeit für sich nehmen.",
       "answer": "sich",
-      "ua_infinitiv": "себе (дав. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Потрібно щодня знаходити час для себе.",
       "level": "B2",
       "infinitive": ""
@@ -2838,8 +2690,8 @@ const reflexivpronomen_sentenses = {
     },
     {
       "sentence": "Ich wasche ___ die Hände vor dem Essen.",
-      "answer": "mich",
-      "ua_infinitiv": "себе (знах. відмінок)",
+      "answer": "mir",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Я мию руки перед їжею.",
       "level": "A1",
       "infinitive": ""
@@ -2895,7 +2747,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Er hat ___ vorgenommen, jeden Tag Deutsch zu lernen.",
       "answer": "sich",
-      "ua_infinitiv": "себе (знах. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Він вирішив вивчати німецьку кожного дня.",
       "level": "B2",
       "infinitive": ""
@@ -3015,7 +2867,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Man muss ___ manchmal eine Pause gönnen.",
       "answer": "sich",
-      "ua_infinitiv": "собі (дав. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Іноді потрібно дозволити собі перерву.",
       "level": "B2",
       "infinitive": ""
@@ -3023,7 +2875,7 @@ const reflexivpronomen_sentenses = {
     {
       "sentence": "Er hat ___ vorgenommen, jeden Tag eine Stunde zu lesen.",
       "answer": "sich",
-      "ua_infinitiv": "себе (знах. відмінок)",
+      "ua_infinitiv": "собі (давальний відмінок)",
       "ua_sentence": "Він вирішив щодня читати по одній годині.",
       "level": "B2",
       "infinitive": ""
@@ -3031,11 +2883,9 @@ const reflexivpronomen_sentenses = {
   ]
 };
 
-
-
 const demonstrativpronomen_sentenses = {
   name: "Demonstrativpronomen",
-  desc: "Setze die richtige Vergangenheitsform (Partizip II) ein.",
+  desc: "Setze das Demonstrativpronomen in der richtigen Form ein.",
   data: [
     {
       "sentence": "___ Buch gehört mir.",
@@ -3341,14 +3191,7 @@ const demonstrativpronomen_sentenses = {
       "level": "B1",
       "infinitive": ""
     },
-    {
-      "sentence": "Mit ___ Argument kann ich nicht einverstanden sein.",
-      "answer": "diesem",
-      "ua_infinitiv": "цим",
-      "ua_sentence": "З цим аргументом я не можу погодитися.",
-      "level": "B2",
-      "infinitive": ""
-    },
+
     {
       "sentence": "Die Bedeutung ___ Entscheidung ist enorm.",
       "answer": "dieser",

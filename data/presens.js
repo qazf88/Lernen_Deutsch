@@ -131,13 +131,13 @@ const present_sentenses = {
             "infinitive": "abstellen"
         },
         {
-            "sentence": "Tom ___ seine Jacke an die Garderobe ___.",
+            "sentence": "Tom ___ seine Tasche neben der Garderobe ___.",
             "answer": "stellt ab",
             "ua_infinitiv": "ставити",
-            "ua_sentence": "Том ставить свою куртку на вішак.",
+            "ua_sentence": "Том ставить свою сумку біля гардероба.",
             "level": "A1",
             "infinitive": "abstellen"
-        },
+          },
         {
             "sentence": "Wir ___ unsere Fahrräder im Hof ___.",
             "answer": "stellen ab",
@@ -163,13 +163,13 @@ const present_sentenses = {
             "infinitive": "abstellen"
         },
         {
-            "sentence": "Ihr ___ eure Dokumente vor dem Meeting ___.",
+            "sentence": "Ihr ___ eure Taschen vor dem Meeting ___.",
             "answer": "stellt ab",
             "ua_infinitiv": "відкладати",
-            "ua_sentence": "Ви відкладаєте свої документи перед зустріччю.",
+            "ua_sentence": "Ви ставите свої сумки перед зустріччю.",
             "level": "B1",
             "infinitive": "abstellen"
-        },
+          },
         {
             "sentence": "Die Techniker ___ die Maschinen zur Wartung ___.",
             "answer": "stellen ab",
@@ -331,13 +331,13 @@ const present_sentenses = {
             "infinitive": "anrufen"
         },
         {
-            "sentence": "Wir ___ das Hotel, um eine Reservierung zu machen ___.",
+            "sentence": "Wir ___ das Hotel ___, um eine Reservierung zu machen.",
             "answer": "rufen an",
             "ua_infinitiv": "дзвонити",
             "ua_sentence": "Ми телефонуємо в готель, щоб зробити бронювання.",
             "level": "A2",
             "infinitive": "anrufen"
-        },
+          },
         {
             "sentence": "Der Kunde ___ die Hotline wegen eines Problems ___.",
             "answer": "ruft an",
@@ -667,13 +667,13 @@ const present_sentenses = {
             "infinitive": "aufräumen"
         },
         {
-            "sentence": "Die Regierung ___ alte Gesetze, um das Rechtssystem zu modernisieren ___.",
+            "sentence": "Die Regierung ___ das Archiv ___, um das Rechtssystem zu modernisieren.",
             "answer": "räumt auf",
             "ua_infinitiv": "реформувати",
-            "ua_sentence": "Уряд реформує старі закони, щоб модернізувати правову систему.",
+            "ua_sentence": "Уряд упорядковує архів, щоб модернізувати правову систему.",
             "level": "B2",
             "infinitive": "aufräumen"
-        },
+          },
         {
             "sentence": "Das Unternehmen ___ interne Prozesse für mehr Effizienz ___.",
             "answer": "räumt auf",
@@ -2034,486 +2034,7 @@ const present_sentenses = {
             "level": "B2",
             "infinitive": "braten"
         },
-        {
-            "sentence": "Ich ___ die Reservierung per E-Mail.",
-            "answer": "bestätige",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Я підтверджую бронювання електронною поштою.",
-            "level": "A1",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Du ___ deine Teilnahme an der Veranstaltung.",
-            "answer": "bestätigst",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Ти підтверджуєш свою участь у заході.",
-            "level": "A1",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Er ___ den Termin mit dem Arzt.",
-            "answer": "bestätigt",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Він підтверджує прийом у лікаря.",
-            "level": "A1",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Wir ___ die Buchung für das Hotel.",
-            "answer": "bestätigen",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Ми підтверджуємо бронювання готелю.",
-            "level": "A2",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Ihr ___ den Empfang der Lieferung.",
-            "answer": "bestätigt",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Ви підтверджуєте отримання доставки.",
-            "level": "A2",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Die Teilnehmer ___ ihre Anmeldung zum Kurs.",
-            "answer": "bestätigen",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Учасники підтверджують свою реєстрацію на курс.",
-            "level": "A2",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Der Manager ___ den Termin für das Meeting.",
-            "answer": "bestätigt",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Менеджер підтверджує зустріч.",
-            "level": "B1",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Die Firma ___ die Bestellung des Kunden.",
-            "answer": "bestätigt",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Компанія підтверджує замовлення клієнта.",
-            "level": "B1",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Wir ___ die Teilnahme an der Konferenz schriftlich.",
-            "answer": "bestätigen",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Ми письмово підтверджуємо участь у конференції.",
-            "level": "B1",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Die Regierung ___ die neuen Maßnahmen zur Wirtschaftsförderung.",
-            "answer": "bestätigt",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Уряд підтверджує нові заходи для стимулювання економіки.",
-            "level": "B2",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Die Universität ___ die Zulassung der neuen Studierenden.",
-            "answer": "bestätigt",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Університет підтверджує зарахування нових студентів.",
-            "level": "B2",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Das Unternehmen ___ die Kooperation mit internationalen Partnern.",
-            "answer": "bestätigt",
-            "ua_infinitiv": "підтверджувати",
-            "ua_sentence": "Компанія підтверджує співпрацю з міжнародними партнерами.",
-            "level": "B2",
-            "infinitive": "bestätigen"
-        },
-        {
-            "sentence": "Ich ___ meine Großeltern jedes Wochenende.",
-            "answer": "besuche",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Я відвідую своїх дідусів і бабусь щовихідних.",
-            "level": "A1",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Du ___ das Museum in deiner Stadt.",
-            "answer": "besuchst",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Ти відвідуєш музей у своєму місті.",
-            "level": "A1",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Er ___ seinen Freund im Krankenhaus.",
-            "answer": "besucht",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Він відвідує свого друга в лікарні.",
-            "level": "A1",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Wir ___ eine Ausstellung in der Galerie.",
-            "answer": "besuchen",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Ми відвідуємо виставку в галереї.",
-            "level": "A2",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Ihr ___ eure Freunde in einer anderen Stadt.",
-            "answer": "besucht",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Ви відвідуєте своїх друзів в іншому місті.",
-            "level": "A2",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Die Schüler ___ das historische Museum mit ihrer Klasse.",
-            "answer": "besuchen",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Учні відвідують історичний музей зі своїм класом.",
-            "level": "A2",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Der Geschäftsführer ___ eine internationale Konferenz.",
-            "answer": "besucht",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Керівник відвідує міжнародну конференцію.",
-            "level": "B1",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Die Firma ___ regelmäßig Messen im Ausland.",
-            "answer": "besucht",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Компанія регулярно відвідує виставки за кордоном.",
-            "level": "B1",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Wir ___ Fachseminare zur Weiterbildung.",
-            "answer": "besuchen",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Ми відвідуємо спеціалізовані семінари для підвищення кваліфікації.",
-            "level": "B1",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Die Regierung ___ offizielle Veranstaltungen in Nachbarländern.",
-            "answer": "besucht",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Уряд відвідує офіційні заходи в сусідніх країнах.",
-            "level": "B2",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Die Universität ___ Austauschprogramme in verschiedenen Ländern.",
-            "answer": "besucht",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Університет бере участь у програмах обміну в різних країнах.",
-            "level": "B2",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Das Unternehmen ___ weltweit wichtige Geschäftsveranstaltungen.",
-            "answer": "besucht",
-            "ua_infinitiv": "відвідувати",
-            "ua_sentence": "Компанія відвідує важливі бізнес-заходи по всьому світу.",
-            "level": "B2",
-            "infinitive": "besuchen"
-        },
-        {
-            "sentence": "Ich ___ die Rechnung im Restaurant.",
-            "answer": "bezahle",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Я оплачую рахунок у ресторані.",
-            "level": "A1",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Du ___ die Miete für deine Wohnung.",
-            "answer": "bezahlst",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Ти оплачуєш оренду своєї квартири.",
-            "level": "A1",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Er ___ das Ticket für den Zug.",
-            "answer": "bezahlt",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Він оплачує квиток на поїзд.",
-            "level": "A1",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Wir ___ die Hotelbuchung online.",
-            "answer": "bezahlen",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Ми оплачуємо бронювання готелю онлайн.",
-            "level": "A2",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Ihr ___ die Rechnung mit der Kreditkarte.",
-            "answer": "bezahlt",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Ви оплачуєте рахунок кредитною карткою.",
-            "level": "A2",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Die Kunden ___ die Ware nach der Lieferung.",
-            "answer": "bezahlen",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Клієнти оплачують товар після доставки.",
-            "level": "A2",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Der Arbeitgeber ___ das Gehalt am Ende des Monats.",
-            "answer": "bezahlt",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Роботодавець виплачує зарплату в кінці місяця.",
-            "level": "B1",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Die Firma ___ die Rechnungen für die Dienstleistungen pünktlich.",
-            "answer": "bezahlt",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Компанія вчасно оплачує рахунки за послуги.",
-            "level": "B1",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Wir ___ die Gebühren für die Konferenz im Voraus.",
-            "answer": "bezahlen",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Ми оплачуємо збори за конференцію заздалегідь.",
-            "level": "B1",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Die Regierung ___ die Subventionen für Unternehmen.",
-            "answer": "bezahlt",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Уряд виплачує субсидії для компаній.",
-            "level": "B2",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Die Universität ___ die Forschungskosten aus dem Budget.",
-            "answer": "bezahlt",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Університет оплачує витрати на дослідження з бюджету.",
-            "level": "B2",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Das Unternehmen ___ die Investitionen für neue Projekte.",
-            "answer": "bezahlt",
-            "ua_infinitiv": "платити",
-            "ua_sentence": "Компанія оплачує інвестиції для нових проєктів.",
-            "level": "B2",
-            "infinitive": "bezahlen"
-        },
-        {
-            "sentence": "Ich ___ einen Satz mit diesem Wort.",
-            "answer": "bilde",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Я складаю речення з цим словом.",
-            "level": "A1",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Du ___ eine Gruppe für das Projekt.",
-            "answer": "bildest",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Ти формуєш групу для проєкту.",
-            "level": "A1",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Er ___ ein neues Team in der Firma.",
-            "answer": "bildet",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Він формує нову команду в компанії.",
-            "level": "A1",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Wir ___ eine Strategie für das Unternehmen.",
-            "answer": "bilden",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Ми формуємо стратегію для компанії.",
-            "level": "A2",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Ihr ___ eine Linie in der Turnhalle.",
-            "answer": "bildet",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Ви формуєте лінію в спортзалі.",
-            "level": "A2",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Die Schüler ___ Paare für den Tanzkurs.",
-            "answer": "bilden",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Учні формують пари для танцювального курсу.",
-            "level": "A2",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Das Unternehmen ___ eine neue Abteilung für Innovationen.",
-            "answer": "bildet",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Компанія формує новий відділ для інновацій.",
-            "level": "B1",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Die Universität ___ ein Forschungsteam für das Projekt.",
-            "answer": "bildet",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Університет формує дослідницьку групу для проєкту.",
-            "level": "B1",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Wir ___ ein Netzwerk von Experten in diesem Bereich.",
-            "answer": "bilden",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Ми формуємо мережу експертів у цій галузі.",
-            "level": "B1",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Die Regierung ___ eine Allianz für den Klimaschutz.",
-            "answer": "bildet",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Уряд формує альянс для захисту клімату.",
-            "level": "B2",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Das Ministerium ___ ein Komitee für Wirtschaftsentwicklung.",
-            "answer": "bildet",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Міністерство формує комітет для економічного розвитку.",
-            "level": "B2",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Die internationalen Organisationen ___ ein Gremium zur Friedenssicherung.",
-            "answer": "bilden",
-            "ua_infinitiv": "формувати",
-            "ua_sentence": "Міжнародні організації формують комісію для підтримки миру.",
-            "level": "B2",
-            "infinitive": "bilden"
-        },
-        {
-            "sentence": "Ich ___ das Fleisch in der Pfanne.",
-            "answer": "brate",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Я смажу м'ясо на сковороді.",
-            "level": "A1",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Du ___ die Kartoffeln im Ofen.",
-            "answer": "brätst",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Ти смажиш картоплю в духовці.",
-            "level": "A1",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Er ___ das Gemüse mit wenig Öl.",
-            "answer": "brät",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Він смажить овочі з невеликою кількістю олії.",
-            "level": "A1",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Wir ___ die Würstchen auf dem Grill.",
-            "answer": "braten",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Ми смажимо сосиски на грилі.",
-            "level": "A2",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Ihr ___ die Zwiebeln in der Pfanne.",
-            "answer": "bratet",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Ви смажите цибулю на сковороді.",
-            "level": "A2",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Die Köche ___ das Hähnchen goldbraun.",
-            "answer": "braten",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Кухарі смажать курку до золотистої скоринки.",
-            "level": "A2",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Der Chefkoch ___ das Steak auf den Punkt.",
-            "answer": "brät",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Шеф-кухар смажить стейк до потрібної готовності.",
-            "level": "B1",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Das Restaurant ___ die Spezialität des Hauses täglich frisch.",
-            "answer": "brät",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Ресторан щодня смажить фірмову страву.",
-            "level": "B1",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Wir ___ verschiedene Fleischsorten für das Event.",
-            "answer": "braten",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Ми смажимо різні види м'яса для заходу.",
-            "level": "B1",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Die Lebensmittelindustrie ___ viele Produkte mit speziellen Verfahren.",
-            "answer": "brät",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Харчова промисловість смажить багато продуктів за спеціальними технологіями.",
-            "level": "B2",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Die Universität ___ Forschung zu gesünderen Bratmethoden.",
-            "answer": "brät",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Університет проводить дослідження здоровіших методів смаження.",
-            "level": "B2",
-            "infinitive": "braten"
-        },
-        {
-            "sentence": "Das Unternehmen ___ neue Technologien für fettarmes Braten.",
-            "answer": "brät",
-            "ua_infinitiv": "смажити",
-            "ua_sentence": "Компанія розробляє нові технології для смаження з низьким вмістом жиру.",
-            "level": "B2",
-            "infinitive": "braten"
-        },
+
         {
             "sentence": "Ich ___ mehr Zeit für meine Hobbys.",
             "answer": "brauche",
@@ -3051,13 +2572,13 @@ const present_sentenses = {
             "infinitive": "essen"
         },
         {
-            "sentence": "Die Firma ___ gesunde Mahlzeiten für die Angestellten.",
+            "sentence": "Die Firma ___ gesunde Mahlzeiten für die Angestellten ___.",
             "answer": "bietet an",
             "ua_infinitiv": "пропонувати",
             "ua_sentence": "Компанія пропонує здорові страви для співробітників.",
             "level": "B1",
-            "infinitive": "essen"
-        },
+            "infinitive": "anbieten"
+          },
         {
             "sentence": "Wir ___ bei Geschäftsessen über neue Projekte.",
             "answer": "sprechen",
@@ -5131,13 +4652,13 @@ const present_sentenses = {
             "infinitive": "mitnehmen"
         },
         {
-            "sentence": "Wir ___ einen Regenschirm, falls es regnet ___.",
+            "sentence": "Wir ___ einen Regenschirm ___, falls es regnet.",
             "answer": "nehmen mit",
             "ua_infinitiv": "брати з собою",
             "ua_sentence": "Ми беремо з собою парасольку на випадок дощу.",
             "level": "A2",
             "infinitive": "mitnehmen"
-        },
+          },
         {
             "sentence": "Ihr ___ Bücher für die lange Reise ___.",
             "answer": "nehmt mit",
@@ -7122,8 +6643,6 @@ const present_sentenses = {
             "level": "B2",
             "infinitive": "lassen"
         }
-
-
 
     ]
 };

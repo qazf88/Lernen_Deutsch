@@ -3,100 +3,112 @@ const futur2_sentenses = {
     desc: "Konjugation von Verben im Futur 2.",
     data: [
   {
-    "sentence": "Ich ___ das Auto repariert haben (reparieren lassen).",
-    "answer": "werde reparieren lassen",
+    "sentence": "Ich ___ das Auto bis morgen ___.",
+    "answer": "werde haben reparieren lassen",
     "ua_infinitiv": "доручати відремонтувати",
-    "ua_sentence": "Я доручу відремонтувати автомобіль (і це буде зроблено).",
-    "level": "B1",
-    "infinitive": "lassen"
+    "ua_sentence": "До завтра я вже доручу відремонтувати автомобіль, і ремонт буде завершено.",
+    "level": "B2",
+    "infinitive": "lassen",
+    "answers": ["werde","haben reparieren lassen"]
   },
   {
-    "sentence": "Du ___ das Fenster geöffnet haben (öffnen lassen).",
-    "answer": "wirst öffnen lassen",
+    "sentence": "Du ___ das Fenster bis heute Abend ___.",
+    "answer": "wirst haben öffnen lassen",
     "ua_infinitiv": "доручати відкрити",
-    "ua_sentence": "Ти доручиш відкрити вікно (і це буде зроблено).",
-    "level": "B1",
-    "infinitive": "lassen"
+    "ua_sentence": "До сьогоднішнього вечора ти вже доручиш відчинити вікно, і воно буде відчинене.",
+    "level": "B2",
+    "infinitive": "lassen",
+    "answers": ["wirst","haben öffnen lassen"]
   },
   {
-    "sentence": "Er ___ die Präsentation vorbereitet haben (vorbereiten lassen).",
-    "answer": "wird vorbereiten lassen",
+    "sentence": "Er ___ die Präsentation bis Montag ___.",
+    "answer": "wird haben vorbereiten lassen",
     "ua_infinitiv": "доручати готувати",
-    "ua_sentence": "Він доручить підготувати презентацію (і це буде зроблено).",
-    "level": "B1",
-    "infinitive": "lassen"
+    "ua_sentence": "До понеділка він уже доручить підготувати презентацію, і вона буде готова.",
+    "level": "B2",
+    "infinitive": "lassen",
+    "answers": ["wird","haben vorbereiten lassen"]
   },
   {
-    "sentence": "Wir ___ die Wohnung renoviert haben (renovieren lassen).",
-    "answer": "werden renovieren lassen",
+    "sentence": "Wir ___ die Wohnung bis zum Sommer ___.",
+    "answer": "werden haben renovieren lassen",
     "ua_infinitiv": "доручати ремонтувати",
-    "ua_sentence": "Ми доручимо відремонтувати квартиру (і це буде зроблено).",
-    "level": "B1",
-    "infinitive": "lassen"
+    "ua_sentence": "До літа ми вже доручимо відремонтувати квартиру, і ремонт буде завершено.",
+    "level": "B2",
+    "infinitive": "lassen",
+    "answers": ["werden","haben renovieren lassen"]
   },
   {
-    "sentence": "Ihr ___ die Unterlagen überprüft haben (überprüfen lassen).",
-    "answer": "werdet überprüfen lassen",
+    "sentence": "Ihr ___ die Unterlagen bis Freitag ___.",
+    "answer": "werdet haben überprüfen lassen",
     "ua_infinitiv": "доручати перевіряти",
-    "ua_sentence": "Ви доручите перевірити документи (і це буде зроблено).",
-    "level": "B1",
-    "infinitive": "lassen"
+    "ua_sentence": "До п’ятниці ви вже доручите перевірити документи, і їх буде перевірено.",
+    "level": "B2",
+    "infinitive": "lassen",
+    "answers": ["werdet","haben überprüfen lassen"]
   },
   {
-    "sentence": "Sie ___ den Vertrag unterschrieben haben (unterschreiben lassen).",
-    "answer": "werden unterschreiben lassen",
+    "sentence": "Sie (Plural) ___ den Vertrag bis morgen ___.",
+    "answer": "werden haben unterschreiben lassen",
     "ua_infinitiv": "доручати підписувати",
-    "ua_sentence": "Вони доручать підписати контракт (і це буде зроблено).",
-    "level": "B1",
-    "infinitive": "lassen"
+    "ua_sentence": "До завтра вони вже доручать підписати договір, і його буде підписано.",
+    "level": "B2",
+    "infinitive": "lassen",
+    "answers": ["werden","haben unterschreiben lassen"]
   },
   {
-    "sentence": "Sie ___ die Mitarbeiter den Bericht erneut schreiben lassen.",
-    "answer": "wird schreiben lassen",
+    "sentence": "Sie (Singular) ___ die Mitarbeiter den Bericht bis morgen erneut ___.",
+    "answer": "wird haben schreiben lassen",
     "ua_infinitiv": "змушувати писати",
-    "ua_sentence": "Вона змусить співробітників переписати звіт (і це буде зроблено).",
+    "ua_sentence": "До завтра вона вже доручить співробітникам переписати звіт, і вони завершать роботу.",
     "level": "B2",
-    "infinitive": "lassen"
+    "infinitive": "lassen",
+    "answers": ["wird","haben schreiben lassen"]
   },
   {
-    "sentence": "Ich ___ den Vertrag von einem Anwalt prüfen lassen.",
-    "answer": "werde prüfen lassen",
+    "sentence": "Ich ___ den Vertrag bis morgen von einem Anwalt ___.",
+    "answer": "werde haben prüfen lassen",
     "ua_infinitiv": "доручати перевіряти",
-    "ua_sentence": "Я доручу юристу перевірити контракт (і це буде зроблено).",
+    "ua_sentence": "До завтра я вже доручу адвокатові перевірити договір, і його буде перевірено.",
     "level": "B2",
-    "infinitive": "lassen"
+    "infinitive": "lassen",
+    "answers": ["werde","haben prüfen lassen"]
   },
   {
-    "sentence": "Wir ___ die Webseite komplett neu gestalten lassen.",
-    "answer": "werden neu gestalten lassen",
+    "sentence": "Wir ___ die Webseite bis zum Jahresende komplett neu ___.",
+    "answer": "werden haben gestalten lassen",
     "ua_infinitiv": "доручати переробляти",
-    "ua_sentence": "Ми доручимо повністю переробити вебсайт (і це буде зроблено).",
+    "ua_sentence": "До кінця року ми вже доручимо повністю оновити сайт, і його буде оновлено.",
     "level": "B2",
-    "infinitive": "lassen"
+    "infinitive": "lassen",
+    "answers": ["werden","haben gestalten lassen"]
   },
   {
-    "sentence": "Er ___ die Präsentation von einem Experten halten lassen.",
-    "answer": "wird halten lassen",
+    "sentence": "Er ___ die Präsentation bis zum Abend von einem Experten ___.",
+    "answer": "wird haben halten lassen",
     "ua_infinitiv": "доручати проводити",
-    "ua_sentence": "Він доручить експерту провести презентацію (і це буде зроблено).",
+    "ua_sentence": "До вечора він уже доручить експертові провести презентацію, і її буде проведено.",
     "level": "B2",
-    "infinitive": "lassen"
+    "infinitive": "lassen",
+    "answers": ["wird","haben halten lassen"]
   },
   {
-    "sentence": "Ihr ___ den Computer reparieren lassen.",
-    "answer": "werdet reparieren lassen",
+    "sentence": "Ihr ___ den Computer bis Freitag ___.",
+    "answer": "werdet haben reparieren lassen",
     "ua_infinitiv": "доручати ремонтувати",
-    "ua_sentence": "Ви доручите відремонтувати комп’ютер (і це буде зроблено).",
+    "ua_sentence": "До п’ятниці ви вже доручите відремонтувати комп’ютер, і ремонт буде завершено.",
     "level": "B2",
-    "infinitive": "lassen"
+    "infinitive": "lassen",
+    "answers": ["werdet","haben reparieren lassen"]
   },
   {
-    "sentence": "Sie ___ den Hund draußen spielen lassen.",
-    "answer": "wird spielen lassen",
+    "sentence": "Sie (Singular) ___ den Hund bis zum Abend draußen ___.",
+    "answer": "wird haben spielen lassen",
     "ua_infinitiv": "дозволяти гратися",
-    "ua_sentence": "Вона дозволить собаці гратися на вулиці (і це буде зроблено).",
+    "ua_sentence": "До вечора вона вже дасть собаці погратися надворі.",
     "level": "B2",
-    "infinitive": "lassen"
+    "infinitive": "lassen",
+    "answers": ["wird","haben spielen lassen"]
   }
 ]
 }

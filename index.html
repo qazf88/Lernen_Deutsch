@@ -1,62 +1,90 @@
 <!DOCTYPE html>
-<html lang="de">
-
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script type="text/javascript" src="data/data.js"></script>
-    <script type="text/javascript" src="data/presens.js"></script>
-    <script type="text/javascript" src="data/partizip.js"></script>
-    <script type="text/javascript" src="data/preteritum.js"></script>
-    <script type="text/javascript" src="data/plusquamperfekt.js"></script>
-    <script type="text/javascript" src="data/futur1.js"></script>
-    <script type="text/javascript" src="data/futur2.js"></script>
-    <script type="text/javascript" src="data/pronomen.js"></script>
-    <script type="text/javascript" src="data/nomen.js"></script>
-    <script type="text/javascript" src="data/verben_table.js"></script>
-    <script type="text/javascript" src="data/zahlen.js"></script>
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#176b58">
+    <meta name="description" content="Практика німецької з українськими підказками: слова, чотири відмінки, артиклі, дієслова та числівники.">
+    <title>Deutsch üben · Німецька щодня</title>
     <link rel="stylesheet" href="style.css">
-    <title>Vergangenheitsform Übung</title>
-
+    <script defer src="data/presens.js"></script>
+    <script defer src="data/partizip.js"></script>
+    <script defer src="data/preteritum.js"></script>
+    <script defer src="data/plusquamperfekt.js"></script>
+    <script defer src="data/futur1.js"></script>
+    <script defer src="data/futur2.js"></script>
+    <script defer src="data/pronomen.js"></script>
+    <script defer src="data/nomen.js"></script>
+    <script defer src="data/zahlen.js"></script>
+    <script defer src="data/expansion.js"></script>
+    <script defer src="data/more_verbs.js"></script>
+    <script defer src="data/more_nouns.js"></script>
+    <script defer src="data/more_grammar.js"></script>
+    <script defer src="data/more_numbers.js"></script>
+    <script defer src="data/b2_focus.js"></script>
+    <script defer src="data/data.js"></script>
+    <script defer src="core.js"></script>
+    <script defer src="main.js"></script>
 </head>
-
 <body>
-    <div>
-        <h3 id="work_time" class="work_time">00:00</h3>
+    <a class="skip-link" href="#practice">Перейти до вправ</a>
+    <div class="page">
+        <header class="header">
+            <div>
+                <p class="eyebrow">ПОТРОХУ. ЩОДНЯ. ВПЕВНЕНО.</p>
+                <h1 lang="de">Deutsch <span>üben.</span></h1>
+                <p class="subtitle">Твоя щоденна практика німецької</p>
+            </div>
+            <div class="stats" aria-label="Навчальна статистика">
+                <div><span class="stat-label">Сьогодні</span><strong id="work_time">00:00:00</strong></div>
+                <div><span class="stat-label">Правильні відповіді</span><strong id="score">0 / 0</strong><span id="scorePercent">Ще все попереду</span></div>
+                <button type="button" id="resetScore" class="quiet" aria-label="Скинути статистику">Скинути</button>
+            </div>
+        </header>
+        <p id="storageNotice" class="notice" role="status" hidden></p>
+        <p id="legacyScore" class="muted" hidden></p>
+        <main>
+            <section class="goal-banner panel" aria-labelledby="goalTitle">
+                <div><p class="eyebrow">ГОЛОВНА МЕТА</p><h2 id="goalTitle">Goethe-Zertifikat B2</h2>
+                <p>Лексика, сталі вирази й граматика для впевненого читання, письма та розмови.</p>
+                <p id="b2BankCount" class="muted"></p>
+                <p class="muted">Власні тренувальні вправи. Повний формат іспиту — Lesen, Hören, Schreiben, Sprechen — практикуй також з <a href="https://www.goethe.de/ins/de/de/prf/gzb2/ue9.html" target="_blank" rel="noopener noreferrer">офіційними матеріалами Goethe</a>.</p></div>
+                <button type="button" id="startB2" class="primary">Тренувати B2</button>
+            </section>
+            <section class="settings panel" aria-labelledby="settingsTitle">
+                <div class="section-heading"><h2 id="settingsTitle">Що потренуємо?</h2><span id="bankCount" class="badge"></span></div>
+                <div id="buttonWortartenContainer" class="topic-buttons" aria-label="Тема"></div>
+                <div class="filters">
+                    <label class="test-filter">Тест<select id="testSelect"></select></label>
+                    <label>Рівень<select id="levelSelect"><option value="All">Усі рівні</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option></select></label>
+                    <label>Вправ за раз<select id="countSelect"><option>5</option><option selected>10</option><option>20</option></select></label>
+                    <label class="search-filter">Слово або переклад<input id="searchInput" type="search" placeholder="Наприклад: Schule, школа…" autocomplete="off"></label>
+                </div>
+                <p id="deskription" lang="de"></p>
+                <p id="availableCount" class="muted" role="status"></p>
+            </section>
+            <section id="practice" aria-labelledby="practiceTitle">
+                <div class="section-heading practice-heading"><h2 id="practiceTitle">Час практики</h2><span id="roundInfo" class="muted"></span></div>
+                <details class="help panel"><summary>Як виконувати вправи</summary><p>Заповни всі пропуски й натисни «Перевірити». У полі може бути кілька слів. Регістр літер не впливає на оцінку, але ä, ö, ü та ß потрібно писати точно. Переклад відкривається натисканням. Клавіша Enter переходить до наступного поля; в останньому полі — перевіряє відповіді.</p><p>У статистику потрапляє лише перша перевірка кожного набору. Після цього можна виправити відповіді або повторити помилки окремо.</p></details>
+                <form id="exerciseForm" novalidate>
+                    <div id="taskContainer" class="tasks"></div>
+                    <div class="action-dock">
+                        <div class="dock-inner">
+                            <div class="character-row"><span>Німецькі літери</span><div id="characterKeys" aria-label="Вставити німецьку літеру"><button type="button" data-char="ä">ä</button><button type="button" data-char="ö">ö</button><button type="button" data-char="ü">ü</button><button type="button" data-char="ß">ß</button></div></div>
+                            <p id="result" role="status" aria-live="polite">Заповни пропуски у реченнях.</p>
+                            <div class="actions"><button type="button" id="newRound" class="secondary">Нові речення</button><button type="button" id="retryErrors" class="secondary" hidden>Повторити помилки</button><button type="submit" id="checkButton" class="primary">Перевірити</button></div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="page-footer">Deutsch üben · Вчися у власному темпі.<br>Прогрес зберігається у цьому браузері.</footer>
     </div>
-    <div class="score">
-        <h2 id="score"></h2>
-        <button onclick="showbox()">klar</button>
-    </div>
-
-    <div class="button_time" id="buttonLevelContainer"></div>
-    <p id="deskription" style="text-align: center;"></p>
-
-    <div class="button_time" id="buttonWortartenContainer"></div>
-    <div class="button_time" id="buttonTestContainer"></div>
-
-    <div class="task" id="taskContainer"></div>
-    <div class="keller">
-        <p class="result" id="result"></p>
-        <button onclick="generateTasks()">Neue Sätze</button>
-        <button onclick="checkAnswers()">Überprüfen</button>
-    </div>
-
-
-
+    <dialog id="confirmModal" aria-labelledby="resetTitle" aria-describedby="resetDescription">
+        <h2 id="resetTitle">Скинути статистику?</h2>
+        <p id="resetDescription">Лічильник відповідей буде обнулено. Час навчання за сьогодні залишиться.</p>
+        <div class="actions"><button type="button" id="btnNo" class="secondary" autofocus>Залишити</button><button type="button" id="btnYes" class="primary">Скинути</button></div>
+    </dialog>
+    <noscript><p class="notice">Для роботи вправ увімкни JavaScript у браузері.</p></noscript>
 </body>
-
-<div id="modalHolder">
-    <div id="confirmModal">
-        <div class="m1">Ergebnis zurücksetzen?</div>
-        <button id="btnYes">Yes</button>
-        <button id="btnNo">No</button>
-    </div>
-</div>
-
-<script type="text/javascript" src="main.js"></script>
-
 </html>
