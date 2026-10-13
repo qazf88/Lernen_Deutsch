@@ -1,13 +1,22 @@
 'use strict';
-// Optional browser suite: npm install --no-save playwright, then npm run test:browser.
+// Optional developer check: node tests/browser.cjs with an available Playwright module.
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const http = require('node:http');
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const root = path.resolve(__dirname, '..');
+const basePath = '/Lernen_Deutsch/';
 const server = http.createServer((req, res) => {
-    const file = path.resolve(root, '.' + decodeURIComponent(req.url.split('?')[0] === '/' ? '/index.html' : req.url.split('?')[0]));
+    const pathname = decodeURIComponent(req.url.split('?')[0]);
+    if (pathname === basePath.slice(0, -1)) {
+        res.writeHead(301, { Location: basePath }); res.end(); return;
+    }
+    if (!pathname.startsWith(basePath)) {
+        res.writeHead(404); res.end(); return;
+    }
+    const relativePath = pathname.slice(basePath.length) || 'index.html';
+    const file = path.resolve(root, relativePath);
     if (!file.startsWith(root + path.sep) || !fs.existsSync(file) || !fs.statSync(file).isFile()) {
         res.writeHead(404); res.end(); return;
     }
@@ -38,23 +47,31 @@ async function fillRound(page, incorrectLast = false) {
 }
 (async () => {
     await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
-    const url = `http://127.0.0.1:${server.address().port}`;
+    const url = `http://127.0.0.1:${server.address().port}${basePath.slice(0, -1)}`;
     browser = await chromium.launch({ headless: true, ...(process.env.CHROME_BIN ? { executablePath: process.env.CHROME_BIN } : {}), args: ['--no-sandbox'] });
     const context = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, timezoneId: 'Europe/Berlin' });
     const page = await context.newPage();
     const errors = [];
+    const failedRequests = [];
+    context.on('requestfailed', request => failedRequests.push(`${request.url()}: ${request.failure()?.errorText}`));
+    context.on('response', response => {
+        if (response.status() >= 400) failedRequests.push(`${response.status()} ${response.url()}`);
+    });
     page.on('pageerror', error => errors.push(error.message));
     await page.goto(url);
+    assert.equal(new URL(page.url()).pathname, basePath);
     await page.waitForSelector('.task-card');
     assert.equal(await page.locator('.task-card').count(), 10);
-    pass('initial exercises load on mobile');
-    assert.equal(await page.locator('#levelSelect').inputValue(), 'B2');
-    assert.equal(await page.locator('#testSelect').inputValue(), 'b2_collocations');
+    pass('initial exercises load on mobile under the GitHub Pages repository path');
+    assert.equal(await page.locator('#levelSelect').inputValue(), 'C1');
+    assert.equal(await page.locator('#testSelect').inputValue(), 'c1_cohesion');
+    assert.equal(await page.locator('.goal-banner').count(), 0);
+    assert.match(await page.locator('.page-footer').innerText(), /Goethe-Zertifikat C1/);
     if (process.env.SCREENSHOT_DIR) {
         fs.mkdirSync(process.env.SCREENSHOT_DIR, { recursive: true });
-        await page.screenshot({ path: path.join(process.env.SCREENSHOT_DIR, 'b2-mobile.png'), fullPage: true });
+        await page.screenshot({ path: path.join(process.env.SCREENSHOT_DIR, 'advanced-mobile.png'), fullPage: true });
     }
-    pass('new learners start in the dedicated B2 section');
+    pass('new learners get C1 exercises without a prominent exam banner');
     await page.selectOption('#countSelect', '5');
     await page.click('#checkButton');
     assert.equal(await page.locator('#score').innerText(), '0 / 5');
@@ -142,18 +159,23 @@ async function fillRound(page, incorrectLast = false) {
     pass('a genuinely missing level is shown as empty without crashing');
     await page.fill('#searchInput', 'NOT_A_REAL_WORD_938');
     await page.waitForTimeout(350);
-    await page.click('#startB2');
-    assert.equal(await page.locator('#levelSelect').inputValue(), 'B2');
-    assert.equal(await page.locator('#testSelect').inputValue(), 'b2_collocations');
+    await page.click('[data-group="advanced"]');
+    assert.equal(await page.locator('#levelSelect').inputValue(), 'C1');
+    assert.equal(await page.locator('#testSelect').inputValue(), 'c1_cohesion');
     assert.equal(await page.locator('#searchInput').inputValue(), '');
     assert.equal(await page.locator('.task-card').count(), 5);
+    await page.click('[data-group="goethe-b2"]');
+    assert.equal(await page.locator('#levelSelect').inputValue(), 'All');
+    assert.equal(await page.locator('.task-card').count(), 5);
+    pass('topic changes clear stale search and select an available level');
+    await page.selectOption('#levelSelect', 'B2');
     await page.fill('#searchInput', 'abwägen');
     await page.waitForTimeout(350);
     assert.equal(await page.locator('.task-card').count(), 5);
     await fillRound(page);
     await page.click('#checkButton');
     assert.equal(await page.locator('.is-correct').count(), 5);
-    pass('B2 shortcut clears incompatible filters and search finds full infinitives behind shortened clues');
+    pass('existing B2 practice and full-infinitive search still work');
     await page.click('[data-group="numbers"]');
     await page.selectOption('#levelSelect', 'All');
     await page.fill('#searchInput', 'Я з');
@@ -213,6 +235,20 @@ async function fillRound(page, incorrectLast = false) {
     assert.equal(await quotaPage.locator('#legacyScore').isVisible(), false);
     assert.equal(await quotaPage.locator('#score').innerText(), '0 / 0');
     pass('full storage uses fresh in-memory values instead of stale saved values');
+    const previousSettings = await browser.newContext();
+    await previousSettings.addInitScript(() => {
+        localStorage.setItem('deutsch.settings.v2', JSON.stringify({ group: 'goethe-b2', test: 'b2_sentence_patterns', level: 'B2', count: 5 }));
+        localStorage.setItem('deutsch.score.v2', JSON.stringify({ correct: 7, attempted: 10 }));
+    });
+    const previousPage = await previousSettings.newPage();
+    previousPage.on('pageerror', error => errors.push(error.message));
+    await previousPage.goto(url);
+    await previousPage.waitForSelector('.task-card');
+    assert.equal(await previousPage.locator('#testSelect').inputValue(), 'b2_sentence_patterns');
+    assert.equal(await previousPage.locator('#levelSelect').inputValue(), 'B2');
+    assert.equal(await previousPage.locator('.task-card').count(), 5);
+    assert.equal(await previousPage.locator('#score').innerText(), '7 / 10');
+    pass('previously saved B2 preferences and scores remain usable');
     const corrupted = await browser.newContext();
     await corrupted.addInitScript(() => {
         localStorage.setItem('deutsch.score.v2', '{"correct":5,"attempted":-1}');
@@ -257,6 +293,8 @@ async function fillRound(page, incorrectLast = false) {
     });
     assert.equal(await timedPage.evaluate(() => localStorage.getItem('activeTime_2026-10-13')), '183');
     pass('idle time is capped at three minutes and blurred windows do not add time');
+    assert.deepEqual(failedRequests, []);
+    pass('all styles and scripts load under the GitHub Pages repository path');
     assert.deepEqual(errors, []);
     pass('no browser runtime errors');
     console.log(`Browser suite: ${checks} checks passed.`);

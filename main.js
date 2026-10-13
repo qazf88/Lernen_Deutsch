@@ -62,6 +62,12 @@
             button.setAttribute('aria-pressed', String(button.dataset.group === currentGroup.id));
         }
     }
+    function useAvailableLevel() {
+        const level = $('levelSelect').value;
+        if (level !== 'All' && !currentTest.data.some(item => item.level === level)) {
+            $('levelSelect').value = 'All';
+        }
+    }
     function renderTask(item, index) {
         const card = element('article', 'task-card');
         card.id = `task-${index}`;
@@ -189,27 +195,18 @@
             currentTest = group.tests[0];
             $('searchInput').value = '';
             renderTests();
+            useAvailableLevel();
             generateTasks();
         });
         $('buttonWortartenContainer').append(button);
     }
-    $('levelSelect').value = Levels.includes(settings?.level) ? settings.level : 'B2';
+    $('levelSelect').value = Levels.includes(settings?.level) ? settings.level : 'C1';
     $('countSelect').value = [5, 10, 20].includes(settings?.count) ? String(settings.count) : '10';
     $('bankCount').textContent = `${exerciseGroups.reduce((sum, group) => sum + group.tests.reduce((n, test) => n + test.data.length, 0), 0).toLocaleString('uk')} вправ`;
-    const b2Count = exerciseGroups.flatMap(group => group.tests).reduce((sum, test) => sum + test.data.filter(item => item.level === 'B2').length, 0);
-    $('b2BankCount').textContent = `${b2Count.toLocaleString('uk')} вправ рівня B2 у всіх темах.`;
-    $('startB2').addEventListener('click', () => {
-        currentGroup = exerciseGroups.find(group => group.id === 'goethe-b2');
-        currentTest = currentGroup.tests[0];
-        $('levelSelect').value = 'B2';
-        $('searchInput').value = '';
-        renderTests();
-        generateTasks();
-        $('practice').scrollIntoView({ block: 'start' });
-    });
     $('testSelect').addEventListener('change', () => {
         currentTest = currentGroup.tests.find(test => test.id === $('testSelect').value);
         $('searchInput').value = '';
+        useAvailableLevel();
         generateTasks();
     });
     for (const id of ['levelSelect', 'countSelect']) $(id).addEventListener('change', () => generateTasks());

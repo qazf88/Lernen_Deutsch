@@ -8,7 +8,7 @@ const core = require('../core.js');
 const before = require('./fixtures/content-counts-before.json');
 const root = path.resolve(__dirname, '..');
 const context = vm.createContext({});
-for (const [, source] of fs.readFileSync(path.join(root, 'index.html'), 'utf8').matchAll(/src="(data\/[^"?]+)"/g)) {
+for (const [, source] of fs.readFileSync(path.join(root, 'index.html'), 'utf8').matchAll(/src="(data\/[^"?]+)(?:\?[^"\s]*)?"/g)) {
     vm.runInContext(fs.readFileSync(path.join(root, source), 'utf8'), context, { filename: source });
 }
 const datasets = JSON.parse(vm.runInContext('JSON.stringify(exerciseGroups.flatMap(group => group.tests))', context));
