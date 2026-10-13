@@ -5,3 +5,4 @@
 require('./core.test.js');
 require('./data.test.js');
 require('./content-expansion.test.js');
+require('./advanced.test.js');
