@@ -6,25 +6,28 @@
     <meta name="theme-color" content="#176b58">
     <meta name="description" content="Практика німецької з українськими підказками: слова, чотири відмінки, артиклі, дієслова та числівники.">
     <title>Deutsch üben · Німецька щодня</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="data/presens.js"></script>
-    <script defer src="data/partizip.js"></script>
-    <script defer src="data/preteritum.js"></script>
-    <script defer src="data/plusquamperfekt.js"></script>
-    <script defer src="data/futur1.js"></script>
-    <script defer src="data/futur2.js"></script>
-    <script defer src="data/pronomen.js"></script>
-    <script defer src="data/nomen.js"></script>
-    <script defer src="data/zahlen.js"></script>
-    <script defer src="data/expansion.js"></script>
-    <script defer src="data/more_verbs.js"></script>
-    <script defer src="data/more_nouns.js"></script>
-    <script defer src="data/more_grammar.js"></script>
-    <script defer src="data/more_numbers.js"></script>
-    <script defer src="data/b2_focus.js"></script>
-    <script defer src="data/data.js"></script>
-    <script defer src="core.js"></script>
-    <script defer src="main.js"></script>
+    <!-- Змінюй спільну версію після оновлення CSS, JavaScript або даних,
+         щоб кеш GitHub Pages і браузера не змішував різні версії сайту. -->
+    <link rel="stylesheet" href="style.css?v=20261013-2">
+    <script defer src="data/presens.js?v=20261013-2"></script>
+    <script defer src="data/partizip.js?v=20261013-2"></script>
+    <script defer src="data/preteritum.js?v=20261013-2"></script>
+    <script defer src="data/plusquamperfekt.js?v=20261013-2"></script>
+    <script defer src="data/futur1.js?v=20261013-2"></script>
+    <script defer src="data/futur2.js?v=20261013-2"></script>
+    <script defer src="data/pronomen.js?v=20261013-2"></script>
+    <script defer src="data/nomen.js?v=20261013-2"></script>
+    <script defer src="data/zahlen.js?v=20261013-2"></script>
+    <script defer src="data/expansion.js?v=20261013-2"></script>
+    <script defer src="data/more_verbs.js?v=20261013-2"></script>
+    <script defer src="data/more_nouns.js?v=20261013-2"></script>
+    <script defer src="data/more_grammar.js?v=20261013-2"></script>
+    <script defer src="data/more_numbers.js?v=20261013-2"></script>
+    <script defer src="data/b2_focus.js?v=20261013-2"></script>
+    <script defer src="data/advanced.js?v=20261013-2"></script>
+    <script defer src="data/data.js?v=20261013-2"></script>
+    <script defer src="core.js?v=20261013-2"></script>
+    <script defer src="main.js?v=20261013-2"></script>
 </head>
 <body>
     <a class="skip-link" href="#practice">Перейти до вправ</a>
@@ -44,13 +47,6 @@
         <p id="storageNotice" class="notice" role="status" hidden></p>
         <p id="legacyScore" class="muted" hidden></p>
         <main>
-            <section class="goal-banner panel" aria-labelledby="goalTitle">
-                <div><p class="eyebrow">ГОЛОВНА МЕТА</p><h2 id="goalTitle">Goethe-Zertifikat B2</h2>
-                <p>Лексика, сталі вирази й граматика для впевненого читання, письма та розмови.</p>
-                <p id="b2BankCount" class="muted"></p>
-                <p class="muted">Власні тренувальні вправи. Повний формат іспиту — Lesen, Hören, Schreiben, Sprechen — практикуй також з <a href="https://www.goethe.de/ins/de/de/prf/gzb2/ue9.html" target="_blank" rel="noopener noreferrer">офіційними матеріалами Goethe</a>.</p></div>
-                <button type="button" id="startB2" class="primary">Тренувати B2</button>
-            </section>
             <section class="settings panel" aria-labelledby="settingsTitle">
                 <div class="section-heading"><h2 id="settingsTitle">Що потренуємо?</h2><span id="bankCount" class="badge"></span></div>
                 <div id="buttonWortartenContainer" class="topic-buttons" aria-label="Тема"></div>
@@ -78,7 +74,7 @@
                 </form>
             </section>
         </main>
-        <footer class="page-footer">Deutsch üben · Вчися у власному темпі.<br>Прогрес зберігається у цьому браузері.</footer>
+        <footer class="page-footer">Deutsch üben · Вчися у власному темпі.<br>Прогрес зберігається у цьому браузері.<br>Мета — Goethe-Zertifikat C1 · <a href="https://www.goethe.de/ins/de/de/prf/gzc1.cfm" target="_blank" rel="noopener noreferrer">Матеріали Goethe</a></footer>
     </div>
     <dialog id="confirmModal" aria-labelledby="resetTitle" aria-describedby="resetDescription">
         <h2 id="resetTitle">Скинути статистику?</h2>

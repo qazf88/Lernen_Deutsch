@@ -42,5 +42,6 @@ for (const source of additionalExerciseSources) {
         }
     }
 }
-exerciseGroups.unshift({ id: 'goethe-b2', name: 'Goethe B2 · Підготовка', tests: b2_focus_tests });
+exerciseGroups.unshift({ id: 'goethe-b2', name: 'Сталі вирази', tests: b2_focus_tests });
+exerciseGroups.unshift({ id: 'advanced', name: 'Мова й аргументація', tests: advanced_tests });
 const Levels = ['All', 'A1', 'A2', 'B1', 'B2', 'C1'];
