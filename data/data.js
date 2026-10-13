@@ -27,7 +27,7 @@ exerciseGroups.push(
     { id: 'numbers', name: 'Zahlen · Числівники', tests: [{ ...zahlen_test, id: 'zahlen' }] }
 );
 // Extend every existing test. Keep its object and id so saved preferences remain valid.
-const additionalExerciseSources = [more_verbs, more_nouns, more_grammar, more_numbers];
+const additionalExerciseSources = [more_verbs, more_nouns, more_grammar, more_numbers, grammar_refresh, pronoun_refresh];
 const exerciseIdentity = item => JSON.stringify([item.sentence, item.answers || item.answer, item.infinitive, item.ua_infinitiv]);
 for (const source of additionalExerciseSources) {
     for (const [id, additions] of Object.entries(source)) {
@@ -42,6 +42,15 @@ for (const source of additionalExerciseSources) {
         }
     }
 }
+const refreshedTests = exerciseGroups.flatMap(group => group.tests);
+refreshedTests.find(test => test.id === 'prepositions_cases').desc = 'Доповни прийменник, артикль або весь залежний фрагмент за підказкою. Для місця й напрямку розрізняй wo? та wohin?; у формальних зворотах ураховуй керування.';
+refreshedTests.find(test => test.id === 'adjective_endings').name = 'Прикметники · форми й порівняння';
+refreshedTests.find(test => test.id === 'adjective_endings').desc = 'Добери прикметник за значенням або утвори зазначену форму: закінчення, ступінь порівняння чи розгорнуте означення. Рід, число й відмінок визначає речення.';
+refreshedTests.find(test => test.id === 'personal_pronouns_cases').name = 'Займенники · форми й відмінки';
+refreshedTests.find(test => test.id === 'personal_pronouns_cases').desc = 'Доповни особовий, зворотний або відносний займенник за підказкою. Ураховуй керування; відмінок відносного займенника визначає його роль у підрядному реченні.';
+refreshedTests.find(test => test.id === 'possessive_pronouns_cases').desc = 'Утвори присвійну форму або весь іменниковий фрагмент. Власника задає підказка; закінчення залежать від роду, числа й відмінка названого іменника. Без іменника форма може бути самостійною.';
 exerciseGroups.unshift({ id: 'goethe-b2', name: 'Сталі вирази', tests: b2_focus_tests });
+exerciseGroups.push({ id: 'practice', name: 'Практика й спілкування', tests: practice_tests });
+exerciseGroups.push({ id: 'connections', name: 'Запитання й зв’язки', tests: connection_tests });
 exerciseGroups.unshift({ id: 'advanced', name: 'Мова й аргументація', tests: advanced_tests });
 const Levels = ['All', 'A1', 'A2', 'B1', 'B2', 'C1'];

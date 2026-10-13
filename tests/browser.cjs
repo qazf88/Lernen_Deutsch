@@ -132,6 +132,11 @@ async function fillRound(page, incorrectLast = false) {
         await page.click(`[data-group="${group.id}"]`);
         for (const test of group.tests) {
             await page.selectOption('#testSelect', test.id);
+            const expectedLevels = await page.evaluate(id => {
+                const dataset = exerciseGroups.flatMap(group => group.tests).find(test => test.id === id);
+                return ['All', ...['A1', 'A2', 'B1', 'B2', 'C1'].filter(level => dataset.data.some(item => item.level === level))];
+            }, test.id);
+            assert.deepEqual(await page.locator('#levelSelect option').evaluateAll(options => options.map(option => option.value)), expectedLevels, test.id);
             await page.selectOption('#levelSelect', 'All');
             await fillRound(page);
             await page.click('#checkButton');
@@ -141,6 +146,113 @@ async function fillRound(page, incorrectLast = false) {
         }
     }
     pass(`correct answers work through the UI for all ${datasetsChecked} datasets`);
+    pass('every test displays exactly the levels that have exercises');
+    await page.click('[data-group="verbs"]');
+    await page.selectOption('#testSelect', 'praesens');
+    await page.selectOption('#levelSelect', 'A1');
+    await page.selectOption('#testSelect', 'futur1');
+    assert.deepEqual(await page.locator('#levelSelect option').evaluateAll(options => options.map(option => option.value)), ['All', 'B1', 'B2']);
+    assert.equal(await page.locator('#levelSelect').inputValue(), 'All');
+    assert.equal(await page.locator('.task-card').count(), 5);
+    await page.reload();
+    assert.equal(await page.locator('#testSelect').inputValue(), 'futur1');
+    assert.deepEqual(await page.locator('#levelSelect option').evaluateAll(options => options.map(option => option.value)), ['All', 'B1', 'B2']);
+    await page.selectOption('#levelSelect', 'B2');
+    await page.selectOption('#testSelect', 'futur2');
+    assert.deepEqual(await page.locator('#levelSelect option').evaluateAll(options => options.map(option => option.value)), ['All', 'B2']);
+    assert.equal(await page.locator('#levelSelect').inputValue(), 'B2');
+    pass('Futur I/II hide missing levels after switching and reloading');
+    const grammarAdditions = await page.evaluate(() => Object.entries({ ...grammar_refresh, ...pronoun_refresh }).map(([id, data]) => ({
+        id, group: exerciseGroups.find(group => group.tests.some(test => test.id === id)).id,
+        levels: ['A1', 'A2', 'B1', 'B2', 'C1'].map(level => ({ level, hint: data.find(item => item.level === level).ua_infinitiv }))
+    })));
+    await page.selectOption('#countSelect', '20');
+    for (const addition of grammarAdditions) {
+        await page.click(`[data-group="${addition.group}"]`);
+        await page.selectOption('#testSelect', addition.id);
+        for (const { level, hint } of addition.levels) {
+            await page.selectOption('#levelSelect', level);
+            await page.fill('#searchInput', hint);
+            await page.waitForTimeout(350);
+            assert.match(await page.locator('#availableCount').innerText(), /25 вправ/);
+            assert.equal(await page.locator('.task-card').count(), 20);
+            await fillRound(page);
+            await page.click('#checkButton');
+            assert.equal(await page.locator('.is-correct').count(), 20, `${addition.id}/${level}`);
+        }
+        pass(`new grammar exercises work at every level in ${addition.id}`);
+    }
+    await page.click('[data-group="connections"]');
+    await page.setViewportSize({ width: 320, height: 900 });
+    const connectionIds = await page.evaluate(() => exerciseGroups.find(group => group.id === 'connections').tests.map(test => test.id));
+    for (const id of connectionIds) {
+        await page.selectOption('#testSelect', id);
+        for (const level of ['A1', 'A2', 'B1', 'B2', 'C1']) {
+            await page.selectOption('#levelSelect', level);
+            assert.equal(await page.locator('.task-card').count(), 20, `${id}/${level}`);
+            assert.equal(await page.evaluate(level => [...document.querySelectorAll('.task-heading .badge')].every(badge => badge.textContent === level), level), true);
+            await fillRound(page);
+            await page.click('#checkButton');
+            assert.equal(await page.locator('.is-incorrect').count(), 0, `${id}/${level}`);
+            assert.equal(await page.locator('.is-correct').count(), 20, `${id}/${level}`);
+            assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, `${id}/${level}: overflow at 320px`);
+        }
+        pass(`all 100 question/link/time exercises grade correctly at every level in ${id}`);
+    }
+    await page.fill('#searchInput', 'unverzüglich');
+    await page.waitForTimeout(350);
+    assert.equal(await page.locator('.task-card').count(), 1);
+    await fillRound(page);
+    await page.click('#checkButton');
+    assert.equal(await page.locator('.is-correct').count(), 1);
+    pass('search finds complete new German time expressions behind shortened clues');
+    await page.click('[data-group="practice"]');
+    await page.selectOption('#countSelect', '20');
+    await page.setViewportSize({ width: 320, height: 900 });
+    const practiceIds = await page.evaluate(() => exerciseGroups.find(group => group.id === 'practice').tests.map(test => test.id));
+    for (const id of practiceIds) {
+        await page.selectOption('#testSelect', id);
+        for (const level of ['A1', 'A2', 'B1', 'B2', 'C1']) {
+            await page.selectOption('#levelSelect', level);
+            assert.equal(await page.locator('.task-card').count(), 20, `${id}/${level}`);
+            assert.equal(await page.evaluate(level => [...document.querySelectorAll('.task-heading .badge')].every(badge => badge.textContent === level), level), true);
+            await fillRound(page);
+            await page.click('#checkButton');
+            assert.equal(await page.locator('.is-incorrect').count(), 0, `${id}/${level}`);
+            assert.equal(await page.locator('.is-correct').count(), 20, `${id}/${level}`);
+            assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, `${id}/${level}: overflow at 320px`);
+        }
+        pass(`all 100 new exercises grade correctly at A1/A2/B1/B2/C1 in ${id}`);
+        if (id === 'sentence_order') {
+            assert.equal(await page.locator('textarea.sentence-answer').count(), 20);
+            assert.equal(await page.evaluate(() => [...document.querySelectorAll('.sentence-answer')].every(input => input.scrollHeight <= input.clientHeight + 1)), true);
+            const sentence = page.locator('.sentence-answer').first();
+            await sentence.fill('ab');
+            await sentence.evaluate(input => { input.focus(); input.setSelectionRange(1, 2); });
+            await page.click('[data-char="ä"]');
+            assert.equal(await sentence.inputValue(), 'aä');
+            await sentence.press('Enter');
+            assert.equal(await page.locator('.sentence-answer').nth(1).evaluate(input => input === document.activeElement), true);
+            await fillRound(page);
+            await page.locator('.sentence-answer').last().press('Enter');
+            assert.equal(await page.locator('.is-correct').count(), 20);
+            pass('long sentence answers wrap fully and support umlaut keys, Enter navigation and grading');
+        }
+        if (process.env.SCREENSHOT_DIR && id === 'sentence_order') {
+            await page.locator('.task-card').first().scrollIntoViewIfNeeded();
+            await page.screenshot({ path: path.join(process.env.SCREENSHOT_DIR, 'sentence-order-320.png') });
+        }
+    }
+    await page.fill('#searchInput', 'Schlüssigkeit');
+    await page.waitForTimeout(350);
+    assert.equal(await page.locator('.task-card').count(), 1);
+    assert.equal(await page.locator('.word-hint').innerText().then(text => text.includes('Schlüssigkeit')), false);
+    await fillRound(page);
+    await page.click('#checkButton');
+    assert.equal(await page.locator('.is-correct').count(), 1);
+    pass('full German vocabulary remains searchable without revealing the answer in the hint');
+    await page.fill('#searchInput', '');
+    await page.selectOption('#countSelect', '5');
     await page.click('[data-group="nouns"]');
     await page.selectOption('#levelSelect', 'A1');
     assert.equal(await page.evaluate(() => [...document.querySelectorAll('.task-card')].every(card => {
@@ -153,14 +265,15 @@ async function fillRound(page, incorrectLast = false) {
     assert.equal(await page.locator('.is-correct').count(), 5);
     pass('noun exercises keep the German answer hidden at A1 and remain gradable');
     await page.click('[data-group="numbers"]');
-    await page.selectOption('#levelSelect', 'C1');
-    assert.equal(await page.locator('.task-card').count(), 0);
-    assert.equal(await page.locator('#checkButton').isDisabled(), true);
-    pass('a genuinely missing level is shown as empty without crashing');
+    assert.equal(await page.locator('#levelSelect option[value="C1"]').count(), 0);
+    assert.equal(await page.locator('.task-card').count(), 5);
+    pass('missing levels are removed rather than offering empty exercise sets');
     await page.fill('#searchInput', 'NOT_A_REAL_WORD_938');
     await page.waitForTimeout(350);
     await page.click('[data-group="advanced"]');
-    assert.equal(await page.locator('#levelSelect').inputValue(), 'C1');
+    assert.equal(await page.locator('#levelSelect').inputValue(), 'All');
+    assert.deepEqual(await page.locator('#levelSelect option').evaluateAll(options => options.map(option => option.value)), ['All', 'C1']);
+    await page.selectOption('#levelSelect', 'C1');
     assert.equal(await page.locator('#testSelect').inputValue(), 'c1_cohesion');
     assert.equal(await page.locator('#searchInput').inputValue(), '');
     assert.equal(await page.locator('.task-card').count(), 5);
@@ -249,6 +362,21 @@ async function fillRound(page, incorrectLast = false) {
     assert.equal(await previousPage.locator('.task-card').count(), 5);
     assert.equal(await previousPage.locator('#score').innerText(), '7 / 10');
     pass('previously saved B2 preferences and scores remain usable');
+    const unavailable = await browser.newContext();
+    await unavailable.addInitScript(() => {
+        localStorage.setItem('deutsch.settings.v2', JSON.stringify({ group: 'verbs', test: 'futur1', level: 'A1', count: 5 }));
+        localStorage.setItem('deutsch.score.v2', JSON.stringify({ correct: 3, attempted: 5 }));
+    });
+    const unavailablePage = await unavailable.newPage();
+    unavailablePage.on('pageerror', error => errors.push(error.message));
+    await unavailablePage.goto(url);
+    await unavailablePage.waitForSelector('.task-card');
+    assert.equal(await unavailablePage.locator('#levelSelect').inputValue(), 'All');
+    assert.deepEqual(await unavailablePage.locator('#levelSelect option').evaluateAll(options => options.map(option => option.value)), ['All', 'B1', 'B2']);
+    assert.equal(await unavailablePage.locator('.task-card').count(), 5);
+    assert.equal(await unavailablePage.locator('#score').innerText(), '3 / 5');
+    assert.equal(await unavailablePage.evaluate(() => JSON.parse(localStorage.getItem('deutsch.settings.v2')).level), 'All');
+    pass('saved unavailable levels recover to existing exercises without losing the score');
     const corrupted = await browser.newContext();
     await corrupted.addInitScript(() => {
         localStorage.setItem('deutsch.score.v2', '{"correct":5,"attempted":-1}');
