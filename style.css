@@ -13,13 +13,13 @@
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 body { margin: 0; padding-bottom: 220px; }
-button, input, select { font: inherit; }
+button, input, select, textarea { font: inherit; }
 button, select, summary { cursor: pointer; }
-button, input, select { min-height: 46px; border-radius: 10px; }
+button, input, select, textarea { min-height: 46px; border-radius: 10px; }
 button { border: 1px solid var(--line); padding: 10px 16px; color: var(--ink); background: #fff; font-weight: 600; touch-action: manipulation; }
 button:hover { background: #e9f2ec; }
 button:disabled { opacity: .5; cursor: default; }
-input, select { border: 1px solid #9bafa5; background: #fff; color: var(--ink); padding: 10px 12px; min-width: 0; max-width: 100%; font-size: 16px; }
+input, select, textarea { border: 1px solid #9bafa5; background: #fff; color: var(--ink); padding: 10px 12px; min-width: 0; max-width: 100%; font-size: 16px; }
 :focus-visible { outline: 3px solid #b56910; outline-offset: 3px; }
 h1, h2, h3, p { margin-top: 0; }
 h1 { font-size: clamp(36px, 5vw, 50px); margin-bottom: 7px; letter-spacing: -2px; line-height: 1.05; }
@@ -60,6 +60,7 @@ summary { padding: 13px 0; min-height: 46px; font-size: 14px; font-weight: 550; 
 .task-number { color: #658074; font-size: 12px; font-weight: 650; letter-spacing: 1px; }
 .sentence { font-size: 19px; line-height: 2.9; margin-bottom: 10px; }
 .answer-input { width: var(--answer-width, 12ch); margin: 3px 4px; max-width: calc(100% - 8px); background: #f5f8f3; border-color: #9bb8aa; border-bottom: 2px solid #548a73; text-align: center; scroll-margin-top: 30px; scroll-margin-bottom: 260px; }
+.sentence-answer { width: calc(100% - 22px); min-height: 96px; vertical-align: bottom; text-align: left; line-height: 1.5; resize: vertical; overflow: hidden; }
 .word-hint { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
 .translation summary { display: list-item; width: fit-content; color: var(--green); font-size: 13px; }
 .translation p { font-size: 14px; margin-bottom: 4px; padding: 10px 14px; background: #f4f6ef; border-radius: 8px; }
@@ -69,7 +70,7 @@ summary { padding: 13px 0; min-height: 46px; font-size: 14px; font-weight: 550; 
 .is-correct .feedback { color: #23623b; }
 .is-incorrect { border-color: #c57b63; }
 .is-incorrect .feedback { color: #913619; }
-input[aria-invalid="true"] { border-color: #b35435; background: #fff8f3; }
+.answer-input[aria-invalid="true"] { border-color: #b35435; background: #fff8f3; }
 .empty-state { text-align: center; padding: 36px 20px; }
 .action-dock { position: fixed; z-index: 5; bottom: 0; left: 0; right: 0; background: #fffffffa; border-top: 1px solid var(--line); box-shadow: 0 -4px 20px #15382b08; padding: 10px 24px max(12px, env(safe-area-inset-bottom)); }
 .dock-inner { max-width: 1030px; margin: auto; display: grid; grid-template-columns: 1fr auto; gap: 6px 20px; align-items: center; }

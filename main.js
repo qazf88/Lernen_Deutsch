@@ -62,11 +62,15 @@
             button.setAttribute('aria-pressed', String(button.dataset.group === currentGroup.id));
         }
     }
-    function useAvailableLevel() {
-        const level = $('levelSelect').value;
-        if (level !== 'All' && !currentTest.data.some(item => item.level === level)) {
-            $('levelSelect').value = 'All';
-        }
+    function renderLevels(preferred = $('levelSelect').value) {
+        const available = new Set(currentTest.data.map(item => item.level));
+        const levels = Levels.filter(level => level === 'All' || available.has(level));
+        $('levelSelect').replaceChildren(...levels.map(level => {
+            const option = element('option', '', level === 'All' ? 'Усі рівні' : level);
+            option.value = level;
+            return option;
+        }));
+        $('levelSelect').value = levels.includes(preferred) ? preferred : 'All';
     }
     function renderTask(item, index) {
         const card = element('article', 'task-card');
@@ -81,8 +85,15 @@
         parts.forEach((part, blank) => {
             sentence.append(document.createTextNode(part));
             if (blank === parts.length - 1) return;
-            const input = element('input', 'answer-input');
-            input.type = 'text';
+            const fullSentence = currentTest.id === 'sentence_order';
+            const input = element(fullSentence ? 'textarea' : 'input', fullSentence ? 'answer-input sentence-answer' : 'answer-input');
+            if (fullSentence) {
+                input.rows = 3;
+                input.addEventListener('input', () => {
+                    input.style.height = 'auto';
+                    input.style.height = `${input.scrollHeight + 3}px`;
+                });
+            } else input.type = 'text';
             input.id = `q${index}_${blank}`;
             input.name = input.id;
             input.autocomplete = 'off';
@@ -159,7 +170,7 @@
         mistakes = [];
         round.forEach((item, index) => {
             const card = $(`task-${index}`);
-            const inputs = [...card.querySelectorAll('input')];
+            const inputs = [...card.querySelectorAll('.answer-input')];
             const valid = core.checkAnswer(item, inputs.map(input => input.value));
             const feedback = $(`feedback-${index}`);
             card.classList.toggle('is-correct', valid);
@@ -195,18 +206,18 @@
             currentTest = group.tests[0];
             $('searchInput').value = '';
             renderTests();
-            useAvailableLevel();
+            renderLevels();
             generateTasks();
         });
         $('buttonWortartenContainer').append(button);
     }
-    $('levelSelect').value = Levels.includes(settings?.level) ? settings.level : 'C1';
+    renderLevels(Levels.includes(settings?.level) ? settings.level : 'C1');
     $('countSelect').value = [5, 10, 20].includes(settings?.count) ? String(settings.count) : '10';
     $('bankCount').textContent = `${exerciseGroups.reduce((sum, group) => sum + group.tests.reduce((n, test) => n + test.data.length, 0), 0).toLocaleString('uk')} вправ`;
     $('testSelect').addEventListener('change', () => {
         currentTest = currentGroup.tests.find(test => test.id === $('testSelect').value);
         $('searchInput').value = '';
-        useAvailableLevel();
+        renderLevels();
         generateTasks();
     });
     for (const id of ['levelSelect', 'countSelect']) $(id).addEventListener('change', () => generateTasks());
@@ -217,9 +228,11 @@
     $('exerciseForm').addEventListener('submit', checkAnswers);
     $('exerciseForm').addEventListener('keydown', event => {
         if (event.key !== 'Enter' || !event.target.matches('.answer-input') || event.isComposing) return;
-        const inputs = [...$('taskContainer').querySelectorAll('input')];
+        const inputs = [...$('taskContainer').querySelectorAll('.answer-input')];
         const next = inputs[inputs.indexOf(event.target) + 1];
-        if (next) { event.preventDefault(); next.focus(); }
+        event.preventDefault();
+        if (next) next.focus();
+        else $('exerciseForm').requestSubmit();
     });
     $('newRound').addEventListener('click', () => {
         generateTasks();
@@ -235,7 +248,7 @@
     $('characterKeys').addEventListener('click', event => {
         const button = event.target.closest('button');
         if (!button) return;
-        if (!activeInput?.isConnected) activeInput = $('taskContainer').querySelector('input');
+        if (!activeInput?.isConnected) activeInput = $('taskContainer').querySelector('.answer-input');
         if (!activeInput) return;
         const { selectionStart, selectionEnd } = activeInput;
         activeInput.setRangeText(button.dataset.char, selectionStart, selectionEnd, 'end');
