@@ -8,30 +8,30 @@
     <title>Deutsch üben · Німецька щодня</title>
     <!-- Змінюй спільну версію після оновлення CSS, JavaScript або даних,
          щоб кеш GitHub Pages і браузера не змішував різні версії сайту. -->
-    <link rel="stylesheet" href="style.css?v=20261013-6">
-    <script defer src="data/presens.js?v=20261013-6"></script>
-    <script defer src="data/partizip.js?v=20261013-6"></script>
-    <script defer src="data/preteritum.js?v=20261013-6"></script>
-    <script defer src="data/plusquamperfekt.js?v=20261013-6"></script>
-    <script defer src="data/futur1.js?v=20261013-6"></script>
-    <script defer src="data/futur2.js?v=20261013-6"></script>
-    <script defer src="data/pronomen.js?v=20261013-6"></script>
-    <script defer src="data/nomen.js?v=20261013-6"></script>
-    <script defer src="data/zahlen.js?v=20261013-6"></script>
-    <script defer src="data/expansion.js?v=20261013-6"></script>
-    <script defer src="data/more_verbs.js?v=20261013-6"></script>
-    <script defer src="data/more_nouns.js?v=20261013-6"></script>
-    <script defer src="data/more_grammar.js?v=20261013-6"></script>
-    <script defer src="data/more_numbers.js?v=20261013-6"></script>
-    <script defer src="data/b2_focus.js?v=20261013-6"></script>
-    <script defer src="data/advanced.js?v=20261013-6"></script>
-    <script defer src="data/practice.js?v=20261013-6"></script>
-    <script defer src="data/grammar_refresh.js?v=20261013-6"></script>
-    <script defer src="data/pronoun_refresh.js?v=20261013-6"></script>
-    <script defer src="data/connections.js?v=20261013-6"></script>
-    <script defer src="data/data.js?v=20261013-6"></script>
-    <script defer src="core.js?v=20261013-6"></script>
-    <script defer src="main.js?v=20261013-6"></script>
+    <link rel="stylesheet" href="style.css?v=20261014-1">
+    <script defer src="data/presens.js?v=20261014-1"></script>
+    <script defer src="data/partizip.js?v=20261014-1"></script>
+    <script defer src="data/preteritum.js?v=20261014-1"></script>
+    <script defer src="data/plusquamperfekt.js?v=20261014-1"></script>
+    <script defer src="data/futur1.js?v=20261014-1"></script>
+    <script defer src="data/futur2.js?v=20261014-1"></script>
+    <script defer src="data/pronomen.js?v=20261014-1"></script>
+    <script defer src="data/nomen.js?v=20261014-1"></script>
+    <script defer src="data/zahlen.js?v=20261014-1"></script>
+    <script defer src="data/expansion.js?v=20261014-1"></script>
+    <script defer src="data/more_verbs.js?v=20261014-1"></script>
+    <script defer src="data/more_nouns.js?v=20261014-1"></script>
+    <script defer src="data/more_grammar.js?v=20261014-1"></script>
+    <script defer src="data/more_numbers.js?v=20261014-1"></script>
+    <script defer src="data/b2_focus.js?v=20261014-1"></script>
+    <script defer src="data/advanced.js?v=20261014-1"></script>
+    <script defer src="data/practice.js?v=20261014-1"></script>
+    <script defer src="data/grammar_refresh.js?v=20261014-1"></script>
+    <script defer src="data/pronoun_refresh.js?v=20261014-1"></script>
+    <script defer src="data/connections.js?v=20261014-1"></script>
+    <script defer src="data/data.js?v=20261014-1"></script>
+    <script defer src="core.js?v=20261014-1"></script>
+    <script defer src="main.js?v=20261014-1"></script>
 </head>
 <body>
     <a class="skip-link" href="#practice">Перейти до вправ</a>
@@ -58,7 +58,7 @@
                     <label class="test-filter">Тест<select id="testSelect"></select></label>
                     <label>Рівень<select id="levelSelect"><option value="All">Усі рівні</option></select></label>
                     <label>Вправ за раз<select id="countSelect"><option>5</option><option selected>10</option><option>20</option></select></label>
-                    <label class="search-filter">Слово або переклад<input id="searchInput" type="search" placeholder="Наприклад: Schule, школа…" autocomplete="off"></label>
+                    <label class="search-filter">Слово або переклад<input id="searchInput" type="search" placeholder="Наприклад: Schule, школа…" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" inputmode="text"></label>
                 </div>
                 <p id="deskription" lang="de"></p>
                 <p id="availableCount" class="muted" role="status"></p>
@@ -66,11 +66,10 @@
             <section id="practice" aria-labelledby="practiceTitle">
                 <div class="section-heading practice-heading"><h2 id="practiceTitle">Час практики</h2><span id="roundInfo" class="muted"></span></div>
                 <details class="help panel"><summary>Як виконувати вправи</summary><p>Заповни всі пропуски й натисни «Перевірити». У полі може бути кілька слів. Регістр літер не впливає на оцінку, але ä, ö, ü та ß потрібно писати точно. Переклад відкривається натисканням. Клавіша Enter переходить до наступного поля; в останньому полі — перевіряє відповіді.</p><p>У статистику потрапляє лише перша перевірка кожного набору. Після цього можна виправити відповіді або повторити помилки окремо.</p></details>
-                <form id="exerciseForm" novalidate>
+                <form id="exerciseForm" novalidate autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false">
                     <div id="taskContainer" class="tasks"></div>
                     <div class="action-dock">
                         <div class="dock-inner">
-                            <div class="character-row"><span>Німецькі літери</span><div id="characterKeys" aria-label="Вставити німецьку літеру"><button type="button" data-char="ä">ä</button><button type="button" data-char="ö">ö</button><button type="button" data-char="ü">ü</button><button type="button" data-char="ß">ß</button></div></div>
                             <p id="result" role="status" aria-live="polite">Заповни пропуски у реченнях.</p>
                             <div class="actions"><button type="button" id="newRound" class="secondary">Нові речення</button><button type="button" id="retryErrors" class="secondary" hidden>Повторити помилки</button><button type="submit" id="checkButton" class="primary">Перевірити</button></div>
                         </div>
@@ -80,6 +79,7 @@
         </main>
         <footer class="page-footer">Deutsch üben · Вчися у власному темпі.<br>Прогрес зберігається у цьому браузері.<br>Мета — Goethe-Zertifikat C1 · <a href="https://www.goethe.de/ins/de/de/prf/gzc1.cfm" target="_blank" rel="noopener noreferrer">Матеріали Goethe</a></footer>
     </div>
+    <a id="dudenSelection" class="selection-dictionary" target="_blank" rel="noopener noreferrer" hidden></a>
     <dialog id="confirmModal" aria-labelledby="resetTitle" aria-describedby="resetDescription">
         <h2 id="resetTitle">Скинути статистику?</h2>
         <p id="resetDescription">Лічильник відповідей буде обнулено. Час навчання за сьогодні залишиться.</p>
