@@ -29,7 +29,6 @@
     let round = [];
     let roundScored = false;
     let mistakes = [];
-    let activeInput = null;
     let searchTimer;
 
     function element(tag, className, text) {
@@ -100,11 +99,11 @@
             input.autocapitalize = 'none';
             input.spellcheck = false;
             input.setAttribute('autocorrect', 'off');
+            input.inputMode = 'text';
             input.setAttribute('aria-label', `Вправа ${index + 1}, пропуск ${blank + 1}: ${item.sentence.replaceAll('___', '…')}`);
             input.setAttribute('aria-describedby', `feedback-${index}`);
             input.enterKeyHint = index === round.length - 1 && blank === parts.length - 2 ? 'done' : 'next';
             input.style.setProperty('--answer-width', `${Math.min(26, Math.max(8, (primary?.[blank]?.length || 8) + 2))}ch`);
-            input.addEventListener('focus', () => { activeInput = input; });
             sentence.append(input);
         });
         card.append(sentence);
@@ -136,7 +135,7 @@
         round = Array.isArray(items) ? [...items] : core.sampleItems(pool, Number($('countSelect').value));
         roundScored = false;
         mistakes = [];
-        activeInput = null;
+        $('dudenSelection').hidden = true;
         $('retryErrors').hidden = true;
         $('checkButton').disabled = round.length === 0;
         $('checkButton').textContent = 'Перевірити';
@@ -242,18 +241,38 @@
         generateTasks(mistakes);
         $('practice').scrollIntoView({ block: 'start' });
     });
-    $('characterKeys').addEventListener('pointerdown', event => {
-        if (event.target.closest('button')) event.preventDefault();
-    });
-    $('characterKeys').addEventListener('click', event => {
-        const button = event.target.closest('button');
-        if (!button) return;
-        if (!activeInput?.isConnected) activeInput = $('taskContainer').querySelector('.answer-input');
-        if (!activeInput) return;
-        const { selectionStart, selectionEnd } = activeInput;
-        activeInput.setRangeText(button.dataset.char, selectionStart, selectionEnd, 'end');
-        activeInput.focus({ preventScroll: true });
-        activeInput.dispatchEvent(new Event('input', { bubbles: true }));
+    const dudenSelection = $('dudenSelection');
+    function updateDictionarySelection() {
+        const field = document.activeElement;
+        // Keep the link available when reached with Tab from a selected word.
+        if (field === dudenSelection) return;
+        let selected = '';
+        if (field?.matches('input, textarea')) {
+            if (typeof field.selectionStart === 'number') {
+                selected = field.value.slice(field.selectionStart, field.selectionEnd);
+            }
+        } else {
+            selected = window.getSelection()?.toString() || '';
+        }
+        const word = selected.normalize('NFC').trim();
+        // One Latin word, including umlauts and hyphenated German compounds.
+        const singleWord = /^[\p{Script=Latin}\p{M}]+(?:[-'’][\p{Script=Latin}\p{M}]+)*$/u.test(word);
+        dudenSelection.hidden = !singleWord;
+        if (!singleWord) {
+            dudenSelection.removeAttribute('href');
+            return;
+        }
+        dudenSelection.textContent = `Відкрити «${word}» у Duden ↗`;
+        dudenSelection.href = `https://www.duden.de/suchen/dudenonline/${encodeURIComponent(word)}`;
+    }
+    document.addEventListener('selectionchange', updateDictionarySelection);
+    // Text fields dispatch select even in browsers without input selectionchange.
+    document.addEventListener('select', updateDictionarySelection, true);
+    document.addEventListener('focusin', updateDictionarySelection);
+    document.addEventListener('input', updateDictionarySelection);
+    dudenSelection.addEventListener('pointerdown', event => event.preventDefault());
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') dudenSelection.hidden = true;
     });
     $('resetScore').addEventListener('click', () => $('confirmModal').showModal());
     $('btnNo').addEventListener('click', () => $('confirmModal').close());
