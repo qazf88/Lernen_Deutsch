@@ -111,13 +111,27 @@ async function fillRound(page, incorrectLast = false) {
     assert.equal(await page.locator('.translation').first().getAttribute('open'), '');
     pass('translation opens by tapping');
     const first = page.locator('.answer-input').first();
-    await first.fill('ab');
-    await first.evaluate(input => { input.focus(); input.setSelectionRange(1, 2); });
-    await page.click('[data-char="ü"]');
-    assert.equal(await first.inputValue(), 'aü');
+    assert.equal(await page.locator('#characterKeys').count(), 0);
+    assert.equal(await page.locator('input, textarea').evaluateAll(inputs => inputs.every(input =>
+        input.autocomplete === 'off' && input.autocapitalize === 'none' && !input.spellcheck && input.getAttribute('autocorrect') === 'off')), true);
+    await first.fill('größer');
+    await first.evaluate(input => { input.focus(); input.setSelectionRange(0, input.value.length); });
+    const duden = page.locator('#dudenSelection');
+    await duden.waitFor({ state: 'visible' });
+    assert.equal(await duden.getAttribute('href'), 'https://www.duden.de/suchen/dudenonline/gr%C3%B6%C3%9Fer');
+    await context.route('https://www.duden.de/**', route => route.fulfill({ contentType: 'text/html', body: '<title>Duden navigation check</title>' }));
+    const popupPromise = page.waitForEvent('popup');
+    await duden.click();
+    const popup = await popupPromise;
+    await popup.waitForLoadState();
+    assert.equal(popup.url(), 'https://www.duden.de/suchen/dudenonline/gr%C3%B6%C3%9Fer');
+    assert.equal(await popup.evaluate(() => window.opener === null), true);
+    await popup.close();
+    await first.evaluate(input => input.setSelectionRange(input.value.length, input.value.length));
     await first.press('Enter');
     assert.equal(await page.locator('.answer-input').nth(1).evaluate(input => input === document.activeElement), true);
-    pass('umlaut key inserts at the caret and Enter advances to the next field');
+    assert.equal(await duden.isVisible(), false);
+    pass('keyboard assistance is disabled, selected words open Duden safely, and Enter advances');
     await page.fill('#searchInput', 'NOT_A_REAL_WORD_937');
     await page.waitForSelector('.empty-state');
     assert.equal(await page.locator('#checkButton').isDisabled(), true);
@@ -206,6 +220,49 @@ async function fillRound(page, incorrectLast = false) {
     await page.click('#checkButton');
     assert.equal(await page.locator('.is-correct').count(), 1);
     pass('search finds complete new German time expressions behind shortened clues');
+    for (const groupId of ['life-context', 'travel-culture', 'people-plans']) {
+        await page.click(`[data-group="${groupId}"]`);
+        const contextIds = await page.evaluate(groupId => exerciseGroups.find(group => group.id === groupId).tests.map(test => test.id), groupId);
+        for (const id of contextIds) {
+            await page.selectOption('#testSelect', id);
+            for (const level of ['A1', 'A2', 'B1', 'B2', 'C1']) {
+                await page.selectOption('#levelSelect', level);
+                assert.equal(await page.locator('.task-card').count(), 20, `${id}/${level}`);
+                assert.equal(await page.evaluate(level => [...document.querySelectorAll('.task-heading .badge')].every(badge => badge.textContent === level), level), true);
+                await fillRound(page);
+                await page.click('#checkButton');
+                assert.equal(await page.locator('.is-correct').count(), 20, `${id}/${level}`);
+                assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, `${id}/${level}: overflow at 320px`);
+            }
+            pass(`all 100 context exercises grade correctly at every level in ${id}`);
+        }
+    }
+    await page.selectOption('#testSelect', 'description_comparison');
+    await page.fill('#searchInput', 'результати, отримані за різних умов');
+    await page.waitForTimeout(350);
+    assert.equal(await page.locator('.task-card').count(), 1);
+    await fillRound(page);
+    await page.click('#checkButton');
+    assert.equal(await page.locator('.is-correct').count(), 1);
+    pass('people and plans exercises are searchable by Ukrainian translation');
+    await page.click('[data-group="travel-culture"]');
+    await page.selectOption('#testSelect', 'travel_transport');
+    await page.fill('#searchInput', 'порівняльному аналізі транспортних потоків');
+    await page.waitForTimeout(350);
+    assert.equal(await page.locator('.task-card').count(), 1);
+    await fillRound(page);
+    await page.click('#checkButton');
+    assert.equal(await page.locator('.is-correct').count(), 1);
+    pass('travel context exercises are searchable by Ukrainian translation');
+    await page.click('[data-group="life-context"]');
+    await page.selectOption('#testSelect', 'housing_services');
+    await page.fill('#searchInput', 'помилкою вимірювання');
+    await page.waitForTimeout(350);
+    assert.equal(await page.locator('.task-card').count(), 1);
+    await fillRound(page);
+    await page.click('#checkButton');
+    assert.equal(await page.locator('.is-correct').count(), 1);
+    pass('new life context exercises are searchable by Ukrainian translation');
     await page.click('[data-group="practice"]');
     await page.selectOption('#countSelect', '20');
     await page.setViewportSize({ width: 320, height: 900 });
@@ -227,16 +284,17 @@ async function fillRound(page, incorrectLast = false) {
             assert.equal(await page.locator('textarea.sentence-answer').count(), 20);
             assert.equal(await page.evaluate(() => [...document.querySelectorAll('.sentence-answer')].every(input => input.scrollHeight <= input.clientHeight + 1)), true);
             const sentence = page.locator('.sentence-answer').first();
-            await sentence.fill('ab');
-            await sentence.evaluate(input => { input.focus(); input.setSelectionRange(1, 2); });
-            await page.click('[data-char="ä"]');
-            assert.equal(await sentence.inputValue(), 'aä');
+            await sentence.fill('Änderung');
+            await sentence.evaluate(input => { input.focus(); input.setSelectionRange(0, input.value.length); });
+            await duden.waitFor({ state: 'visible' });
+            assert.equal(await duden.getAttribute('href'), 'https://www.duden.de/suchen/dudenonline/%C3%84nderung');
+            await sentence.evaluate(input => input.setSelectionRange(input.value.length, input.value.length));
             await sentence.press('Enter');
             assert.equal(await page.locator('.sentence-answer').nth(1).evaluate(input => input === document.activeElement), true);
             await fillRound(page);
             await page.locator('.sentence-answer').last().press('Enter');
             assert.equal(await page.locator('.is-correct').count(), 20);
-            pass('long sentence answers wrap fully and support umlaut keys, Enter navigation and grading');
+            pass('long sentence answers wrap fully and support Duden selection, Enter navigation and grading');
         }
         if (process.env.SCREENSHOT_DIR && id === 'sentence_order') {
             await page.locator('.task-card').first().scrollIntoViewIfNeeded();
