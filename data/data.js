@@ -52,5 +52,8 @@ refreshedTests.find(test => test.id === 'possessive_pronouns_cases').desc = 'У�
 exerciseGroups.unshift({ id: 'goethe-b2', name: 'Сталі вирази', tests: b2_focus_tests });
 exerciseGroups.push({ id: 'practice', name: 'Практика й спілкування', tests: practice_tests });
 exerciseGroups.push({ id: 'connections', name: 'Запитання й зв’язки', tests: connection_tests });
+exerciseGroups.push({ id: 'life-context', name: 'Життя, робота й технології', tests: life_context_tests });
+exerciseGroups.push({ id: 'travel-culture', name: 'Подорожі, їжа й культура', tests: travel_culture_tests });
+exerciseGroups.push({ id: 'people-plans', name: 'Люди, плани й описи', tests: people_plans_tests });
 exerciseGroups.unshift({ id: 'advanced', name: 'Мова й аргументація', tests: advanced_tests });
 const Levels = ['All', 'A1', 'A2', 'B1', 'B2', 'C1'];

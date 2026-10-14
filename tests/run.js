@@ -10,3 +10,6 @@ require('./practice.test.js');
 require('./grammar-refresh.test.js');
 require('./pronoun-refresh.test.js');
 require('./connections.test.js');
+require('./life-context.test.js');
+require('./travel-culture.test.js');
+require('./people-plans.test.js');
